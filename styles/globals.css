@@ -80,3 +80,11 @@ main.open .gras-left,
 main.open .gras-right {
   width: 5%;
 }
+
+main.tease:not(.open) .gras-left {
+  @apply -translate-x-12;
+}
+
+main.tease:not(.open) .hand {
+  @apply opacity-100 translate-x-12;
+}

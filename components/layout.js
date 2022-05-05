@@ -5,14 +5,18 @@ import Main from "./main";
 
 function Layout({ children }) {
   const [curtainOpen, setCurtainOpen] = useState(false);
+  const [navHover, setNavHover] = useState(false);
 
   const handleCurtain = () => setCurtainOpen(true);
+  const handleTease = () => setNavHover(!navHover);
 
   return (
     <>
       <HeadHtml />
-      <Header handleCurtain={handleCurtain} />
-      <Main curtainOpen={curtainOpen}>{children}</Main>
+      <Header handleCurtain={handleCurtain} handleTease={handleTease} />
+      <Main curtainOpen={curtainOpen} navHover={navHover}>
+        {children}
+      </Main>
     </>
   );
 }

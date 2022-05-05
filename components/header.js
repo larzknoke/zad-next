@@ -1,18 +1,32 @@
 import Link from "next/link";
 import React from "react";
 
-function Header({ handleCurtain }) {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faMagnifyingGlass,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+
+function Header({ handleCurtain, handleTease }) {
   return (
     <header className="flex flex-col pt-16 px-32 z-50 w-full mx-auto bg-[url('/images/berg2.svg')] bg-no-repeat bg-bottom bg-contain bg-origin-content h-[60vh] ">
       <div className="max-w-[130em] mx-auto w-full">
         <div className="flex w-full justify-between">
           <div className="flex space-x-8">
             <div className="text-zad-blue-600">
-              <i className="fa-solid fa-phone text-gray-400 mr-1" /> 0 55 51 /
-              96 88 - 0
+              <i className="fa-solid fa-phone " />
+              <FontAwesomeIcon
+                icon={faPhone}
+                className="text-gray-400 mr-2 w-4 inline-block"
+              />
+              0 55 51 / 96 88 - 0
             </div>
             <div className="text-zad-blue-600">
-              <i className="fa-solid fa-envelope text-gray-400 mr-1" />
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="text-gray-400 mr-2  w-4 inline-block"
+              />
               <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
             </div>
           </div>
@@ -53,7 +67,13 @@ function Header({ handleCurtain }) {
               <a>Unternehmen</a>
             </Link>
             <Link href="/leistungen">
-              <a onClick={() => handleCurtain(true)}>Leistungen</a>
+              <a
+                onClick={() => handleCurtain(true)}
+                onMouseEnter={handleTease}
+                onMouseLeave={handleTease}
+              >
+                Leistungen
+              </a>
             </Link>
             <Link href="/stellenangebote">
               <a onClick={() => handleCurtain(true)}>Stellenangebote</a>
@@ -63,7 +83,10 @@ function Header({ handleCurtain }) {
             </Link>
             <Link href="/search">
               <a>
-                <i className="fa-solid fa-magnifying-glass" />
+                <FontAwesomeIcon
+                  icon={faMagnifyingGlass}
+                  className="text-gray-400 mr-1 hover:text-zad-blue-600"
+                />
               </a>
             </Link>
           </div>
