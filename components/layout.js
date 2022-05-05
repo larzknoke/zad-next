@@ -12,7 +12,7 @@ function Layout({ children }) {
     <>
       <HeadHtml />
       <Header handleCurtain={handleCurtain} />
-      <Main children={children} curtainOpen={curtainOpen} />
+      <Main curtainOpen={curtainOpen}>{children}</Main>
     </>
   );
 }

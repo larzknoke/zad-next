@@ -17,16 +17,24 @@ function Header({ handleCurtain }) {
             </div>
           </div>
           <div className="text-zad-blue-600 space-x-4 flex">
-            <a href="#">Kunden-Login</a>
-            <a href="/impressum">Impressum</a>
-            <a href="/datenschutz">Datenschutz</a>
-            <a
-              href="https://www.facebook.com/ZADGmbH/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="h-6" src="images/facebook.svg" alt="Facebook" />
-            </a>
+            <Link href="/">
+              <a>Kunden-Login</a>
+            </Link>
+            <Link href="/impressum">
+              <a>Impressum</a>
+            </Link>
+            <Link href="/datenschutz">
+              <a>Datenschutz</a>
+            </Link>
+            <Link href="#">
+              <a
+                href="https://www.facebook.com/ZADGmbH/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="h-6" src="images/facebook.svg" alt="Facebook" />
+              </a>
+            </Link>
           </div>
         </div>
         <div className="flex mt-24 justify-between items-center">
@@ -38,18 +46,26 @@ function Header({ handleCurtain }) {
             </Link>
           </div>
           <div className="text-zad-blue-600 space-x-6 flex">
-            <a href="/">Home</a>
-            <a href="#">Unternehmen</a>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+            <Link href="/unternehmen">
+              <a>Unternehmen</a>
+            </Link>
             <Link href="/leistungen">
               <a onClick={() => handleCurtain(true)}>Leistungen</a>
             </Link>
             <Link href="/stellenangebote">
               <a onClick={() => handleCurtain(true)}>Stellenangebote</a>
             </Link>
-            <a href="/kontakt">Kontakt/Anfahrt</a>
-            <a href="#">
-              <i className="fa-solid fa-magnifying-glass" />
-            </a>
+            <Link href="/kontakt">
+              <a>Kontakt/Anfahrt</a>
+            </Link>
+            <Link href="/search">
+              <a>
+                <i className="fa-solid fa-magnifying-glass" />
+              </a>
+            </Link>
           </div>
         </div>
       </div>
