@@ -88,3 +88,20 @@ main.tease:not(.open) .gras-left {
 main.tease:not(.open) .hand {
   @apply opacity-100 translate-x-12;
 }
+
+.arrow {
+  pointer-events: none;
+  z-index: 999;
+}
+
+.arrow__path {
+  stroke: theme("colors.red.500");
+  fill: transparent;
+  stroke-dasharray: 0 10;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+
+.arrow__head {
+  display: none;
+}

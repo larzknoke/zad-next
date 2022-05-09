@@ -1,17 +1,20 @@
 import Link from "next/link";
 import React from "react";
+import Berg from "./berg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faMagnifyingGlass,
   faPhone,
+  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Header({ handleCurtain, handleTease }) {
   return (
-    <header className="flex flex-col pt-16 px-32 z-50 w-full mx-auto bg-[url('/images/berg2.svg')] bg-no-repeat bg-bottom bg-contain bg-origin-content h-[60vh] ">
-      <div className="max-w-[130em] mx-auto w-full">
+    <header className="relative flex flex-col pt-16 px-32 z-50 w-full h-[40em] ">
+      <Berg />
+      <div className="max-w-[130em] mx-auto w-full z-40">
         <div className="flex w-full justify-between">
           <div className="flex space-x-8">
             <div className="text-zad-blue-600">
