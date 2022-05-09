@@ -11,7 +11,7 @@ import {
 
 function Leistungen() {
   return (
-    <div className="space-x-24 flex mx-auto justify-center text-center  ">
+    <div className="space-x-24 flex mx-auto justify-center text-center p-16  ">
       <a href="/leistung-heilberufe" className="leistungen-horizontal">
         <div className="leistungen-icon-horizontal">
           <FontAwesomeIcon icon={faTruckMedical} className="w-3/4" />
@@ -51,7 +51,21 @@ function Leistungen() {
         to={{
           direction: DIRECTION.TOP,
           node: () => document.getElementById("toPflege"),
-          translation: [0, -0.8],
+          translation: [2, -0.8],
+        }}
+        head={HEAD.VEE}
+      />
+      <Arrow
+        className="arrow"
+        from={{
+          direction: DIRECTION.RIGHT,
+          node: () => document.getElementById("hand"),
+          translation: [0, 0.5],
+        }}
+        to={{
+          direction: DIRECTION.BOTTOM,
+          node: () => document.getElementById("toPflege"),
+          translation: [0, 2],
         }}
         head={HEAD.VEE}
       />

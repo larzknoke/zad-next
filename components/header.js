@@ -67,7 +67,13 @@ function Header({ handleCurtain, handleTease }) {
               <a>Home</a>
             </Link>
             <Link href="/unternehmen">
-              <a>Unternehmen</a>
+              <a
+                onClick={() => handleCurtain(true)}
+                onMouseEnter={handleTease}
+                onMouseLeave={handleTease}
+              >
+                Unternehmen
+              </a>
             </Link>
             <Link href="/leistungen">
               <a
@@ -79,10 +85,22 @@ function Header({ handleCurtain, handleTease }) {
               </a>
             </Link>
             <Link href="/stellenangebote">
-              <a onClick={() => handleCurtain(true)}>Stellenangebote</a>
+              <a
+                onClick={() => handleCurtain(true)}
+                onMouseEnter={handleTease}
+                onMouseLeave={handleTease}
+              >
+                Stellenangebote
+              </a>
             </Link>
             <Link href="/kontakt">
-              <a>Kontakt/Anfahrt</a>
+              <a
+                onClick={() => handleCurtain(true)}
+                onMouseEnter={handleTease}
+                onMouseLeave={handleTease}
+              >
+                Kontakt/Anfahrt
+              </a>
             </Link>
             <Link href="/search">
               <a>

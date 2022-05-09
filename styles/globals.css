@@ -75,6 +75,13 @@ li {
 .open .hand {
   z-index: -999;
 }
+.open .hand.leistungen {
+  z-index: 99;
+  left: 0;
+  width: 15%;
+  opacity: 1;
+  height: inherit;
+}
 
 main.open .gras-left,
 main.open .gras-right {

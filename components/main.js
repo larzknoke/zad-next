@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 function Main({ children, curtainOpen, navHover }) {
+  const router = useRouter();
+
   return (
     <main
       id="main"
@@ -19,7 +22,11 @@ function Main({ children, curtainOpen, navHover }) {
       <img
         src="/images/hand.png"
         alt="Hand"
-        class="hand hidden md:block absolute bottom-0 left-1/4 z-10 w-2/4 h-2/3 object-contain transition-all duration-500 opacity-0 "
+        id="hand"
+        className={
+          "hand hidden md:block absolute bottom-0 left-1/4 z-10 w-2/4 h-2/3 object-contain transition-all duration-500 opacity-0 " +
+          (router.pathname == "/leistungen" ? "leistungen" : "")
+        }
       />
       <img
         src="/images/gras3tiny.png"
