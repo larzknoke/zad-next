@@ -1,5 +1,21 @@
 import React from "react";
-import Arrow, { DIRECTION, HEAD } from "react-arrows";
+import dynamic from "next/dynamic";
+// import Arrow, { DIRECTION, HEAD } from "../components/arrows";
+// import Arrow, { DIRECTION, HEAD } from "react-arrows";
+
+const Arrow = dynamic(() => import("../components/arrows"), { ssr: false });
+const DIRECTION = dynamic(
+  () => import("../components/arrows").then((mod) => mod.DIRECTION),
+  {
+    ssr: false,
+  }
+);
+const HEAD = dynamic(
+  () => import("../components/arrows").then((mod) => mod.HEAD),
+  {
+    ssr: false,
+  }
+);
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
