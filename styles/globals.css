@@ -22,10 +22,10 @@ a:hover {
   @apply hover:no-underline flex flex-col text-zad-blue-600 space-y-2 cursor-pointer  hover:scale-105 transition-all;
 }
 
-.open .leistungen-horizontal,
+/* .open .leistungen-horizontal,
 .open .leistungen-vertical {
   z-index: 900;
-}
+} */
 
 div[class^="leistungen-icon-"] {
   @apply inline-flex items-center justify-center mx-auto  text-zad-blue-600 transition-colors duration-300 bg-white rounded-full border-4 p-4 border-zad-blue-600;
@@ -107,7 +107,7 @@ main.tease:not(.open) .hand {
 
 .arrow {
   pointer-events: none;
-  z-index: 800;
+  z-index: 50;
 }
 
 .arrow__path {
