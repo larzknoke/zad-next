@@ -23,9 +23,7 @@ function Kontakt() {
           </div>
           <div>
             <i className="mr-1 fa-solid fa-envelope" />
-            <a className href="mailto:info@zad-northeim.de">
-              info@zad-northeim.de
-            </a>
+            <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
           </div>
         </div>
         <div className="flex row-start space-x-4 items-start">
@@ -39,7 +37,7 @@ function Kontakt() {
           />
         </div>
       </div>
-      <div className="flex flex-col space-y-6 bg-zad-blue-100 p-8 rounded">
+      <div className="flex flex-col space-y-6 bg-zad-blue-200 p-8 rounded">
         <div className="block max-w-md">
           <form>
             <div className="form-group mb-6">
