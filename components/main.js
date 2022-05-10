@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
-function Main({ children, curtainOpen, navHover }) {
+function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
   const router = useRouter();
 
   return (
@@ -10,11 +10,14 @@ function Main({ children, curtainOpen, navHover }) {
       className={
         "w-full bg-zad-blue-100 transition-all duration-200 relative" +
         (curtainOpen ? " open " : "") +
-        (navHover ? " tease " : "")
+        (navHover ? " tease " : "") +
+        (pageClass ? pageClass : "")
       }
     >
       <div className="max-w-[130em] mx-auto p-32">{children}</div>
       <img
+        onMouseEnter={handleCurtain}
+        onClick={handleCurtain}
         src="/images/gras3tiny.png"
         alt="Gras Rechts"
         className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[90%] object-cover transition-all duration-500"
@@ -29,6 +32,8 @@ function Main({ children, curtainOpen, navHover }) {
         }
       />
       <img
+        onMouseEnter={handleCurtain}
+        onClick={handleCurtain}
         src="/images/gras3tiny.png"
         alt="Gras Links"
         className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[90%] object-cover transition-all duration-500 z-20"

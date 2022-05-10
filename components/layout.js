@@ -3,7 +3,7 @@ import Header from "./header";
 import HeadHtml from "./head";
 import Main from "./main";
 
-function Layout({ children }) {
+function Layout({ children, pageClass }) {
   const [curtainOpen, setCurtainOpen] = useState(false);
   const [navHover, setNavHover] = useState(false);
 
@@ -14,7 +14,12 @@ function Layout({ children }) {
     <>
       <HeadHtml />
       <Header handleCurtain={handleCurtain} handleTease={handleTease} />
-      <Main curtainOpen={curtainOpen} navHover={navHover}>
+      <Main
+        curtainOpen={curtainOpen}
+        navHover={navHover}
+        pageClass={pageClass}
+        handleCurtain={handleCurtain}
+      >
         {children}
       </Main>
     </>

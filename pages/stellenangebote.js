@@ -49,7 +49,7 @@ function Stellenangebote() {
           Quereinsteiger und wollen neue Perspektiven im Büro einschlagen? Dann
           überzeugen Sie uns mit Ihrer Initiativbewerbung.
         </p>
-        <div className="flex flex-col bg-zad-blue-100 p-8 rounded text-zad-blue-600">
+        <div className="flex flex-col bg-zad-blue-200 p-8 rounded text-zad-blue-600">
           <h3 className="mb-2">Kontakt</h3>
           <span className="font-bold mb-2">
             Bewerbungsmanagement - Julia Wiesner
