@@ -101,7 +101,7 @@ export default function Home() {
           alt="PC"
         />
       </div>
-      <div className="rounded drop-shadow p-16 flex text-white bg-zad-blue-400 items-center justify-around pl-56">
+      <div className="rounded drop-shadow p-16 flex text-white bg-zad-blue-400 items-center justify-evenly pl-56">
         <img
           src="images/hand.png"
           alt="Hand"
