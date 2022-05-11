@@ -14,13 +14,13 @@ function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
         (pageClass ? pageClass : "")
       }
     >
-      <div className="max-w-[130em] mx-auto p-32">{children}</div>
+      <div className="max-w-[130em] mx-auto py-32 px-48">{children}</div>
       <img
         onMouseEnter={handleCurtain}
         onClick={handleCurtain}
         src="/images/gras3tiny.png"
         alt="Gras Rechts"
-        className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[95%] object-cover transition-all duration-500"
+        className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[100%] object-cover transition-all duration-500"
       />
       <img
         src="/images/hand.png"
@@ -36,7 +36,7 @@ function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
         onClick={handleCurtain}
         src="/images/gras3tiny.png"
         alt="Gras Links"
-        className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[95%] object-cover transition-all duration-500 z-20"
+        className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[100%] object-cover transition-all duration-500 z-20"
       />
     </main>
   );

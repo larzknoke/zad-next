@@ -2,7 +2,7 @@ import React from "react";
 
 function Team({ person }) {
   return (
-    <div className="flex flex-col space-x-5 text-white text-center ">
+    <div className="flex flex-col space-x-5 text-white text-center animate-in zoom-in">
       <img
         className="rounded-full mb-4"
         src={"images/unternehmen/team/" + person.image + ".jpg"}

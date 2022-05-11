@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="mx-auto px-24">
+    <div className="mx-auto">
       <div className="flex mb-24 drop-shadow ">
         <img
           className="w-1/4 rounded-l-lg"

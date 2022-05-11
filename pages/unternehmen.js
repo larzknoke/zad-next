@@ -226,3 +226,5 @@ function Unternehmen() {
 }
 
 export default Unternehmen;
+
+Unternehmen.pageClass = "no-curtain";

@@ -2,7 +2,7 @@ import React from "react";
 
 function Stellenangebote() {
   return (
-    <div className="space-x-24 flex mx-auto">
+    <div className="space-x-32 flex mx-auto">
       <div className="basis-2/3">
         <h3>Aus dem Stellendschungel zu neuen Perspektiven mit Weitblick.</h3>
         <h2>Werden Sie Teil der ZAD-Familie</h2>
@@ -28,7 +28,7 @@ function Stellenangebote() {
           wir Verstärkung suchen.
         </p>
         <h2>Das erwartet Sie beim ZAD</h2>
-        <ul className="text-zad-blue-600 list-disc list-outside mb-8">
+        <ul className="text-zad-blue-600 list-disc list-inside mb-8">
           <li>Moderner Arbeitsplatz</li>
           <li>
             Selbstverantwortliches Arbeiten mit abwechslungsreichen Aufgaben im

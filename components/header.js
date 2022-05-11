@@ -55,7 +55,7 @@ function Header({ handleCurtain, handleTease }) {
           </div>
         </div>
         <div className="flex mt-24 justify-between items-center">
-          <div className="logo w-64">
+          <div className="logo w-64 ">
             <Link href="/">
               <a>
                 <img src="images/zad_logo.svg" width="100%" />
@@ -102,14 +102,14 @@ function Header({ handleCurtain, handleTease }) {
                 Kontakt/Anfahrt
               </a>
             </Link>
-            <Link href="/search">
+            {/* <Link href="/search">
               <a>
                 <FontAwesomeIcon
                   icon={faMagnifyingGlass}
                   className="text-gray-400 mr-1 hover:text-zad-blue-600"
                 />
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

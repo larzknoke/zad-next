@@ -14,7 +14,7 @@ function Sidenav() {
       <Link href="/krankentransporte">
         <a className="leistungen-vertical">
           <div className="leistungen-icon-vertical">
-            <FontAwesomeIcon icon={faTruckMedical} />
+            <FontAwesomeIcon icon={faTruckMedical} className="w-full" />
           </div>
           <span className="font-bold text-center">Krankentransporte</span>
         </a>
@@ -22,7 +22,7 @@ function Sidenav() {
       <Link href="/pflegedienste">
         <a className="leistungen-vertical" id="toPflege">
           <div className="leistungen-icon-vertical">
-            <FontAwesomeIcon icon={faHandPaper} />
+            <FontAwesomeIcon icon={faHandPaper} className="w-full" />
           </div>
           <span className="font-bold text-center">Pflegedienste</span>
         </a>
@@ -31,7 +31,7 @@ function Sidenav() {
         <a className="leistungen-vertical">
           <div className="leistungen-icon-vertical">
             <i className="fas fa-heartbeat text-6xl" />
-            <FontAwesomeIcon icon={faHeartbeat} />
+            <FontAwesomeIcon icon={faHeartbeat} className="w-full" />
           </div>
           <span className="font-bold text-center">Heilberufe</span>
         </a>
@@ -39,7 +39,7 @@ function Sidenav() {
       <Link href="/software">
         <a className="leistungen-vertical">
           <div className="leistungen-icon-vertical">
-            <FontAwesomeIcon icon={faLaptopMedical} />
+            <FontAwesomeIcon icon={faLaptopMedical} className="w-full" />
           </div>
           <span className="font-bold text-center">Softwarelösungen</span>
         </a>
