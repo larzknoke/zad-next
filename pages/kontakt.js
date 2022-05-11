@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Kontakt() {
@@ -84,9 +85,11 @@ function Kontakt() {
                 htmlFor="exampleCheck87"
               >
                 Ja, ich habe die
-                <a className="underline underline-offset-4" href="/datenschutz">
-                  Datenschutzerklärung
-                </a>
+                <Link href="/datenschutz">
+                  <a className="underline underline-offset-4">
+                    Datenschutzerklärung
+                  </a>
+                </Link>
                 zur Kenntnis genommen und bin damit einverstanden, dass die von
                 mir angegebenen Daten elektronisch erhoben und gespeichert
                 werden. Meine Daten werden dabei nur streng zweckgebunden zur

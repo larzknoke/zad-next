@@ -20,14 +20,14 @@ function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
         onClick={handleCurtain}
         src="/images/gras3tiny.png"
         alt="Gras Rechts"
-        className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[90%] object-cover transition-all duration-500"
+        className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[95%] object-cover transition-all duration-500"
       />
       <img
         src="/images/hand.png"
         alt="Hand"
         id="hand"
         className={
-          "hand hidden md:block absolute bottom-0 left-1/4 z-10 w-2/4 h-2/3 object-contain transition-all duration-500 opacity-0 " +
+          "hand hidden md:block absolute top-0 left-1/4 z-10 w-[50em] h-[28em] object-contain transition-all duration-500 opacity-0 " +
           (router.pathname == "/leistungen" ? "leistungen" : "")
         }
       />
@@ -36,7 +36,7 @@ function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
         onClick={handleCurtain}
         src="/images/gras3tiny.png"
         alt="Gras Links"
-        className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[90%] object-cover transition-all duration-500 z-20"
+        className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[95%] object-cover transition-all duration-500 z-20"
       />
     </main>
   );

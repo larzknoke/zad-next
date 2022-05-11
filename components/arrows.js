@@ -566,8 +566,9 @@ module.exports = (function (t) {
                     case s.LEFT:
                       return { x: e.x, y: e.y + e.height / 2 };
                     default:
-                      //   throw new Error("unexpected type");
-                      return { x: e.x + e.width / 2, y: e.y + e.height };
+                      // throw new Error("unexpected type");
+                      // return { x: e.x + e.width / 2, y: e.y + e.height };
+                      return { x: e.x + e.width, y: e.y + e.height / 2 };
                   }
                 })(t),
                 r = window

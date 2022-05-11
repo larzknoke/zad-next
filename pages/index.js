@@ -19,21 +19,21 @@ export default function Home() {
         <img
           className="w-1/4"
           src="images/leistungen/pflegedienste_klein.jpg"
-          alt="Krankentransporte"
+          alt="Pflegedienste"
         />
         <img
           className="w-1/4"
           src="images/leistungen/heilberufe_klein.jpg"
-          alt="Krankentransporte"
+          alt="Heilberufe_"
         />
         <img
           className="w-1/4 rounded-r-lg"
           src="images/leistungen/software_klein.jpg"
-          alt="Krankentransporte"
+          alt="Software"
         />
       </div>
       <div className="space-x-16 flex mx-auto justify-center text-center ">
-        <Link href="krankentransporte">
+        <Link href="/krankentransporte">
           <a className="leistungen-horizontal w-1/4">
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faTruckMedical} className="w-3/4" />
@@ -45,7 +45,7 @@ export default function Home() {
             </span>
           </a>
         </Link>
-        <Link href="pflegedienste">
+        <Link href="/pflegedienste">
           <a className="leistungen-horizontal w-1/4" id="toPflege">
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faHandPaper} className="w-3/4" />
@@ -57,7 +57,7 @@ export default function Home() {
             </span>
           </a>
         </Link>
-        <Link href="heilberufe">
+        <Link href="/heilberufe">
           <a className="leistungen-horizontal w-1/4">
             <div className="leistungen-icon-horizontal">
               <i className="fas fa-heartbeat text-6xl" />
@@ -70,7 +70,7 @@ export default function Home() {
             </span>
           </a>
         </Link>
-        <Link href="software">
+        <Link href="/software">
           <a className="leistungen-horizontal w-1/4">
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faLaptopMedical} className="w-3/4" />
@@ -91,7 +91,7 @@ export default function Home() {
               Software für das Gesundheitswesen
             </span>
           </div>
-          <Link href="software">
+          <Link href="/software">
             <a className="button my-16">Zur Detailseite</a>
           </Link>
         </div>
@@ -110,7 +110,7 @@ export default function Home() {
         <h2 className="text-white mb-0">
           Sie möchten mehr über den ZAD erfahren? Wir informieren Sie gerne.
         </h2>
-        <Link href="kontakt">
+        <Link href="/kontakt">
           <a className="button">Zur Kontaktseite</a>
         </Link>
       </div>
