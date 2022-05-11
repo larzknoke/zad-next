@@ -2,6 +2,130 @@ import React from "react";
 import Team from "../components/team";
 
 function Unternehmen() {
+  const teamData = [
+    {
+      name: "Ulrike Niesen",
+      title: "Geschäftsführung",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-77",
+      email: "niesen@zad-northeim.de",
+      image: "niesen_ulrike",
+    },
+    {
+      name: "Irina Niesen",
+      title: "Geschäftsführung",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-77",
+      email: "iniesen@zad-northeim.de",
+      image: "niesen_irina",
+    },
+    {
+      name: "Alexander Niesen",
+      title: "IT",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-655",
+      email: "aniesen@zad-northeim.de",
+      image: "niesen_alex",
+    },
+    {
+      name: "Jörg Eichenberger",
+      title: "Prokurist / Außendienst",
+      phone: "05551 / 96 88-15",
+      fax: "05551 / 96 88-655",
+      email: "eichenberger@zad-northeim.de",
+      image: "eichenberger",
+    },
+    {
+      name: "Lars Töpperwien",
+      title: "Außendienst",
+      phone: "05551 / 96 88-649",
+      fax: "05551 / 96 88-655",
+      email: "toepperwien@zad-northeim.de",
+      image: "toepperwien",
+    },
+    {
+      name: "Norbert Schiller",
+      title: "Außendienst",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-655",
+      email: "schiller@zad-northeim.de",
+      image: "schiller",
+    },
+    {
+      name: "Maria Fuhrmann",
+      title: "Pflegeabrechnung / Teamleitung 9",
+      phone: "05551 / 96 88-463",
+      fax: "05551 / 96 88-55",
+      email: "fuhrmann@zad-northeim.de",
+      image: "fuhrmann",
+    },
+    {
+      name: "Larissa Gödecke",
+      title: "Pflegeabrechnung / Teamleitung 9",
+      phone: "05551 / 96 88-372",
+      fax: "05551 / 96 88-55",
+      email: "goedecke@zad-northeim.de",
+      image: "goedecke",
+    },
+    {
+      name: "Elke Müller",
+      title: "Pflegeabrechnung / Teamleitung 10",
+      phone: "05551 / 96 88-52",
+      fax: "05551 / 96 88-55",
+      email: "mueller@zad-northeim.de",
+      image: "mueller",
+    },
+    {
+      name: "Claudia Schwarz",
+      title: "Pflegeabrechnung / Teamleitung 11",
+      phone: "05551 / 96 88-42",
+      fax: "05551 / 96 88-688",
+      email: "schwarz@zad-northeim.de",
+      image: "schwarz",
+    },
+    {
+      name: "Birgit Elsner",
+      title: "Pflegeabrechnung / Teamleitung 12",
+      phone: "05551 / 96 88-21",
+      fax: "05551 / 96 88-656",
+      email: "elsner@zad-northeim.de",
+      image: "elsner",
+    },
+    {
+      name: "Stefanie Dobrick",
+      title: "Krankentransport & Rettungsdienst / Teamleitung 21",
+      phone: "05551 / 96 88-17",
+      fax: "05551 / 96 88-84",
+      email: "dobrick@zad-northeim.de",
+      image: "dobrick",
+    },
+    {
+      name: "Beate Knauer",
+      title:
+        "Krankentransport & Rettungsdienst / Teamleitung 22 / Ausbildungsleiterin",
+      phone: "05551 / 96 88-23",
+      fax: "05551 / 96 88-88",
+      email: "knauer@zad-northeim.de",
+      image: "knauer",
+    },
+    {
+      name: "Kathrin Schuster",
+      title: "Zentrale",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-88",
+      email: "schuster@zad-northeim.de",
+      image: "schuster",
+    },
+    {
+      name: "Heike Manteufel",
+      title: "Zentrale",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-88",
+      email: "manteufel@zad-northeim.de",
+      image: "manteufel",
+    },
+  ];
+
   return (
     <div className="mx-auto">
       <img
@@ -87,21 +211,9 @@ function Unternehmen() {
           Belangen rund um die Leistungsabrechnung im Gesundheitswesen.
         </p>
         <div className="grid xl:gap-28 gap-24 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
-          <Team />
+          {teamData.map((person) => {
+            return <Team person={person} />;
+          })}
         </div>
       </div>
       <img
