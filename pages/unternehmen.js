@@ -212,7 +212,7 @@ function Unternehmen() {
         </p>
         <div className="grid xl:gap-28 gap-24 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
           {teamData.map((person) => {
-            return <Team person={person} />;
+            return <Team person={person} key={person.email} />;
           })}
         </div>
       </div>
