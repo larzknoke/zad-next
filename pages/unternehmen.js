@@ -144,7 +144,7 @@ function Unternehmen() {
   // );
 
   return (
-    <div className="mx-auto pt-3">
+    <div className="mx-auto pt-3 pb-16">
       <img
         className="drop-shadow-lg  py-16 bg-white"
         src="images/unternehmen/slider/Team12.jpg"
@@ -225,7 +225,7 @@ function Unternehmen() {
           Betreuung garantiert Ihnen ein Höchstmaß an Sicherheit in allen
           Belangen rund um die Leistungsabrechnung im Gesundheitswesen.
         </p>
-        <div className="grid xl:gap-28 gap-24 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
+        <div className="grid xl:gap-x-44 xl:gap-y-32 gap-24 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
           {teamData.map((person, i) => {
             return <Team person={person} key={person.email} index={i} />;
           })}
