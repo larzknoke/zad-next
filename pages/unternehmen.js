@@ -146,11 +146,11 @@ function Unternehmen() {
   return (
     <div className="mx-auto pt-3 pb-16">
       <img
-        className="drop-shadow-lg  py-16 bg-white"
+        className="drop-shadow-lg w-full  py-16 bg-white"
         src="images/unternehmen/slider/Team12.jpg"
         alt="Team12"
       />
-      <div className="px-[15%] my-16">
+      <div className="px-[20%] my-16">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD stellt sich vor</h2>
         <p>
@@ -182,11 +182,11 @@ function Unternehmen() {
         </a>
       </div>
       <img
-        className={`drop-shadow-lg `}
+        className={`drop-shadow-lg w-full my-24`}
         src="images/unternehmen/frau_telefon.jpg"
         alt="Team12"
       />
-      <div className="px-[15%] my-16">
+      <div className="px-[20%] my-24">
         <h3>Schön, dass es auch einfach geht</h3>
         <h2>Unsere Philosophie – Ihr Nutzen</h2>
         <p>
@@ -214,7 +214,7 @@ function Unternehmen() {
           Leistungen den größten Nutzen für Sie haben.
         </p>
       </div>
-      <div className="px-[15%] my-16 bg-zad-blue-600 text-white rounded drop-shadow-lg p-16">
+      <div className="px-[20%] my-16 bg-zad-blue-600 text-white rounded drop-shadow-lg p-20">
         <h3 className="text-white">Unser Team</h3>
         <h2 className="text-white">
           Für Sie haben wir immer einen Mitarbeiter
@@ -225,7 +225,7 @@ function Unternehmen() {
           Betreuung garantiert Ihnen ein Höchstmaß an Sicherheit in allen
           Belangen rund um die Leistungsabrechnung im Gesundheitswesen.
         </p>
-        <div className="grid xl:gap-x-44 xl:gap-y-32 gap-24 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
+        <div className="grid xl:gap-x-36 xl:gap-y-32 lg:gap-x-32 gap-16 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
           {teamData.map((person, i) => {
             return <Team person={person} key={person.email} index={i} />;
           })}
