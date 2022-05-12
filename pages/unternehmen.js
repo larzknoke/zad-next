@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useRef, useCallback } from "react";
 import Team from "../components/team";
+import { useInView, InView } from "react-intersection-observer";
 
 function Unternehmen() {
   const teamData = [
@@ -126,11 +127,26 @@ function Unternehmen() {
     },
   ];
 
+  // const ref = useRef();
+
+  // const [inViewRef, inView] = useInView({
+  //   threshold: 0,
+  //   delay: 500,
+  //   triggerOnce: true,
+  // });
+
+  // const setRefs = useCallback(
+  //   (node) => {
+  //     ref.current = node;
+  //     inViewRef(node);
+  //   },
+  //   [inViewRef]
+  // );
+
   return (
-    <div className="mx-auto">
+    <div className="mx-auto pt-3">
       <img
-        className="drop-shadow-lg rounded
-        "
+        className="drop-shadow-lg  py-16 bg-white"
         src="images/unternehmen/slider/Team12.jpg"
         alt="Team12"
       />
@@ -166,8 +182,7 @@ function Unternehmen() {
         </a>
       </div>
       <img
-        className="drop-shadow-lg rounded
-        "
+        className={`drop-shadow-lg `}
         src="images/unternehmen/frau_telefon.jpg"
         alt="Team12"
       />
@@ -211,8 +226,8 @@ function Unternehmen() {
           Belangen rund um die Leistungsabrechnung im Gesundheitswesen.
         </p>
         <div className="grid xl:gap-28 gap-24 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 my-32">
-          {teamData.map((person) => {
-            return <Team person={person} key={person.email} />;
+          {teamData.map((person, i) => {
+            return <Team person={person} key={person.email} index={i} />;
           })}
         </div>
       </div>
@@ -227,4 +242,5 @@ function Unternehmen() {
 
 export default Unternehmen;
 
-Unternehmen.pageClass = "no-curtain";
+Unternehmen.pageClass = " no-curtain ";
+Unternehmen.noMainPadding = true;

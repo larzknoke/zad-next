@@ -3,7 +3,10 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout pageClass={Component.pageClass}>
+    <Layout
+      pageClass={Component.pageClass}
+      noMainPadding={Component.noMainPadding}
+    >
       <Component {...pageProps} />
     </Layout>
   );

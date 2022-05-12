@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
-function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
+function Main({
+  children,
+  curtainOpen,
+  navHover,
+  pageClass,
+  handleCurtain,
+  noMainPadding,
+}) {
   const router = useRouter();
 
   return (
@@ -14,7 +21,13 @@ function Main({ children, curtainOpen, navHover, pageClass, handleCurtain }) {
         (pageClass ? pageClass : "")
       }
     >
-      <div className="max-w-[130em] mx-auto py-32 px-48">{children}</div>
+      <div
+        className={`max-w-[130em] mx-auto ${
+          noMainPadding ? "" : " px-48 py-32 "
+        } `}
+      >
+        {children}
+      </div>
       <img
         onMouseEnter={handleCurtain}
         onClick={handleCurtain}
