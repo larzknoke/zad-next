@@ -33,7 +33,7 @@ function Main({
         onClick={handleCurtain}
         src="/images/grasBig.png"
         alt="Gras Rechts"
-        className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[100%] object-cover transition-all duration-500"
+        className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[100%] object-coverOFF transition-all duration-500"
       />
       <img
         src="/images/hand.png"
@@ -49,7 +49,7 @@ function Main({
         onClick={handleCurtain}
         src="/images/grasBig.png"
         alt="Gras Links"
-        className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[100%] object-cover transition-all duration-500 z-20"
+        className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[100%] object-coverOFF transition-all duration-500 z-20"
       />
     </main>
   );
