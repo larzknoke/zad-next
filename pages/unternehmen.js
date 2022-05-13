@@ -1,6 +1,8 @@
 import React, { useRef, useCallback } from "react";
-import TeamDetail from "../components/teamDetail";
-import { useInView, InView } from "react-intersection-observer";
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Unternehmen() {
   const teamData = [
@@ -127,29 +129,64 @@ function Unternehmen() {
     },
   ];
 
-  // const ref = useRef();
-
-  // const [inViewRef, inView] = useInView({
-  //   threshold: 0,
-  //   delay: 500,
-  //   triggerOnce: true,
-  // });
-
-  // const setRefs = useCallback(
-  //   (node) => {
-  //     ref.current = node;
-  //     inViewRef(node);
-  //   },
-  //   [inViewRef]
-  // );
+  const settings = {
+    fade: true,
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    arrows: false,
+  };
 
   return (
     <div className="mx-auto pt-3 pb-16">
-      <img
-        className="drop-shadow-lg w-full  py-16 bg-white"
-        src="images/unternehmen/slider/Team12.jpg"
-        alt="Team12"
-      />
+      <Slider {...settings}>
+        <div>
+          <img
+            className="drop-shadow-lg w-full  py-16 bg-white"
+            src="images/unternehmen/slider/Team9.jpg"
+            alt="Team9"
+          />
+        </div>
+        <div>
+          <img
+            className="drop-shadow-lg w-full  py-16 bg-white"
+            src="images/unternehmen/slider/Team10.jpg"
+            alt="Team10"
+          />
+        </div>
+        <div>
+          <img
+            className="drop-shadow-lg w-full  py-16 bg-white"
+            src="images/unternehmen/slider/Team11.jpg"
+            alt="Team11"
+          />
+        </div>
+        <div>
+          <img
+            className="drop-shadow-lg w-full  py-16 bg-white"
+            src="images/unternehmen/slider/Team12.jpg"
+            alt="Team12"
+          />
+        </div>
+        <div>
+          <img
+            className="drop-shadow-lg w-full  py-16 bg-white"
+            src="images/unternehmen/slider/Team21.jpg"
+            alt="Team21"
+          />
+        </div>
+        <div>
+          <img
+            className="drop-shadow-lg w-full  py-16 bg-white"
+            src="images/unternehmen/slider/Team22.jpg"
+            alt="Team22"
+          />
+        </div>
+      </Slider>
       <div className="px-[20%] my-16">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD stellt sich vor</h2>
