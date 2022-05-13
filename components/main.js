@@ -31,7 +31,7 @@ function Main({
       <img
         onMouseEnter={handleCurtain}
         onClick={handleCurtain}
-        src="/images/gras3tiny.png"
+        src="/images/grasBig.png"
         alt="Gras Rechts"
         className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[100%] object-cover transition-all duration-500"
       />
@@ -47,7 +47,7 @@ function Main({
       <img
         onMouseEnter={handleCurtain}
         onClick={handleCurtain}
-        src="/images/gras3tiny.png"
+        src="/images/grasBig.png"
         alt="Gras Links"
         className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[100%] object-cover transition-all duration-500 z-20"
       />
