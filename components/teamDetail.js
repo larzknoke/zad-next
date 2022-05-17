@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useInView, InView } from "react-intersection-observer";
 
 function Team({ person, index }) {
+  const [isHover, setIsHover] = useState(false);
+
   return (
     <InView triggerOnce delay={500} threshold={0.1}>
       {({ inView, ref, entry }) => (
         <div
+          onMouseEnter={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
           ref={ref}
           className={`flex flex-col space-x-5 text-white text-center team-box opacity-0 ${index} ${
             inView ? "opacity-100 animate-in zoom-in duration-500" : ""
@@ -13,7 +17,11 @@ function Team({ person, index }) {
         >
           <img
             className="rounded-full mb-4"
-            src={"images/unternehmen/team/" + person.image + ".jpg"}
+            src={
+              "images/unternehmen/team/" +
+              (isHover ? person.imageHover : person.image) +
+              ".jpg"
+            }
             alt="Niesen"
           />
           <span className="text-white text-bold text-xl">{person.name}</span>

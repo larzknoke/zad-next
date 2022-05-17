@@ -11,6 +11,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-77",
       email: "ulrike.niesen@zad-northeim.de",
       image: "niesen_ulrike",
+      imageHover: "niesen_ulrike",
     },
     {
       name: "Irina Niesen",
@@ -19,6 +20,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-77",
       email: "irina.niesen@zad-northeim.de",
       image: "niesen_irina",
+      imageHover: "niesen_irina",
     },
     {
       name: "Alexander Niesen",
@@ -26,7 +28,8 @@ function Unternehmen() {
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-655",
       email: "alexander.niesen@zad-northeim.de",
-      image: "niesen_alex",
+      image: "aniesen_1",
+      imageHover: "aniesen_2",
     },
     {
       name: "Jörg Eichenberger",
@@ -34,7 +37,8 @@ function Unternehmen() {
       phone: "05551 / 96 88-15",
       fax: "05551 / 96 88-655",
       email: "joerg.eichenberger@zad-northeim.de",
-      image: "eichenberger",
+      image: "eichenberger_1",
+      imageHover: "eichenberger_2",
     },
     {
       name: "Lars Töpperwien",
@@ -42,7 +46,8 @@ function Unternehmen() {
       phone: "05551 / 96 88-649",
       fax: "05551 / 96 88-655",
       email: "lars.toepperwien@zad-northeim.de",
-      image: "toepperwien",
+      image: "toepperwien_1",
+      imageHover: "toepperwien_2",
     },
     {
       name: "Norbert Schiller",
@@ -50,7 +55,8 @@ function Unternehmen() {
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-655",
       email: "norbert.schiller@zad-northeim.de",
-      image: "schiller",
+      image: "schiller_1",
+      imageHover: "schiller_2",
     },
     {
       name: "Maria Fuhrmann",
@@ -59,6 +65,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-55",
       email: "maria.fuhrmann@zad-northeim.de",
       image: "fuhrmann",
+      imageHover: "fuhrmann",
     },
     {
       name: "Larissa Gödecke",
@@ -67,6 +74,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-55",
       email: "larissa.goedecke@zad-northeim.de",
       image: "goedecke",
+      imageHover: "goedecke",
     },
     {
       name: "Elke Müller",
@@ -75,6 +83,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-55",
       email: "elke.mueller@zad-northeim.de",
       image: "mueller",
+      imageHover: "mueller",
     },
     {
       name: "Claudia Schwarz",
@@ -83,6 +92,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-688",
       email: "claudia.schwarz@zad-northeim.de",
       image: "schwarz",
+      imageHover: "schwarz",
     },
     {
       name: "Birgit Elsner",
@@ -91,6 +101,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-656",
       email: "birgit.elsner@zad-northeim.de",
       image: "elsner",
+      imageHover: "elsner",
     },
     {
       name: "Stefanie Dobrick",
@@ -99,6 +110,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-84",
       email: "stefanie.dobrick@zad-northeim.de",
       image: "dobrick",
+      imageHover: "dobrick",
     },
     {
       name: "Beate Knauer",
@@ -108,6 +120,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-88",
       email: "beate.knauer@zad-northeim.de",
       image: "knauer",
+      imageHover: "knauer",
     },
     {
       name: "Kathrin Schuster",
@@ -116,6 +129,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-88",
       email: "kathrin.schuster@zad-northeim.de",
       image: "schuster",
+      imageHover: "schuster",
     },
     {
       name: "Heike Manteufel",
@@ -124,6 +138,7 @@ function Unternehmen() {
       fax: "05551 / 96 88-88",
       email: "heike.manteufel@zad-northeim.de",
       image: "manteufel",
+      imageHover: "manteufel",
     },
   ];
 
