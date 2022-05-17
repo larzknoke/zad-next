@@ -9,7 +9,7 @@ function Unternehmen() {
       title: "Geschäftsführung",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-77",
-      email: "niesen@zad-northeim.de",
+      email: "ulrike.niesen@zad-northeim.de",
       image: "niesen_ulrike",
     },
     {
@@ -17,7 +17,7 @@ function Unternehmen() {
       title: "Geschäftsführung",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-77",
-      email: "iniesen@zad-northeim.de",
+      email: "irina.niesen@zad-northeim.de",
       image: "niesen_irina",
     },
     {
@@ -25,7 +25,7 @@ function Unternehmen() {
       title: "IT",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-655",
-      email: "aniesen@zad-northeim.de",
+      email: "alexander.niesen@zad-northeim.de",
       image: "niesen_alex",
     },
     {
@@ -33,7 +33,7 @@ function Unternehmen() {
       title: "Prokurist / Außendienst",
       phone: "05551 / 96 88-15",
       fax: "05551 / 96 88-655",
-      email: "eichenberger@zad-northeim.de",
+      email: "joerg.eichenberger@zad-northeim.de",
       image: "eichenberger",
     },
     {
@@ -41,7 +41,7 @@ function Unternehmen() {
       title: "Außendienst",
       phone: "05551 / 96 88-649",
       fax: "05551 / 96 88-655",
-      email: "toepperwien@zad-northeim.de",
+      email: "lars.toepperwien@zad-northeim.de",
       image: "toepperwien",
     },
     {
@@ -49,7 +49,7 @@ function Unternehmen() {
       title: "Außendienst",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-655",
-      email: "schiller@zad-northeim.de",
+      email: "norbert.schiller@zad-northeim.de",
       image: "schiller",
     },
     {
@@ -57,7 +57,7 @@ function Unternehmen() {
       title: "Pflegeabrechnung / Teamleitung 9",
       phone: "05551 / 96 88-463",
       fax: "05551 / 96 88-55",
-      email: "fuhrmann@zad-northeim.de",
+      email: "maria.fuhrmann@zad-northeim.de",
       image: "fuhrmann",
     },
     {
@@ -65,7 +65,7 @@ function Unternehmen() {
       title: "Pflegeabrechnung / Teamleitung 9",
       phone: "05551 / 96 88-372",
       fax: "05551 / 96 88-55",
-      email: "goedecke@zad-northeim.de",
+      email: "larissa.goedecke@zad-northeim.de",
       image: "goedecke",
     },
     {
@@ -73,7 +73,7 @@ function Unternehmen() {
       title: "Pflegeabrechnung / Teamleitung 10",
       phone: "05551 / 96 88-52",
       fax: "05551 / 96 88-55",
-      email: "mueller@zad-northeim.de",
+      email: "elke.mueller@zad-northeim.de",
       image: "mueller",
     },
     {
@@ -81,7 +81,7 @@ function Unternehmen() {
       title: "Pflegeabrechnung / Teamleitung 11",
       phone: "05551 / 96 88-42",
       fax: "05551 / 96 88-688",
-      email: "schwarz@zad-northeim.de",
+      email: "claudia.schwarz@zad-northeim.de",
       image: "schwarz",
     },
     {
@@ -89,7 +89,7 @@ function Unternehmen() {
       title: "Pflegeabrechnung / Teamleitung 12",
       phone: "05551 / 96 88-21",
       fax: "05551 / 96 88-656",
-      email: "elsner@zad-northeim.de",
+      email: "birgit.elsner@zad-northeim.de",
       image: "elsner",
     },
     {
@@ -97,7 +97,7 @@ function Unternehmen() {
       title: "Krankentransport & Rettungsdienst / Teamleitung 21",
       phone: "05551 / 96 88-17",
       fax: "05551 / 96 88-84",
-      email: "dobrick@zad-northeim.de",
+      email: "stefanie.dobrick@zad-northeim.de",
       image: "dobrick",
     },
     {
@@ -106,7 +106,7 @@ function Unternehmen() {
         "Krankentransport & Rettungsdienst / Teamleitung 22 / Ausbildungsleiterin",
       phone: "05551 / 96 88-23",
       fax: "05551 / 96 88-88",
-      email: "knauer@zad-northeim.de",
+      email: "beate.knauer@zad-northeim.de",
       image: "knauer",
     },
     {
@@ -114,7 +114,7 @@ function Unternehmen() {
       title: "Zentrale",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-88",
-      email: "schuster@zad-northeim.de",
+      email: "kathrin.schuster@zad-northeim.de",
       image: "schuster",
     },
     {
@@ -122,7 +122,7 @@ function Unternehmen() {
       title: "Zentrale",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-88",
-      email: "manteufel@zad-northeim.de",
+      email: "heike.manteufel@zad-northeim.de",
       image: "manteufel",
     },
   ];

@@ -9,7 +9,7 @@ function Stellenangebote() {
         <p>
           Immer mehr Kunden aus dem Gesundheitswesen entscheiden sich für den
           ZAD als Abrechnungsdienstleister – und lassen unser Unternehmen
-          beständig wach- sen. Deshalb haben auch Sie jetzt die Chance, sich für
+          beständig wachsen. Deshalb haben auch Sie jetzt die Chance, sich für
           den ZAD zu entscheiden.
         </p>
         <p>
@@ -21,11 +21,11 @@ function Stellenangebote() {
         </p>
         <p>
           Als mittelständischer Finanzdienstleister im Gesundheitswesen ist
-          unser Kern- geschäft die bundesweite, professionelle Abrechnung für
+          unser Kerngeschäft die bundesweite, professionelle Abrechnung für
           Krankentransport- und Rettungsdienstunternehmen sowie ambulanter
-          Pflegedienste. Am Firmenstand- ort in Northeim betreiben wir für
-          unsere mehr als 140 Mitarbeiter ein eigenes Rechenzentrum, für welches
-          wir Verstärkung suchen.
+          Pflegedienste. Am Firmenstandort in Northeim betreiben wir für unsere
+          mehr als 140 Mitarbeiter ein eigenes Rechenzentrum, für welches wir
+          Verstärkung suchen.
         </p>
         <h2>Das erwartet Sie beim ZAD</h2>
         <ul className="text-zad-blue-600 list-disc list-inside mb-8">
@@ -43,11 +43,11 @@ function Stellenangebote() {
             Müsli
           </li>
         </ul>
-        <h2>Aktuelle Stellen finden Sie rechts in der Menüspalte.</h2>
+        <h2>aktuelle Stellenangebote finden sie rechts in der Menüleiste</h2>
         <p className="font-bold">
           Sie haben kein passendes Stellenangebot gefunden oder sind
-          Quereinsteiger und wollen neue Perspektiven im Büro einschlagen? Dann
-          überzeugen Sie uns mit Ihrer Initiativbewerbung.
+          Quereinsteiger? Dann überzeugen Sie uns mit Ihrer Initativbewerbung
+          und gehen mit uns neue Wege im Büro oder der Informationstechnik.
         </p>
         <div className="flex flex-col bg-zad-blue-200 p-8 rounded text-zad-blue-600">
           <h3 className="mb-2">Kontakt</h3>
@@ -55,7 +55,7 @@ function Stellenangebote() {
             Bewerbungsmanagement - Julia Wiesner
           </span>
           <div>
-            <i className="mr-2 fa-solid fa-phone"></i> 0 55 51 / 96 88 - 0
+            <i className="mr-2 fa-solid fa-phone"></i> 0 55 51 / 96 88 - 789
           </div>
           <div>
             <i className="mr-2 fa-solid fa-envelope"></i>
@@ -65,10 +65,10 @@ function Stellenangebote() {
           </div>
           <hr className="my-6" />
           <span className="font-bold mb-2">
-            Ausbildungsmanagement – Marvin Darius Curdt
+            Ausbildungsmanagement – Marvin Curdt
           </span>
           <div>
-            <i className="mr-2 fa-solid fa-phone"></i> 0 55 51 96 88 - 621
+            <i className="mr-2 fa-solid fa-phone"></i> 0 55 51 / 96 88 - 621
           </div>
           <div>
             <i className="mr-2 fa-solid fa-envelope"></i>
@@ -79,7 +79,7 @@ function Stellenangebote() {
         </div>
       </div>
       <div className="flex flex-col space-y-6">
-        <h3>Aktuelle Stellen</h3>
+        <h3>Stellenangebote</h3>
         <h2 className="text-lg">Büro</h2>
         <a
           target="_blank"
