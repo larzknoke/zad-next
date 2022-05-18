@@ -19,8 +19,8 @@ function Unternehmen() {
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-77",
       email: "irina.niesen@zad-northeim.de",
-      image: "niesen_irina",
-      imageHover: "niesen_irina",
+      image: "niesen_irina_1",
+      imageHover: "niesen_irina_2",
     },
     {
       name: "Alexander Niesen",
