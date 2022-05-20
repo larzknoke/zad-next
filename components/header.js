@@ -66,7 +66,7 @@ function Header({ handleCurtain, handleTease }) {
             <Link href="/">
               <a>Home</a>
             </Link>
-            <Link href="/aktuelles">
+            {/* <Link href="/aktuelles">
               <a
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
@@ -74,7 +74,7 @@ function Header({ handleCurtain, handleTease }) {
               >
                 Aktuelles
               </a>
-            </Link>
+            </Link> */}
             <Link href="/unternehmen">
               <a
                 onClick={() => handleCurtain(true)}

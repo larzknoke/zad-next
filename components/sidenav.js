@@ -19,6 +19,17 @@ function Sidenav() {
           <span className="font-bold text-center">Krankentransporte</span>
         </a>
       </Link>
+      <Link href="/software-krankentransporte">
+        <a className="leistungen-vertical">
+          <div className="leistungen-icon-vertical">
+            <i className="fas fa-heartbeat text-6xl" />
+            <FontAwesomeIcon icon={faHeartbeat} className="w-full" />
+          </div>
+          <span className="font-bold text-center">
+            Software für <br /> Krankentransporte
+          </span>
+        </a>
+      </Link>
       <Link href="/pflegedienste">
         <a className="leistungen-vertical" id="toPflege">
           <div className="leistungen-icon-vertical">
@@ -27,21 +38,14 @@ function Sidenav() {
           <span className="font-bold text-center">Pflegedienste</span>
         </a>
       </Link>
-      <Link href="/heilberufe">
-        <a className="leistungen-vertical">
-          <div className="leistungen-icon-vertical">
-            <i className="fas fa-heartbeat text-6xl" />
-            <FontAwesomeIcon icon={faHeartbeat} className="w-full" />
-          </div>
-          <span className="font-bold text-center">Heilberufe</span>
-        </a>
-      </Link>
-      <Link href="/software">
+      <Link href="/software-pflegedienste">
         <a className="leistungen-vertical">
           <div className="leistungen-icon-vertical">
             <FontAwesomeIcon icon={faLaptopMedical} className="w-full" />
           </div>
-          <span className="font-bold text-center">Softwarelösungen</span>
+          <span className="font-bold text-center">
+            Software für <br /> Pflegedienste
+          </span>
         </a>
       </Link>
     </>

@@ -1,5 +1,6 @@
 import React from "react";
 import Sidenav from "../components/sidenav";
+import Link from "next/link";
 
 function Pflegedienste() {
   return (
@@ -37,6 +38,14 @@ function Pflegedienste() {
             Papierdschungel. Denn den haben wir im ZAD-Kundeninformationscenter
             klar strukturiert für Sie „gezähmt“.
           </p>
+        </div>
+        <div className="flex space-x-6 w-full items-stretch justify-items-stretch">
+          <Link href="/kontakt">
+            <a className="button w-full text-center">Jetzt Anfrage senden</a>
+          </Link>
+          <Link href="/team">
+            <a className="button w-full text-center">Ansprechpartner finden</a>
+          </Link>
         </div>
       </div>
     </div>

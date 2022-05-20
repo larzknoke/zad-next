@@ -30,6 +30,17 @@ function Leistungen() {
           <span className="font-bold">Krankentransporte</span>
         </a>
       </Link>
+      <Link href="/software-krankentransporte">
+        <a className="leistungen-horizontal">
+          <div className="leistungen-icon-horizontal">
+            <i className="fas fa-heartbeat text-6xl" />
+            <FontAwesomeIcon icon={faHeartbeat} className="w-3/4" />
+          </div>
+          <span className="font-bold">
+            Software für <br /> Krankentransporte
+          </span>
+        </a>
+      </Link>
       <Link href="/pflegedienste">
         <a className="leistungen-horizontal" id="toPflege">
           <div className="leistungen-icon-horizontal">
@@ -38,21 +49,14 @@ function Leistungen() {
           <span className="font-bold">Pflegedienste</span>
         </a>
       </Link>
-      <Link href="/heilberufe">
-        <a className="leistungen-horizontal">
-          <div className="leistungen-icon-horizontal">
-            <i className="fas fa-heartbeat text-6xl" />
-            <FontAwesomeIcon icon={faHeartbeat} className="w-3/4" />
-          </div>
-          <span className="font-bold">Heilberufe</span>
-        </a>
-      </Link>
-      <Link href="/software">
+      <Link href="/software-pflegedienste">
         <a className="leistungen-horizontal">
           <div className="leistungen-icon-horizontal">
             <FontAwesomeIcon icon={faLaptopMedical} className="w-3/4" />
           </div>
-          <span className="font-bold">Softwarelösungen</span>
+          <span className="font-bold">
+            Software für <br /> Pflegedienste
+          </span>
         </a>
       </Link>
 

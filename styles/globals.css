@@ -28,7 +28,7 @@ a:hover {
 } */
 
 div[class^="leistungen-icon-"] {
-  @apply inline-flex items-center justify-center mx-auto  text-zad-blue-600 transition-colors duration-300 bg-white rounded-full border-4 p-4 border-zad-blue-600;
+  @apply inline-flex items-center justify-center mx-auto  text-zad-blue-600 transition-colors duration-300 bg-white rounded-full border-[3px] p-4 border-zad-blue-600;
 }
 
 .leistungen-icon-vertical {

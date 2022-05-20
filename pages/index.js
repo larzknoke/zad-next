@@ -39,9 +39,24 @@ export default function Home() {
               <FontAwesomeIcon icon={faTruckMedical} className="w-3/4" />
             </div>
             <span className="font-bold">Krankentransporte</span>
-            <span className="px-12">
+            <span>
               Qualität ist eine Frage der Geschwindigkeit. Wir bieten
               Abrechnungen für Rettungsdienste und Krankentransporte.
+            </span>
+          </a>
+        </Link>
+        <Link href="/software-krankentransporte">
+          <a className="leistungen-horizontal w-1/4">
+            <div className="leistungen-icon-horizontal">
+              <i className="fas fa-heartbeat text-6xl" />
+              <FontAwesomeIcon icon={faHeartbeat} className="w-3/4" />
+            </div>
+            <span className="font-bold">
+              Software für <br /> Krankentransporte
+            </span>
+            <span>
+              ZAD ist führender Spezialist für die Leistungsabrechnung einer
+              Vielzahl von Berufsgruppen im Gesundheitswesen.
             </span>
           </a>
         </Link>
@@ -51,32 +66,21 @@ export default function Home() {
               <FontAwesomeIcon icon={faHandPaper} className="w-3/4" />
             </div>
             <span className="font-bold">Pflegedienste</span>
-            <span className="px-12">
+            <span>
               Fast jede Kasse wickelt die Leistungsabrechnung anders ab. Mit ZAD
               können Sie sich wieder dem Wesentlichen zuwenden.
             </span>
           </a>
         </Link>
-        <Link href="/heilberufe">
-          <a className="leistungen-horizontal w-1/4">
-            <div className="leistungen-icon-horizontal">
-              <i className="fas fa-heartbeat text-6xl" />
-              <FontAwesomeIcon icon={faHeartbeat} className="w-3/4" />
-            </div>
-            <span className="font-bold">Heilberufe</span>
-            <span className="px-12">
-              ZAD ist führender Spezialist für die Leistungsabrechnung einer
-              Vielzahl von Berufsgruppen im Gesundheitswesen.
-            </span>
-          </a>
-        </Link>
-        <Link href="/software">
+        <Link href="/software-pflegedienste">
           <a className="leistungen-horizontal w-1/4">
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faLaptopMedical} className="w-3/4" />
             </div>
-            <span className="font-bold">Softwarelösungen</span>
-            <span className="px-12">
+            <span className="font-bold">
+              Software für <br /> Pflegedienste
+            </span>
+            <span>
               Wir minimieren den Planungs- und Verwaltungsaufwand von
               Rettungsdiensten und Beförderungsunternehmen.
             </span>
