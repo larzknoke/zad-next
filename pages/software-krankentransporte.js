@@ -8,41 +8,55 @@ function Software() {
         <Sidenav />
       </div>
       <div className="px-48">
-        <img
-          className="drop-shadow-lg rounded  mx-auto
-        "
-          src="images/leistungen/software1.jpg"
-          alt="Team12"
-        />
+        <div className="flex  flex-col space-y-10 items-center bg-zad-blue-200 rounded-xl drop-shadow py-10">
+          <img className="w-1/3" src="images/zad_logo.svg" alt="ZAD Logo" />
+          <div className="flex space-x-16 items-center justify-center">
+            <img className="w-1/3" src="images/zad_tools.svg" alt="ZAD Tools" />
+            <img className="w-1/3" src="images/dispo.svg" alt="DispoLive" />
+          </div>
+          <h2>in Kooperation</h2>
+        </div>
         <div className=" my-16">
           <h3>Abrechnungen für Krankentransporte</h3>
-          <h2>So individuell wie Ihre Leistungen</h2>
-          <p>Text hier...</p>
-
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button mx-auto table my-16"
-            href="/pdf/Flyer-ZAD-CareSocial.pdf"
-          >
-            Flyer (1.7 MB)
-          </a>
+          <h2>Software für das Gesundheitswesen</h2>
         </div>
-        <img
-          className="drop-shadow-lg rounded  mx-auto
+        <div className="flex space-x-16">
+          <div>
+            <img
+              className="drop-shadow-lg rounded  mx-auto
         "
-          src="images/leistungen/software2.jpg"
-          alt="Team12"
-        />
-        <div className="px-[15%] my-16">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button mx-auto table my-16"
-            href="/pdf/Flyer-ZAD-ZADtools-ebook.pdf"
-          >
-            Flyer (2 MB)
-          </a>
+              src="images/cover_ZADtools.jpg"
+              alt="Team12"
+            />
+            <div className="px-[15%] my-16">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button mx-auto table my-16"
+                href="/pdf/Flyer-ZAD-ZADtools-ebook.pdf"
+              >
+                Flyer (2 MB)
+              </a>
+            </div>
+          </div>
+          <div>
+            <img
+              className="drop-shadow-lg rounded  mx-auto
+        "
+              src="images/cover_Dispolive.jpg"
+              alt="Team12"
+            />
+            <div className="px-[15%] my-16">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button mx-auto table my-16"
+                href="/pdf/Flyer-ZAD-ZADtools-ebook.pdf"
+              >
+                Flyer (2 MB)
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

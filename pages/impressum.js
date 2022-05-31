@@ -72,6 +72,8 @@ function Impressum() {
         Inhaltlich Verantwortlich:
         <br />
         Ulrike Niesen
+        <br />
+        Irina Niesen
       </p>
       <h3 className="mt-8">Haftungsausschluss</h3>
       <p>

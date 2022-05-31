@@ -19,7 +19,11 @@ a:hover {
 
 .leistungen-horizontal,
 .leistungen-vertical {
-  @apply hover:no-underline flex flex-col text-zad-blue-600 space-y-2 cursor-pointer  hover:scale-105 transition-all;
+  @apply hover:no-underline flex flex-col text-zad-blue-600 space-y-4 cursor-pointer  hover:scale-105 transition-all;
+}
+
+.leistungen-horizontal {
+  @apply max-w-sm;
 }
 
 /* .open .leistungen-horizontal,
@@ -122,4 +126,12 @@ main.tease:not(.open) .hand {
 
 .arrow__head {
   display: none;
+}
+
+.team-detail {
+  @apply my-10 flex flex-wrap justify-center gap-x-[8%] gap-y-[70px];
+}
+
+.team-header {
+  @apply text-white text-3xl text-center mt-36 mb-16 font-normal;
 }

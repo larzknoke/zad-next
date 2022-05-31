@@ -1,14 +1,18 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTruckMedical,
-  faHeartbeat,
   faHandPaper,
   faLaptopMedical,
 } from "@fortawesome/free-solid-svg-icons";
+import TransportIcon from "./transportIcon";
+import Router from "next/router";
 
 function Sidenav() {
+  const router = useRouter();
+
   return (
     <>
       <Link href="/krankentransporte">
@@ -16,16 +20,29 @@ function Sidenav() {
           <div className="leistungen-icon-vertical">
             <FontAwesomeIcon icon={faTruckMedical} className="w-full" />
           </div>
-          <span className="font-bold text-center">Krankentransporte</span>
+          <span
+            className={
+              "font-bold text-center" +
+              (router.pathname == "/krankentransporte" ? " text-red-700 " : "")
+            }
+          >
+            Krankentransporte
+          </span>
         </a>
       </Link>
       <Link href="/software-krankentransporte">
         <a className="leistungen-vertical">
           <div className="leistungen-icon-vertical">
-            <i className="fas fa-heartbeat text-6xl" />
-            <FontAwesomeIcon icon={faHeartbeat} className="w-full" />
+            <TransportIcon className="w-full" />
           </div>
-          <span className="font-bold text-center">
+          <span
+            className={
+              "font-bold text-center" +
+              (router.pathname == "/software-krankentransporte"
+                ? " text-red-700 "
+                : "")
+            }
+          >
             Software für <br /> Krankentransporte
           </span>
         </a>
@@ -35,7 +52,14 @@ function Sidenav() {
           <div className="leistungen-icon-vertical">
             <FontAwesomeIcon icon={faHandPaper} className="w-full" />
           </div>
-          <span className="font-bold text-center">Pflegedienste</span>
+          <span
+            className={
+              "font-bold text-center" +
+              (router.pathname == "/pflegedienste" ? " text-red-700 " : "")
+            }
+          >
+            Pflegedienste
+          </span>
         </a>
       </Link>
       <Link href="/software-pflegedienste">
@@ -43,7 +67,14 @@ function Sidenav() {
           <div className="leistungen-icon-vertical">
             <FontAwesomeIcon icon={faLaptopMedical} className="w-full" />
           </div>
-          <span className="font-bold text-center">
+          <span
+            className={
+              "font-bold text-center" +
+              (router.pathname == "/software-pflegedienste"
+                ? " text-red-700 "
+                : "")
+            }
+          >
             Software für <br /> Pflegedienste
           </span>
         </a>

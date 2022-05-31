@@ -2,15 +2,22 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTruckMedical,
-  faHeartbeat,
   faHandPaper,
   faLaptopMedical,
 } from "@fortawesome/free-solid-svg-icons";
+import TransportIcon from "../components/transportIcon";
 
 export default function Home() {
   return (
     <div className="mx-auto">
-      <div className="flex mb-24 drop-shadow ">
+      <h1 className="text-center font-bold text-5xl">
+        Herzlich willkommen beim ZAD ...
+      </h1>
+      <h2 className="text-center font-normal text-3xl">
+        dem führenden Spezialisten für die Leistungsabrechnung im
+        Gesundheitswesen.
+      </h2>
+      <div className="flex mb-24 drop-shadow mt-16 ">
         <img
           className="w-1/4 rounded-l-lg"
           src="images/leistungen/krankentransporte_klein.jpg"
@@ -38,8 +45,8 @@ export default function Home() {
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faTruckMedical} className="w-3/4" />
             </div>
-            <span className="font-bold">Krankentransporte</span>
-            <span>
+            <span className="font-bold h-14 text-lg ">Krankentransporte</span>
+            <span className="border-t border-zad-blue-200 pt-3 px-3">
               Qualität ist eine Frage der Geschwindigkeit. Wir bieten
               Abrechnungen für Rettungsdienste und Krankentransporte.
             </span>
@@ -49,15 +56,21 @@ export default function Home() {
           <a className="leistungen-horizontal w-1/4">
             <div className="leistungen-icon-horizontal">
               <i className="fas fa-heartbeat text-6xl" />
-              <FontAwesomeIcon icon={faHeartbeat} className="w-3/4" />
+              <TransportIcon className="w-3/4" />
             </div>
-            <span className="font-bold">
+            <span className="font-bold h-14 text-lg ">
               Software für <br /> Krankentransporte
             </span>
-            <span>
-              ZAD ist führender Spezialist für die Leistungsabrechnung einer
-              Vielzahl von Berufsgruppen im Gesundheitswesen.
+            <span className="border-t border-zad-blue-200 pt-3 px-3">
+              Optimierte Planung- und Verwaltung für Rettungs- dienste und
+              Beförderungs- unternehmen. In Koopera- tion mit ZADtolls wurde die
+              Software „Dispolive“ für Krankentransporte entwickelte.
             </span>
+            <img
+              className="pt-8 w-3/4 self-center"
+              src="images/zad_tools.svg"
+              alt="ZAD Tools Logo"
+            />
           </a>
         </Link>
         <Link href="/pflegedienste">
@@ -65,8 +78,8 @@ export default function Home() {
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faHandPaper} className="w-3/4" />
             </div>
-            <span className="font-bold">Pflegedienste</span>
-            <span>
+            <span className="font-bold h-14 text-lg ">Pflegedienste</span>
+            <span className="border-t border-zad-blue-200 pt-3 px-3">
               Fast jede Kasse wickelt die Leistungsabrechnung anders ab. Mit ZAD
               können Sie sich wieder dem Wesentlichen zuwenden.
             </span>
@@ -77,13 +90,19 @@ export default function Home() {
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faLaptopMedical} className="w-3/4" />
             </div>
-            <span className="font-bold">
+            <span className="font-bold h-14 text-lg ">
               Software für <br /> Pflegedienste
             </span>
-            <span>
-              Wir minimieren den Planungs- und Verwaltungsaufwand von
-              Rettungsdiensten und Beförderungsunternehmen.
+            <span className="border-t border-zad-blue-200 pt-3 px-3">
+              Mit der Gründung des Unternehmens „Click On Live“ wurde eine neue
+              Software für den ambulanten Pflege- dienst entwickelt. (hier noch
+              ein Vorteil)
             </span>
+            <img
+              className="pt-8 w-3/4 self-center"
+              src="images/ClickOn.svg"
+              alt="ClickOn Logo"
+            />
           </a>
         </Link>
       </div>
