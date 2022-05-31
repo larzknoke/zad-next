@@ -100,8 +100,8 @@ export default function Home() {
             </span>
             <img
               className="pt-8 w-3/4 self-center"
-              src="images/ClickOn.svg"
-              alt="ClickOn Logo"
+              src="images/click-on-logo.svg"
+              alt="click-on-logo Logo"
             />
           </a>
         </Link>
