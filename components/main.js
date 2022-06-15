@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 function Main({
   children,
@@ -10,6 +11,14 @@ function Main({
   noMainPadding,
 }) {
   const router = useRouter();
+  const [tease, setTease] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setTease(true);
+      console.log("hey");
+    }, 1000);
+  }, []);
 
   return (
     <main
@@ -17,7 +26,7 @@ function Main({
       className={
         "w-full bg-zad-blue-100 transition-all duration-200 relative" +
         (curtainOpen ? " open " : "") +
-        (navHover ? " tease " : "") +
+        (navHover || tease ? " tease " : "") +
         (pageClass ? pageClass : "")
       }
     >
@@ -36,7 +45,7 @@ function Main({
         className="gras-right hidden md:block absolute bottom-0 right-0 w-2/4 h-[100%] object-coverOFF transition-all duration-500"
       />
       <img
-        src="/images/hand.png"
+        src="/images/hand2.png"
         alt="Hand"
         id="hand"
         className={

@@ -8,14 +8,11 @@ function Software() {
         <Sidenav />
       </div>
       <div className="px-48">
-        <div className="flex  flex-col space-y-10 items-center bg-zad-blue-200 rounded-xl drop-shadow py-10">
-          <img className="w-1/3" src="images/zad_logo.svg" alt="ZAD Logo" />
-          <div className="flex space-x-16 items-center justify-center">
-            <img className="w-1/3" src="images/zad_tools.svg" alt="ZAD Tools" />
-            <img className="w-1/3" src="images/dispo.svg" alt="DispoLive" />
-          </div>
-          <h2>in Kooperation</h2>
-        </div>
+        <img
+          className="w-full drop-shadow"
+          src="images/leistungen/krankentransporte.svg"
+          alt="Krankentransporte"
+        />
         <div className=" my-16">
           <h3>Abrechnungen für Krankentransporte</h3>
           <h2>Software für das Gesundheitswesen</h2>

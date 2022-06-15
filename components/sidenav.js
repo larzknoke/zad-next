@@ -4,11 +4,10 @@ import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTruckMedical,
-  faHandPaper,
   faLaptopMedical,
 } from "@fortawesome/free-solid-svg-icons";
 import TransportIcon from "./transportIcon";
-import Router from "next/router";
+import MedicalIcon from "./medicalIcon";
 
 function Sidenav() {
   const router = useRouter();
@@ -50,7 +49,7 @@ function Sidenav() {
       <Link href="/pflegedienste">
         <a className="leistungen-vertical" id="toPflege">
           <div className="leistungen-icon-vertical">
-            <FontAwesomeIcon icon={faHandPaper} className="w-full" />
+            <MedicalIcon className="w-full" />
           </div>
           <span
             className={

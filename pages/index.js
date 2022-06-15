@@ -2,10 +2,11 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTruckMedical,
-  faHandPaper,
   faLaptopMedical,
+  faCross,
 } from "@fortawesome/free-solid-svg-icons";
 import TransportIcon from "../components/transportIcon";
+import MedicalIcon from "../components/medicalIcon";
 
 export default function Home() {
   return (
@@ -76,7 +77,7 @@ export default function Home() {
         <Link href="/pflegedienste">
           <a className="leistungen-horizontal w-1/4" id="toPflege">
             <div className="leistungen-icon-horizontal">
-              <FontAwesomeIcon icon={faHandPaper} className="w-3/4" />
+              <MedicalIcon className="w-3/4" />
             </div>
             <span className="font-bold h-14 text-lg ">Pflegedienste</span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">

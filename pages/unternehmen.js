@@ -251,11 +251,6 @@ function Unternehmen() {
           Leistungen den größten Nutzen für Sie haben.
         </p>
       </div>
-      <img
-        src="images/unternehmen/bilden_aus.png"
-        alt="Bilden aus"
-        className="bg-white p-4 rounded table mx-auto drop-shadow-md"
-      />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import TransportIcon from "../components/transportIcon";
-
+import MedicalIcon from "../components/medicalIcon";
 // import Arrow from "react-arrows";
 const Arrow = dynamic(() => import("react-arrows"), { ssr: false });
 const DIRECTION = dynamic(
@@ -57,7 +57,7 @@ function Leistungen() {
       <Link href="/pflegedienste">
         <a className="leistungen-horizontal" id="toPflege">
           <div className="leistungen-icon-horizontal">
-            <FontAwesomeIcon icon={faHandPaper} className="w-3/4" />
+            <MedicalIcon className="w-3/4" />
           </div>
           <span className="font-bold h-16 text-xl">Pflegedienste</span>
           <span className="border-t border-zad-blue-200 pt-4 px-3">

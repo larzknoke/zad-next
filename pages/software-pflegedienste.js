@@ -9,12 +9,12 @@ function Software() {
         <Sidenav />
       </div>
       <div className="px-48">
-        <img
+        {/* <img
           className="drop-shadow-lg rounded  mx-auto
         "
           src="images/leistungen/software1.jpg"
           alt="Team12"
-        />
+        /> */}
         <div className=" my-16">
           <h3>Software für ambulante Pflegedienste</h3>
           <h2>Bereit für eine Fortsetzung</h2>
