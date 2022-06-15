@@ -26,6 +26,7 @@ function Kontakt() {
             {teamData.zentrale.map((person, index) => {
               return (
                 <div
+                  key={person.email}
                   className={`w-[30%] flex flex-col space-x-5 text-white text-center team-box ${index}}`}
                 >
                   <img
