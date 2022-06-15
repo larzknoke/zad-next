@@ -1,5 +1,6 @@
 import React from "react";
 import Sidenav from "../components/sidenav";
+import Link from "next/link";
 
 function Software() {
   return (
@@ -15,57 +16,53 @@ function Software() {
           alt="Team12"
         />
         <div className=" my-16">
-          <h3>Abrechnungen für Heilberufe</h3>
-          <h2>So individuell wie Ihre Leistungen</h2>
+          <h3>Software für ambulante Pflegedienste</h3>
+          <h2>Bereit für eine Fortsetzung</h2>
           <p>
-            Über die Kooperation mit CareSocial kann der ZAD eine Software für
-            ambulante Pflegedienste, Intensivpflege und Tagespflege anbieten,
-            welche von der Pflegeplanung über die Pflegedokumentation bis hin
-            zur Abrechnung mit elektronischem Datenträgeraustausch (DTA) keine
-            Wünsche offen lässt.
+            Zu Ihrer verantwortungsvollen Arbeit müssen Sie eine Menge Aufgaben
+            erledigen und den Überblick behalten. Das gelingt am besten, wenn
+            alles aufeinander abgestimmt ist. Diese tägliche Herausforderung
+            meistern Sie in der Hauptrolle Ihrer eigenen Serie. Dramatisch,
+            spannend, aber immer mit dem Ausblick auf ein Happy-End. Nutzen Sie
+            die Chance und schreiben Sie Ihre persönliche Handlung mit unserer
+            neuen Pflegesoftware fort.
           </p>
-
           <p>
-            CareSocial ist keine Pflegesoftware von der Stange: Pflege-Profis im
-            Kundenservice helfen Ihnen gern bei Ihrer Abrechnung oder der
-            Kommunikation mit den Leistungsträgern und Datenannahmestellen –
-            ganz individuell, ganz nach Ihren Bedürfnissen. Durch die
-            Android-App CareSmart steht Ihnen zudem eine speziell auf die
-            Bedürfnisse der Pflege abgestimmte App für die effiziente mobile
-            Datenerfassung zur Verfügung.
+            Innovativ, einfach und übersichtlich präsentiert sich unsere
+            webbasierte Pflegesoftware. Immer im Fokus, gemeinsam mit Ihnen Ihre
+            Ziele zu erreichen.
           </p>
-
           <p>
-            Lösen Sie sich von teuren Wartungsverträgen und sparen Sie sich
-            kostenintensive Software: CareSocial ist einfach zu handhaben und
-            dabei eine preiswerte Software für Ihre Pflegeplanung,
-            Leistungsabrechnung und elektronischen Datenaustausch – transparent,
-            zum Festpreis und ohne versteckte Kosten!
+            Nutzen Sie die Software exklusiv in der genialen Kombination mit der
+            ZAD-Abrechnung. Getreu dem Motto: „Alles aus einer Hand“.
           </p>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button mx-auto table my-16"
-            href="/pdf/Flyer-ZAD-CareSocial.pdf"
-          >
-            Flyer (1.7 MB)
-          </a>
-        </div>
-        <img
-          className="drop-shadow-lg rounded  mx-auto
-        "
-          src="images/leistungen/software2.jpg"
-          alt="Team12"
-        />
-        <div className="px-[15%] my-16">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button mx-auto table my-16"
-            href="/pdf/Flyer-ZAD-ZADtools-ebook.pdf"
-          >
-            Flyer (2 MB)
-          </a>
+          <p>
+            Gerne präsentieren wir Ihnen unverbindlich und kostenlos die
+            Software online, telefonisch oder bei Ihnen vor Ort. So können Sie
+            alle weiteren Informationen erhalten.
+          </p>
+          <p>
+            <span className="font-bold">
+              Sind Sie neugierig, bei uns eine spannende Rolle einzunehmen?
+            </span>{" "}
+            <br />
+            Sie haben die einmalige Chance Einfluss auf die Weiterentwicklung
+            der Software zu nehmen und einen Blick hinter die Kulissen zu
+            bekommen. Wir suchen BETA-Kunden aus allen Bereichen der ambulanten
+            Pflege. Sie können jederzeit mitmachen – selbstverständlich nutzen
+            Sie die Software während dieser Zeit kostenfrei. Weiter
+            Informationen erhalten Sie über diesen Link.
+          </p>
+          <div className="flex space-x-6 w-full items-stretch justify-items-stretch">
+            <Link href="/kontakt">
+              <a className="button w-full text-center">Jetzt Anfrage senden</a>
+            </Link>
+            <Link href="/team">
+              <a className="button w-full text-center">
+                Ansprechpartner finden
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

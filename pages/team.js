@@ -1,152 +1,8 @@
 import React, { useRef, useCallback } from "react";
 import TeamDetail from "../components/teamDetail";
-import { useInView, InView } from "react-intersection-observer";
+import teamData from "../components/teamData";
 
 function Unternehmen() {
-  const teamData = {
-    geschaeftsfuehrung: [
-      {
-        name: "Ulrike Niesen",
-        title: "Geschäftsführung",
-        phone: "05551 / 96 88-0",
-        fax: "05551 / 96 88-77",
-        email: "ulrike.niesen@zad-northeim.de",
-        image: "niesen_ulrike",
-        imageHover: "niesen_ulrike",
-      },
-      {
-        name: "Irina Niesen",
-        title: "Geschäftsführung",
-        phone: "05551 / 96 88-0",
-        fax: "05551 / 96 88-77",
-        email: "irina.niesen@zad-northeim.de",
-        image: "niesen_irina_1",
-        imageHover: "niesen_irina_2",
-      },
-    ],
-    vertrieb: [
-      {
-        name: "Alexander Niesen",
-        title: "IT",
-        phone: "05551 / 96 88-0",
-        fax: "05551 / 96 88-655",
-        email: "alexander.niesen@zad-northeim.de",
-        image: "aniesen_1",
-        imageHover: "aniesen_2",
-      },
-      {
-        name: "Jörg Eichenberger",
-        title: "Prokurist / Außendienst",
-        phone: "05551 / 96 88-15",
-        fax: "05551 / 96 88-655",
-        email: "joerg.eichenberger@zad-northeim.de",
-        image: "eichenberger_1",
-        imageHover: "eichenberger_2",
-      },
-      {
-        name: "Lars Töpperwien",
-        title: "Außendienst",
-        phone: "05551 / 96 88-649",
-        fax: "05551 / 96 88-655",
-        email: "lars.toepperwien@zad-northeim.de",
-        image: "toepperwien_1",
-        imageHover: "toepperwien_2",
-      },
-      {
-        name: "Norbert Schiller",
-        title: "Außendienst",
-        phone: "05551 / 96 88-0",
-        fax: "05551 / 96 88-655",
-        email: "norbert.schiller@zad-northeim.de",
-        image: "schiller_1",
-        imageHover: "schiller_2",
-      },
-    ],
-    zentrale: [
-      {
-        name: "Maria Fuhrmann",
-        title: "Pflegeabrechnung / Teamleitung 9",
-        phone: "05551 / 96 88-463",
-        fax: "05551 / 96 88-55",
-        email: "maria.fuhrmann@zad-northeim.de",
-        image: "fuhrmann",
-        imageHover: "fuhrmann",
-      },
-      {
-        name: "Larissa Gödecke",
-        title: "Pflegeabrechnung / Teamleitung 9",
-        phone: "05551 / 96 88-372",
-        fax: "05551 / 96 88-55",
-        email: "larissa.goedecke@zad-northeim.de",
-        image: "goedecke",
-        imageHover: "goedecke",
-      },
-      {
-        name: "Elke Müller",
-        title: "Pflegeabrechnung / Teamleitung 10",
-        phone: "05551 / 96 88-52",
-        fax: "05551 / 96 88-55",
-        email: "elke.mueller@zad-northeim.de",
-        image: "mueller",
-        imageHover: "mueller",
-      },
-      {
-        name: "Claudia Schwarz",
-        title: "Pflegeabrechnung / Teamleitung 11",
-        phone: "05551 / 96 88-42",
-        fax: "05551 / 96 88-688",
-        email: "claudia.schwarz@zad-northeim.de",
-        image: "schwarz",
-        imageHover: "schwarz",
-      },
-      {
-        name: "Birgit Elsner",
-        title: "Pflegeabrechnung / Teamleitung 12",
-        phone: "05551 / 96 88-21",
-        fax: "05551 / 96 88-656",
-        email: "birgit.elsner@zad-northeim.de",
-        image: "elsner",
-        imageHover: "elsner",
-      },
-      {
-        name: "Stefanie Dobrick",
-        title: "Krankentransport & Rettungsdienst / Teamleitung 21",
-        phone: "05551 / 96 88-17",
-        fax: "05551 / 96 88-84",
-        email: "stefanie.dobrick@zad-northeim.de",
-        image: "dobrick",
-        imageHover: "dobrick",
-      },
-      {
-        name: "Beate Knauer",
-        title:
-          "Krankentransport & Rettungsdienst / Teamleitung 22 / Ausbildungsleiterin",
-        phone: "05551 / 96 88-23",
-        fax: "05551 / 96 88-88",
-        email: "beate.knauer@zad-northeim.de",
-        image: "knauer",
-        imageHover: "knauer",
-      },
-      {
-        name: "Kathrin Schuster",
-        title: "Zentrale",
-        phone: "05551 / 96 88-0",
-        fax: "05551 / 96 88-88",
-        email: "kathrin.schuster@zad-northeim.de",
-        image: "schuster",
-        imageHover: "schuster",
-      },
-      {
-        name: "Heike Manteufel",
-        title: "Zentrale",
-        phone: "05551 / 96 88-0",
-        fax: "05551 / 96 88-88",
-        email: "heike.manteufel@zad-northeim.de",
-        image: "manteufel",
-        imageHover: "manteufel",
-      },
-    ],
-  };
   return (
     <div className="mx-auto pb-16">
       {/* <img
@@ -171,15 +27,21 @@ function Unternehmen() {
             return <TeamDetail person={person} key={person.email} index={i} />;
           })}
         </div>
-        <h2 className="team-header">Vertrieb</h2>
+        <h2 className="team-header">Teamleitung</h2>
         <div className="team-detail">
-          {teamData.vertrieb.map((person, i) => {
+          {teamData.teamleitung.map((person, i) => {
             return <TeamDetail person={person} key={person.email} index={i} />;
           })}
         </div>
-        <h2 className="team-header">Zentrale</h2>
+        <h2 className="team-header">Stellv. Teamleitung</h2>
         <div className="team-detail">
-          {teamData.zentrale.map((person, i) => {
+          {teamData.teamleitung_stell.map((person, i) => {
+            return <TeamDetail person={person} key={person.email} index={i} />;
+          })}
+        </div>
+        <h2 className="team-header">Vertrieb</h2>
+        <div className="team-detail">
+          {teamData.vertrieb.map((person, i) => {
             return <TeamDetail person={person} key={person.email} index={i} />;
           })}
         </div>

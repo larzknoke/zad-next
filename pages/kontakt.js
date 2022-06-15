@@ -1,5 +1,12 @@
 import Link from "next/link";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faPhone,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+import teamData from "../components/teamData";
 
 function Kontakt() {
   return (
@@ -14,16 +21,44 @@ function Kontakt() {
           persönlicher Ansprechpartner ist immer für Sie da – so, als säßen Sie
           ihm direkt gegenüber.
         </p>
+        <div className=" bg-zad-blue-600 text-white drop-shadow-lg py-8 rounded">
+          <div className="my-10 flex flex-wrap justify-evenly	 place-content-evenly">
+            {teamData.zentrale.map((person, index) => {
+              return (
+                <div
+                  className={`w-[30%] flex flex-col space-x-5 text-white text-center team-box ${index}}`}
+                >
+                  <img
+                    className="rounded-full mb-4"
+                    src={"images/unternehmen/team/" + person.image + ".jpg"}
+                    alt="Niesen"
+                  />
+                  <span className="text-white text-bold text-xl">
+                    {person.name}
+                  </span>
+                  <span className="text-zad-blue-300">{person.title}</span>
+                  <span className="text-white mt-4">{person.phone}</span>
+                  <span className="text-white">{person.fax}</span>
+                  <a href={"mailto:" + person.email} className="text-white">
+                    {person.email}
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+        </div>
         <div className="flex flex-col text-zad-blue-600 space-y-2 mt-16 mb-8">
-          <div>
-            <i className="mr-1 fa-solid fa-location-dot" /> Ottilienstraße 10,
-            37154 Northeim
+          <div className="flex">
+            <FontAwesomeIcon icon={faLocationDot} className="w-4 mr-1" />
+            Ottilienstraße 10, 37154 Northeim
           </div>
-          <div>
-            <i className="mr-1 fa-solid fa-phone" /> 0 55 51 / 96 88 - 0
+          <div className="flex">
+            <FontAwesomeIcon icon={faPhone} className="w-4 mr-1" />0 55 51 / 96
+            88 - 0
           </div>
-          <div>
-            <i className="mr-1 fa-solid fa-envelope" />
+          <div className="flex">
+            <FontAwesomeIcon icon={faEnvelope} className="w-4 mr-1" />0 55 51 /
+            96
             <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
           </div>
         </div>
@@ -84,12 +119,12 @@ function Kontakt() {
                 className="form-check-label inline-block text-zad-blue-600 text-sm"
                 htmlFor="exampleCheck87"
               >
-                Ja, ich habe die
+                Ja, ich habe die{" "}
                 <Link href="/datenschutz">
                   <a className="underline underline-offset-4">
                     Datenschutzerklärung
                   </a>
-                </Link>
+                </Link>{" "}
                 zur Kenntnis genommen und bin damit einverstanden, dass die von
                 mir angegebenen Daten elektronisch erhoben und gespeichert
                 werden. Meine Daten werden dabei nur streng zweckgebunden zur
