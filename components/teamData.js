@@ -35,8 +35,8 @@ const teamData = {
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-655",
       email: "markus.kaeppler@zad-northeim.de",
-      image: "eichenberger_1",
-      imageHover: "eichenberger_1",
+      image: "kaeppler_1",
+      imageHover: "kaeppler_2",
     },
     {
       name: "Norbert Schiller",
@@ -62,8 +62,8 @@ const teamData = {
       phone: "05551 / 96 88-649",
       fax: "05551 / 96 88-655",
       email: "simone.zahel@zad-northeim.de",
-      image: "eichenberger_1",
-      imageHover: "eichenberger_1",
+      image: "zahel_1",
+      imageHover: "zahel_2",
     },
   ],
   teamleitung: [
