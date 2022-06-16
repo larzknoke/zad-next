@@ -16,7 +16,6 @@ function Main({
   useEffect(() => {
     setTimeout(() => {
       setTease(true);
-      console.log("hey");
     }, 1000);
   }, []);
 
@@ -32,7 +31,9 @@ function Main({
     >
       <div
         className={`max-w-[130em] mx-auto ${
-          noMainPadding ? "" : " px-48 py-32 "
+          noMainPadding
+            ? ""
+            : "px-16 py-16 md:px-28 md:py-24 xl:px-48 xl:py-32 "
         } `}
       >
         {children}

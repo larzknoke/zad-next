@@ -23,7 +23,7 @@ a:hover {
 }
 
 .leistungen-horizontal {
-  @apply max-w-sm;
+  @apply max-w-sm my-12 md:my-16 xl:my-0;
 }
 
 /* .open .leistungen-horizontal,
@@ -83,6 +83,7 @@ li {
 
 .open .hand {
   z-index: -999;
+  width: 0;
 }
 .open .hand.leistungen {
   z-index: 99;
@@ -134,4 +135,27 @@ main.tease:not(.open) .hand {
 
 .team-header {
   @apply text-white text-3xl text-center mt-36 mb-16 font-normal;
+}
+
+/* NAVIGATION */
+
+.main-nav a {
+  @apply hidden xl:block;
+}
+
+.burger {
+  @apply space-y-2 xl:hidden;
+}
+
+.burger span {
+  @apply block w-8 h-0.5 bg-zad-blue-600 duration-150 transition-all;
+}
+.burger span:last-child {
+  @apply w-5;
+}
+.burger:hover {
+  @apply cursor-pointer;
+}
+.burger:hover span {
+  @apply w-8;
 }

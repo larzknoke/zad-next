@@ -1,22 +1,23 @@
 import Link from "next/link";
 import React from "react";
 import Berg from "./berg";
+import { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faMagnifyingGlass,
-  faPhone,
-  faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import SideMainNav from "./sideMainNav";
 
 function Header({ handleCurtain, handleTease }) {
+  const [openNav, setOpenNav] = useState(false);
+  const handleNav = () => setOpenNav(!openNav);
+
   return (
-    <header className="relative flex flex-col pt-16 px-32 z-50 w-full h-[40em] ">
+    <header className="relative flex flex-col pt-12 xl:pt-16 xl:pb-0 pb-16 px-12 xl:px-32 z-50 w-full h-auto xl:h-[40em] ">
       <Berg />
+      <SideMainNav openNav={openNav} handleNav={handleNav} />
       <div className="max-w-[130em] mx-auto w-full z-40">
-        <div className="flex w-full justify-between">
-          <div className="flex space-x-8">
+        <div className="flex w-full justify-between ">
+          <div className="md:flex lg:space-x-8 space-x-0 flex-col lg:flex-row hidden">
             <div className="text-zad-blue-600">
               <i className="fa-solid fa-phone " />
               <FontAwesomeIcon
@@ -33,7 +34,7 @@ function Header({ handleCurtain, handleTease }) {
               <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
             </div>
           </div>
-          <div className="text-zad-blue-600 space-x-4 flex">
+          <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end">
             <Link href="/">
               <a>Kunden-Login</a>
             </Link>
@@ -54,15 +55,15 @@ function Header({ handleCurtain, handleTease }) {
             </Link>
           </div>
         </div>
-        <div className="flex mt-24 justify-between items-center">
-          <div className="logo w-64 ">
+        <div className="flex mt-8 xl:mt-24 justify-between items-center">
+          <div className="logo w-44 md:w-56 xl:w-64 ">
             <Link href="/">
               <a>
                 <img src="images/zad_logo.svg" width="100%" />
               </a>
             </Link>
           </div>
-          <div className="text-zad-blue-600 space-x-6 flex">
+          <div className="text-zad-blue-600 space-x-6 flex main-nav">
             <Link href="/">
               <a>Home</a>
             </Link>
@@ -120,6 +121,12 @@ function Header({ handleCurtain, handleTease }) {
                 Kontakt/Anfahrt
               </a>
             </Link>
+            <div className="burger" onClick={() => handleNav()}>
+              <span />
+              <span />
+              <span />
+            </div>
+
             {/* <Link href="/search">
               <a>
                 <FontAwesomeIcon

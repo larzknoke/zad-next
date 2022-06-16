@@ -11,14 +11,14 @@ import MedicalIcon from "../components/medicalIcon";
 export default function Home() {
   return (
     <div className="mx-auto">
-      <h1 className="text-center font-bold text-5xl">
+      <h1 className="text-center font-bold text-4xl xl:text-5xl">
         Herzlich willkommen beim ZAD ...
       </h1>
-      <h2 className="text-center font-normal text-3xl">
+      <h2 className="text-center font-normal text-xl xl:text-3xl">
         dem führenden Spezialisten für die Leistungsabrechnung im
         Gesundheitswesen.
       </h2>
-      <div className="flex mb-24 drop-shadow mt-16 ">
+      <div className="flex  drop-shadow my-12 xl:mt-16 xl:mb-24">
         <img
           className="w-1/4 rounded-l-lg"
           src="images/leistungen/krankentransporte_klein.jpg"
@@ -40,9 +40,9 @@ export default function Home() {
           alt="Software"
         />
       </div>
-      <div className="space-x-16 flex mx-auto justify-center text-center ">
+      <div className=" space-x-0 xl:space-x-16 flex flex-wrap xl:flex-nowrap mx-auto justify-around xl:justify-center text-center ">
         <Link href="/krankentransporte">
-          <a className="leistungen-horizontal w-1/4">
+          <a className="leistungen-horizontal w-full md:w-1/2 xl:w-1/4">
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faTruckMedical} className="w-3/4" />
             </div>
@@ -54,7 +54,7 @@ export default function Home() {
           </a>
         </Link>
         <Link href="/software-krankentransporte">
-          <a className="leistungen-horizontal w-1/4">
+          <a className="leistungen-horizontal w-full md:w-1/2 xl:w-1/4">
             <div className="leistungen-icon-horizontal">
               <i className="fas fa-heartbeat text-6xl" />
               <TransportIcon className="w-3/4" />
@@ -75,7 +75,10 @@ export default function Home() {
           </a>
         </Link>
         <Link href="/pflegedienste">
-          <a className="leistungen-horizontal w-1/4" id="toPflege">
+          <a
+            className="leistungen-horizontal w-full md:w-1/2 xl:w-1/4"
+            id="toPflege"
+          >
             <div className="leistungen-icon-horizontal">
               <MedicalIcon className="w-3/4" />
             </div>
@@ -87,7 +90,7 @@ export default function Home() {
           </a>
         </Link>
         <Link href="/software-pflegedienste">
-          <a className="leistungen-horizontal w-1/4">
+          <a className="leistungen-horizontal w-full md:w-1/2 xl:w-1/4">
             <div className="leistungen-icon-horizontal">
               <FontAwesomeIcon icon={faLaptopMedical} className="w-3/4" />
             </div>
@@ -107,10 +110,14 @@ export default function Home() {
           </a>
         </Link>
       </div>
-      <div className="mx-auto rounded drop-shadow p-24 px-32 my-40 flex bg-[url('/images/home_bg.jpg')] bg-no-repeat justify-between items-center  ">
-        <div className="flex flex-col w-1/3 ">
+      <div className="mx-auto rounded drop-shadow p-20 px-12 xl:px-32 my-16 xl:my-40 lg:space-x-16 flex flex-col lg:flex-row bg-[url('/images/home_bg.jpg')] bg-no-repeat justify-between items-center bg-cover  ">
+        <div className="flex flex-col w-full xl:w-1/3 ">
           <div className="flex flex-col space-y-4">
-            <img src="images/logo.png" alt="Logo" className="w-48" />
+            <img
+              src="images/zad_tools.svg"
+              alt="Logo"
+              className="w-80 xl:w-48"
+            />
             <span className="text-zad-blue-600">
               Software für das Gesundheitswesen
             </span>
@@ -120,18 +127,18 @@ export default function Home() {
           </Link>
         </div>
         <img
-          className="w-1/3 object-contain"
+          className="w-2/3 xl:w-1/3 object-contain"
           src="images/home_pc.png"
           alt="PC"
         />
       </div>
-      <div className="rounded drop-shadow p-16 flex text-white bg-zad-blue-400 items-center justify-evenly pl-56">
+      <div className="rounded drop-shadow p-8 xl:p-16 space-x-0 text-center xl:text-left xl:space-x-8 flex flex-col lg:flex-row space-y-6 text-white bg-zad-blue-400 items-center justify-evenly xl:pl-56">
         <img
           src="images/hand.png"
           alt="Hand"
-          className="absolute left-0 bottom-0 w-64"
+          className="absolute left-0 bottom-0 hidden xl:block w-64"
         />
-        <h2 className="text-white mb-0">
+        <h2 className="text-white mb-0 text-xl xl:text-2xl">
           Sie möchten mehr über den ZAD erfahren? Wir informieren Sie gerne.
         </h2>
         <Link href="/kontakt">

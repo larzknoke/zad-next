@@ -3,11 +3,11 @@ import React from "react";
 
 function Berg() {
   return (
-    <div className="absolute h-full -z-50 inset-0 pt-36 ">
+    <div className="absolute h-full -z-50 inset-0 pt-16 xl:pt-36 hidden xl:block">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1192.85 618.66"
-        className="h-full mx-auto"
+        className="h-full mx-auto w-full"
       >
         <g id="b">
           <g id="c">
