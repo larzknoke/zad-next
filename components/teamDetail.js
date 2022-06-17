@@ -11,7 +11,7 @@ function Team({ person, index }) {
           onMouseEnter={() => setIsHover(true)}
           onMouseLeave={() => setIsHover(false)}
           ref={ref}
-          className={`w-[25%] flex flex-col space-x-5 text-white text-center team-box opacity-0 ${index} ${
+          className={`w-[80%] md:w-[45%] xl:w-[25%] flex flex-col space-x-5 text-white text-center team-box opacity-0 ${index} ${
             inView ? "opacity-100 animate-in zoom-in duration-500" : ""
           }`}
         >

@@ -187,7 +187,7 @@ function Unternehmen() {
           />
         </div>
       </Slider>
-      <div className="px-[20%] my-16">
+      <div className="px-[10%] lg:px-[20%] my-16">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD stellt sich vor</h2>
         <p>
@@ -223,7 +223,7 @@ function Unternehmen() {
         src="images/unternehmen/frau_telefon.jpg"
         alt="Team12"
       />
-      <div className="px-[20%] my-24">
+      <div className="px-[10%] lg:px-[20%] my-16">
         <h3>Schön, dass es auch einfach geht</h3>
         <h2>Unsere Philosophie – Ihr Nutzen</h2>
         <p>

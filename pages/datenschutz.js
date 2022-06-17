@@ -2,7 +2,7 @@ import React from "react";
 
 function Datenschutz() {
   return (
-    <div className="lg:pr-64 datenschutz">
+    <div className="lg:pr-64 datenschutz overflow-hidden">
       <h3>Datenschutzerklärung</h3>
       <h1>Allgemeines</h1>
       <div>
@@ -466,7 +466,7 @@ function Datenschutz() {
             Inc., 1601 Willow Road, Menlo Park, California 94025, USA.
           </p>
           <p>
-            Weitere Informationen zum Datenschutz bei Facebook finden Sie unter:
+            Weitere Informationen zum Datenschutz bei Facebook finden Sie unter:{" "}
             <a href="https://www.facebook.com/about/privacy/">
               https://www.facebook.com/about/privacy/
             </a>
@@ -479,13 +479,13 @@ function Datenschutz() {
             Zusatzvereinbarung geschlossen, die die Verantwortlichkeit für die
             Datenverarbeitung im Hinblick auf die Seiten-Insights-Funktion nach
             Art. 26 DSGVO regelt. Die Einzelheiten der Vereinbarung sind hier zu
-            finden:
+            finden:{" "}
             <a href="https://www.facebook.com/legal/terms/page_controller_addendum">
               https://www.facebook.com/legal/terms/page_controller_addendum
             </a>
             . Facebook hat sich darin unter anderem verpflichtet, Sie über die
             Datenverarbeitung im Rahmen der Seiten-Insights-Funktion zu
-            informieren. Diese Informationen finden Sie hier:
+            informieren. Diese Informationen finden Sie hier:{" "}
             <a href="https://www.facebook.com/legal/terms/information_about_page_insights_data">
               https://www.facebook.com/legal/terms/information_about_page_insights_data
             </a>
@@ -500,7 +500,7 @@ function Datenschutz() {
             4-8, Top 3.02 in 1010 Wien, Austria.
           </p>
           <p>
-            Weitere Informationen zum Datenschutz bei kununu erhalten Sie unter:
+            Weitere Informationen zum Datenschutz bei kununu erhalten Sie unter:{" "}
             <a href="https://privacy.xing.com/de/datenschutzerklaerung">
               https://privacy.xing.com/de/datenschutzerklaerung
             </a>
@@ -516,7 +516,7 @@ function Datenschutz() {
             California 94085, USA.
           </p>
           <p>
-            Weitere Informationen zum Datenschutz bei LinkedIn finden Sie unter:
+            Weitere Informationen zum Datenschutz bei LinkedIn finden Sie unter:{" "}
             <a href="https://www.linkedin.com/legal/privacy-policy">
               https://www.linkedin.com/legal/privacy-policy
             </a>
@@ -524,7 +524,7 @@ function Datenschutz() {
           </p>
           <p>
             Die Datenerhebung von LinkedIn können Sie auf der folgenden Seite
-            konfigurieren:
+            konfigurieren:{" "}
             <a href="https://www.linkedin.com/psettings/guest-controls/">
               https://www.linkedin.com/psettings/guest-controls/
             </a>

@@ -15,13 +15,12 @@ const DIRECTION = dynamic(
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTruckMedical,
-  faHandPaper,
   faLaptopMedical,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Leistungen() {
   return (
-    <div className="space-x-16 flex mx-auto justify-center text-center mb-56 ">
+    <div className="lg:space-x-16 flex flex-wrap lg:flex-nowrap mx-auto justify-center text-center mb-56 ">
       <Link href="/krankentransporte">
         <a className="leistungen-horizontal">
           <div className="leistungen-icon-horizontal">

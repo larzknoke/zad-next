@@ -2,8 +2,8 @@ import React from "react";
 
 function Stellenangebote() {
   return (
-    <div className="space-x-32 flex mx-auto">
-      <div className="basis-2/3">
+    <div className="md:space-x-32 flex flex-col md:flex-row mx-auto">
+      <div className="md:w-1/2 lg:w-2/3">
         <h3>Aus dem Stellendschungel zu neuen Perspektiven mit Weitblick.</h3>
         <h2>Werden Sie Teil der ZAD-Familie</h2>
         <p>
@@ -78,7 +78,7 @@ function Stellenangebote() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col space-y-6">
+      <div className="flex flex-col space-y-6 md:w-1/2 lg:w-1/3 mt-16 md:mt-0">
         <h3>Stellenangebote</h3>
         <h2 className="text-lg">Büro</h2>
         <a

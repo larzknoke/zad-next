@@ -10,8 +10,8 @@ import teamData from "../components/teamData";
 
 function Kontakt() {
   return (
-    <div className="space-x-24 flex mx-auto">
-      <div className="basis-2/3">
+    <div className="xl:space-x-16 flex flex-col xl:flex-row mx-auto">
+      <div className="w-full xl:w-2/3">
         <h3>Kontakt</h3>
         <h1>Hier fühlen Sie sich verstanden</h1>
         <p>
@@ -74,8 +74,8 @@ function Kontakt() {
           />
         </div>
       </div>
-      <div className="flex flex-col space-y-6 bg-zad-blue-200 p-8 rounded">
-        <div className="block max-w-md">
+      <div className="flex flex-col space-y-6 xl:w-1/3 mt-16 xl:mt-0 bg-zad-blue-200 p-8 rounded">
+        <div className="block ">
           <form>
             <div className="form-group mb-6">
               <input

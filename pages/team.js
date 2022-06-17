@@ -13,7 +13,7 @@ function Unternehmen() {
       <div className="px-[15%] mb-16 bg-zad-blue-600 text-white drop-shadow-lg p-20">
         <h3 className="text-white">Unser Team</h3>
         <h2 className="text-white">
-          Für Sie haben wir immer einen Mitarbeiter (Experten / Ansprechpartner)
+          Für Sie haben wir immer einen Mitarbeiter (Experten/Ansprechpartner)
         </h2>
         <p className="text-white">
           ZAD hat heute mehr als 100 Mitarbeiter. Einer davon wird Ihre Wünsche
