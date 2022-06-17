@@ -51,7 +51,16 @@ function Software() {
             bekommen. Wir suchen BETA-Kunden aus allen Bereichen der ambulanten
             Pflege. Sie können jederzeit mitmachen – selbstverständlich nutzen
             Sie die Software während dieser Zeit kostenfrei. Weiter
-            Informationen erhalten Sie über diesen Link.
+            Informationen erhalten Sie über diesen{" "}
+            <Link href="https://pflegesuite.de/static/landing_page/">
+              <a
+                className="font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link
+              </a>
+            </Link>
           </p>
           <div className="flex space-x-6 w-full items-stretch justify-items-stretch">
             <Link href="/kontakt">
