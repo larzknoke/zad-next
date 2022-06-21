@@ -12,9 +12,9 @@ function Software() {
             speed: -8,
             children: (
               <video
-                class="object-cover w-full drop-shadow-lg mt-32 h-[36rem]"
+                className="object-cover w-full drop-shadow-lg mt-32 h-[36rem]"
                 lazy=""
-                autoplay="true"
+                autoPlay="true"
                 playsinline=""
                 muted="true"
               >
