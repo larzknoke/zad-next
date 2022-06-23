@@ -74,6 +74,7 @@ function Unternehmen() {
                 autoPlay="true"
                 playsinline=""
                 muted="true"
+                loop="true"
               >
                 <source
                   type="video/mp4"
@@ -127,6 +128,7 @@ function Unternehmen() {
                 autoPlay="true"
                 playsinline=""
                 muted="true"
+                loop="true"
               >
                 <source type="video/mp4" src="/videos/vid_unternehmen.mp4" />
               </video>
