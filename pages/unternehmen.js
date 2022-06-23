@@ -19,7 +19,7 @@ function Unternehmen() {
 
   return (
     <div className="mx-auto pt-3 pb-16">
-      <Slider {...settings}>
+      {/* <Slider {...settings}>
         <div>
           <img
             className="drop-shadow-lg w-full  py-16 bg-white"
@@ -62,7 +62,29 @@ function Unternehmen() {
             alt="Team22"
           />
         </div>
-      </Slider>
+      </Slider> */}
+      <ParallaxBanner
+        layers={[
+          {
+            speed: -13,
+            children: (
+              <video
+                className="object-cover w-full drop-shadow-lg mt-40 h-[36rem]"
+                lazy=""
+                autoPlay="true"
+                playsinline=""
+                muted="true"
+              >
+                <source
+                  type="video/mp4"
+                  src="/videos/software-pflegedienste.mp4"
+                />
+              </video>
+            ),
+          },
+        ]}
+        className="aspect-[3/1]"
+      ></ParallaxBanner>
       <div className="px-[10%] lg:px-[25%] my-16">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD stellt sich vor</h2>
