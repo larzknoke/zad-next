@@ -85,7 +85,7 @@ function Unternehmen() {
         ]}
         className="aspect-[3/1]"
       ></ParallaxBanner>
-      <div className="px-[10%] lg:px-[25%] my-16">
+      <div className="px-[10%] lg:px-[25%] my-32">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD stellt sich vor</h2>
         <p>
@@ -135,7 +135,7 @@ function Unternehmen() {
         ]}
         className="aspect-[3/1]"
       ></ParallaxBanner>
-      <div className="px-[10%] lg:px-[25%] my-16">
+      <div className="px-[10%] lg:px-[25%] my-32">
         <h3>Schön, dass es auch einfach geht</h3>
         <h2>Unsere Philosophie – Ihr Nutzen</h2>
         <p>
