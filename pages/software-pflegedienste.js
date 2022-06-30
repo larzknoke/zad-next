@@ -88,7 +88,7 @@ function Software() {
               <img
                 className="pt-8 w-2/4 self-center"
                 src="images/pflegesuite.png"
-                alt="click-on-logo Logo"
+                alt="Pflegesuite Logo"
               />
               <Link href="https://promo.pflegesuite.de/" passHref>
                 <Button>Direkt zur webbasierten Pflegesoftware</Button>

@@ -1,11 +1,11 @@
 import React, { useRef, useCallback } from "react";
 import Footer from "../components/footer";
-import { Parallax, ParallaxBanner } from "react-scroll-parallax";
-import Slider from "react-slick";
+import { ParallaxBanner } from "react-scroll-parallax";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Button from "../components/button";
-
+import Image from "next/image";
 function Unternehmen() {
   const settings = {
     fade: true,
@@ -73,10 +73,10 @@ function Unternehmen() {
               <video
                 className="object-cover w-full drop-shadow-lg mt-40 h-[36rem]"
                 lazy=""
-                autoPlay="true"
-                playsinline=""
-                muted="true"
-                loop="true"
+                autoPlay={true}
+                playsInline=""
+                muted={true}
+                loop={true}
               >
                 <source
                   type="video/mp4"

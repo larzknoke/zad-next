@@ -9,6 +9,7 @@ import {
 import TransportIcon from "../components/transportIcon";
 import MedicalIcon from "../components/medicalIcon";
 import Button from "../components/button";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -21,25 +22,35 @@ export default function Home() {
         Gesundheitswesen.
       </h2>
       <div className="flex  drop-shadow my-12 xl:mt-16 xl:mb-24">
-        <img
+        {/* <div className="w-1/4 relative">
+        </div> */}
+        <Image
+          src="/images/start/wagen.jpg"
           className="w-1/4 object-cover rounded-l-lg"
-          src="images/start/wagen.jpg"
-          alt="Krankentransporte"
+          width={400}
+          height={242}
+          objectFit="cover"
         />
-        <img
-          className="w-1/4 object-cover"
-          src="images/start/mann.jpg"
-          alt="Pflegedienste"
+        <Image
+          src="/images/start/mann.jpg"
+          className="w-1/4 object-cover rounded-l-lg"
+          width={400}
+          height={267}
+          objectFit="cover"
         />
-        <img
-          className="w-1/4 object-cover"
-          src="images/start/pfleger.jpg"
-          alt="Heilberufe_"
+        <Image
+          src="/images/start/pfleger.jpg"
+          className="w-1/4 object-cover rounded-l-lg"
+          width={400}
+          height={267}
+          objectFit="cover"
         />
-        <img
-          className="w-1/4 object-cover rounded-r-lg"
-          src="images/start/pfleger2.jpg"
-          alt="Software"
+        <Image
+          src="/images/start/pfleger2.jpg"
+          className="w-1/4 object-cover rounded-l-lg"
+          width={400}
+          height={267}
+          objectFit="cover"
         />
       </div>
       <div className=" space-x-0 xl:space-x-16 flex flex-wrap xl:flex-nowrap mx-auto justify-around xl:justify-center text-center ">
@@ -151,11 +162,20 @@ export default function Home() {
         />
       </div> */}
       <div className="rounded drop-shadow p-8 xl:p-16 my-16 xl:my-40 space-x-0 text-center xl:text-left xl:space-x-8 flex flex-col lg:flex-row space-y-6 text-white bg-zad-blue-400 items-center justify-evenly xl:pl-56">
-        <img
+        {/* <img
           src="images/hand.png"
           alt="Hand"
           className="absolute left-0 bottom-0 hidden xl:block w-64"
-        />
+        /> */}
+        <div className="absolute left-0 hidden xl:block w-64 -bottom-[6px]">
+          <Image
+            src="/images/hand.png"
+            width={800}
+            height={722}
+            objectFit="contain"
+          />
+        </div>
+
         <h2 className="text-white mb-0 text-xl xl:text-2xl">
           Sie möchten mehr über den ZAD erfahren? Wir informieren Sie gerne.
         </h2>
