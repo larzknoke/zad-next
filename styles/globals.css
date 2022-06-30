@@ -190,3 +190,14 @@ main.tease:not(.open) .hand {
 .burger:hover span {
   @apply w-8;
 }
+
+.nav {
+  @apply transition-all duration-200;
+}
+
+.nav.scroll {
+  @apply fixed w-full bg-zad-blue-200 drop-shadow-md top-0 left-0 px-[5%] py-6 mt-0;
+}
+.nav.scroll img {
+  @apply w-24;
+}

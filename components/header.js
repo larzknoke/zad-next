@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Berg from "./berg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +10,12 @@ import SideMainNav from "./sideMainNav";
 function Header({ handleCurtain, handleTease }) {
   const [openNav, setOpenNav] = useState(false);
   const handleNav = () => setOpenNav(!openNav);
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 500);
+    });
+  }, []);
 
   return (
     <header className="relative flex flex-col pt-12 xl:pt-16 xl:pb-0 pb-16 px-12 xl:px-32 z-50 w-full h-auto xl:h-[40em] ">
@@ -55,7 +61,11 @@ function Header({ handleCurtain, handleTease }) {
             </Link>
           </div>
         </div>
-        <div className="flex mt-8 xl:mt-24 justify-between items-center">
+        <div
+          className={`nav flex mt-8 xl:mt-24 justify-between items-center ${
+            scroll ? " scroll " : ""
+          }`}
+        >
           <div className="logo w-44 md:w-56 xl:w-64 ">
             <Link href="/">
               <a>
