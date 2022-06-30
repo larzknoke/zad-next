@@ -1,0 +1,170 @@
+/* -------------------------------- 
+
+File#: _1_button-effects
+Title: Button Effects
+Descr: A collection of button effects
+Usage: codyhouse.co/license
+
+-------------------------------- */
+/* variables */
+:root {
+  /* colors */
+  --bp3-color-primary-hsl: 220, 73%, 26%;
+  --bp3-color-bg-hsl: 0, 0%, 100%;
+  --bp3-color-contrast-high-hsl: 230, 7%, 23%;
+  --bp3-color-contrast-higher-hsl: 230, 13%, 9%;
+  --bp3-color-white-hsl: 0, 0%, 100%;
+
+  /* spacing */
+  --bp3-space-2xs: 0.5rem;
+  --bp3-space-xs: 0.75rem;
+  --bp3-space-sm: 1.25rem;
+  --bp3-space-md: 1.5rem;
+
+  /* typography */
+  --bp3-text-sm: 0.833rem;
+}
+
+@media (min-width: 64rem) {
+  :root {
+    /* spacing */
+    --bp3-space-2xs: 0.75rem;
+    --bp3-space-xs: 1rem;
+    --bp3-space-sm: 1.5rem;
+    --bp3-space-md: 2.25rem;
+
+    /* typography */
+    --bp3-text-sm: 1rem;
+  }
+}
+
+/* icons */
+.bp3-icon {
+  height: var(--bp3-size, 1em);
+  width: var(--bp3-size, 1em);
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  line-height: 1;
+  flex-shrink: 0;
+  max-width: initial;
+}
+
+/* component */
+.btn-fx-1 {
+  --border-radius: 0.25em;
+  --transition-duration: 0.3s;
+  position: relative;
+  display: inline-block;
+  border-radius: var(--border-radius);
+  line-height: 1;
+  text-decoration: none !important;
+  color: hsl(var(--bp3-color-primary-hsl));
+  transition: var(--transition-duration);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+.btn-fx-1 span,
+.btn-fx-1 .btn-fx-1__icon-wrapper {
+  position: relative;
+  z-index: 2;
+}
+.btn-fx-1 .bp3-icon {
+  display: block;
+  will-change: transform;
+  transition: var(--transition-duration);
+}
+.btn-fx-1 .bp3-icon:first-child {
+  color: hsl(var(--bp3-color-primary-hsl));
+}
+.btn-fx-1 .bp3-icon:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  color: hsl(var(--bp3-color-white-hsl));
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.btn-fx-1:hover {
+  color: hsl(var(--bp3-color-white-hsl));
+}
+.btn-fx-1:hover .bp3-icon:first-child {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.btn-fx-1:hover .bp3-icon:last-child {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.btn-fx-1:hover .btn-fx-1__inner::after {
+  -webkit-transform: skewY(0deg) scaleY(2);
+  transform: skewY(0deg) scaleY(2);
+}
+.btn-fx-1:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px hsl(var(--bp3-color-bg-hsl)),
+    0 0 0 3px hsl(var(--bp3-color-primary-hsl));
+}
+
+.btn-fx-1__inner {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(var(--bp3-color-primary-hsl), 0.2);
+  overflow: hidden;
+  -webkit-clip-path: inset(0% 0% 0% 0% round var(--border-radius));
+  clip-path: inset(0% 0% 0% 0% round var(--border-radius));
+  white-space: nowrap;
+}
+.btn-fx-1__inner::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: -5%;
+  width: 110%;
+  height: 100%;
+  background-color: hsl(var(--bp3-color-primary-hsl));
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: skewY(10deg) scaleY(0);
+  transform: skewY(10deg) scaleY(0);
+  transition: -webkit-transform var(--transition-duration);
+  transition: transform var(--transition-duration);
+  transition: transform var(--transition-duration),
+    -webkit-transform var(--transition-duration);
+}
+
+/* utility classes */
+.bp3-margin-left-2xs {
+  margin-left: var(--bp3-space-2xs);
+}
+
+.bp3-padding-x-sm {
+  padding-left: var(--bp3-space-sm);
+  padding-right: var(--bp3-space-sm);
+}
+
+.bp3-padding-y-xs {
+  padding-top: var(--bp3-space-xs);
+  padding-bottom: var(--bp3-space-xs);
+}
+
+.bp3-padding-x-md {
+  padding-left: var(--bp3-space-md);
+  padding-right: var(--bp3-space-md);
+}
+
+.bp3-radius-md {
+  border-radius: 0.25em;
+}
+
+.bp3-text-sm {
+  font-size: var(--bp3-text-sm);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Sidenav from "../components/sidenav";
 import Link from "next/link";
+import Button from "../components/button";
 
 function Pflegedienste() {
   return (
@@ -39,12 +40,12 @@ function Pflegedienste() {
             klar strukturiert für Sie „gezähmt“.
           </p>
         </div>
-        <div className="flex space-x-6 w-full items-stretch justify-items-stretch">
-          <Link href="/kontakt">
-            <a className="button w-full text-center">Jetzt Anfrage senden</a>
+        <div className="flex space-x-10 my-10 w-full items-stretch justify-items-stretch">
+          <Link href="/kontakt" passHref>
+            <Button>Jetzt Anfrage senden</Button>
           </Link>
-          <Link href="/team">
-            <a className="button w-full text-center">Ansprechpartner finden</a>
+          <Link href="/team" passHref>
+            <Button>Ansprechpartner finden</Button>
           </Link>
         </div>
       </div>

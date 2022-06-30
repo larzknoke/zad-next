@@ -2,6 +2,7 @@ import React from "react";
 import Sidenav from "../components/sidenav";
 import Link from "next/link";
 import { ParallaxBanner } from "react-scroll-parallax";
+import Button from "../components/button";
 
 function Software() {
   return (
@@ -18,10 +19,7 @@ function Software() {
                 playsinline=""
                 muted="true"
               >
-                <source
-                  type="video/mp4"
-                  src="/videos/software-pflegedienste.mp4"
-                />
+                <source type="video/mp4" src="/videos/amb_pflegedienst.mp4" />
               </video>
             ),
           },
@@ -86,16 +84,14 @@ function Software() {
                 </a>
               </Link>
             </p>
-            <div className="flex space-x-6 w-full items-stretch justify-items-stretch">
-              <Link href="/kontakt">
-                <a className="button w-full text-center">
-                  Jetzt Anfrage senden
-                </a>
-              </Link>
-              <Link href="/team">
-                <a className="button w-full text-center">
-                  Ansprechpartner finden
-                </a>
+            <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch px-20 space-y-6">
+              <img
+                className="pt-8 w-2/4 self-center"
+                src="images/pflegesuite.png"
+                alt="click-on-logo Logo"
+              />
+              <Link href="/kontakt" passHref>
+                <Button>Direkt zur webbasierten Pflegesoftware</Button>
               </Link>
             </div>
           </div>

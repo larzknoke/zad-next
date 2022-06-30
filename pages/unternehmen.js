@@ -1,8 +1,10 @@
 import React, { useRef, useCallback } from "react";
+import Footer from "../components/footer";
 import { Parallax, ParallaxBanner } from "react-scroll-parallax";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Button from "../components/button";
 
 function Unternehmen() {
   const settings = {
@@ -108,16 +110,9 @@ function Unternehmen() {
           Hilfsorganisationen und kommunale Träger des Rettungsdienstes, aber
           auch Ärzte und Therapeuten im gesamten Bundesgebiet.
         </p>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="button mx-auto table my-16"
-          href="/pdf/ZAD-Image-Prospekt.pdf"
-        >
-          Unser Image-Prospekt
-        </a>
+        <Button href="/pdf/ZAD-Image-Prospekt.pdf">Unser Image-Prospekt</Button>
       </div>
-      <ParallaxBanner
+      {/* <ParallaxBanner
         layers={[
           {
             speed: -13,
@@ -136,7 +131,7 @@ function Unternehmen() {
           },
         ]}
         className="aspect-[3/1]"
-      ></ParallaxBanner>
+      ></ParallaxBanner> */}
       <div className="px-[10%] lg:px-[25%] my-32">
         <h3>Schön, dass es auch einfach geht</h3>
         <h2>Unsere Philosophie – Ihr Nutzen</h2>
@@ -165,6 +160,7 @@ function Unternehmen() {
           Leistungen den größten Nutzen für Sie haben.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

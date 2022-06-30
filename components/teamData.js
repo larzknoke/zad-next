@@ -30,13 +30,13 @@ const teamData = {
       imageHover: "eichenberger_2",
     },
     {
-      name: "Markus Käppler",
+      name: "Lars Töpperwien",
       title: "Außendienst",
-      phone: "05551 / 96 88-0",
+      phone: "05551 / 96 88-649",
       fax: "05551 / 96 88-655",
-      email: "markus.kaeppler@zad-northeim.de",
-      image: "kaeppler_1",
-      imageHover: "kaeppler_2",
+      email: "lars.toepperwien@zad-northeim.de",
+      image: "toepperwien_1",
+      imageHover: "toepperwien_2",
     },
     {
       name: "Norbert Schiller",
@@ -48,18 +48,19 @@ const teamData = {
       imageHover: "schiller_2",
     },
     {
-      name: "Lars Töpperwien",
+      name: "Markus Käppler",
       title: "Außendienst",
-      phone: "05551 / 96 88-649",
+      phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-655",
-      email: "lars.toepperwien@zad-northeim.de",
-      image: "toepperwien_1",
-      imageHover: "toepperwien_2",
+      email: "markus.kaeppler@zad-northeim.de",
+      image: "kaeppler_1",
+      imageHover: "kaeppler_2",
     },
+
     {
       name: "Simone Zahel",
       title: "Innendienst",
-      phone: "05551 / 96 88-649",
+      phone: "05551 / 96 88-646",
       fax: "05551 / 96 88-655",
       email: "simone.zahel@zad-northeim.de",
       image: "zahel_1",
@@ -68,11 +69,11 @@ const teamData = {
   ],
   teamleitung: [
     {
-      name: "Vjaceslav Ognev,",
+      name: "Vjaceslav Ognev",
       title: "Pflegeabrechnung / Teamleitung 9",
-      phone: "05551 / 96 88-0",
+      phone: "05551 / 96 88-209",
       fax: "05551 / 96 88-655",
-      email: "ognev.vjaceslav@zad-northeim.de",
+      email: "vjaceslav.ognev@zad-northeim.de",
       image: "ognev_vjaceslav_1",
       imageHover: "ognev_vjaceslav_2",
     },
@@ -114,13 +115,21 @@ const teamData = {
     },
     {
       name: "Beate Knauer",
-      title:
-        "Krankentransport & Rettungsdienst / Teamleitung 22 / Ausbildungsleiterin",
+      title: "Krankentransport & Rettungsdienst / Teamleitung 22",
       phone: "05551 / 96 88-23",
       fax: "05551 / 96 88-88",
       email: "beate.knauer@zad-northeim.de",
       image: "knauer",
       imageHover: "knauer",
+    },
+    {
+      name: "Maria Lasota,",
+      title: "Stellv. Teamleitung",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-88",
+      email: "maria.lasota@zad-northeim.de",
+      image: "lasota_1",
+      imageHover: "lasota_2",
     },
     {
       name: "Alexander Niesen",
@@ -132,17 +141,6 @@ const teamData = {
       imageHover: "aniesen_2",
     },
   ],
-  teamleitung_stell: [
-    {
-      name: "Maria Lasota,",
-      title: "Stellv. Teamleitung",
-      phone: "05551 / 96 88-0",
-      fax: "05551 / 96 88-88",
-      email: "maria.lasota@zad-northeim.de",
-      image: "lasota_1",
-      imageHover: "lasota_2",
-    },
-  ],
   zentrale: [
     {
       name: "Kathrin Schuster",
@@ -150,8 +148,8 @@ const teamData = {
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-88",
       email: "kathrin.schuster@zad-northeim.de",
-      image: "schuster",
-      imageHover: "schuster",
+      image: "schuster_1",
+      imageHover: "schuster_2",
     },
     {
       name: "Heike Manteufel",
@@ -159,8 +157,8 @@ const teamData = {
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-88",
       email: "heike.manteufel@zad-northeim.de",
-      image: "manteufel",
-      imageHover: "manteufel",
+      image: "manteufel_1",
+      imageHover: "manteufel_2",
     },
   ],
 };

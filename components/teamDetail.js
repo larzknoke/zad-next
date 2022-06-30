@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useInView, InView } from "react-intersection-observer";
 
-function Team({ person, index }) {
+function Team({ person, index, kontakt = false }) {
   const [isHover, setIsHover] = useState(false);
 
   return (
@@ -11,7 +11,9 @@ function Team({ person, index }) {
           onMouseEnter={() => setIsHover(true)}
           onMouseLeave={() => setIsHover(false)}
           ref={ref}
-          className={`w-[80%] md:w-[45%] xl:w-[25%] flex flex-col space-x-5 text-white text-center team-box opacity-0 ${index} ${
+          className={`w-[80%] md:w-[45%] xl:w-[25%] flex flex-col ${
+            !kontakt ? " text-white " : " text-zad-blue-600 "
+          } text-center team-box opacity-0 ${index} ${
             inView ? "opacity-100 animate-in zoom-in duration-500" : ""
           }`}
         >
@@ -24,13 +26,11 @@ function Team({ person, index }) {
             }
             alt="Niesen"
           />
-          <span className="text-white text-bold text-xl">{person.name}</span>
+          <span className=" text-bold text-xl">{person.name}</span>
           <span className="text-zad-blue-300">{person.title}</span>
-          <span className="text-white mt-4">{person.phone}</span>
-          <span className="text-white">{person.fax}</span>
-          <a href={"mailto:" + person.email} className="text-white">
-            {person.email}
-          </a>
+          <span className=" mt-4">Tel.: {person.phone}</span>
+          <span>Fax: {person.fax}</span>
+          <a href={"mailto:" + person.email}>{person.email}</a>
         </div>
       )}
     </InView>

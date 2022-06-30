@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./button.css";
+
 /* html,
 body,
 body > div,
@@ -19,7 +21,7 @@ a:hover {
 
 .leistungen-horizontal,
 .leistungen-vertical {
-  @apply hover:no-underline flex flex-col text-zad-blue-600 space-y-4 cursor-pointer  hover:scale-105 transition-all;
+  @apply hover:no-underline flex flex-col text-zad-blue-600 space-y-2 cursor-pointer  hover:scale-105 transition-all;
 }
 
 .leistungen-horizontal {
@@ -32,7 +34,7 @@ a:hover {
 } */
 
 div[class^="leistungen-icon-"] {
-  @apply inline-flex items-center justify-center mx-auto  text-zad-blue-600 transition-colors duration-300 bg-white rounded-full border-[3px] p-4 border-zad-blue-600;
+  @apply inline-flex items-center justify-center mx-auto  text-zad-blue-600 transition-colors duration-300 bg-white rounded-full border-[3px] p-4 border-zad-blue-600 overflow-hidden relative;
 }
 
 .leistungen-icon-vertical {
@@ -47,6 +49,27 @@ div[class^="leistungen-icon-"] {
   @apply bg-zad-blue-600 text-white;
 }
 
+.leistungen-horizontal svg,
+.leistungen-vertical svg {
+  @apply transition-transform absolute w-3/5 duration-200;
+}
+
+.leistungen-vertical svg {
+  @apply w-1/2;
+}
+.leistungen-horizontal:hover svg.icon-start,
+.leistungen-vertical:hover svg.icon-start {
+  transform: translateY(-200%);
+}
+.leistungen-horizontal svg.icon-end,
+.leistungen-vertical svg.icon-end {
+  transform: translateY(200%);
+}
+.leistungen-horizontal:hover svg.icon-end,
+.leistungen-vertical:hover svg.icon-end {
+  transform: translateY(0);
+}
+
 h1 {
   @apply text-zad-blue-600 text-4xl mb-8;
 }
@@ -58,12 +81,16 @@ h3 {
   @apply text-red-700 font-bold text-xl mb-4;
 }
 
+h4 {
+  @apply text-zad-blue-600 font-bold text-xl mb-4;
+}
+
 p {
   @apply text-zad-blue-600 mb-8;
 }
 
 .button {
-  @apply bg-zad-blue-600 text-white px-8 py-4 rounded hover:no-underline hover:bg-white hover:text-zad-blue-600 transition-all duration-150 border-2 border-zad-blue-600 whitespace-nowrap;
+  @apply bg-zad-blue-600 text-white px-8 py-3 rounded hover:no-underline hover:bg-white hover:text-zad-blue-600 transition-all duration-150 border-2 border-zad-blue-600 whitespace-nowrap;
 }
 
 .datenschutz p {
@@ -121,8 +148,8 @@ main.tease:not(.open) .hand {
   stroke: theme("colors.red.500");
   fill: transparent;
   stroke-dasharray: 0 10;
-  stroke-width: 5px;
-  stroke-linecap: round;
+  strokewidth: 5px;
+  strokelinecap: round;
 }
 
 .arrow__head {
