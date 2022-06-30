@@ -74,7 +74,7 @@ function Software() {
               ambulanten Pflege. Sie können jederzeit mitmachen –
               selbstverständlich nutzen Sie die Software während dieser Zeit
               kostenfrei. Weiter Informationen erhalten Sie über diesen{" "}
-              <Link href="https://pflegesuite.de/static/landing_page/">
+              <Link href="https://promo.pflegesuite.de/">
                 <a
                   className="font-bold"
                   target="_blank"
@@ -90,7 +90,7 @@ function Software() {
                 src="images/pflegesuite.png"
                 alt="click-on-logo Logo"
               />
-              <Link href="/kontakt" passHref>
+              <Link href="https://promo.pflegesuite.de/" passHref>
                 <Button>Direkt zur webbasierten Pflegesoftware</Button>
               </Link>
             </div>
