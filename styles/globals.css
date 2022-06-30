@@ -49,6 +49,10 @@ div[class^="leistungen-icon-"] {
   @apply bg-zad-blue-600 text-white;
 }
 
+.leistungen-horizontal {
+  @apply w-full md:w-2/4 lg:w-1/4 flex-wrap;
+}
+
 .leistungen-horizontal svg,
 .leistungen-vertical svg {
   @apply transition-transform absolute w-3/5 duration-200;

@@ -98,8 +98,8 @@ function Leistungen() {
             </span>
             <img
               className="pt-8 w-3/4 self-center"
-              src="images/click-on-logo.svg"
-              alt="click-on-logo Logo"
+              src="images/pflegesuite.png"
+              alt="Pflegesuite Logo"
             />
           </a>
         </Link>
