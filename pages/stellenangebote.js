@@ -120,7 +120,7 @@ function Stellenangebote() {
             ),
           },
         ]}
-        className="aspect-[3/1] mt-20"
+        className="aspect-[2/1] mt-20"
       ></ParallaxBanner>
       <Footer />
     </>
