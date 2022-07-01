@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useInView, InView } from "react-intersection-observer";
+import Image from "next/image";
 
 function Team({ person, index, kontakt = false }) {
   const [isHover, setIsHover] = useState(false);
@@ -17,16 +18,29 @@ function Team({ person, index, kontakt = false }) {
             inView ? "opacity-100 animate-in zoom-in duration-500" : ""
           }`}
         >
-          <img
-            className="rounded-full mb-4"
-            src={
-              "images/unternehmen/team/" +
-              (isHover ? person.imageHover : person.image) +
-              ".jpg"
-            }
-            alt="Niesen"
-          />
-          <span className=" text-bold text-xl">{person.name}</span>
+          <div className="relative">
+            <div className="absolute">
+              <Image
+                className="rounded-full "
+                src={"/images/unternehmen/team/" + person.image + ".jpg"}
+                alt="Niesen"
+                width={400}
+                height={400}
+                style={isHover ? { opacity: 0 } : { opacity: 1 }}
+              />
+            </div>
+            <div className="relative">
+              <Image
+                className="rounded-full "
+                src={"/images/unternehmen/team/" + person.imageHover + ".jpg"}
+                alt="Niesen"
+                width={400}
+                height={400}
+                style={isHover ? { opacity: 1 } : { opacity: 0 }}
+              />
+            </div>
+          </div>
+          <span className=" text-bold text-xl mt-4">{person.name}</span>
           <span className="text-zad-blue-300">{person.title}</span>
           <span className=" mt-4">Tel.: {person.phone}</span>
           <span>Fax: {person.fax}</span>
