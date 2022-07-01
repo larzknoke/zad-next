@@ -15,9 +15,10 @@ function Krankentransporte() {
               <video
                 className="object-cover w-full drop-shadow-lg mt-32 h-[36rem]"
                 lazy=""
-                autoPlay="true"
+                autoPlay={true}
                 playsinline=""
-                muted="true"
+                muted={true}
+                loop={true}
               >
                 <source type="video/mp4" src="/videos/krankentransporte.mp4" />
               </video>

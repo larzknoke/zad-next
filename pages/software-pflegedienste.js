@@ -15,9 +15,10 @@ function Software() {
               <video
                 className="object-cover w-full drop-shadow-lg mt-32 h-[36rem]"
                 lazy=""
-                autoPlay="true"
+                autoPlay={true}
+                loop={true}
                 playsinline=""
-                muted="true"
+                muted={true}
               >
                 <source type="video/mp4" src="/videos/amb_pflegedienst.mp4" />
               </video>

@@ -110,10 +110,10 @@ function Stellenangebote() {
               <video
                 className="object-cover w-full drop-shadow-lg mt-40 h-[36rem] rounded"
                 lazy=""
-                autoPlay="true"
+                autoPlay={true}
                 playsinline=""
-                muted="true"
-                loop="true"
+                muted={true}
+                loop={true}
               >
                 <source type="video/mp4" src="/videos/stellenangebote.mp4" />
               </video>
