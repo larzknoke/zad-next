@@ -28,7 +28,7 @@ function Sidenav() {
           </div>
           <span
             className={
-              "font-bold text-center" +
+              "font-bold text-center  text-[12px] md:text-base" +
               (router.pathname == "/krankentransporte" ? " text-red-700 " : "")
             }
           >
@@ -44,7 +44,7 @@ function Sidenav() {
           </div>
           <span
             className={
-              "font-bold text-center" +
+              "font-bold text-center  text-[12px] md:text-base" +
               (router.pathname == "/software-krankentransporte"
                 ? " text-red-700 "
                 : "")
@@ -62,7 +62,7 @@ function Sidenav() {
           </div>
           <span
             className={
-              "font-bold text-center" +
+              "font-bold text-center  text-[12px] md:text-base" +
               (router.pathname == "/pflegedienste" ? " text-red-700 " : "")
             }
           >
@@ -84,7 +84,7 @@ function Sidenav() {
           </div>
           <span
             className={
-              "font-bold text-center" +
+              "font-bold text-center  text-[12px] md:text-base" +
               (router.pathname == "/software-pflegedienste"
                 ? " text-red-700 "
                 : "")

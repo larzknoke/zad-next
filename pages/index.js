@@ -27,29 +27,29 @@ export default function Home() {
         <Image
           src="/images/start/wagen.jpg"
           className="w-1/4 object-cover rounded-l-lg"
-          width={400}
-          height={242}
+          width={700}
+          height={449}
           objectFit="cover"
         />
         <Image
           src="/images/start/mann.jpg"
-          className="w-1/4 object-cover rounded-l-lg"
-          width={400}
-          height={267}
+          className="w-1/4 object-cover"
+          width={700}
+          height={460}
           objectFit="cover"
         />
         <Image
           src="/images/start/pfleger.jpg"
-          className="w-1/4 object-cover rounded-l-lg"
-          width={400}
-          height={267}
+          className="w-1/4 object-cover "
+          width={700}
+          height={477}
           objectFit="cover"
         />
         <Image
-          src="/images/start/pfleger2.jpg"
-          className="w-1/4 object-cover rounded-l-lg"
-          width={400}
-          height={267}
+          src="/images/start/tablet.jpg"
+          className="w-1/4 object-cover rounded-r-lg"
+          width={700}
+          height={480}
           objectFit="cover"
         />
       </div>
@@ -161,7 +161,7 @@ export default function Home() {
           alt="PC"
         />
       </div> */}
-      <div className="rounded drop-shadow p-8 xl:p-16 my-16 xl:my-40 space-x-0 text-center xl:text-left xl:space-x-8 flex flex-col lg:flex-row space-y-6 text-white bg-zad-blue-400 items-center justify-evenly xl:pl-56">
+      <div className="relative rounded drop-shadow p-8 xl:p-16 my-16 xl:my-40 space-x-0 text-center xl:text-left xl:space-x-12 flex flex-col lg:flex-row space-y-6 lg:space-y-0 text-white bg-zad-blue-400 items-center justify-evenly xl:pl-64 ">
         {/* <img
           src="images/hand.png"
           alt="Hand"
@@ -180,7 +180,9 @@ export default function Home() {
           Sie möchten mehr über den ZAD erfahren? Wir informieren Sie gerne.
         </h2>
         <Link href="/kontakt" passHref>
-          <Button className="px-8">Zur Kontaktseite</Button>
+          <Button className="px-8" bgColor="bg-zad-blue-200">
+            Zur Kontaktseite
+          </Button>
         </Link>
       </div>
       <Footer />

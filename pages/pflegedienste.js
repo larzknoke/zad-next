@@ -2,20 +2,26 @@ import React from "react";
 import Sidenav from "../components/sidenav";
 import Link from "next/link";
 import Button from "../components/button";
-
+import Image from "next/image";
 function Pflegedienste() {
   return (
-    <div className="mx-auto flex">
-      <div className="basis-1/4 space-y-8">
-        <Sidenav />
-      </div>
-      <div className="px-48">
-        <img
-          className="drop-shadow-lg rounded mx-auto"
-          src="images/leistungen/pflegedienste.jpg"
-          alt="Team12"
-        />
-        <div className=" my-16">
+    <>
+      <video
+        className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
+        lazy=""
+        autoPlay={true}
+        playsinline=""
+        muted={true}
+        loop={true}
+      >
+        <source type="video/mp4" src="/videos/vid_unternehmen.mp4" />
+      </video>
+
+      <div className="mx-auto flex flex-col lg:flex-row py-24 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
+        <div className="lg:space-y-8 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start">
+          <Sidenav />
+        </div>
+        <div>
           <h3>Abrechnungen für ambulante Krankenpflegeleistungen</h3>
           <h2>Der Mensch vermag mit Hilfe mehr</h2>
           <p>
@@ -39,18 +45,36 @@ function Pflegedienste() {
             Papierdschungel. Denn den haben wir im ZAD-Kundeninformationscenter
             klar strukturiert für Sie „gezähmt“.
           </p>
+          <div className="flex space-x-10 my-10 w-full items-stretch justify-items-stretch">
+            <Link href="/kontakt" passHref>
+              <Button>Jetzt Anfrage senden</Button>
+            </Link>
+            <Link href="/team" passHref>
+              <Button>Ansprechpartner finden</Button>
+            </Link>
+          </div>
         </div>
-        <div className="flex space-x-10 my-10 w-full items-stretch justify-items-stretch">
-          <Link href="/kontakt" passHref>
-            <Button>Jetzt Anfrage senden</Button>
-          </Link>
-          <Link href="/team" passHref>
-            <Button>Ansprechpartner finden</Button>
-          </Link>
+        <div className="flex flex-col w-full gap-8">
+          <Image
+            src="/images/start/pfleger.jpg"
+            className=" object-cover rounded "
+            width={700}
+            height={400}
+            objectFit="cover"
+          />
+          <Image
+            src="/images/leistungen/drucker.jpg"
+            className=" object-cover rounded"
+            width={700}
+            height={400}
+            objectFit="cover"
+          />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
 export default Pflegedienste;
+
+Pflegedienste.noMainPadding = true;

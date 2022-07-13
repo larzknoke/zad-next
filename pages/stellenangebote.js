@@ -1,18 +1,24 @@
 import React from "react";
 import Button from "../components/button";
 import Footer from "../components/footer";
-import { ParallaxBanner } from "react-scroll-parallax";
+import Image from "next/image";
 
 function Stellenangebote() {
   return (
     <>
-      <img
-        className="mb-16  mx-auto"
-        src="images/unternehmen/teamfoto.png"
-        alt="Team12"
-      />
-      <div className="md:space-x-32 flex flex-col md:flex-row mx-auto">
-        <div className="md:w-1/2 lg:w-2/3">
+      <video
+        className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
+        lazy=""
+        autoPlay={true}
+        playsinline=""
+        muted={true}
+        loop={true}
+      >
+        <source type="video/mp4" src="/videos/stellenangebote.mp4" />
+      </video>
+
+      <div className="mx-auto flex flex-col lg:flex-row py-24 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
+        <div className="w-full  lg:w-2/3">
           <h3>Aus dem Stellendschungel zu neuen Perspektiven mit Weitblick.</h3>
           <h2>Werden Sie Teil der ZAD-Familie</h2>
           <p>
@@ -37,6 +43,15 @@ function Stellenangebote() {
             unsere mehr als 140 Mitarbeiter ein eigenes Rechenzentrum, für
             welches wir Verstärkung suchen.
           </p>
+          <div className="my-12">
+            <Image
+              src="/images/unternehmen/teamfoto.png"
+              className=" object-cover rounded "
+              width={1400}
+              height={334}
+              objectFit="cover"
+            />
+          </div>
           <h2>Das erwartet Sie beim ZAD</h2>
           <ul className="text-zad-blue-600 list-disc list-inside mb-8">
             <li>Moderner Arbeitsplatz</li>
@@ -88,7 +103,7 @@ function Stellenangebote() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col space-y-6 md:w-1/2 lg:w-1/3 mt-16 md:mt-0">
+        <div className="flex flex-col space-y-6 w-full lg:w-1/2 xl:w-1/3 mt-16 md:mt-0">
           <h3>Stellenangebote</h3>
           <h2 className="text-lg">Büro</h2>
           <Button>Kaufmännischer Mitarbeiter (m/w/d)</Button>
@@ -102,29 +117,11 @@ function Stellenangebote() {
           <Button> Fachinformatik (m/w/d)</Button>
         </div>
       </div>
-      <ParallaxBanner
-        layers={[
-          {
-            speed: -13,
-            children: (
-              <video
-                className="object-cover w-full drop-shadow-lg mt-40 h-[36rem] rounded"
-                lazy=""
-                autoPlay={true}
-                playsinline=""
-                muted={true}
-                loop={true}
-              >
-                <source type="video/mp4" src="/videos/stellenangebote.mp4" />
-              </video>
-            ),
-          },
-        ]}
-        className="aspect-[2/1] mt-20"
-      ></ParallaxBanner>
       <Footer />
     </>
   );
 }
 
 export default Stellenangebote;
+
+Stellenangebote.noMainPadding = true;

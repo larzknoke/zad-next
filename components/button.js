@@ -1,4 +1,4 @@
-function Button({ href, children, className }) {
+function Button({ href, children, className, bgColor }) {
   return (
     <a
       className={`btn-fx-1 ${className}`}
@@ -6,7 +6,9 @@ function Button({ href, children, className }) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="btn-fx-1__inner bp3-padding-y-xs bp3-padding-x-sm">
+      <div
+        className={`btn-fx-1__inner bp3-padding-y-xs bp3-padding-x-sm ${bgColor}`}
+      >
         <span>{children}</span>
 
         <div className="btn-fx-1__icon-wrapper" aria-hidden="true">
