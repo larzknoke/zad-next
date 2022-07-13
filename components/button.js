@@ -1,10 +1,11 @@
-function Button({ href, children, className, bgColor }) {
+function Button({ href, children, className, bgColor, onClickHandler }) {
   return (
     <a
       className={`btn-fx-1 ${className}`}
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={onClickHandler}
     >
       <div
         className={`btn-fx-1__inner bp3-padding-y-xs bp3-padding-x-sm ${bgColor}`}

@@ -1,8 +1,14 @@
-import React, { useRef, useCallback } from "react";
+import React, { useState } from "react";
 import Footer from "../components/footer";
 import Button from "../components/button";
 import Image from "next/image";
 function Unternehmen() {
+  const [showNewspaper, setShowNewspaper] = useState(false);
+
+  const onClickHandler = () => {
+    setShowNewspaper(!showNewspaper);
+  };
+
   return (
     <div className="mx-auto pt-3 pb-16">
       <video
@@ -15,7 +21,7 @@ function Unternehmen() {
       >
         <source type="video/mp4" src="/videos/software-pflegedienste.mp4" />
       </video>
-      <div className="px-[10%] lg:px-[25%] my-32">
+      <div className="px-[10%] lg:px-[25%] my-16 md:my-32">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD – mehr als Zahlen</h2>
         <p>
@@ -65,7 +71,7 @@ function Unternehmen() {
             Managementsystems hin analysiert.
           </li>
         </ul>
-        <div className="bg-zad-blue-600 p-12 my-24 rounded">
+        <div className="bg-zad-blue-600 p-8 lg:p-16 my-24 rounded">
           <p className="font-medium m-0 text-white text-lg text-center">
             Als Team setzten wir uns gemeinsam Ziele. Um diese zu definieren,
             entwickelte eine Gruppe von Mitarbeiterinnen und Mitarbeitern aus
@@ -77,12 +83,148 @@ function Unternehmen() {
               "table mx-auto mt-8 border border-transparent hover:border-white"
             }
             bgColor={"bg-white"}
+            onClickHandler={onClickHandler}
           >
             Zeitungsartikel 2033
           </Button>
+          <div
+            className={`relative transition-all duration-300  ${
+              showNewspaper
+                ? "max-h-[1500px] opacity-100  mt-24"
+                : " max-h-0 overflow-hidden opacity-0"
+            }`}
+          >
+            <div className="px-8 py-6 rounded bg-gray-200 text-zad-blue-600 rotate-3 absolute z-10 top-0 left-0">
+              <div className="flex flex-row justify-between  border-b-2 border-double border-zad-blue-600 py-4 uppercase px-2">
+                <span>Die Tageszeitung</span>
+                <span>Jg. 2033</span>
+              </div>
+              <div className="py-12 border-b-2 border-double border-zad-blue-600">
+                <h2>Der ZAD rechnet ab!</h2>
+                <h3>
+                  Damit ambulante Pflegeeinrichtungen, Krankentransporter und
+                  Rettungsdienste ihren Job machen können
+                </h3>
+                <p>
+                  Es war 1984, als ein fünfköpfiges Team antrat, um als ZAD die
+                  Abrechnung von Krankentransporten zu revolutionieren. Heute
+                  ist die ZAD der bundesweite Premiumanbieter für alle
+                  Abrechnungsfragen im Bereich Ambulanter Pflege und
+                  Krankentransport/Rettungsdienst. Ein Unternehmen, das dank
+                  seines hoch motivierten Teams und eines effizienten,
+                  firmeneigenen Aus- und Weiterbildungszentrum zu Recht als
+                  Talentschmiede Südniedersachsens gilt, zertifiziert als
+                  TOP-Arbeitgeber der Region!
+                </p>
+                <p>
+                  Wie war das möglich? Ausschlaggebend war das Jahr 2017, als
+                  die ZAD-Geschäftsführerin Gabriele Zahel das
+                  EFQM-Managementsystem einführte. Ein gemischtes Team
+                  entwickelte innovative Ideen für selbst entwickelte
+                  Softwarelösungen, die voll digitalisierte Abläufe zwischen
+                  Kunden, ZAD und Kostenträger ermöglichten. Stets so, dass der
+                  Kunde die volle Kontrolle über das Ausmaß der Digitalisierung
+                  behielt.
+                </p>
+                <p>
+                  Zentrales Element der ZAD-Erfolgsstrategie blieb dabei stets
+                  die Konzentration auf die Bedürfnisse und Wünsche der eigenen
+                  Kunden, der Kostenträger und relevanter Interessengruppen, aus
+                  der stetig innovative Produkte und Dienstleistungen entwickelt
+                  wurden.
+                </p>
+                <p>
+                  Auch dem Fachkräftemangel konnte die ZAD gut begegnen. Die
+                  Unternehmensleitung legte stets großen Wert auf eine hohe
+                  Mitarbeiterzufriedenheit, die beispielsweise durch eine
+                  vollkommen flexible Arbeitszeitgestaltung erreicht wurde.
+                </p>
+                <p>
+                  „Ebenso wichtig für unseren Erfolg war und ist bis heute
+                  unsere persönliche Betreuung“, erklärt die ZAD-Gründerin
+                  Gabriele Zahel rückblickend. „Wir haben stets die Ziele
+                  unserer Kunden zu unseren eigenen gemacht, um zum vereinbarten
+                  Zeitpunkt die von ihnen gewünschte Liquidität zu erreichen.“
+                  „Und das mit einem Minimum an Aufwand für unsere Kunden“,
+                  ergänzen die ZAD-Geschäftsführerinnen Ulrike und Irina Niesen.
+                </p>
+                <p className="mb-0">
+                  Nach ihrem Erfolgsrezept für die Zukunft gefragt, sind sich
+                  beide einig: „Kurze Entscheidungswege. Wir wollen für unsere
+                  Kunden da sein, wenn sie uns brauchen, um ihnen in allen
+                  relevanten Belangen zur Seite zu stehen, zugewandt, freundlich
+                  und lösungsorientiert.“
+                </p>
+              </div>
+            </div>
+            <div className="px-8 py-6 rounded bg-gray-300 text-zad-blue-600 rotate-1">
+              <div className="flex flex-row justify-between  border-b-2 border-double border-zad-blue-600 py-4 uppercase px-2">
+                <span>Die Tageszeitung</span>
+                <span>Jg. 2033</span>
+              </div>
+              <div className="py-12 border-b-2 border-double border-zad-blue-600">
+                <h2>Der ZAD rechnet ab!</h2>
+                <h3>
+                  Damit ambulante Pflegeeinrichtungen, Krankentransporter und
+                  Rettungsdienste ihren Job machen können
+                </h3>
+                <p>
+                  Es war 1984, als ein fünfköpfiges Team antrat, um als ZAD die
+                  Abrechnung von Krankentransporten zu revolutionieren. Heute
+                  ist die ZAD der bundesweite Premiumanbieter für alle
+                  Abrechnungsfragen im Bereich Ambulanter Pflege und
+                  Krankentransport/Rettungsdienst. Ein Unternehmen, das dank
+                  seines hoch motivierten Teams und eines effizienten,
+                  firmeneigenen Aus- und Weiterbildungszentrum zu Recht als
+                  Talentschmiede Südniedersachsens gilt, zertifiziert als
+                  TOP-Arbeitgeber der Region!
+                </p>
+                <p>
+                  Wie war das möglich? Ausschlaggebend war das Jahr 2017, als
+                  die ZAD-Geschäftsführerin Gabriele Zahel das
+                  EFQM-Managementsystem einführte. Ein gemischtes Team
+                  entwickelte innovative Ideen für selbst entwickelte
+                  Softwarelösungen, die voll digitalisierte Abläufe zwischen
+                  Kunden, ZAD und Kostenträger ermöglichten. Stets so, dass der
+                  Kunde die volle Kontrolle über das Ausmaß der Digitalisierung
+                  behielt.
+                </p>
+                <p>
+                  Zentrales Element der ZAD-Erfolgsstrategie blieb dabei stets
+                  die Konzentration auf die Bedürfnisse und Wünsche der eigenen
+                  Kunden, der Kostenträger und relevanter Interessengruppen, aus
+                  der stetig innovative Produkte und Dienstleistungen entwickelt
+                  wurden.
+                </p>
+                <p>
+                  Auch dem Fachkräftemangel konnte die ZAD gut begegnen. Die
+                  Unternehmensleitung legte stets großen Wert auf eine hohe
+                  Mitarbeiterzufriedenheit, die beispielsweise durch eine
+                  vollkommen flexible Arbeitszeitgestaltung erreicht wurde.
+                </p>
+                <p>
+                  „Ebenso wichtig für unseren Erfolg war und ist bis heute
+                  unsere persönliche Betreuung“, erklärt die ZAD-Gründerin
+                  Gabriele Zahel rückblickend. „Wir haben stets die Ziele
+                  unserer Kunden zu unseren eigenen gemacht, um zum vereinbarten
+                  Zeitpunkt die von ihnen gewünschte Liquidität zu erreichen.“
+                  „Und das mit einem Minimum an Aufwand für unsere Kunden“,
+                  ergänzen die ZAD-Geschäftsführerinnen Ulrike und Irina Niesen.
+                </p>
+                <p className="mb-0">
+                  Nach ihrem Erfolgsrezept für die Zukunft gefragt, sind sich
+                  beide einig: „Kurze Entscheidungswege. Wir wollen für unsere
+                  Kunden da sein, wenn sie uns brauchen, um ihnen in allen
+                  relevanten Belangen zur Seite zu stehen, zugewandt, freundlich
+                  und lösungsorientiert.“
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* )} */}
         </div>
       </div>
-      <div className="text-center mx-auto">
+      <div className="text-center mx-auto px-12 lg:px-0">
         <h2 className="text-center mb-8">Pfelgeabrechnung</h2>
         <Image
           src={"/images/unternehmen/team_pflegeabrechnung.png"}
@@ -91,7 +233,7 @@ function Unternehmen() {
           height={256}
         />
       </div>
-      <div className="text-center mx-auto mt-24">
+      <div className="text-center mx-auto mt-24  px-12 lg:px-0">
         <h2 className="text-center mb-8">Krankentransportabrechnung</h2>
         <Image
           src={"/images/unternehmen/team_krankentransport.png"}
