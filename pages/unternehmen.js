@@ -1,93 +1,20 @@
 import React, { useRef, useCallback } from "react";
 import Footer from "../components/footer";
-import { ParallaxBanner } from "react-scroll-parallax";
-// import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Button from "../components/button";
 import Image from "next/image";
 function Unternehmen() {
-  const settings = {
-    fade: true,
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    arrows: false,
-  };
-
   return (
     <div className="mx-auto pt-3 pb-16">
-      {/* <Slider {...settings}>
-        <div>
-          <img
-            className="drop-shadow-lg w-full  py-16 bg-white"
-            src="images/unternehmen/slider/Team9.jpg"
-            alt="Team9"
-          />
-        </div>
-        <div>
-          <img
-            className="drop-shadow-lg w-full  py-16 bg-white"
-            src="images/unternehmen/slider/Team10.jpg"
-            alt="Team10"
-          />
-        </div>
-        <div>
-          <img
-            className="drop-shadow-lg w-full  py-16 bg-white"
-            src="images/unternehmen/slider/Team11.jpg"
-            alt="Team11"
-          />
-        </div>
-        <div>
-          <img
-            className="drop-shadow-lg w-full  py-16 bg-white"
-            src="images/unternehmen/slider/Team12.jpg"
-            alt="Team12"
-          />
-        </div>
-        <div>
-          <img
-            className="drop-shadow-lg w-full  py-16 bg-white"
-            src="images/unternehmen/slider/Team21.jpg"
-            alt="Team21"
-          />
-        </div>
-        <div>
-          <img
-            className="drop-shadow-lg w-full  py-16 bg-white"
-            src="images/unternehmen/slider/Team22.jpg"
-            alt="Team22"
-          />
-        </div>
-      </Slider> */}
-      <ParallaxBanner
-        layers={[
-          {
-            speed: -13,
-            children: (
-              <video
-                className="object-cover w-full drop-shadow-lg mt-40 h-[36rem]"
-                lazy=""
-                autoPlay={true}
-                playsInline=""
-                muted={true}
-                loop={true}
-              >
-                <source
-                  type="video/mp4"
-                  src="/videos/software-pflegedienste.mp4"
-                />
-              </video>
-            ),
-          },
-        ]}
-        className="aspect-[3/1]"
-      ></ParallaxBanner>
+      <video
+        className="object-cover w-full drop-shadow-lg h-[36rem]"
+        lazy=""
+        autoPlay={true}
+        playsInline=""
+        muted={true}
+        loop={true}
+      >
+        <source type="video/mp4" src="/videos/software-pflegedienste.mp4" />
+      </video>
       <div className="px-[10%] lg:px-[25%] my-32">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD – mehr als Zahlen</h2>

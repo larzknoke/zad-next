@@ -5,7 +5,6 @@ import Link from "next/link";
 import TransportIcon from "../components/transportIcon";
 import MedicalIcon from "../components/medicalIcon";
 // import Arrow from "react-arrows";
-import { ParallaxBanner } from "react-scroll-parallax";
 
 const Arrow = dynamic(() => import("react-arrows"), { ssr: false });
 const DIRECTION = dynamic(
@@ -24,26 +23,16 @@ import {
 function Leistungen() {
   return (
     <>
-      <ParallaxBanner
-        layers={[
-          {
-            speed: -8,
-            children: (
-              <video
-                className="object-cover w-full drop-shadow-lg mt-32 h-[36rem]"
-                lazy=""
-                autoPlay={true}
-                loop={true}
-                playsinline=""
-                muted={true}
-              >
-                <source type="video/mp4" src="/videos/leistungen.mp4" />
-              </video>
-            ),
-          },
-        ]}
-        className="aspect-[3/1]"
-      ></ParallaxBanner>
+      <video
+        className="object-cover w-full drop-shadow-lg  h-[36rem]"
+        lazy=""
+        autoPlay={true}
+        loop={true}
+        playsinline=""
+        muted={true}
+      >
+        <source type="video/mp4" src="/videos/leistungen.mp4" />
+      </video>
       <div className="py-32 px-40 lg:space-x-16 flex flex-wrap lg:flex-nowrap mx-auto justify-center text-center mb-56 ">
         <Link href="/krankentransporte">
           <a className="leistungen-horizontal">

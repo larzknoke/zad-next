@@ -2,7 +2,6 @@ import React from "react";
 import Sidenav from "../components/sidenav";
 import Link from "next/link";
 import Button from "../components/button";
-import { ParallaxBanner } from "react-scroll-parallax";
 import Image from "next/image";
 
 function Krankentransporte() {
