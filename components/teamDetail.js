@@ -14,8 +14,8 @@ function Team({ person, index, kontakt = false }) {
           ref={ref}
           className={`w-[80%] md:w-[45%] xl:w-[25%] flex flex-col ${
             !kontakt ? " text-white " : " text-zad-blue-600 "
-          } text-center team-box opacity-0 ${index} ${
-            inView ? "opacity-100 animate-in zoom-in duration-500" : ""
+          } text-center team-box  ${index} ${
+            inView ? "opacity-100 animate-in zoom-in duration-500" : "opacity-0"
           }`}
         >
           <div className="relative">
