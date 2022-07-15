@@ -54,7 +54,7 @@ function Pflegedienste() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col w-full gap-8">
+        <div className="flex-col w-full max-w-xs gap-8 hidden xl:flex min-w-[14rem]">
           <Image
             src="/images/start/pfleger.jpg"
             className=" object-cover rounded "
