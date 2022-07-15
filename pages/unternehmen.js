@@ -79,7 +79,7 @@ function Unternehmen() {
           wir Ihnen hier präsentieren:
         </h2>
         <div className="bg-zad-blue-600 p-8 lg:p-16 mb-24 rounded">
-          <h2 className="text-white text-center">
+          <h2 className="text-white text-center underline underline-offset-8 px-16 mb-10">
             Unsere Zukunft: ein Planspiel
           </h2>
           <p className="font-medium m-0 text-white text-lg text-center">
