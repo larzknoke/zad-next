@@ -71,12 +71,22 @@ function Unternehmen() {
             Managementsystems hin analysiert.
           </li>
         </ul>
-        <div className="bg-zad-blue-600 p-8 lg:p-16 my-24 rounded">
+
+        <h2 className="text-center text-lg mt-20 mb-8">
+          Als Team setzten wir uns gemeinsam Ziele. Um diese zu definieren,
+          entwickelte eine Gruppe von Mitarbeiterinnen und Mitarbeitern aus
+          allen Unternehmensbereichen einen Text über die zukünftige ZAD, den
+          wir Ihnen hier präsentieren:
+        </h2>
+        <div className="bg-zad-blue-600 p-8 lg:p-16 mb-24 rounded">
+          <h2 className="text-white text-center">
+            Unsere Zukunft: ein Planspiel
+          </h2>
           <p className="font-medium m-0 text-white text-lg text-center">
-            Als Team setzten wir uns gemeinsam Ziele. Um diese zu definieren,
-            entwickelte eine Gruppe von Mitarbeiterinnen und Mitarbeitern aus
-            allen Unternehmensbereichen einen Text über die zukünftige ZAD, den
-            wir Ihnen hier präsentieren
+            Nach intensiven Gesprächen, zündenden und verworfenen Ideen und viel
+            Kaffee entwickelte eine Gruppe von ZAD-Mitarbeiterinnen und
+            Mitarbeitern im Rahmen eines Workshops einen Zeitungsbeitrag, wie er
+            in zehn Jahren vielleicht einmal erscheinen könnte.
           </p>
           <Button
             className={
