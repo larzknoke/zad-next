@@ -113,31 +113,6 @@ function Impressum() {
         kommerziellen Zwecken kopiert, verbreitet, verändert oder Dritten
         zugänglich gemacht werden.
       </p>
-      <h3 className="mt-8">Urheberrechtsnachweise/Bildquellen</h3>
-      <p>
-        Startseite und Unterseiten
-        <br />
-        Hand holding a compass with blue sky background – © Bluesky60 /
-        fotolia.com
-        <br />
-        Arashiyama Bamboo Forest – © vichie81 / fotolia.com
-        <br />
-        Navigation – © Jörg Vollmer / fotolia.com
-        <br />
-        Ambulanz – © Thaut Images / fotolia.com
-        <br />
-        Senior Mann und Altenpfleger in Seniorenheim – © Kzenon / fotolia.com
-        <br />
-        Creative woman working with computer in the office – © Kaspars Grinvalds
-        / fotolia.com
-        <br />
-        Portrait of cheerful happy doctor in hospital with crossed hands – ©
-        deagreez / fotolia.com
-        <br />
-        Taxi – © cameris / fotolia.com
-        <br />
-        Mitarbeiter gesucht – © Coloures-pic / fotolia.com
-      </p>
     </div>
   );
 }
