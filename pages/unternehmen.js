@@ -44,7 +44,7 @@ function Unternehmen() {
           begeistern: Ihr Erfolgt ist unser Erfolg.
         </p>
         <p className="mb-4 font-bold">Unsere Grundsätze:</p>
-        <ul className="text-zad-blue-600 list-disc list-inside">
+        <ul className="text-zad-blue-600 list-disc list-outside pl-4">
           <li>
             Kompetenz zahlt sich aus. Deshalb legen wir größten Wert auf unsere
             Qualifikation und werden dabei von der Unternehmensleitung
