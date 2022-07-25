@@ -46,12 +46,8 @@ function Pflegedienste() {
             klar strukturiert für Sie „gezähmt“.
           </p>
           <div className="flex space-x-10 my-10 w-full items-stretch justify-items-stretch">
-            <Link href="/kontakt" passHref>
-              <Button>Jetzt Anfrage senden</Button>
-            </Link>
-            <Link href="/team" passHref>
-              <Button>Ansprechpartner finden</Button>
-            </Link>
+            <Button href="/kontakt">Jetzt Anfrage senden</Button>
+            <Button href="/team">Ansprechpartner finden</Button>
           </div>
         </div>
         <div className="flex-col w-full max-w-xs gap-8 hidden xl:flex min-w-[14rem]">

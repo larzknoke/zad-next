@@ -53,12 +53,12 @@ function Krankentransporte() {
             im Blätterwald, alles ganz einfach per Mausklick.
           </p>
           <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-8 lg:space-y-0 my-10 w-full items-stretch justify-items-stretch">
-            <Link href="/kontakt" passHref>
-              <Button>Jetzt Anfrage senden</Button>
-            </Link>
-            <Link href="/team" passHref>
-              <Button>Ansprechpartner finden</Button>
-            </Link>
+            <Button href="/kontakt" passHref>
+              Jetzt Anfrage senden
+            </Button>
+            <Button href="/team" passHref>
+              Ansprechpartner finden
+            </Button>
           </div>
         </div>
         <div className="flex-col w-full max-w-xs gap-8 hidden xl:flex min-w-[14rem]">

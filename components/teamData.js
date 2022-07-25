@@ -123,8 +123,8 @@ const teamData = {
       imageHover: "knauer",
     },
     {
-      name: "Maria Lasota,",
-      title: "Stellv. Teamleitung",
+      name: "Maria Lasota",
+      title: "Stellv. Teamleitung 22",
       phone: "05551 / 96 88-0",
       fax: "05551 / 96 88-88",
       email: "maria.lasota@zad-northeim.de",

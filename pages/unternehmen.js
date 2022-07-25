@@ -44,7 +44,7 @@ function Unternehmen() {
           begeistern: Ihr Erfolgt ist unser Erfolg.
         </p>
         <p className="mb-4 font-bold">Unsere Grundsätze:</p>
-        <ul className="text-zad-blue-600 list-disc list-outside">
+        <ul className="text-zad-blue-600 list-disc list-inside">
           <li>
             Kompetenz zahlt sich aus. Deshalb legen wir größten Wert auf unsere
             Qualifikation und werden dabei von der Unternehmensleitung
@@ -235,12 +235,12 @@ function Unternehmen() {
         </div>
       </div>
       <div className="text-center mx-auto px-12 lg:px-0">
-        <h2 className="text-center mb-8">Pfelgeabrechnung</h2>
+        <h2 className="text-center mb-8">Pflegeabrechnung</h2>
         <Image
           src={"/images/unternehmen/team_pflegeabrechnung.png"}
           alt="Team Pflegeabrechnung"
-          width={1200}
-          height={256}
+          width={1248}
+          height={250}
         />
       </div>
       <div className="text-center mx-auto mt-24  px-12 lg:px-0">
@@ -248,18 +248,20 @@ function Unternehmen() {
         <Image
           src={"/images/unternehmen/team_krankentransport.png"}
           alt="Team Pflegeabrechnung"
-          width={877}
-          height={259}
+          width={1099}
+          height={250}
         />
       </div>
       <div className="flex flex-row px-[15%]">
         <div className="text-center mx-auto mt-24">
-          <h2 className="text-center mb-8">Administratoren</h2>
+          <h2 className="text-center mb-8">
+            Administration und IT-Entwicklung
+          </h2>
           <Image
             src={"/images/unternehmen/team_admin.png"}
             alt="Team Pflegeabrechnung"
-            width={415}
-            height={249}
+            width={173}
+            height={251}
           />
         </div>
         <div className="text-center mx-auto mt-24">
@@ -267,7 +269,7 @@ function Unternehmen() {
           <Image
             src={"/images/unternehmen/team_vertrieb.png"}
             alt="Team Pflegeabrechnung"
-            width={392}
+            width={414}
             height={250}
           />
         </div>

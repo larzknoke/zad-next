@@ -74,9 +74,9 @@ function Software() {
               src="images/pflegesuite.png"
               alt="Pflegesuite Logo"
             />
-            <Link href="https://promo.pflegesuite.de/" passHref>
-              <Button>Direkt zur webbasierten Pflegesoftware</Button>
-            </Link>
+            <Button href="https://promo.pflegesuite.de/">
+              Direkt zur webbasierten Pflegesoftware
+            </Button>
           </div>
         </div>
         <div className="flex-col w-full max-w-xs gap-8 hidden xl:flex min-w-[14rem]">

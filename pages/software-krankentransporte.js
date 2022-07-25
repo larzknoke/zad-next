@@ -133,10 +133,6 @@ function Software() {
               unabhängig von ZAD vollständig nutzbar. Sie müssen kein ZAD-Kunde
               sein, um Ihre Leistungen über dispolive abzurechnen.{" "}
             </p>
-            <p>
-              Möchten Sie dispolive testen? Sprechen Sie uns an. Wir stellen
-              Ihnen gern ein kostenfreies Testgerät zur Verfügung
-            </p>
           </div>
           <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch px-20 space-y-6">
             <img
@@ -144,11 +140,9 @@ function Software() {
               src="images/dispo.svg"
               alt="disolive Logo"
             />
-            <Link href="/kontakt" passHref>
-              <Button>
-                Direkt zur webbasierten Software für den Krankentransport
-              </Button>
-            </Link>
+            <Button href="https://www.zadtools.de">
+              Direkt zur webbasierten Software für den Krankentransport
+            </Button>
           </div>
         </div>
       </div>

@@ -84,8 +84,8 @@ export default function Home() {
               Software für <br /> Krankentransporte
             </span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
-              Optimierte Planung- und Verwaltung für Rettungs- dienste und
-              Beförderungs- unternehmen. In Koopera- tion mit ZADtolls wurde die
+              Optimierte Planung und Verwaltung für Rettungsdienste und
+              Beförderungsunternehmen. In Kooperation mit ZADtolls wurde die
               Software „Dispolive“ für Krankentransporte entwickelte.
             </span>
             <img
@@ -127,9 +127,8 @@ export default function Home() {
               Software für <br /> Pflegedienste
             </span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
-              Mit der Gründung des Unternehmens „Click On Live“ wurde eine neue
-              Software für den ambulanten Pflege- dienst entwickelt. (hier noch
-              ein Vorteil)
+              Mit der Gründung des Unternehmens wurde eine neue Software für den
+              ambulanten Pflege- dienst entwickelt. (hier noch ein Vorteil)
             </span>
             <img
               className="pt-8 w-3/4 self-center"
@@ -179,11 +178,9 @@ export default function Home() {
         <h2 className="text-white mb-0 text-xl xl:text-2xl">
           Sie möchten mehr über den ZAD erfahren? Wir informieren Sie gerne.
         </h2>
-        <Link href="/kontakt" passHref>
-          <Button className="px-8" bgColor="bg-zad-blue-200">
-            Zur Kontaktseite
-          </Button>
-        </Link>
+        <Button href="/kontakt" className="px-8" bgColor="bg-zad-blue-200">
+          Zur Kontaktseite
+        </Button>
       </div>
       <Footer />
     </div>
