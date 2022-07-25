@@ -60,7 +60,7 @@ function Button({ href, children, className = "", bgColor, onClickHandler }) {
           <div
             className={`btn-fx-1__inner bp3-padding-y-xs bp3-padding-x-sm ${bgColor}`}
           >
-            <span>{children} 2</span>
+            <span>{children}</span>
 
             <div className="btn-fx-1__icon-wrapper" aria-hidden="true">
               <svg className="bp3-icon bp3-margin-left-2xs" viewBox="0 0 20 20">
