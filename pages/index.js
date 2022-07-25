@@ -128,8 +128,8 @@ export default function Home() {
             </span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
               Mit der Gründung des Unternehmens ZAD TECH wurde eine neue
-              Software für den ambulanten Pflegedienst entwickelt. Die
-              intelligente Verbindung von Tou- renplanung mit Factoring.
+              Software "PflegeSuite" für den ambulanten Pflegedienst entwickelt.
+              Die intelligente Verbindung von Tourenplanung mit Factoring.
             </span>
             <img
               className="pt-8 w-3/4 self-center"
