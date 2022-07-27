@@ -64,7 +64,7 @@ function Leistungen() {
             </span>
             <span className="border-t border-zad-blue-200 pt-4 px-3">
               Optimierte Planung und Verwaltung für Rettungsdienste und
-              Beförderungsunternehmen. In Kooperation mit ZADtolls wurde die
+              Beförderungsunternehmen. In Kooperation mit ZADtools wurde die
               Software „Dispolive“ für Krankentransporte entwickelte.
             </span>
             <img
