@@ -17,8 +17,8 @@ function Pflegedienste() {
         <source type="video/mp4" src="/videos/vid_unternehmen.mp4" />
       </video>
 
-      <div className="mx-auto flex flex-col lg:flex-row py-24 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
-        <div className="lg:space-y-8 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start">
+      <div className="mx-auto flex flex-col lg:flex-row py-12 md:py-24 md:px-28 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-12 md:space-y-16 lg:space-y-0">
+        <div className="lg:space-y-8 gap-y-4 md:gap-y-0 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start flex-wrap">
           <Sidenav />
         </div>
         <div>
@@ -39,13 +39,13 @@ function Pflegedienste() {
           </p>
 
           <p>
-            Das Ergebnis: Mehr Zeit und Zahlungskraft, mehr Sicherheit und
+            2Das Ergebnis: Mehr Zeit und Zahlungskraft, mehr Sicherheit und
             Wirtschaftlichkeit, mehr Übersicht und Kostentransparenz. Das
             einzige, worauf Sie verzichten müssen, ist das Abenteuer
             Papierdschungel. Denn den haben wir im ZAD-Kundeninformationscenter
             klar strukturiert für Sie „gezähmt“.
           </p>
-          <div className="flex space-x-10 my-10 w-full items-stretch justify-items-stretch">
+          <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-8 lg:space-y-0 my-10 w-full items-stretch justify-items-stretch">
             <Button href="/kontakt">Jetzt Anfrage senden</Button>
             <Button href="/team">Ansprechpartner finden</Button>
           </div>

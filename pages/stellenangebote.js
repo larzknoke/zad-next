@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../components/button";
 import Footer from "../components/footer";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Stellenangebote() {
   return (
@@ -17,7 +19,7 @@ function Stellenangebote() {
         <source type="video/mp4" src="/videos/stellenangebote.mp4" />
       </video>
 
-      <div className="mx-auto flex flex-col lg:flex-row py-24 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
+      <div className="mx-auto flex flex-col lg:flex-row  py-12 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
         <div className="w-full  lg:w-2/3">
           <h3>Aus dem Stellendschungel zu neuen Perspektiven mit Weitblick.</h3>
           <h2>Werden Sie Teil der ZAD-Familie</h2>
@@ -79,11 +81,12 @@ function Stellenangebote() {
             <span className="font-bold mb-2">
               Bewerbungsmanagement - Julia Wiesner
             </span>
-            <div>
-              <i className="mr-2 fa-solid fa-phone"></i> 0 55 51 / 96 88 - 789
+            <div className="flex">
+              <FontAwesomeIcon icon={faPhone} className="w-4 mr-2" /> 0 55 51 /
+              96 88 - 789
             </div>
-            <div>
-              <i className="mr-2 fa-solid fa-envelope"></i>
+            <div className="flex">
+              <FontAwesomeIcon icon={faEnvelope} className="w-4 mr-2" />
               <a href="mailto:bewerbung@zad-northeim.de">
                 bewerbung@zad-northeim.de
               </a>
@@ -92,11 +95,12 @@ function Stellenangebote() {
             <span className="font-bold mb-2">
               Ausbildungsmanagement – Marvin Curdt
             </span>
-            <div>
-              <i className="mr-2 fa-solid fa-phone"></i> 0 55 51 / 96 88 - 621
+            <div className="flex">
+              <FontAwesomeIcon icon={faPhone} className="w-4 mr-2" />0 55 51 /
+              96 88 - 621
             </div>
-            <div>
-              <i className="mr-2 fa-solid fa-envelope"></i>
+            <div className="flex">
+              <FontAwesomeIcon icon={faEnvelope} className="w-4 mr-2" />
               <a href="mailto:ausbildung@zad-northeim.de">
                 ausbildung@zad-northeim.de
               </a>

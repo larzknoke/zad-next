@@ -30,13 +30,12 @@ a:hover {
 }
 
 .leistungen-horizontal {
-  @apply max-w-sm my-12 md:my-16 xl:my-0;
+  @apply max-w-sm my-10 md:my-16 xl:my-0;
 }
 
-/* .open .leistungen-horizontal,
-.open .leistungen-vertical {
-  z-index: 900;
-} */
+.leistungen-vertical {
+  @apply w-1/2 md:w-auto;
+}
 
 div[class^="leistungen-icon-"] {
   @apply inline-flex items-center justify-center mx-auto  text-zad-blue-600 transition-colors duration-300 bg-white rounded-full border-[3px] p-4 border-zad-blue-600 overflow-hidden relative;
@@ -157,8 +156,8 @@ main.tease:not(.open) .hand {
   stroke: theme("colors.red.500");
   fill: transparent;
   stroke-dasharray: 0 10;
-  strokewidth: 5px;
-  strokelinecap: round;
+  stroke-width: 5px;
+  stroke-linecap: round;
 }
 
 .arrow__head {
@@ -170,7 +169,7 @@ main.tease:not(.open) .hand {
 }
 
 .team-header {
-  @apply text-white text-3xl text-center mt-36 mb-16 font-normal;
+  @apply text-white text-3xl text-center mt-16 md:mt-32 mb-16 font-normal;
 }
 
 /* NAVIGATION */

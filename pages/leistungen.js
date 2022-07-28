@@ -24,7 +24,7 @@ function Leistungen() {
   return (
     <>
       <video
-        className="object-cover w-full drop-shadow-lg  h-[36rem]"
+        className="object-cover w-full drop-shadow-lg  h-[36rem] hidden lg:block"
         lazy=""
         autoPlay={true}
         loop={true}
@@ -33,7 +33,7 @@ function Leistungen() {
       >
         <source type="video/mp4" src="/videos/leistungen.mp4" />
       </video>
-      <div className="py-32 px-40 lg:space-x-16 flex flex-wrap lg:flex-nowrap mx-auto justify-center text-center mb-56 ">
+      <div className="py-16 lg:py-32 px-[5%] md:px-[10%] lg:space-x-16 flex flex-wrap lg:flex-nowrap mx-auto justify-center text-center ">
         <Link href="/krankentransporte">
           <a className="leistungen-horizontal">
             <div className="leistungen-icon-horizontal">
@@ -46,7 +46,7 @@ function Leistungen() {
                 className="w-3/4 icon-end"
               />
             </div>
-            <span className="font-bold h-16 text-xl">Krankentransporte</span>
+            <span className="font-bold md:h-16 text-xl">Krankentransporte</span>
             <span className="border-t border-zad-blue-200 pt-4 px-3">
               Qualität ist eine Frage der Geschwindigkeit. Wir bieten
               Abrechnungen für Rettungsdienste und Krankentransporte.
@@ -59,7 +59,7 @@ function Leistungen() {
               <TransportIcon className="w-3/4 icon-start" />
               <TransportIcon className="w-3/4 icon-end" />
             </div>
-            <span className="font-bold h-16 text-xl">
+            <span className="font-bold md:h-16 text-xl">
               Software für <br /> Krankentransporte
             </span>
             <span className="border-t border-zad-blue-200 pt-4 px-3">
@@ -80,7 +80,7 @@ function Leistungen() {
               <MedicalIcon className="w-3/4 icon-start" />
               <MedicalIcon className="w-3/4 icon-end" />
             </div>
-            <span className="font-bold h-16 text-xl">Pflegedienste</span>
+            <span className="font-bold md:h-16 text-xl">Pflegedienste</span>
             <span className="border-t border-zad-blue-200 pt-4 px-3">
               Fast jede Kasse wickelt die Leistungsabrechnung anders ab. Mit ZAD
               können Sie sich wieder dem Wesentlichen zuwenden.
@@ -99,7 +99,7 @@ function Leistungen() {
                 className="w-3/4 icon-end"
               />
             </div>
-            <span className="font-bold h-16 text-xl">
+            <span className="font-bold md:h-16 text-xl">
               Software für <br /> Pflegedienste
             </span>
             <span className="border-t border-zad-blue-200 pt-4 px-3">

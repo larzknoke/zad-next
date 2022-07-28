@@ -86,7 +86,7 @@ function Kontakt() {
             persönlicher Ansprechpartner ist immer für Sie da – so, als säßen
             Sie ihm direkt gegenüber.
           </p>
-          <div className="my-10 flex flex-wrap space-x-20">
+          <div className="my-10 flex flex-col md:flex-row flex-wrap md:space-x-20 items-center space-y-10 md:space-y-0">
             {teamData.zentrale.map((person, i) => {
               return (
                 <TeamDetail
@@ -112,13 +112,13 @@ function Kontakt() {
               <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
             </div>
           </div>
-          <div className="flex row-start space-x-4 items-start">
+          <div className="flex flex-col md:flex-row row-start space-x-4 items-start">
             <img
-              className="object-contain rounded-sm w-2/3"
+              className="object-contain rounded-sm w-full md:w-2/3"
               src="images/map.jpeg"
             />
             <img
-              className="object-contain rounded-sm w-1/3"
+              className="object-contain rounded-sm hidden md:block md:w-1/3"
               src="images/zad_gebaeude.jpeg"
             />
           </div>

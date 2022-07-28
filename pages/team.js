@@ -11,7 +11,7 @@ function Unternehmen() {
         src="images/unternehmen/slider/Team12.jpg"
         alt="Team12"
       /> */}
-      <div className="px-[15%] mb-16 bg-zad-blue-600 text-white drop-shadow-lg p-20">
+      <div className="px-[5%] md:px-[15%] py-[15%] md:py-[10%] mb-16 bg-zad-blue-600 text-white drop-shadow-lg text-center md:text-left">
         <h3 className="text-white">Unser Team</h3>
         <h2 className="text-white">
           Für Sie haben wir immer einen Ansprechpartner

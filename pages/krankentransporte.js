@@ -17,8 +17,8 @@ function Krankentransporte() {
       >
         <source type="video/mp4" src="/videos/krankentransporte.mp4" />
       </video>
-      <div className="mx-auto flex flex-col lg:flex-row py-24 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
-        <div className="lg:space-y-8 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start">
+      <div className="mx-auto flex flex-col lg:flex-row py-12 md:py-24 md:px-28 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-12 md:space-y-16 lg:space-y-0">
+        <div className="lg:space-y-8 gap-y-4 md:gap-y-0 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start flex-wrap">
           <Sidenav />
         </div>
         <div>

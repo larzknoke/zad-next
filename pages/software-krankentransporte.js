@@ -18,18 +18,18 @@ function Software() {
         <source type="video/mp4" src="/videos/software_kranken.mp4" />
       </video>
 
-      <div className="mx-auto flex flex-col lg:flex-row py-24 md:px-28 md:py-24 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-16 lg:space-y-0">
-        <div className="lg:space-y-8 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start">
+      <div className="mx-auto flex flex-col lg:flex-row py-12 md:py-24 md:px-28 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-12 md:space-y-16 lg:space-y-0">
+        <div className="lg:space-y-8 gap-y-4 md:gap-y-0 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start flex-wrap">
           <Sidenav />
         </div>
         <div>
           <img
-            className="w-full drop-shadow px-12 lg:px-24"
+            className="w-full drop-shadow px-4 md:px-10 lg:px-24"
             src="images/leistungen/krankentransporte.svg"
             alt="Krankentransporte"
           />
           <div className="my-16">
-            <div className="flex flex-col w-1/3 ml-6 mb-6 gap-6 md:ml-16 md:mb-8 md:gap-8 float-right">
+            <div className="hidden md:flex flex-col w-1/3 ml-6 mb-6 gap-6 md:ml-16 md:mb-8 md:gap-8 float-right">
               <Image
                 src="/images/start/mann.jpg"
                 className=" object-cover rounded "
@@ -134,14 +134,17 @@ function Software() {
               sein, um Ihre Leistungen über dispolive abzurechnen.{" "}
             </p>
           </div>
-          <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch px-20 space-y-6">
+          <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch space-y-6">
             <img
-              className="pt-8 w-2/4 self-center"
+              className="pt-8 max-w-sm w-2/4 self-center"
               src="images/dispo.svg"
               alt="disolive Logo"
             />
-            <Button href="https://www.zadtools.de">
-              Direkt zur webbasierten Software für den Krankentransport
+            <Button href="https://www.zadtools.de" className="max-w-lg mx-auto">
+              <span className="hidden md:inline-block">
+                Direkt zur webbasierten
+              </span>{" "}
+              Software für den Krankentransport
             </Button>
           </div>
         </div>
