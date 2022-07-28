@@ -8,13 +8,13 @@ function SideMainNav({ openNav, handleNav }) {
     <nav
       className={
         (openNav ? "  translate-x-0 " : "  -translate-x-full ") +
-        " fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-zad-blue-600 text-white border-r overflow-y-auto z-[999] transition-all duration-150"
+        " fixed top-0 left-0 bottom-0 flex flex-col w-full  md:w-5/6 md:max-w-sm py-6 px-6 bg-zad-blue-600 text-white border-r overflow-y-auto z-[999] transition-all duration-150"
       }
     >
-      <div className="flex items-center mb-8">
+      <div className="flex items-center mb-8 justify-between">
         <Link href="/">
           <a onClick={() => handleNav()}>
-            <img src="images/zad_logo_white.svg" className="w-1/3" />
+            <img src="images/zad_logo_white.svg" className="w-1/2 md:w-1/3" />
           </a>
         </Link>
         <button onClick={() => handleNav()}>

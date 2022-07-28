@@ -31,9 +31,7 @@ function Main({
     >
       <div
         className={`max-w-[130em] mx-auto ${
-          noMainPadding
-            ? ""
-            : "px-16 py-16 md:px-28 md:py-24 xl:px-48 xl:py-32 "
+          noMainPadding ? "" : "px-6 py-12 md:px-28 md:py-24 xl:px-48 xl:py-32 "
         } `}
       >
         {children}

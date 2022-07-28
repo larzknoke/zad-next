@@ -21,7 +21,7 @@ export default function Home() {
         dem führenden Spezialisten für die Leistungsabrechnung im
         Gesundheitswesen.
       </h2>
-      <div className="flex  drop-shadow my-12 xl:mt-16 xl:mb-24">
+      <div className="hidden md:flex  drop-shadow my-12 xl:mt-16 xl:mb-24">
         {/* <div className="w-1/4 relative">
         </div> */}
         <Image
@@ -66,7 +66,9 @@ export default function Home() {
                 className="w-3/4 icon-end"
               />
             </div>
-            <span className="font-bold h-14 text-lg ">Krankentransporte</span>
+            <span className="font-bold md:h-14 text-lg ">
+              Krankentransporte
+            </span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
               Qualität ist eine Frage der Geschwindigkeit. Wir bieten
               Abrechnungen für Rettungsdienste und Krankentransporte.
@@ -80,7 +82,7 @@ export default function Home() {
               <TransportIcon className="w-3/4  icon-start" />
               <TransportIcon className="w-3/4  icon-end" />
             </div>
-            <span className="font-bold h-14 text-lg ">
+            <span className="font-bold md:h-14 text-lg ">
               Software für <br /> Krankentransporte
             </span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
@@ -104,7 +106,7 @@ export default function Home() {
               <MedicalIcon className="w-3/4 icon-start" />
               <MedicalIcon className="w-3/4 icon-end" />
             </div>
-            <span className="font-bold h-14 text-lg ">Pflegedienste</span>
+            <span className="font-bold md:h-14 text-lg ">Pflegedienste</span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
               Fast jede Kasse wickelt die Leistungsabrechnung anders ab. Mit ZAD
               können Sie sich wieder dem Wesentlichen zuwenden.
@@ -123,7 +125,7 @@ export default function Home() {
                 className="w-3/4 icon-end"
               />
             </div>
-            <span className="font-bold h-14 text-lg ">
+            <span className="font-bold md:h-14 text-lg ">
               Software für <br /> Pflegedienste
             </span>
             <span className="border-t border-zad-blue-200 pt-3 px-3">
@@ -162,7 +164,7 @@ export default function Home() {
           alt="PC"
         />
       </div> */}
-      <div className="relative rounded drop-shadow p-8 xl:p-16 my-16 xl:my-40 space-x-0 text-center xl:text-left xl:space-x-12 flex flex-col lg:flex-row space-y-6 lg:space-y-0 text-white bg-zad-blue-400 items-center justify-evenly xl:pl-64 ">
+      <div className="relative rounded drop-shadow p-8 xl:p-16 my-16 xl:my-40 space-x-0 text-center xl:text-left xl:space-x-12 flex flex-col lg:flex-row text-white bg-zad-blue-400 items-center justify-evenly xl:pl-64 ">
         {/* <img
           src="images/hand.png"
           alt="Hand"
@@ -177,7 +179,7 @@ export default function Home() {
           />
         </div>
 
-        <h2 className="text-white mb-0 text-xl xl:text-2xl">
+        <h2 className="text-white  text-xl xl:text-2xl">
           Sie möchten mehr über den ZAD erfahren? Wir informieren Sie gerne.
         </h2>
         <Button href="/kontakt" className="px-8" bgColor="bg-zad-blue-200">

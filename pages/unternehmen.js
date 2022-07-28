@@ -12,7 +12,7 @@ function Unternehmen() {
   return (
     <div className="mx-auto pt-3 pb-16">
       <video
-        className="object-cover w-full drop-shadow-lg h-[36rem]"
+        className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
         lazy=""
         autoPlay={true}
         playsInline=""
@@ -21,7 +21,7 @@ function Unternehmen() {
       >
         <source type="video/mp4" src="/videos/software-pflegedienste.mp4" />
       </video>
-      <div className="px-[10%] lg:px-[25%] my-16 md:my-32">
+      <div className="px-[5%] lg:px-[25%] my-6 md:my-16">
         <h3>Rechnen Sie mit uns</h3>
         <h2>ZAD – mehr als Zahlen</h2>
         <p>
@@ -79,7 +79,7 @@ function Unternehmen() {
           wir Ihnen hier präsentieren:
         </h2>
         <div className="bg-zad-blue-600 p-8 lg:p-16 mb-24 rounded">
-          <h2 className="text-white text-center underline underline-offset-8 px-16 mb-10">
+          <h2 className="text-white text-center md:underline underline-offset-8 md:px-16 md:mb-10">
             Unsere Zukunft: ein Planspiel
           </h2>
           <p className="font-medium m-0 text-white text-lg text-center">
@@ -100,11 +100,11 @@ function Unternehmen() {
           <div
             className={`relative transition-all duration-300  ${
               showNewspaper
-                ? "max-h-[1500px] opacity-100  mt-24"
+                ? "max-h-[2500px] opacity-100 mt-12 md:mt-24"
                 : " max-h-0 overflow-hidden opacity-0"
             }`}
           >
-            <div className="px-8 py-6 rounded bg-gray-200 text-zad-blue-600 rotate-3 absolute z-10 top-0 left-0">
+            <div className=" hidden md:block px-8 py-6 rounded bg-gray-200 text-zad-blue-600 md:rotate-2 absolute z-10 top-0 left-0">
               <div className="flex flex-row justify-between  border-b-2 border-double border-zad-blue-600 py-4 uppercase px-2">
                 <span>Die Tageszeitung</span>
                 <span>Jg. 2033</span>
@@ -167,7 +167,7 @@ function Unternehmen() {
                 </p>
               </div>
             </div>
-            <div className="px-8 py-6 rounded bg-gray-300 text-zad-blue-600 rotate-1">
+            <div className=" -mx-4 md:mx-0 px-8 py-6 rounded bg-gray-300 text-zad-blue-600 md:rotate-1">
               <div className="flex flex-row justify-between  border-b-2 border-double border-zad-blue-600 py-4 uppercase px-2">
                 <span>Die Tageszeitung</span>
                 <span>Jg. 2033</span>
@@ -234,7 +234,7 @@ function Unternehmen() {
           {/* )} */}
         </div>
       </div>
-      <div className="text-center mx-auto px-12 lg:px-0">
+      <div className="text-center mx-auto px-4 md:px-16 lg:px-0">
         <h2 className="text-center mb-8">Pflegeabrechnung</h2>
         <Image
           src={"/images/unternehmen/team_pflegeabrechnung.png"}
@@ -243,7 +243,7 @@ function Unternehmen() {
           height={250}
         />
       </div>
-      <div className="text-center mx-auto mt-24  px-12 lg:px-0">
+      <div className="text-center mx-auto mt-24  px-4 md:px-16 lg:px-0">
         <h2 className="text-center mb-8">Krankentransportabrechnung</h2>
         <Image
           src={"/images/unternehmen/team_krankentransport.png"}
@@ -252,7 +252,7 @@ function Unternehmen() {
           height={250}
         />
       </div>
-      <div className="flex flex-row px-[15%]">
+      <div className="flex flex-col lg:flex-row px-[15%]">
         <div className="text-center mx-auto mt-24">
           <h2 className="text-center mb-8">
             Administration und IT-Entwicklung

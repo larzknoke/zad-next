@@ -18,7 +18,7 @@ function Header({ handleCurtain, handleTease }) {
   }, []);
 
   return (
-    <header className="relative flex flex-col pt-12 xl:pt-16 xl:pb-0 pb-16 px-12 xl:px-32 z-50 w-full h-auto xl:h-[40em] ">
+    <header className="relative flex flex-col pt-12 xl:pt-16 xl:pb-0 pb-12 px-6 sm:px-10 xl:px-32 z-50 w-full h-auto xl:h-[40em] ">
       <Berg />
       <SideMainNav openNav={openNav} handleNav={handleNav} />
       <div className="max-w-[130em] mx-auto w-full z-40">
@@ -40,7 +40,7 @@ function Header({ handleCurtain, handleTease }) {
               <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
             </div>
           </div>
-          <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end">
+          <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end text-xs sm:text-sm md:text-base items-center	 ">
             <Link href="/">
               <a>Kunden-Login</a>
             </Link>
