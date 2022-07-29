@@ -27,6 +27,7 @@ function Team({ person, index, kontakt = false }) {
                 width={400}
                 height={400}
                 style={isHover ? { opacity: 0 } : { opacity: 1 }}
+                loading={"eager"}
               />
             </div>
             <div className="relative">
