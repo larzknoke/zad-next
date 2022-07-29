@@ -26,7 +26,7 @@ function Team({ person, index, kontakt = false }) {
                 alt="Niesen"
                 width={400}
                 height={400}
-                style={isHover ? { opacity: 0 } : { opacity: 1 }}
+                // style={isHover ? { opacity: 0 } : { opacity: 1 }}
                 loading={"eager"}
               />
             </div>
@@ -37,7 +37,7 @@ function Team({ person, index, kontakt = false }) {
                 alt="Niesen"
                 width={400}
                 height={400}
-                style={isHover ? { opacity: 1 } : { opacity: 0 }}
+                // style={isHover ? { opacity: 1 } : { opacity: 0 }}
               />
             </div>
           </div>
