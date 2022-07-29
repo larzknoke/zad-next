@@ -26,8 +26,7 @@ function Team({ person, index, kontakt = false }) {
                 alt="Niesen"
                 width={400}
                 height={400}
-                // style={isHover ? { opacity: 0 } : { opacity: 1 }}
-                loading={"eager"}
+                style={isHover ? { opacity: 0 } : { opacity: 1 }}
               />
             </div>
             <div className="relative">
@@ -37,8 +36,7 @@ function Team({ person, index, kontakt = false }) {
                 alt="Niesen"
                 width={400}
                 height={400}
-                // style={isHover ? { opacity: 1 } : { opacity: 0 }}
-                loading={"eager"}
+                style={isHover ? { opacity: 1 } : { opacity: 0 }}
               />
             </div>
           </div>
