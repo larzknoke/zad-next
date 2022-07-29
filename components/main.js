@@ -48,7 +48,7 @@ function Main({
         alt="Hand"
         id="hand"
         className={
-          "hand hidden md:block absolute top-0 left-1/4 z-10 w-[50em] h-[28em] object-contain transition-all duration-500 opacity-0 " +
+          "hand hidden md:block absolute top-0 left-1/4 lg:left-[25%] xl:left-[37%] z-10 md:w-[25em] md:left-36  w-[50em] h-[28em] object-contain transition-all duration-500 opacity-0 " +
           (router.pathname == "/leistungen" ? "leistungen" : "")
         }
       />
