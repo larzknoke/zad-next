@@ -22,13 +22,11 @@ export default async function handler(req, res) {
 
     const recaptchaJson = await recaptchaRes.json();
 
-    console.log("recaptchaResponse", recaptchaJson);
-
     if (recaptchaJson.success) {
       mail
         .send({
-          to: "l.knoke@colorplus.de",
-          from: "l.knoke@colorplus.de",
+          to: process.env.FORM_EMAIL,
+          from: process.env.FORM_EMAIL,
           subject: "Neue Nachricht | ZAD Kontaktformular",
           text: message,
           html: message.replace(/rn/g, "<br>"),

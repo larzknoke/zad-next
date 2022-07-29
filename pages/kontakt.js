@@ -9,7 +9,6 @@ import {
   faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
 import teamData from "../components/teamData";
-import Button from "../components/button";
 import TeamDetail from "../components/teamDetail";
 import Head from "next/head";
 
@@ -31,7 +30,6 @@ function Kontakt() {
       window.grecaptcha
         .execute(SITE_KEY, { action: "submit" })
         .then(async (token) => {
-          /* send data to the server */
           const formData = {};
           Array.from(fields).forEach((field) => {
             if (!field.name) return;
@@ -65,8 +63,6 @@ function Kontakt() {
               setFormSending(false);
               setFormError(true);
             });
-
-          /* End of the sending data */
         })
         .catch((error) => {
           console.log("error ", error);
