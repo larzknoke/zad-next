@@ -11,6 +11,7 @@ import {
 import teamData from "../components/teamData";
 import Button from "../components/button";
 import TeamDetail from "../components/teamDetail";
+import Head from "next/head";
 
 const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY;
 
@@ -75,6 +76,12 @@ function Kontakt() {
 
   return (
     <>
+      <Head>
+        <script
+          async
+          src={`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`}
+        ></script>
+      </Head>
       <div className="xl:space-x-16 flex flex-col xl:flex-row mx-auto">
         <div className="w-full xl:w-2/3">
           <h3>Kontakt</h3>

@@ -5,24 +5,9 @@
 
 @import "./button.css";
 
-/* html,
-body,
-body > div,
-main {
-  height: 100%;
-} */
-
 a:hover {
   @apply underline underline-offset-4;
 }
-
-.grecaptcha-badge {
-  visibility: hidden;
-}
-
-/* header {
-	padding: 0 7%;
-} */
 
 .leistungen-horizontal,
 .leistungen-vertical {

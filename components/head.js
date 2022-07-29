@@ -14,10 +14,6 @@ function HeadHtml() {
       />
       <link rel="icon" href="favicon.ico" sizes="any" />
       <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-      <script
-        async
-        src={`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`}
-      ></script>
     </Head>
   );
 }
