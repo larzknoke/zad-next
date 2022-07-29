@@ -25,8 +25,8 @@ export default async function handler(req, res) {
     if (recaptchaJson.success) {
       mail
         .send({
-          to: process.env.FORM_EMAIL,
-          from: process.env.FORM_EMAIL,
+          to: "l.knoke@colorplus.de",
+          from: "l.knoke@colorplus.de",
           subject: "Neue Nachricht | ZAD Kontaktformular",
           text: message,
           html: message.replace(/rn/g, "<br>"),
