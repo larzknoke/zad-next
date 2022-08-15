@@ -110,15 +110,29 @@ function Stellenangebote() {
         <div className="flex flex-col space-y-6 w-full lg:w-1/2 xl:w-1/3 mt-16 md:mt-0">
           <h3>Stellenangebote</h3>
           <h2 className="text-lg">Büro</h2>
-          <Button>Kaufmännischer Mitarbeiter (m/w/d)</Button>
-          <h2 className="text-lg">Informationstechnik</h2>
+          <Button
+            href={
+              "pdf/Anzeige_ZAD_2022_Kaufmännischer_Sachbearbeiter_Gesundheitswesen.pdf"
+            }
+          >
+            Sachbearbeiter Gesundheitswesen (m/w/d)
+          </Button>
+          <Button
+            href={
+              "pdf/Anzeige_ZAD_2022_Kaufmännischer_Mitarbeiter_Datenerfassung.pdf"
+            }
+          >
+            Mitarbeiter Datenerfassung (m/w/d)
+          </Button>
+          {/* <h2 className="text-lg">Informationstechnik</h2>
           <Button>IT-Systemadministrator (m/w/d)</Button>
           <Button>PERL-Entwickler (m/w/d)</Button>
-          <Button>(Senior) Java-Entwickler (m/w/d)</Button>
+        <Button>(Senior) Java-Entwickler (m/w/d)</Button> */}
 
           <h2 className="text-lg">Ausbildung</h2>
-          <Button>Kaufleute für Büromanagement (m/w/d)</Button>
-          <Button> Fachinformatik (m/w/d)</Button>
+          <Button href={"pdf/AZUBI_Anzeige_ZAD_2022.pdf"}>
+            Büromanagement &amp; Fachinformatik (m/w/d)
+          </Button>
         </div>
       </div>
       <Footer />
