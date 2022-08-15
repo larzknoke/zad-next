@@ -128,8 +128,8 @@ function Unternehmen() {
                 </p>
                 <p>
                   Wie war das möglich? Ausschlaggebend war das Jahr 2017, als
-                  das EFQM-Managementsystem einführt wurde. Ein gemischtes Team
-                  entwickelte innovative Ideen für selbst entwickelte
+                  das EFQM-Managementsystem eingeführt wurde. Ein gemischtes
+                  Team entwickelte innovative Ideen für selbst entwickelte
                   Softwarelösungen, die voll digitalisierte Abläufe zwischen
                   Kunden, ZAD und Kostenträger ermöglichten. Stets so, dass der
                   Kunde die volle Kontrolle über das Ausmaß der Digitalisierung
