@@ -32,8 +32,8 @@ function Unternehmen() {
           Pflegeleistungen erweiterten, entwickelte sich unser Unternehmen bis
           heute zu einem bundesweit tätigen Dienstleiter für private
           Pflegedienste, Krankentransporte, Hilfsorganisationen, karitative
-          Einrichtungen und kommunale Träger von Rettungsdiensten. Längst steht
-          unsere mehr als 100 motivierten Mitarbeiterinnen und Mitarbeitern
+          Einrichtungen und kommunale Träger von Rettungsdiensten. Längst stehen
+          unsere mehr als 150 motivierten Mitarbeiterinnen und Mitarbeitern
           ihren Kunden dabei auch über die Abrechnung ihrer Einnahmen hinaus zur
           Seite.
         </p>
@@ -41,7 +41,7 @@ function Unternehmen() {
         <p>
           Im Zentrum unserer eigens entwickelten Unternehmensphilosophie steht,
           unsere Kunden mit optimalen Dienstleistungen und Lösungen zu
-          begeistern: Ihr Erfolgt ist unser Erfolg.
+          begeistern: Ihr Erfolg ist unser Erfolg.
         </p>
         <p className="mb-4 font-bold">Unsere Grundsätze:</p>
         <ul className="text-zad-blue-600 list-disc list-outside pl-4">
@@ -51,7 +51,7 @@ function Unternehmen() {
             bestmöglich gefördert.
           </li>
           <li>
-            Wir hören zu. Wir Lösungen sind individuell auf die Ziele und
+            Wir hören zu. Unsere Lösungen sind individuell auf die Ziele und
             Wünsche sowie die Lebens- du Finanzsituation unserer Kunden
             abgestimmt. Erst wenn unsere Kunden zufrieden sind, haben wir
             unseren Job gemacht.
@@ -61,7 +61,7 @@ function Unternehmen() {
             unserer Teams. Unsere Stärke erwächst aus Kooperation.
           </li>
           <li>
-            Unsere Kunden können uns vertrauten. Das gewährleisten wir durch
+            Unsere Kunden können uns vertrauen. Das gewährleisten wir durch
             absolute Zuverlässigkeit, verständliche Empfehlungen, transparente
             Prozesse und eine partnerschaftliche Zusammenarbeit.
           </li>
@@ -128,8 +128,7 @@ function Unternehmen() {
                 </p>
                 <p>
                   Wie war das möglich? Ausschlaggebend war das Jahr 2017, als
-                  die ZAD-Geschäftsführerin Gabriele Zahel das
-                  EFQM-Managementsystem einführte. Ein gemischtes Team
+                  das EFQM-Managementsystem einführt wurde. Ein gemischtes Team
                   entwickelte innovative Ideen für selbst entwickelte
                   Softwarelösungen, die voll digitalisierte Abläufe zwischen
                   Kunden, ZAD und Kostenträger ermöglichten. Stets so, dass der
@@ -151,12 +150,12 @@ function Unternehmen() {
                 </p>
                 <p>
                   „Ebenso wichtig für unseren Erfolg war und ist bis heute
-                  unsere persönliche Betreuung“, erklärt die ZAD-Gründerin
-                  Gabriele Zahel rückblickend. „Wir haben stets die Ziele
-                  unserer Kunden zu unseren eigenen gemacht, um zum vereinbarten
+                  unsere persönliche Betreuung“, erklärt Geschäftsführerin
+                  Ulrike Niesen rückblickend. „Wir haben stets die Ziele unserer
+                  Kunden zu unseren eigenen gemacht, um zum vereinbarten
                   Zeitpunkt die von ihnen gewünschte Liquidität zu erreichen.“
                   „Und das mit einem Minimum an Aufwand für unsere Kunden“,
-                  ergänzen die ZAD-Geschäftsführerinnen Ulrike und Irina Niesen.
+                  ergänzt die ZAD-Geschäftsführerin Irina Niesen.
                 </p>
                 <p className="mb-0">
                   Nach ihrem Erfolgsrezept für die Zukunft gefragt, sind sich
@@ -247,32 +246,19 @@ function Unternehmen() {
         <h2 className="text-center mb-8">Krankentransportabrechnung</h2>
         <Image
           src={"/images/unternehmen/team_krankentransport.png"}
-          alt="Team Pflegeabrechnung"
+          alt="Team Krankentransportabrechnung"
           width={1099}
           height={250}
         />
       </div>
-      <div className="flex flex-col lg:flex-row px-[15%]">
-        <div className="text-center mx-auto mt-24">
-          <h2 className="text-center mb-8">
-            Administration und IT-Entwicklung
-          </h2>
-          <Image
-            src={"/images/unternehmen/team_admin.png"}
-            alt="Team Pflegeabrechnung"
-            width={173}
-            height={251}
-          />
-        </div>
-        <div className="text-center mx-auto mt-24">
-          <h2 className="text-center mb-8">Vertrieb</h2>
-          <Image
-            src={"/images/unternehmen/team_vertrieb.png"}
-            alt="Team Pflegeabrechnung"
-            width={414}
-            height={250}
-          />
-        </div>
+      <div className="text-center mx-auto mt-24  px-4 md:px-16 lg:px-0">
+        <h2 className="text-center mb-8">Vertrieb</h2>
+        <Image
+          src={"/images/unternehmen/team_vertrieb.png"}
+          alt="Team Vertrieb"
+          width={414}
+          height={250}
+        />
       </div>
       <p className="text-center my-32 px-[10%] md:px-[25%] font-medium text-xl">
         <span className="font-bold text-2xl">WIR</span> – ein Team von mehr als

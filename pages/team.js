@@ -17,7 +17,7 @@ function Unternehmen() {
           Für Sie haben wir immer einen Ansprechpartner
         </h2>
         <p className="text-white">
-          ZAD hat heute mehr als 130 Mitarbeiter. Einer davon wird Ihre Wünsche
+          ZAD hat heute mehr als 150 Mitarbeiter. Einer davon wird Ihre Wünsche
           besonders persönlich nehmen: Ihr Ansprechpartner. Seine individuelle
           Betreuung garantiert Ihnen ein Höchstmaß an Sicherheit in allen
           Belangen rund um die Leistungsabrechnung im Gesundheitswesen.

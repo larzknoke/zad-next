@@ -98,7 +98,7 @@ function Software() {
               Krankentransporte und -beförderungen sowie Kranken- und
               Patientenfahrten benötigen.
             </p>
-            <ul className="text-zad-blue-600 list-disc list-outside mb-8">
+            <ul className="text-zad-blue-600 list-disc list-outside mb-8 ml-4">
               <li>Einfache und flexible Erstellung von KTW-Einsatzplänen</li>
               <li>
                 Echtzeit-Kommunikation zwischen Leitstelle und Fahrzeugen

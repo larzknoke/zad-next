@@ -39,7 +39,7 @@ function Pflegedienste() {
           </p>
 
           <p>
-            2Das Ergebnis: Mehr Zeit und Zahlungskraft, mehr Sicherheit und
+            Das Ergebnis: Mehr Zeit und Zahlungskraft, mehr Sicherheit und
             Wirtschaftlichkeit, mehr Übersicht und Kostentransparenz. Das
             einzige, worauf Sie verzichten müssen, ist das Abenteuer
             Papierdschungel. Denn den haben wir im ZAD-Kundeninformationscenter

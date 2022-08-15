@@ -42,7 +42,7 @@ function Stellenangebote() {
             unser Kerngeschäft die bundesweite, professionelle Abrechnung für
             Krankentransport- und Rettungsdienstunternehmen sowie ambulanter
             Pflegedienste. Am Firmenstandort in Northeim betreiben wir für
-            unsere mehr als 140 Mitarbeiter ein eigenes Rechenzentrum, für
+            unsere mehr als 150 Mitarbeiter ein eigenes Rechenzentrum, für
             welches wir Verstärkung suchen.
           </p>
           <div className="my-12">
