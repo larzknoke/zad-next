@@ -262,7 +262,7 @@ function Unternehmen() {
       </div>
       <p className="text-center my-32 px-[10%] md:px-[25%] font-medium text-xl">
         <span className="font-bold text-2xl">WIR</span> – ein Team von mehr als
-        100 motivierten Mitarbeiterinnen und Mitarbeitern – stehen unseren
+        150 motivierten Mitarbeiterinnen und Mitarbeitern – stehen unseren
         Kunden Tag für Tag und weit über den Abrechnungsdienst hinaus zur Seite.
       </p>
       <Footer />
