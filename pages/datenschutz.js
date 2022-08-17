@@ -372,6 +372,63 @@ function Datenschutz() {
           </p>
         </div>
       </div>
+      <h1>Plugins und Tools</h1>
+      <h3>Google reCAPTCHA</h3>{" "}
+      <p>
+        Wir nutzen &bdquo;Google reCAPTCHA&ldquo; (im Folgenden
+        &bdquo;reCAPTCHA&ldquo;) auf dieser Website. Anbieter ist die Google
+        Ireland Limited (&bdquo;Google&ldquo;), Gordon House, Barrow Street,
+        Dublin 4, Irland.
+      </p>
+      <p>
+        Mit reCAPTCHA soll &uuml;berpr&uuml;ft werden, ob die Dateneingabe auf
+        dieser Website (Kontaktformular) durch einen Menschen oder durch ein
+        automatisiertes Programm erfolgt. Hierzu analysiert reCAPTCHA das
+        Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese
+        Analyse beginnt automatisch, sobald der Websitebesucher die Website
+        betritt. Zur Analyse wertet reCAPTCHA verschiedene Informationen aus
+        (z.&nbsp;B. IP-Adresse, Verweildauer des Websitebesuchers auf der
+        Website oder vom Nutzer get&auml;tigte Mausbewegungen). Die bei der
+        Analyse erfassten Daten werden an Google weitergeleitet.
+      </p>{" "}
+      <p>
+        Die reCAPTCHA-Analysen laufen vollst&auml;ndig im Hintergrund.
+        Websitebesucher werden nicht darauf hingewiesen, dass eine Analyse
+        stattfindet.
+      </p>{" "}
+      <p>
+        Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6
+        Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse
+        daran, seine Webangebote vor missbr&auml;uchlicher automatisierter
+        Aussp&auml;hung und vor SPAM zu sch&uuml;tzen. Sofern eine entsprechende
+        Einwilligung abgefragt wurde, erfolgt die Verarbeitung
+        ausschlie&szlig;lich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und
+        &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von
+        Cookies oder den Zugriff auf Informationen im Endger&auml;t des Nutzers
+        (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die
+        Einwilligung ist jederzeit widerrufbar.
+      </p>{" "}
+      <p>
+        Weitere Informationen zu Google reCAPTCHA entnehmen Sie den
+        Google-Datenschutzbestimmungen und den Google Nutzungsbedingungen unter
+        folgenden Links:{" "}
+        <a
+          href="https://policies.google.com/privacy?hl=de"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://policies.google.com/privacy?hl=de
+        </a>{" "}
+        und{" "}
+        <a
+          href="https://policies.google.com/terms?hl=de"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://policies.google.com/terms?hl=de
+        </a>
+        .
+      </p>
       <h1>Social-Media-Fanseiten</h1>
       <div>
         <div>

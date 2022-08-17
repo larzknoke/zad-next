@@ -134,18 +134,22 @@ function Software() {
               sein, um Ihre Leistungen über dispolive abzurechnen.{" "}
             </p>
           </div>
-          <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch space-y-6">
+          <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch space-y-8">
             <img
               className="pt-8 max-w-sm w-2/4 self-center"
               src="images/dispo.svg"
               alt="disolive Logo"
             />
-            <Button href="https://www.zadtools.de" className="max-w-lg mx-auto">
+            {/* <Button href="https://www.zadtools.de" className="max-w-lg mx-auto">
               <span className="hidden md:inline-block">
                 Direkt zur webbasierten
               </span>{" "}
               Software für den Krankentransport
-            </Button>
+            </Button> */}
+            <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-8 lg:space-y-0 my-10 w-full items-stretch justify-items-stretch justify-center">
+              <Button href="/kontakt">Jetzt Anfrage senden</Button>
+              <Button href="/team">Ansprechpartner finden</Button>
+            </div>
           </div>
         </div>
       </div>

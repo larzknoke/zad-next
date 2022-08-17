@@ -41,9 +41,9 @@ function Header({ handleCurtain, handleTease }) {
             </div>
           </div>
           <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end text-xs sm:text-sm md:text-base items-center	 ">
-            <Link href="/">
+            {/* <Link href="/">
               <a>Kunden-Login</a>
-            </Link>
+            </Link> */}
             <Link href="/impressum">
               <a>Impressum</a>
             </Link>
