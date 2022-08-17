@@ -41,9 +41,11 @@ function Header({ handleCurtain, handleTease }) {
             </div>
           </div>
           <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end text-xs sm:text-sm md:text-base items-center	 ">
-            {/* <Link href="/">
-              <a>Kunden-Login</a>
-            </Link> */}
+            <Link href="https://www.zad-northeim.net:5307">
+              <a target="_blank" rel="noopener noreferrer">
+                Kunden-Login
+              </a>
+            </Link>
             <Link href="/impressum">
               <a>Impressum</a>
             </Link>
