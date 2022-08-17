@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Footer from "../components/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,6 +20,10 @@ function Kontakt() {
   const [formComplete, setFormComplete] = useState(false);
   const [formError, setFormError] = useState(false);
   const [formSending, setFormSending] = useState(false);
+
+  useEffect(() => {
+    setConfirmRecaptcha(localStorage.getItem("recapchtaConfirmed"));
+  });
 
   async function handleOnSubmit(e) {
     e.preventDefault();
@@ -316,6 +320,7 @@ function Kontakt() {
               <button
                 onClick={() => {
                   setConfirmRecaptcha(true);
+                  localStorage.setItem("recapchtaConfirmed", true);
                 }}
                 type="button"
                 className="text-white bg-zad-blue-500 hover:bg-zad-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[3px] text-sm px-5 py-2.5 text-center "
