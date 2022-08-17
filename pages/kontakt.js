@@ -289,9 +289,9 @@ function Kontakt() {
         role="dialog"
       >
         <div className="relative p-4 w-full max-w-2xl h-full md:h-auto">
-          <div className="relative bg-white rounded-sm shadow-lg dark:bg-zad-blue-600">
-            <div className="flex justify-between items-start p-6 rounded-t border-b dark:border-gray-200">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-0">
+          <div className="relative rounded-sm shadow-lg bg-zad-blue-600">
+            <div className="flex justify-between items-start p-6 rounded-t border-b border-gray-200">
+              <h3 className="text-xl font-semibold  text-white mb-0">
                 Kontaktformular - Datenschutz
               </h3>
             </div>
@@ -307,13 +307,13 @@ function Kontakt() {
                 funktioniert nur wenn Sie Google reCaptcha akzeptieren.
               </p>
             </div>
-            <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-100 dark:border-gray-200 justify-end">
+            <div className="flex items-center p-6 space-x-2 rounded-b border-t  border-gray-200 justify-end">
               <button
                 onClick={() => {
                   setHideModal(true);
                 }}
                 type="button"
-                className="text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[3px] border  text-sm font-medium px-5 py-2.5  focus:z-10 bg-gray-400 dark:text-gray-100 border-gray-500 hover:text-gray-600 hover:bg-gray-300"
+                className="text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[3px] border  text-sm font-medium px-5 py-2.5  focus:z-10 bg-gray-400 text-gray-100 border-gray-500 hover:text-gray-600 hover:bg-gray-300"
               >
                 Ablehnen
               </button>
