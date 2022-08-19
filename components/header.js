@@ -2,12 +2,15 @@ import Link from "next/link";
 import React from "react";
 import Berg from "./berg";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import SideMainNav from "./sideMainNav";
 
 function Header({ handleCurtain, handleTease }) {
+  const router = useRouter();
+
   const [openNav, setOpenNav] = useState(false);
   const handleNav = () => setOpenNav(!openNav);
   const [scroll, setScroll] = useState(false);
@@ -93,6 +96,9 @@ function Header({ handleCurtain, handleTease }) {
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
                 onMouseLeave={handleTease}
+                className={
+                  router.pathname == "/unternehmen" ? " text-red-700 " : ""
+                }
               >
                 Unternehmen
               </a>
@@ -102,6 +108,7 @@ function Header({ handleCurtain, handleTease }) {
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
                 onMouseLeave={handleTease}
+                className={router.pathname == "/team" ? " text-red-700 " : ""}
               >
                 Team
               </a>
@@ -111,6 +118,15 @@ function Header({ handleCurtain, handleTease }) {
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
                 onMouseLeave={handleTease}
+                className={
+                  router.pathname == "/leistungen" ||
+                  router.pathname == "/krankentransporte" ||
+                  router.pathname == "/software-pflegedienste" ||
+                  router.pathname == "/software-krankentransporte" ||
+                  router.pathname == "/pflegedienste"
+                    ? " text-red-700 "
+                    : ""
+                }
               >
                 Leistungen
               </a>
@@ -120,6 +136,9 @@ function Header({ handleCurtain, handleTease }) {
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
                 onMouseLeave={handleTease}
+                className={
+                  router.pathname == "/stellenangebote" ? " text-red-700 " : ""
+                }
               >
                 Stellenangebote
               </a>
@@ -129,6 +148,9 @@ function Header({ handleCurtain, handleTease }) {
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
                 onMouseLeave={handleTease}
+                className={
+                  router.pathname == "/kontakt" ? " text-red-700 " : ""
+                }
               >
                 Kontakt/Anfahrt
               </a>

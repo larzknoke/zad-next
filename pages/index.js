@@ -53,6 +53,12 @@ export default function Home() {
           objectFit="cover"
         />
       </div>
+      <h1 className="text-center font-bold text-xl xl:text-5xl mb-0 md:mb-2 xl:mb-6 xl:mt-36">
+        Raus aus dem Abrechnungsdschungel.
+      </h1>
+      <h2 className="text-center font-normal text-xl xl:text-3xl xl:mb-20">
+        Wir geben Ihnen Orientierung zu neuen Perspektiven.
+      </h2>
       <div className=" space-x-0 xl:space-x-16 flex flex-wrap xl:flex-nowrap mx-auto justify-around xl:justify-center text-center ">
         <Link href="/krankentransporte">
           <a className="leistungen-horizontal w-full md:w-1/2 xl:w-1/4">
