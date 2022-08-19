@@ -21,7 +21,7 @@ export default function Home() {
         dem führenden Spezialisten für die Leistungsabrechnung im
         Gesundheitswesen.
       </h2>
-      <div className="hidden md:flex  drop-shadow my-12 xl:mt-16 xl:mb-24">
+      <div className="hidden md:flex  drop-shadow my-12 xl:mt-16 xl:mb-14">
         {/* <div className="w-1/4 relative">
         </div> */}
         <Image
@@ -53,7 +53,7 @@ export default function Home() {
           objectFit="cover"
         />
       </div>
-      <h1 className="text-center font-bold text-xl xl:text-5xl mb-0 md:mb-2 xl:mb-6 xl:mt-36">
+      <h1 className="text-center font-bold text-xl xl:text-5xl mb-0 md:mb-2 xl:mb-6 xl:mt-6">
         Raus aus dem Abrechnungsdschungel.
       </h1>
       <h2 className="text-center font-normal text-xl xl:text-3xl xl:mb-20">
