@@ -195,7 +195,7 @@ function Kontakt() {
               </div>
               <div
                 className="frc-captcha !w-full !max-w-full my-6 rounded-sm "
-                data-sitekey="FCMN2AJP6I7SDVU2"
+                data-sitekey={SITE_KEY}
               ></div>
               <button
                 disabled={formSending || !confirmRecaptcha ? true : false}
@@ -308,7 +308,7 @@ function Kontakt() {
                   setHideModal(true);
                 }}
                 type="button"
-                className="text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[3px] border  text-sm font-medium px-5 py-2.5  focus:z-10 bg-gray-400 text-gray-100 border-gray-500 hover:text-gray-600 hover:bg-gray-300"
+                className="focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[3px] border  text-sm font-medium px-5 py-2.5  focus:z-10 bg-gray-400 text-gray-100 border-gray-500 hover:text-gray-600 hover:bg-gray-300"
               >
                 Ablehnen
               </button>
