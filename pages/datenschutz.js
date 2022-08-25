@@ -373,29 +373,30 @@ function Datenschutz() {
         </div>
       </div>
       <h1>Plugins und Tools</h1>
-      <h3>Google reCAPTCHA</h3>{" "}
+      <h3>Friendly Captcha</h3>
       <p>
-        Wir nutzen &bdquo;Google reCAPTCHA&ldquo; (im Folgenden
-        &bdquo;reCAPTCHA&ldquo;) auf dieser Website. Anbieter ist die Google
-        Ireland Limited (&bdquo;Google&ldquo;), Gordon House, Barrow Street,
-        Dublin 4, Irland.
+        Wir nutzen Friendly Captcha (im Folgenden &bdquo;Friendly
+        Captcha&ldquo;) auf dieser Website. Anbieter ist die Friendly Captcha
+        GmbH, Am Anger 3-5, 82237 Woerthsee, Deutschland.
       </p>
       <p>
-        Mit reCAPTCHA soll &uuml;berpr&uuml;ft werden, ob die Dateneingabe auf
-        dieser Website (Kontaktformular) durch einen Menschen oder durch ein
-        automatisiertes Programm erfolgt. Hierzu analysiert reCAPTCHA das
-        Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese
-        Analyse beginnt automatisch, sobald der Websitebesucher die Website
-        betritt. Zur Analyse wertet reCAPTCHA verschiedene Informationen aus
-        (z.&nbsp;B. IP-Adresse, Verweildauer des Websitebesuchers auf der
-        Website oder vom Nutzer get&auml;tigte Mausbewegungen). Die bei der
-        Analyse erfassten Daten werden an Google weitergeleitet.
-      </p>{" "}
-      <p>
-        Die reCAPTCHA-Analysen laufen vollst&auml;ndig im Hintergrund.
-        Websitebesucher werden nicht darauf hingewiesen, dass eine Analyse
-        stattfindet.
-      </p>{" "}
+        Mit Friendly Captcha soll &uuml;berpr&uuml;ft werden, ob die
+        Dateneingabe auf dieser Website (z.&nbsp;B. in einem Kontaktformular)
+        durch einen Menschen oder durch ein automatisiertes Programm erfolgt.
+        Hierzu analysiert Friendly Captcha das Verhalten des Websitebesuchers
+        anhand verschiedener Merkmale. Zur Analyse wertet Friendly Captcha
+        verschiedene Informationen aus (z.&nbsp;B. anonymisierte IP-Adresse,
+        Referrer, Besuchszeit etc.). Weitere Informationen hierzu finden Sie
+        unter:
+        <a
+          href="https://friendlycaptcha.com/legal/privacy-end-users/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://friendlycaptcha.com/legal/privacy-end-users/
+        </a>
+        .
+      </p>
       <p>
         Die Speicherung und Analyse der Daten erfolgt auf Grundlage von Art. 6
         Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse
@@ -407,27 +408,6 @@ function Datenschutz() {
         Cookies oder den Zugriff auf Informationen im Endger&auml;t des Nutzers
         (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die
         Einwilligung ist jederzeit widerrufbar.
-      </p>{" "}
-      <p>
-        Weitere Informationen zu Google reCAPTCHA entnehmen Sie den
-        Google-Datenschutzbestimmungen und den Google Nutzungsbedingungen unter
-        folgenden Links:{" "}
-        <a
-          href="https://policies.google.com/privacy?hl=de"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://policies.google.com/privacy?hl=de
-        </a>{" "}
-        und{" "}
-        <a
-          href="https://policies.google.com/terms?hl=de"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://policies.google.com/terms?hl=de
-        </a>
-        .
       </p>
       <h1>Social-Media-Fanseiten</h1>
       <div>
