@@ -7,8 +7,9 @@ export default async function handler(req, res) {
   console.log("body", body);
 
   const SECRET_KEY = process.env.RECAPTCHA_SECRETKEY;
-  const recaptchaResponse = body.recaptchaResponse;
-  const verifyUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${SECRET_KEY}&response=${recaptchaResponse}`;
+  const recaptchaResponse = body["frc-captcha-solution"];
+  console.log("recaptchaResponse", recaptchaResponse);
+  const verifyUrl = `https://api.friendlycaptcha.com/api/v1/siteverify`;
 
   const message = `
     Name: ${body.name}rn
@@ -18,9 +19,17 @@ export default async function handler(req, res) {
   `;
 
   try {
-    const recaptchaRes = await fetch(verifyUrl, { method: "POST" });
+    const recaptchaRes = await fetch(verifyUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ solution: recaptchaResponse, secret: SECRET_KEY }),
+    });
 
     const recaptchaJson = await recaptchaRes.json();
+
+    console.log("recaptchaJson", recaptchaJson);
 
     if (recaptchaJson.success) {
       mail

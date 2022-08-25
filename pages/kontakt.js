@@ -32,48 +32,39 @@ function Kontakt() {
     setFormError(false);
     const fields = e.currentTarget.elements;
 
-    window.grecaptcha.ready(() => {
-      window.grecaptcha
-        .execute(SITE_KEY, { action: "submit" })
-        .then(async (token) => {
-          const formData = {};
-          Array.from(fields).forEach((field) => {
-            if (!field.name) return;
-            if (field.type != "checkbox") {
-              formData[field.name] = field.value;
-            } else {
-              formData[field.name] = field.checked;
-            }
-            formData["recaptchaResponse"] = token;
-          });
-
-          await fetch("/api/mail", {
-            method: "POST",
-            body: JSON.stringify(formData),
-          })
-            .then((response) => {
-              if (response.status >= 400 && response.status < 600) {
-                setFormError(true);
-                setFormSending(false);
-
-                throw new Error("Bad response from server");
-              }
-              return response;
-            })
-            .then((returnedResponse) => {
-              e.target.reset();
-              setFormSending(false);
-              setFormComplete(true);
-            })
-            .catch((error) => {
-              setFormSending(false);
-              setFormError(true);
-            });
-        })
-        .catch((error) => {
-          console.log("error ", error);
-        });
+    const formData = {};
+    Array.from(fields).forEach((field) => {
+      if (!field.name) return;
+      if (field.type != "checkbox") {
+        formData[field.name] = field.value;
+      } else {
+        formData[field.name] = field.checked;
+      }
+      // formData["recaptchaResponse"] = token;
     });
+    console.log(formData);
+    await fetch("/api/mail", {
+      method: "POST",
+      body: JSON.stringify(formData),
+    })
+      .then((response) => {
+        if (response.status >= 400 && response.status < 600) {
+          setFormError(true);
+          setFormSending(false);
+
+          throw new Error("Bad response from server");
+        }
+        return response;
+      })
+      .then((returnedResponse) => {
+        e.target.reset();
+        setFormSending(false);
+        setFormComplete(true);
+      })
+      .catch((error) => {
+        setFormSending(false);
+        setFormError(true);
+      });
   }
 
   return (
@@ -81,8 +72,8 @@ function Kontakt() {
       <Head>
         {confirmRecaptcha && (
           <script
+            src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.5/widget.min.js"
             async
-            src={`https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`}
           ></script>
         )}
       </Head>
@@ -202,6 +193,10 @@ function Kontakt() {
                   Verarbeitung einverstanden.
                 </label>
               </div>
+              <div
+                className="frc-captcha !w-full !max-w-full my-6 rounded-sm "
+                data-sitekey="FCMN2AJP6I7SDVU2"
+              ></div>
               <button
                 disabled={formSending || !confirmRecaptcha ? true : false}
                 className="btn-fx-1 block w-full"
