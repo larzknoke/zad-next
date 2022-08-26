@@ -12,7 +12,7 @@ function Stellenangebote() {
         className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
         lazy=""
         autoPlay={true}
-        playsinline=""
+        playsInline={true}
         muted={true}
         loop={true}
       >
@@ -116,7 +116,7 @@ function Stellenangebote() {
           <Button
             download={true}
             href={
-              "pdf/Anzeige_ZAD_2022_Kaufmännischer_Sachbearbeiter_Gesundheitswesen.pdf"
+              "pdf/Anzeige_ZAD_2022_Kaufmaennischer_Sachbearbeiter_Gesundheitswesen.pdf"
             }
           >
             Sachbearbeiter Gesundheitswesen (m/w/d)
@@ -124,7 +124,7 @@ function Stellenangebote() {
           <Button
             download={true}
             href={
-              "pdf/Anzeige_ZAD_2022_Kaufmännischer_Mitarbeiter_Datenerfassung.pdf"
+              "pdf/Anzeige_ZAD_2022_Kaufmaennischer_Mitarbeiter_Datenerfassung.pdf"
             }
           >
             Mitarbeiter Datenerfassung (m/w/d)

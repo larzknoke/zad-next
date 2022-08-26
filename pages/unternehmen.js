@@ -15,7 +15,7 @@ function Unternehmen() {
         className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
         lazy=""
         autoPlay={true}
-        playsInline=""
+        playsInline={true}
         muted={true}
         loop={true}
       >

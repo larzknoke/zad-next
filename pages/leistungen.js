@@ -28,7 +28,7 @@ function Leistungen() {
         lazy=""
         autoPlay={true}
         loop={true}
-        playsinline=""
+        playsInline={true}
         muted={true}
       >
         <source type="video/mp4" src="/videos/leistungen.mp4" />

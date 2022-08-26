@@ -12,7 +12,7 @@ function Software() {
         lazy=""
         autoPlay={true}
         loop={true}
-        playsinline=""
+        playsInline={true}
         muted={true}
       >
         <source type="video/mp4" src="/videos/amb_pflegedienst.mp4" />

@@ -10,7 +10,7 @@ function Pflegedienste() {
         className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
         lazy=""
         autoPlay={true}
-        playsinline=""
+        playsInline={true}
         muted={true}
         loop={true}
       >
