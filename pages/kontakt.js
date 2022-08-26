@@ -293,13 +293,14 @@ function Kontakt() {
             <div className="p-6 space-y-4">
               <p className="text-base leading-relaxed text-white mb-0">
                 Zum versenden von Nachrichten über das Kontaktformular wird
-                &quot;Google reCaptacha&quot; eingesetzt. Hiermit soll überprüft
+                &quot;Friendly Captcha&quot; eingesetzt. Hiermit soll überprüft
                 werden, ob die Dateneingabe auf dieser Website durch einen
                 Menschen oder durch ein automatisiertes Programm erfolgt.
               </p>
               <p className="text-base leading-relaxed text-white mb-0">
                 Das versenden von Nachrichten über das Kontaktformular
-                funktioniert nur wenn Sie Google reCaptcha akzeptieren.
+                funktioniert nur wenn Sie &quot;Friendly Captcha&quot;
+                akzeptieren.
               </p>
             </div>
             <div className="flex items-center p-6 space-x-2 rounded-b border-t  border-gray-200 justify-end">
