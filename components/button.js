@@ -1,12 +1,20 @@
 import Link from "next/link";
 
-function Button({ href, children, className = "", bgColor, onClickHandler }) {
+function Button({
+  href,
+  children,
+  className = "",
+  bgColor,
+  onClickHandler,
+  download = false,
+}) {
   return (
     <>
       {href != undefined ? (
         <Link href={href}>
           <a
             className={`btn-fx-1 ${className}`}
+            download={download}
             // target="_blank"
             // rel="noopener noreferrer"
             onClick={onClickHandler}

@@ -114,6 +114,7 @@ function Stellenangebote() {
             Allgemeine Anzeige
           </Button> */}
           <Button
+            download={true}
             href={
               "pdf/Anzeige_ZAD_2022_Kaufmännischer_Sachbearbeiter_Gesundheitswesen.pdf"
             }
@@ -121,6 +122,7 @@ function Stellenangebote() {
             Sachbearbeiter Gesundheitswesen (m/w/d)
           </Button>
           <Button
+            download={true}
             href={
               "pdf/Anzeige_ZAD_2022_Kaufmännischer_Mitarbeiter_Datenerfassung.pdf"
             }
@@ -128,7 +130,7 @@ function Stellenangebote() {
             Mitarbeiter Datenerfassung (m/w/d)
           </Button>
           <h2 className="text-lg">Ausbildung</h2>
-          <Button href={"pdf/AZUBI_Anzeige_ZAD_2022.pdf"}>
+          <Button href={"pdf/AZUBI_Anzeige_ZAD_2022.pdf"} download={true}>
             Büromanagement &amp; Fachinformatik (m/w/d)
           </Button>
         </div>
