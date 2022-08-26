@@ -110,9 +110,9 @@ function Stellenangebote() {
         <div className="flex flex-col space-y-6 w-full lg:w-1/2 xl:w-1/3 mt-16 md:mt-0">
           <h3>Stellenangebote</h3>
           <h2 className="text-lg">Büro</h2>
-          <Button href={"pdf/Anzeige_ZAD_2022_Allgemein.pdf"}>
+          {/* <Button href={"pdf/Anzeige_ZAD_2022_Allgemein.pdf"}>
             Allgemeine Anzeige
-          </Button>
+          </Button> */}
           <Button
             href={
               "pdf/Anzeige_ZAD_2022_Kaufmännischer_Sachbearbeiter_Gesundheitswesen.pdf"
