@@ -64,17 +64,17 @@ function Software() {
               src="images/pflegesuite.png"
               alt="Pflegesuite Logo"
             />
-            {/* <Button
+            <Button
               href="https://promo.pflegesuite.de/"
               className="max-w-lg mx-auto"
             >
               <span className="hidden md:inline-block">Direkt</span> zur
               webbasierten Pflegesoftware
-            </Button> */}
-            <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-8 lg:space-y-0 my-10 w-full items-stretch justify-items-stretch justify-center">
+            </Button>
+            {/* <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-8 lg:space-y-0 my-10 w-full items-stretch justify-items-stretch justify-center">
               <Button href="/kontakt">Jetzt Anfrage senden</Button>
               <Button href="/team">Ansprechpartner finden</Button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex-col w-full max-w-xs gap-8 hidden xl:flex min-w-[14rem]">
