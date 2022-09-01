@@ -79,7 +79,7 @@ function Stellenangebote() {
           <div className="flex flex-col bg-zad-blue-200 p-8 rounded text-zad-blue-600">
             <h3 className="mb-2">Kontakt</h3>
             <span className="font-bold mb-2">
-              Bewerbungsmanagement - Julia Wiesner
+              Bewerbungsmanagement – Julia Wiesner
             </span>
             <div className="flex">
               <FontAwesomeIcon icon={faPhone} className="w-4 mr-2" /> 0 55 51 /
@@ -109,7 +109,7 @@ function Stellenangebote() {
         </div>
         <div className="flex flex-col space-y-6 w-full lg:w-1/2 xl:w-1/3 mt-16 md:mt-0">
           <h3>Stellenangebote</h3>
-          <h2 className="text-lg">Büro</h2>
+          {/* <h2 className="text-lg">Büro</h2> */}
           {/* <Button href={"pdf/Anzeige_ZAD_2022_Allgemein.pdf"}>
             Allgemeine Anzeige
           </Button> */}
@@ -128,6 +128,20 @@ function Stellenangebote() {
             }
           >
             Mitarbeiter Datenerfassung (m/w/d)
+          </Button>
+          <Button
+            download={true}
+            href={
+              "pdf/Anzeige_ZAD_2022_Scankraft_Fachkraft_fuer_Digitalisierung.pdf"
+            }
+          >
+            Fachkraft für Digitalisierung (m/w/d)
+          </Button>
+          <Button
+            download={true}
+            href={"pdf/Anzeige_ZAD_2022_Postabteilung.pdf"}
+          >
+            Mitarbeiter Postabteilung (m/w/d)
           </Button>
           <h2 className="text-lg">Ausbildung</h2>
           <Button href={"pdf/AZUBI_Anzeige_ZAD_2022.pdf"} download={true}>

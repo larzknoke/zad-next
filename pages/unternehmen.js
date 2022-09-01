@@ -33,8 +33,8 @@ function Unternehmen() {
           heute zu einem bundesweit tätigen Dienstleiter für private
           Pflegedienste, Krankentransporte, Hilfsorganisationen, karitative
           Einrichtungen und kommunale Träger von Rettungsdiensten. Längst stehen
-          unsere mehr als 150 motivierten Mitarbeiterinnen und Mitarbeitern
-          ihren Kunden dabei auch über die Abrechnung ihrer Einnahmen hinaus zur
+          unsere mehr als 150 motivierten Mitarbeiterinnen und Mitarbeiter ihren
+          Kunden dabei auch über die Abrechnung ihrer Einnahmen hinaus zur
           Seite.
         </p>
         <h2 className="mt-20">Die ZAD-Philosophie</h2>
@@ -52,7 +52,7 @@ function Unternehmen() {
           </li>
           <li>
             Wir hören zu. Unsere Lösungen sind individuell auf die Ziele und
-            Wünsche sowie die Lebens- du Finanzsituation unserer Kunden
+            Wünsche sowie die Lebens- und Finanzsituation unserer Kunden
             abgestimmt. Erst wenn unsere Kunden zufrieden sind, haben wir
             unseren Job gemacht.
           </li>
