@@ -135,7 +135,7 @@ function Stellenangebote() {
               "pdf/Anzeige_ZAD_2022_Scankraft_Fachkraft_fuer_Digitalisierung.pdf"
             }
           >
-            Fachkraft für Digitalisierung (m/w/d)
+            Scankraft - Fachkraft für Digitalisierung (m/w/d)
           </Button>
           <Button
             download={true}
