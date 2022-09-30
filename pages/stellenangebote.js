@@ -129,14 +129,14 @@ function Stellenangebote() {
           >
             Mitarbeiter Datenerfassung (m/w/d)
           </Button>
-          <Button
+          {/*<Button
             download={true}
             href={
               "pdf/Anzeige_ZAD_2022_Scankraft_Fachkraft_fuer_Digitalisierung.pdf"
             }
           >
             Scankraft - Fachkraft für Digitalisierung (m/w/d)
-          </Button>
+          </Button>*/}
           <Button
             download={true}
             href={"pdf/Anzeige_ZAD_2022_Postabteilung.pdf"}
