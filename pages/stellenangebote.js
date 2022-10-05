@@ -137,12 +137,12 @@ function Stellenangebote() {
           >
             Scankraft - Fachkraft für Digitalisierung (m/w/d)
           </Button>*/}
-          <Button
+          {/* <Button
             download={true}
             href={"pdf/Anzeige_ZAD_2022_Postabteilung.pdf"}
           >
             Mitarbeiter Postabteilung (m/w/d)
-          </Button>
+          </Button> */}
           <h2 className="text-lg">Ausbildung</h2>
           <Button href={"pdf/AZUBI_Anzeige_ZAD_2022.pdf"} download={true}>
             Büromanagement &amp; Fachinformatik (m/w/d)
