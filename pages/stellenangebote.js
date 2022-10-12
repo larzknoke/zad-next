@@ -69,6 +69,7 @@ function Stellenangebote() {
               Kostenlose Bereitstellung von Kaffee, Tee, Wasser, Obst, Joghurt,
               Müsli
             </li>
+            <li>private Zusatzkrankenversicherung</li>
           </ul>
           <h2>aktuelle Stellenangebote finden sie rechts in der Menüleiste</h2>
           <p className="font-bold">
