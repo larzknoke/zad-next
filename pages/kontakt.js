@@ -11,19 +11,14 @@ import {
 import teamData from "../components/teamData";
 import TeamDetail from "../components/teamDetail";
 import Head from "next/head";
+import Script from "next/script";
 
 const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY;
 
 function Kontakt() {
-  const [confirmRecaptcha, setConfirmRecaptcha] = useState(false);
-  const [hideModal, setHideModal] = useState(false);
   const [formComplete, setFormComplete] = useState(false);
   const [formError, setFormError] = useState(false);
   const [formSending, setFormSending] = useState(false);
-
-  useEffect(() => {
-    setConfirmRecaptcha(localStorage.getItem("recapchtaConfirmed"));
-  });
 
   async function handleOnSubmit(e) {
     e.preventDefault();
@@ -69,14 +64,10 @@ function Kontakt() {
 
   return (
     <>
-      <Head>
-        {confirmRecaptcha && (
-          <script
-            src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.5/widget.min.js"
-            async
-          ></script>
-        )}
-      </Head>
+      <Script
+        strategy="afterInteractive"
+        src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.5/widget.min.js"
+      ></Script>
       <div className="xl:space-x-16 flex flex-col xl:flex-row mx-auto">
         <div className="w-full xl:w-2/3">
           <h3>Kontakt</h3>
@@ -198,17 +189,11 @@ function Kontakt() {
                 data-sitekey={SITE_KEY}
               ></div>
               <button
-                disabled={formSending || !confirmRecaptcha ? true : false}
+                disabled={formSending ? true : false}
                 className="btn-fx-1 block w-full"
               >
                 <div className="btn-fx-1__inner bp3-padding-y-xs bp3-padding-x-sm">
-                  <span>
-                    {!formSending
-                      ? confirmRecaptcha
-                        ? "Senden"
-                        : "Datenschutz wurde abgelehnt"
-                      : "wird gesendet..."}
-                  </span>
+                  <span>{!formSending ? "Senden" : "wird gesendet..."}</span>
 
                   <div className="btn-fx-1__icon-wrapper" aria-hidden="true">
                     <svg
@@ -262,68 +247,6 @@ function Kontakt() {
                 </div>
               )}
             </form>
-          </div>
-        </div>
-      </div>
-
-      <div
-        id="overlay"
-        className={
-          "fixed  z-50 w-screen h-screen inset-0 bg-gray-700 bg-opacity-60" +
-          (confirmRecaptcha || hideModal ? " hidden " : "")
-        }
-      ></div>
-
-      <div
-        tabIndex="-1"
-        className={
-          "overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center flex" +
-          (confirmRecaptcha || hideModal ? " hidden " : "")
-        }
-        aria-modal="true"
-        role="dialog"
-      >
-        <div className="relative p-4 w-full max-w-2xl h-full md:h-auto">
-          <div className="relative rounded-sm shadow-lg bg-zad-blue-600">
-            <div className="flex justify-between items-start p-6 rounded-t border-b border-gray-200">
-              <h3 className="text-xl font-semibold  text-white mb-0">
-                Kontaktformular - Datenschutz
-              </h3>
-            </div>
-            <div className="p-6 space-y-4">
-              <p className="text-base leading-relaxed text-white mb-0">
-                Zum versenden von Nachrichten über das Kontaktformular wird
-                &quot;Friendly Captcha&quot; eingesetzt. Hiermit soll überprüft
-                werden, ob die Dateneingabe auf dieser Website durch einen
-                Menschen oder durch ein automatisiertes Programm erfolgt.
-              </p>
-              <p className="text-base leading-relaxed text-white mb-0">
-                Das versenden von Nachrichten über das Kontaktformular
-                funktioniert nur wenn Sie &quot;Friendly Captcha&quot;
-                akzeptieren.
-              </p>
-            </div>
-            <div className="flex items-center p-6 space-x-2 rounded-b border-t  border-gray-200 justify-end">
-              <button
-                onClick={() => {
-                  setHideModal(true);
-                }}
-                type="button"
-                className="focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-[3px] border  text-sm font-medium px-5 py-2.5  focus:z-10 bg-gray-400 text-gray-100 border-gray-500 hover:text-gray-600 hover:bg-gray-300"
-              >
-                Ablehnen
-              </button>
-              <button
-                onClick={() => {
-                  setConfirmRecaptcha(true);
-                  localStorage.setItem("recapchtaConfirmed", true);
-                }}
-                type="button"
-                className="text-white bg-zad-blue-500 hover:bg-zad-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[3px] text-sm px-5 py-2.5 text-center "
-              >
-                Akzeptieren
-              </button>
-            </div>
           </div>
         </div>
       </div>
