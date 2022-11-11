@@ -5,7 +5,7 @@ function Impressum() {
     <div className="lg:pr-64 datenschutz">
       <h1>Impressum</h1>
       <p>
-        ZAD Zentraler Abrechnungs-Dienst GmbH
+        <strong>ZAD Zentraler Abrechnungs-Dienst GmbH</strong>
         <br />
         Ottilienstr. 10
         <br />
@@ -22,7 +22,7 @@ function Impressum() {
         Internet: <a href="http://www.zad-northeim.de">www.zad-northeim.de</a>
       </p>
       <p>
-        Geschäftsführung:
+        <strong>Geschäftsführung:</strong>
         <br />
         Ulrike Niesen
         <br />
@@ -57,7 +57,7 @@ function Impressum() {
         37073 Göttingen
       </p>
       <p>
-        Inkassoaufsichtsbehörde:
+        <strong>Inkassoaufsichtsbehörde:</strong>
         <br />
         Präsident/in des Landgerichts Göttingen
         <br />
@@ -69,11 +69,15 @@ function Impressum() {
         im Bereich Inkassodienstleistungen: Aktenzeichen: 3712 Northeim ZAD
       </p>
       <p>
-        Inhaltlich Verantwortlich:
-        <br />
-        Ulrike Niesen
+        <strong>Inhaltlich Verantwortlich:</strong>
         <br />
         Irina Niesen
+        <br />
+        ZAD Zentraler Abrechnungs-Dienst GmbH
+        <br />
+        Ottilienstr. 10
+        <br />
+        37154 Northeim
       </p>
       <h3 className="mt-8">Haftungsausschluss</h3>
       <p>
