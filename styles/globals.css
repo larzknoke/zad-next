@@ -93,6 +93,10 @@ p {
   @apply mt-16;
 }
 
+.datenschutz ul {
+  @apply text-zad-blue-600;
+}
+
 li {
   @apply mb-2;
 }
