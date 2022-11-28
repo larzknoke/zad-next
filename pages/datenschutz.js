@@ -268,59 +268,41 @@ function Datenschutz() {
         Server-Log-Dateien zwingend im Sinne des Art. 21 Abs. 1 DSGVO ist, da
         die Webseite ansonsten überhaupt nicht betrieben werden kann.
       </p>
-      <h2>Cookies und Web Storage</h2>
-      <p>
-        Wir benutzen zur Verbesserung der Nutzerfreundlichkeit auf unserer
-        Webseite den „Web Storage“ Ihres Browsers.
-      </p>
-      <h3>Cookies</h3>
+      <h2>Cookies</h2>
       <p>Auf unserer Webseite kommen keine Cookies zum Einsatz.</p>
-      <h3>Web Storage</h3>
-      <h4>Was ist der Web Storage</h4>
+      <h2>Hosting mit Digital Ocean LLC</h2>
       <p>
-        Der Web Storage ist eine Technik für Webanwendungen, mit der Daten in
-        einem Webbrowser gespeichert werden. Der Web Storage kann vereinfacht
-        als eine Weiterentwicklung von Cookies angesehen werden, unterscheidet
-        sich von diesen jedoch in einigen Punkten.
+        Diese Webseite nutzt eine Cloud-Plattform für virtuelle Server von
+        Digital Ocean LLC, 106 6th Avenue,New York USA. Der Serverstandort ist
+        ein ISO/IEC 27001 zertifiziertes Rechenzentrum in Frankfurt, in welchem
+        Digital Ocean Stellplätze anmietet.
       </p>
       <p>
-        Im Gegensatz zu Cookies, auf die sowohl Server als auch Client zugreifen
-        können, wird der Web Storage vollständig vom Client gesteuert. Das
-        heißt, es werden hierbei nicht mit jedem Aufruf der Webseite Daten zum
-        Server übertragen. Der Zugriff erfolgt ausschließlich lokal über Skripte
-        auf der Webseite. Konkret bedeutet das, dass ein Zugriff Dritter auf die
-        gespeicherten Informationen über die Webseite ausgeschlossen ist. Nur
-        Sie und wir können auf die lokal gespeicherten Daten zugreifen.
+        Der Einsatz von Digital Ocean beruht auf unserem berechtigten Interesse
+        an einer möglichst fehlerfreien und sicheren Bereitstellung unseres
+        Webangebotes (Art. 6 Abs. 1 lit. f DSGVO). Die Datenübertragung indie
+        USA wird auf die neuen Standardvertragsklauseln der EU-Kommission
+        gestützt. <br />
+        Details finden Sie hier:
+        <br />
+        <a href="https://www.digitalocean.com/legal/privacy-policy/">
+          https://www.digitalocean.com/legal/privacy-policy/
+        </a>
+        <br />
+        <a href="https://www.digitalocean.com/legal/gdpr">
+          https://www.digitalocean.com/legal/gdpr
+        </a>
+        <br />
+        <a href="https://www.digitalocean.com/legal/data-processing-agreement">
+          https://www.digitalocean.com/legal/data-processing-agreement
+        </a>
+        .
       </p>
-      <h4>Rechtsgrundlage</h4>
+      <h2>SSL Verschlüsselung</h2>
       <p>
-        Die Rechtsgrundlage für die Nutzung des Web Storage, die für die
-        Funktion der Webseite zwingend erforderlich ist, ist Art. 6 Abs. 1 S. 1
-        Buchstabe f) DSGVO (Berechtigtes Interesse an der Datenverarbeitung)
-        sowie §25 Abs. 2 Nr. 2 TTDSG (unbedingte Erforderlichkeit zur
-        Bereitstellung eines vom Nutzer ausdrücklich gewünschten
-        Telemediendienstes). Das berechtigte Interesse ergibt sich aus unserem
-        Bedarf Ihnen eine funktionierende Webseite anbieten zu können. Der Web
-        Storage ist dazu erforderlich, weil er ein integraler Bestandteil der
-        aktuellen Internet-Technologie ist und ohne ihn viele Funktionen
-        aktueller Webseiten nicht zur Verfügung stünden. Wir benötigen daher den
-        Web Storage, um Ihnen die Webseite auf Ihre Anfrage zur Verfügung
-        stellen zu können.
-      </p>
-      <p>
-        Der Verarbeitung Ihrer Daten auf Grundlage unseres berechtigten
-        Interesses können Sie jederzeit unter den Voraussetzungen des Art. 21
-        DSGVO widersprechen. Nutzen Sie hierfür bitte die im Impressum genannten
-        Kontaktdaten.
-      </p>
-      <p>
-        Wir weisen aber darauf hin, dass die Verarbeitung Ihrer Daten im Web
-        Storage unter Umständen zwingend im Sinne des Art. 21 Abs. 1 DSGVO ist,
-        da die Webseite ansonsten überhaupt nicht betrieben werden kann und wir
-        technisch nicht die Möglichkeit haben, die Nutzung auf bestimmten
-        individuellen Endgeräten zu unterbinden. Sie können das in Ihrem Browser
-        aber möglicherweise selbst tun. Werfen Sie für weitere Informationen
-        hierzu bitte einen Blick in die Anleitung Ihres Browsers.
+        Ihre personenbezogenen Daten werden verschlüsselt über das Internet zu
+        unseren Servern übertragen. Wir verwenden für die Datenübertragung eine
+        SSL-Verschlüsselung (Secure-Socket-Layer).
       </p>
       <h2>Kontaktaufnahme</h2>
       <p>
@@ -363,83 +345,7 @@ function Datenschutz() {
         DSGVO widersprechen. Nutzen Sie hierfür bitte die im Impressum genannten
         Kontaktdaten.
       </p>
-      <h2>Kundenlogin</h2>
-      <p>
-        Unsere Webseite bietet Ihnen die Möglichkeit, sich für weitere
-        Funktionen anzumelden. Eine Anmeldung ist ausschließlich registrierten
-        Kunden möglich. Rechtsgrundlage für die von Ihnen im Anmeldungsprozess
-        angegebenen Daten ist Art. 6 Abs. 1 S. 1 Buchstabe b) DSGVO.
-        <br />
-        Weitere Informationen entnehmen Sie bitte den Nutzungsbedingungen
-      </p>
-      <h1>8. Dienste Dritter</h1>
-      <p>
-        Wir nutzen, zur Vereinfachung unserer Datenverarbeitung und um den
-        Funktionsumfang unserer Webseite zu erweitern,
-        Dienstleistungen/Ressourcen von Dritten, beispielsweise Plugins, externe
-        Inhalte, Software oder sonstige externe Dienstleister (Dienste). Dabei
-        werden möglicherweise auch personenbezogene Daten an den Diensteanbieter
-        übermittelt. Um Ihre Daten zu schützen, haben wir die Diensteanbieter
-        erforderlichenfalls gem. Art. 28 DSGVO vertraglich verpflichtet, Ihre
-        Daten nur nach unserer Anweisung zu verarbeiten.
-      </p>
-      <p>
-        Wir weisen ausdrücklich darauf hin, dass wir regelmäßig nur für die
-        Datenerhebung und Übermittlung durch den Dienst verantwortlich im Sinne
-        der DSGVO sind, nicht aber für eine eventuell später erfolgende
-        Verarbeitung durch den jeweiligen Diensteanbieter.
-      </p>
-      <p>Im Einzelnen nutzen wir folgende Dienste:</p>
-      <h2>Content Delivery Networks</h2>
-      <p>
-        Unsere Webseite bedient sich sogenannter Content Delivery Networks
-        (CDN). Ein CDN ist ein Netzwerk aus leistungsfähigen Servern, die
-        Inhalte an verschiedenen Orten auf der ganzen Welt zwischenspeichern.
-        Dabei hat ein CDN im Wesentlichen zwei Aufgaben: zum einen soll es
-        Inhalte in kürzester Zeit bereitstellen und zum anderen den Web-Host
-        entlasten, indem der Datenverkehr verteilt wird.
-      </p>
-      <p>
-        CDNs übermitteln zwei Arten von Inhalten: Statische und dynamische
-        Inhalte. Statische Inhalte erhalten alle Webseitenbesucher in gleicher
-        Form, wie zum Beispiel Videoinhalte von Streaming-Diensten oder
-        Code-Frameworks (z.B. Javascript, jQuery). Dynamische Inhalte werden
-        zunächst an den Nutzer angepasst und erst im Moment der Anfrage
-        erstellt. Dazu zählen Inhalte, die über Web-Anwendungen, E-Mail oder
-        Online-Shops erfolgen und personalisiert sind. Um letzteres nutzen zu
-        können, müssen erst Informationen über den Webseitenbesucher an das CDN
-        übermittelt werden. Hierbei können auch persönliche Daten von Ihnen
-        übermittelt werden.
-      </p>
-      <p>
-        Bei jedem Aufruf der Anwendung werden allgemeine Informationen von Ihrem
-        Browser automatisch an den Server übermittelt (sog. Server-Log-Dateien).
-        Nähere Informationen hierzu siehe oben unter „Server-Log-Dateien“.
-      </p>
-      <p>
-        Die Rechtsgrundlage für die Nutzung von CDNs und die Übermittlung Ihrer
-        Daten an diese ist Art. 6 Abs. 1 S. 1 Buchstabe f) DSGVO (Berechtigtes
-        Interesse an der Datenverarbeitung), soweit bei dem jeweiligen Dienst
-        nichts anderes angegeben ist. Das berechtigte Interesse ergibt sich aus
-        unserem Bedarf an einer technisch einwandfreien und schnellen
-        Darstellung unserer Webseite und der Entlastung unserer
-        IT-Infrastruktur. Der Verarbeitung Ihrer Daten auf Grundlage unseres
-        berechtigten Interesses können Sie jederzeit unter den Voraussetzungen
-        des Art. 21 DSGVO widersprechen. Nutzen Sie hierfür bitte die im
-        Impressum genannten Kontaktdaten.
-      </p>
-      <p>Wir verwenden:</p>
-      <h3>jsDelivr</h3>
-      <p>Wir nutzen den CDN-Dienst „jsDelivr“ der Firma Prospect One.</p>
-      <p>
-        Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der
-        Datenschutzerklärung von jsDelivr:
-        <a href="https://www.jsdelivr.com/privacy-policy-jsdelivr-net">
-          https://www.jsdelivr.com/privacy-policy-jsdelivr-net
-        </a>
-        .
-      </p>
-      <h1>9. Sonstige Dienste</h1>
+      <h1>8. Sonstige Dienste</h1>
       <h3>Friendly Captcha</h3>
       <p>
         Unsere Webseite nutzt den Missbrauchsschutz „Friendly Captcha“ der
@@ -468,11 +374,7 @@ function Datenschutz() {
         widersprechen. Nutzen Sie hierfür bitte die im Impressum genannten
         Kontaktdaten.
       </p>
-      <h1>
-        <a name="_Toc116565823"></a>
-        <a name="__RefHeading__4098_785022779"></a>
-        10. Social-Media-Fanseiten
-      </h1>
+      <h1>9. Social-Media-Fanseiten</h1>
       <p>
         Zusätzlich zu unserer Webseite unterhalten wir Onlinepräsenzen auf
         sozialen Plattformen, um mit den dort aktiven Kunden, Interessenten und
@@ -575,48 +477,6 @@ function Datenschutz() {
         Diese Informationen finden Sie hier:
         <a href="https://www.facebook.com/legal/terms/information_about_page_insights_data">
           https://www.facebook.com/legal/terms/information_about_page_insights_data
-        </a>
-        .
-      </p>
-      <h3>Kununu</h3>
-      <p>
-        Kununu ist ein berufliches Netzwerk der New Work SE, Am Strandkai 1,
-        20457 Hamburg, Deutschland. Weitere Informationen zum Datenschutz bei
-        kununu erhalten Sie unter:
-      </p>
-      <p>
-        <a href="https://privacy.xing.com/de/datenschutzerklaerung">
-          https://privacy.xing.com/de/datenschutzerklaerung
-        </a>
-      </p>
-      <h3>LinkedIn</h3>
-      <p>
-        LinkedIn ist ein berufliches Netzwerk der LinkedIn Ireland Unlimited
-        Company, Wilton Place, Dublin 2, Irland. Diese Firma vertritt in der EU
-        die LinkedIn Corporation, 1000 W. Maude Ave., Sunnyvale, California
-        94085, USA.
-      </p>
-      <p>
-        Weitere Informationen zum Datenschutz bei LinkedIn finden Sie unter:
-        <a href="https://www.linkedin.com/legal/privacy-policy">
-          https://www.linkedin.com/legal/privacy-policy
-        </a>
-        .
-      </p>
-      <p>
-        Die Datenerhebung von LinkedIn können Sie auf der folgenden Seite
-        konfigurieren:
-        <a href="https://www.linkedin.com/psettings/guest-controls/">
-          https://www.linkedin.com/psettings/guest-controls/
-        </a>
-      </p>
-      <h3>Xing</h3>
-      <p>
-        Xing ist ein berufliches Netzwerk der New Work SE, Am Strandkai 1, 20457
-        Hamburg, Deutschland. Weitere Informationen zum Datenschutz bei Xing
-        finden Sie unter:
-        <a href="https://privacy.xing.com/de/datenschutzerklaerung">
-          https://privacy.xing.com/de/datenschutzerklaerung
         </a>
         .
       </p>
