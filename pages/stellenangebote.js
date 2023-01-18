@@ -76,6 +76,9 @@ function Stellenangebote() {
             Sie haben kein passendes Stellenangebot gefunden oder sind
             Quereinsteiger? Dann überzeugen Sie uns mit Ihrer Initativbewerbung
             und gehen mit uns neue Wege im Büro oder der Informationstechnik.
+            Bitte beachten Sie, dass wir für Bewerbungen ausschließlich
+            Datei-Formate im PDF akzeptieren. Andere Datei-Formate sind nicht
+            zulässig.
           </p>
           <div className="flex flex-col bg-zad-blue-200 p-8 rounded text-zad-blue-600">
             <h3 className="mb-2">Kontakt</h3>
