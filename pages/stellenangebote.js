@@ -139,7 +139,7 @@ function Stellenangebote() {
             download={true}
             href={"pdf/Anzeige_ZAD_Mitarbeiter_Interner_Postausgang.pdf"}
           >
-            Mitarbeiter Interner Postausgang (M/W/D)
+            Mitarbeiter Interner Postausgang (m/w/d)
           </Button>
           {/*<Button
             download={true}
