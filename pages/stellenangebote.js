@@ -122,7 +122,7 @@ function Stellenangebote() {
           <Button
             download={true}
             href={
-              "pdf/Anzeige_ZAD_2022_Kaufmaennischer_Sachbearbeiter_Gesundheitswesen.pdf"
+              "pdf/Anzeige_ZAD_Kaufmaennischer_Sachbearbeiter_Gesundheitswesen.pdf"
             }
           >
             Sachbearbeiter Gesundheitswesen (m/w/d)
@@ -130,10 +130,16 @@ function Stellenangebote() {
           <Button
             download={true}
             href={
-              "pdf/Anzeige_ZAD_2022_Kaufmaennischer_Mitarbeiter_Datenerfassung.pdf"
+              "pdf/Anzeige_ZAD_Kaufmaennischer_Mitarbeiter_Datenerfassung.pdf"
             }
           >
             Mitarbeiter Datenerfassung (m/w/d)
+          </Button>
+          <Button
+            download={true}
+            href={"pdf/Anzeige_ZAD_Mitarbeiter_Interner_Postausgang.pdf"}
+          >
+            Mitarbeiter Interner Postausgang (M/W/D)
           </Button>
           {/*<Button
             download={true}
@@ -150,7 +156,7 @@ function Stellenangebote() {
             Mitarbeiter Postabteilung (m/w/d)
           </Button> */}
           <h2 className="text-lg">Ausbildung</h2>
-          <Button href={"pdf/AZUBI_Anzeige_ZAD_2022.pdf"} download={true}>
+          <Button href={"pdf/Anzeige_ZAD_AZUBI.pdf"} download={true}>
             Büromanagement &amp; Fachinformatik (m/w/d)
           </Button>
         </div>
