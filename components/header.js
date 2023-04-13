@@ -67,7 +67,7 @@ function Header({ handleCurtain, handleTease }) {
           </div>
         </div>
         <div
-          className={`nav flex mt-8 xl:mt-24 justify-between items-center ${
+          className={`nav flex mt-8 xl:mt-24 justify-between items-center relative ${
             scroll ? " scroll " : ""
           }`}
         >
@@ -78,7 +78,7 @@ function Header({ handleCurtain, handleTease }) {
               </a>
             </Link>
           </div>
-          <div className="text-zad-blue-600 space-x-6 flex main-nav">
+          <div className="text-zad-blue-600 space-x-6 flex main-nav ">
             <Link href="/">
               <a>Home</a>
             </Link>
@@ -160,7 +160,11 @@ function Header({ handleCurtain, handleTease }) {
               <span />
               <span />
             </div>
-
+            <img
+              className="absolute xl:w-60 shadow-lg rotate-2 xl:top-40 xl:right-0 md:right-24 md:w-56 w-32 right-16"
+              src="images/messe.svg"
+              alt="ZAD Tools Logo"
+            />
             {/* <Link href="/search">
               <a>
                 <FontAwesomeIcon
