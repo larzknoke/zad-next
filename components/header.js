@@ -161,7 +161,7 @@ function Header({ handleCurtain, handleTease }) {
               <span />
             </div>
             <img
-              className="absolute xl:w-60 shadow-lg rotate-2 xl:top-40 xl:right-0 md:right-24 md:w-56 w-32 right-16"
+              className="absolute xl:w-60 shadow-lg xl:top-40 xl:right-0 md:right-24 md:w-56 w-32 right-16"
               src="images/messe.svg"
               alt="ZAD Tools Logo"
             />
