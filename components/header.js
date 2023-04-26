@@ -160,11 +160,15 @@ function Header({ handleCurtain, handleTease }) {
               <span />
               <span />
             </div>
-            <img
-              className="absolute xl:w-60 shadow-lg xl:top-40 xl:right-0 md:right-24 md:w-56 w-32 right-16"
-              src="images/messe.svg"
-              alt="ZAD Tools Logo"
-            />
+            <Link href="https://www.rettmobil-international.com/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute xl:w-60 shadow-lg xl:top-40 xl:right-0 md:right-24 md:w-56 w-32 right-16 bottom-0 messe"
+              >
+                <img className="" src="images/messe.svg" alt="ZAD Tools Logo" />
+              </a>
+            </Link>
             {/* <Link href="/search">
               <a>
                 <FontAwesomeIcon
