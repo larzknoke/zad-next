@@ -163,7 +163,7 @@ main.tease:not(.open) .hand {
 
 /* NAVIGATION */
 
-.main-nav a {
+.main-nav a:not(.messe) {
   @apply hidden xl:block;
 }
 
@@ -193,4 +193,8 @@ main.tease:not(.open) .hand {
 }
 .nav.scroll img {
   @apply w-24;
+}
+
+.scroll .messe {
+  @apply hidden;
 }
