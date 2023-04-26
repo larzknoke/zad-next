@@ -49,7 +49,7 @@ function Krankentransporte() {
           <p>
             Im ZAD-Kunden WebPortal behalten Sie trotzdem alles unter Kontrolle.
             Das kostenlose WebPortal liefert Ihnen jederzeit einen vollständigen
-            Überblick und Zugriff auf sämtliche Abrechnungsdaten. Statt Wühlen
+            Überblick und Zugriff auf sämtliche Abrechnungsdaten. Statt wühlen
             im Blätterwald, alles ganz einfach per Mausklick.
           </p>
           <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-8 lg:space-y-0 my-10 w-full items-stretch justify-items-stretch">
