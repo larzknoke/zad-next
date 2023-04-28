@@ -97,8 +97,8 @@ function Kontakt() {
               Ottilienstraße 10, 37154 Northeim
             </div>
             <div className="flex">
-              <FontAwesomeIcon icon={faPhone} className="w-4 mr-1" />0 55 51 /
-              96 88 - 0
+              <FontAwesomeIcon icon={faPhone} className="w-4 mr-1" />
+              <a href="tel:+49555196880"> 0 55 51 / 96 88 - 0</a>
             </div>
             <div className="flex">
               <FontAwesomeIcon icon={faEnvelope} className="w-4 mr-1" />
@@ -140,19 +140,10 @@ function Kontakt() {
                 />
               </div>
               <div className="form-group mb-6">
-                <input
-                  type="text"
-                  className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-sm transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                  id="inputBetreff"
-                  placeholder="Betreff"
-                  name="betreff"
-                />
-              </div>
-              <div className="form-group mb-6">
                 <textarea
                   className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-sm transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="inputNachricht"
-                  rows={3}
+                  rows={5}
                   placeholder="Nachricht"
                   defaultValue={""}
                   name="nachricht"
