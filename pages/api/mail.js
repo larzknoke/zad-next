@@ -14,7 +14,6 @@ export default async function handler(req, res) {
   const message = `
     Name: ${body.name}rn
     Email: ${body.email}rn
-    Betreff: ${body.betreff}rn
     Nachricht: ${body.nachricht}
   `;
 

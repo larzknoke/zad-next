@@ -33,7 +33,7 @@ function Header({ handleCurtain, handleTease }) {
                 icon={faPhone}
                 className="text-gray-400 mr-2 w-4 inline-block"
               />
-              0 55 51 / 96 88 - 0
+              <a href="tel:0555196880"> 0 55 51 / 96 88 - 0</a>
             </div>
             <div className="text-zad-blue-600">
               <FontAwesomeIcon
@@ -164,7 +164,7 @@ function Header({ handleCurtain, handleTease }) {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute xl:w-60 shadow-lg xl:top-40 xl:right-0 md:right-24 md:w-56 w-32 right-16 bottom-0 messe"
+                className="absolute xl:w-60 shadow-lg xl:top-40 xl:right-0 md:right-24 md:w-56 w-24 right-14 bottom-0 messe"
               >
                 <img className="" src="images/messe.svg" alt="ZAD Tools Logo" />
               </a>
