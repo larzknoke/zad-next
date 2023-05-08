@@ -72,7 +72,6 @@ export default function SideContact() {
                 id="inputTelefon"
                 placeholder="Unter welcher Telefonnummer dürfen wir Sie kontaktieren?"
                 name="telefon"
-                required={true}
               />
             </div>
             <div className="form-group mb-6">
