@@ -3,6 +3,8 @@ import Sidenav from "../components/sidenav";
 import Link from "next/link";
 import Button from "../components/button";
 import Image from "next/image";
+import Footer from "../components/footer";
+import SideContact from "../components/sideContact";
 function Pflegedienste() {
   return (
     <>
@@ -17,7 +19,7 @@ function Pflegedienste() {
         <source type="video/mp4" src="/videos/vid_unternehmen.mp4" />
       </video>
 
-      <div className="mx-auto flex flex-col lg:flex-row py-12 md:py-24 md:px-28 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-24 space-y-12 md:space-y-16 lg:space-y-0">
+      <div className="mx-auto flex flex-col lg:flex-row py-12 md:py-24 md:px-28 px-8 lg:px-24 xl:px-48 xl:py-32 lg:space-x-20 space-y-12 md:space-y-16 lg:space-y-0">
         <div className="lg:space-y-8 gap-y-4 md:gap-y-0 flex flex-row lg:flex-col justify-between md:justify-evenly lg:justify-start flex-wrap">
           <Sidenav />
         </div>
@@ -49,24 +51,31 @@ function Pflegedienste() {
             <Button href="/kontakt">Jetzt Anfrage senden</Button>
             <Button href="/team">Ansprechpartner finden</Button>
           </div>
+          <div className="flex-col lg:flex-row gap-8 my-10 hidden lg:flex">
+            <Image
+              src="/images/start/pfleger.jpg"
+              className=" object-cover rounded "
+              width={700}
+              height={400}
+              objectFit="cover"
+            />
+            <Image
+              src="/images/leistungen/drucker.jpg"
+              className=" object-cover rounded"
+              width={700}
+              height={400}
+              objectFit="cover"
+            />
+          </div>
         </div>
-        <div className="flex-col w-full max-w-xs gap-8 hidden xl:flex min-w-[14rem]">
-          <Image
-            src="/images/start/pfleger.jpg"
-            className=" object-cover rounded "
-            width={700}
-            height={400}
-            objectFit="cover"
-          />
-          <Image
-            src="/images/leistungen/drucker.jpg"
-            className=" object-cover rounded"
-            width={700}
-            height={400}
-            objectFit="cover"
-          />
+        <div>
+          <h4 className="font-bold text-xl">
+            Sind Sie an Abrechnungen für Ihren Pflegedienst interessiert?
+          </h4>
+          <SideContact />
         </div>
       </div>
+      <Footer />
     </>
   );
 }
