@@ -198,3 +198,19 @@ main.tease:not(.open) .hand {
 .scroll .messe {
   @apply hidden;
 }
+
+.pulse {
+  animation: pulse-ani 0.9s ease-out 1 8s;
+}
+
+@keyframes pulse-ani {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

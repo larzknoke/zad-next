@@ -14,7 +14,10 @@ export default async function handler(req, res) {
   const message = `
     Name: ${body.name}rn
     Email: ${body.email}rn
-    Nachricht: ${body.nachricht}
+    Nachricht: ${body.nachricht}rn
+    Frage: ${body.frage}rn
+    Telefon: ${body.telefon}rn
+    Uhrzeit: ${body.uhrzeit}rn
   `;
 
   try {
@@ -31,6 +34,7 @@ export default async function handler(req, res) {
     console.log("recaptchaJson", recaptchaJson);
 
     if (recaptchaJson.success) {
+      console.log("success");
       mail
         .send({
           to: process.env.FORM_EMAIL,

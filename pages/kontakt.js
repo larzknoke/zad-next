@@ -10,15 +10,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import teamData from "../components/teamData";
 import TeamDetail from "../components/teamDetail";
-import Head from "next/head";
-import Script from "next/script";
-
-const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITEKEY;
+import { FriendlyCaptcha } from "../components/captcha";
 
 function Kontakt() {
   const [formComplete, setFormComplete] = useState(false);
   const [formError, setFormError] = useState(false);
   const [formSending, setFormSending] = useState(false);
+  const [disabled, setDisabled] = useState(true);
+  const [solution, setSolution] = useState(null);
 
   async function handleOnSubmit(e) {
     e.preventDefault();
@@ -64,10 +63,6 @@ function Kontakt() {
 
   return (
     <>
-      <Script
-        strategy="afterInteractive"
-        src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.5/widget.min.js"
-      ></Script>
       <div className="xl:space-x-16 flex flex-col xl:flex-row mx-auto">
         <div className="w-full xl:w-2/3">
           <h3>Kontakt</h3>
@@ -93,15 +88,15 @@ function Kontakt() {
           </div>
           <div className="flex flex-col text-zad-blue-600 space-y-2 mt-16 mb-8">
             <div className="flex">
-              <FontAwesomeIcon icon={faLocationDot} className="w-4 mr-1" />
+              <FontAwesomeIcon icon={faLocationDot} className="w-4 mr-2" />
               Ottilienstraße 10, 37154 Northeim
             </div>
             <div className="flex">
-              <FontAwesomeIcon icon={faPhone} className="w-4 mr-1" />
+              <FontAwesomeIcon icon={faPhone} className="w-4 mr-2" />
               <a href="tel:+49555196880"> 0 55 51 / 96 88 - 0</a>
             </div>
             <div className="flex">
-              <FontAwesomeIcon icon={faEnvelope} className="w-4 mr-1" />
+              <FontAwesomeIcon icon={faEnvelope} className="w-4 mr-2" />
               <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
             </div>
           </div>
@@ -175,10 +170,10 @@ function Kontakt() {
                   Verarbeitung einverstanden.
                 </label>
               </div>
-              <div
-                className="frc-captcha !w-full !max-w-full my-6 rounded-sm "
-                data-sitekey={SITE_KEY}
-              ></div>
+              <FriendlyCaptcha
+                setDisabled={setDisabled}
+                setSolution={setSolution}
+              />
               <button
                 disabled={formSending ? true : false}
                 className="btn-fx-1 block w-full"
