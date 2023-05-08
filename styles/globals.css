@@ -214,3 +214,8 @@ main.tease:not(.open) .hand {
     transform: scale(1);
   }
 }
+
+.side-contact-form input::placeholder,
+.side-contact-form textarea::placeholder {
+  font-size: 14px;
+}
