@@ -56,7 +56,7 @@ export default function SideContact() {
 
   return (
     <>
-      <div className="flex flex-col space-y-6 w-full bg-zad-blue-200 p-8 rounded pulse">
+      <div className="flex flex-col space-y-6 w-full bg-zad-blue-200 p-8 rounded pulseOFF">
         <div className="block">
           <h4 className=" text-lg">
             Rufen Sie uns direkt an: 05551 / 96 88 - 0
