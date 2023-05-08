@@ -153,7 +153,7 @@ function Kontakt() {
                   required={true}
                 />
                 <label
-                  className="form-check-label inline-block text-zad-blue-600 text-sm"
+                  className="form-check-label inline-block text-zad-blue-600 text-sm cursor-pointer"
                   htmlFor="inputDatenschutz"
                 >
                   Ja, ich habe die{" "}
