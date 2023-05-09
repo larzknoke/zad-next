@@ -1,3 +1,5 @@
+import path from "path";
+
 const mail = require("@sendgrid/mail");
 
 mail.setApiKey(process.env.SENDGRID_API_KEY);
@@ -12,12 +14,13 @@ export default async function handler(req, res) {
   const verifyUrl = `https://api.friendlycaptcha.com/api/v1/siteverify`;
 
   const message = `
-    Name: ${body.name}rn
-    Email: ${body.email}rn
-    Nachricht: ${body.nachricht}rn
-    Frage: ${body.frage}rn
-    Telefon: ${body.telefon}rn
-    Uhrzeit: ${body.uhrzeit}rn
+    Name: ${body.name}\r\n
+    Email: ${body.email}\r\n
+    Nachricht: ${body.nachricht}\r\n
+    Frage: ${body.frage}\r\n
+    Telefon: ${body.telefon}\r\n
+    Uhrzeit: ${body.uhrzeit}\r\n
+    Herkunft: ${req.headers.referer}\r\n
   `;
 
   try {
@@ -35,6 +38,18 @@ export default async function handler(req, res) {
 
     if (recaptchaJson.success) {
       console.log("success");
+
+      /* LOGGER START*/
+      const fsp = require("fs").promises;
+      const fileDataPath = path.join(process.cwd(), "/log.txt");
+      fsp.appendFile(
+        fileDataPath,
+        `${new Date()};${req.headers.referer};${body.name};${body.email};${
+          body.nachricht
+        };${body.frage};${body.email};${body.telefon};${body.uhrzeit}\r\n`
+      );
+      /* LOGGER END*/
+
       mail
         .send({
           to: process.env.FORM_EMAIL,
