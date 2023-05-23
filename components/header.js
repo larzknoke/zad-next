@@ -160,7 +160,7 @@ function Header({ handleCurtain, handleTease }) {
               <span />
               <span />
             </div>
-            <Link href="https://www.rettmobil-international.com/">
+            {/* <Link href="https://www.rettmobil-international.com/">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -168,7 +168,7 @@ function Header({ handleCurtain, handleTease }) {
               >
                 <img className="" src="images/messe.svg" alt="ZAD Tools Logo" />
               </a>
-            </Link>
+            </Link> */}
             {/* <Link href="/search">
               <a>
                 <FontAwesomeIcon
