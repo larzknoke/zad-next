@@ -66,6 +66,15 @@ const teamData = {
       image: "zahel_1",
       imageHover: "zahel_2",
     },
+    {
+      name: "Jennifer Zinnecker",
+      title: "Innendienst",
+      phone: "05551 / 96 88-769",
+      fax: "05551 / 96 88-655",
+      email: "jennifer.zinnecker@zad-northeim.de",
+      image: "zinnecker_1",
+      imageHover: "zinnecker_2",
+    },
   ],
   teamleitung: [
     {
