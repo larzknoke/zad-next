@@ -169,7 +169,8 @@ const teamData = {
     },
     {
       name: "Jennifer Zinnecker",
-      title: "Zentrale",
+      title: "Vertrieb",
+      title2: "Innendienst",
       phone: "05551 / 96 88-769",
       fax: "05551 / 96 88-655",
       image: "zinnecker_1",

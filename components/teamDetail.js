@@ -41,6 +41,9 @@ function Team({ person, index, kontakt = false }) {
       </div>
       <span className=" text-bold text-xl mt-4">{person.name}</span>
       <span className="text-zad-blue-300">{person.title}</span>
+      {person.title2 && (
+        <span className="text-zad-blue-300">{person.title2}</span>
+      )}
       <a className=" mt-4" href={`tel:${person.phone}`}>
         Tel.: {person.phone}
       </a>
