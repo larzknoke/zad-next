@@ -45,8 +45,8 @@ export default async function handler(req, res) {
       fsp.appendFile(
         fileDataPath,
         `${new Date()};${req.headers.referer};${body.name};${body.email};${
-          body.nachricht
-        };${body.frage};${body.email};${body.telefon};${body.uhrzeit}\r\n`
+          body.frage
+        }\r\n`
       );
       /* LOGGER END*/
 
