@@ -34,12 +34,18 @@ function Unternehmen() {
             return <TeamDetail person={person} key={person.email} index={i} />;
           })}
         </div>
-        <h2 className="team-header">Teamleitung</h2>
-        <div className="team-detail">
-          {teamData.teamleitung.map((person, i) => {
-            return <TeamDetail person={person} key={person.email} index={i} />;
-          })}
-        </div>
+        {teamData.teamleitung && (
+          <>
+            <h2 className="team-header">Teamleitung</h2>
+            <div className="team-detail">
+              {teamData.teamleitung.map((person, i) => {
+                return (
+                  <TeamDetail person={person} key={person.email} index={i} />
+                );
+              })}
+            </div>
+          </>
+        )}
       </div>
       <Footer />
     </div>
