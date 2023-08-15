@@ -150,33 +150,33 @@ const teamData = {
   //     imageHover: "aniesen_2",
   //   },
   // ],
-  // zentrale: [
-  //   {
-  //     name: "Kathrin Schuster",
-  //     title: "Zentrale",
-  //     phone: "05551 / 96 88-0",
-  //     fax: "05551 / 96 88-88",
-  //     image: "schuster_1",
-  //     imageHover: "schuster_2",
-  //   },
-  //   {
-  //     name: "Heike Manteufel",
-  //     title: "Zentrale",
-  //     phone: "05551 / 96 88-0",
-  //     fax: "05551 / 96 88-88",
-  //     image: "manteufel_1",
-  //     imageHover: "manteufel_2",
-  //   },
-  //   {
-  //     name: "Jennifer Zinnecker",
-  //     title: "Vertrieb",
-  //     title2: "Innendienst",
-  //     phone: "05551 / 96 88-769",
-  //     fax: "05551 / 96 88-655",
-  //     image: "zinnecker_1",
-  //     imageHover: "zinnecker_2",
-  //   },
-  // ],
+  zentrale: [
+    {
+      name: "Kathrin Schuster",
+      title: "Zentrale",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-88",
+      image: "schuster_1",
+      imageHover: "schuster_2",
+    },
+    {
+      name: "Heike Manteufel",
+      title: "Zentrale",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-88",
+      image: "manteufel_1",
+      imageHover: "manteufel_2",
+    },
+    {
+      name: "Jennifer Zinnecker",
+      title: "Vertrieb",
+      title2: "Innendienst",
+      phone: "05551 / 96 88-769",
+      fax: "05551 / 96 88-655",
+      image: "zinnecker_1",
+      imageHover: "zinnecker_2",
+    },
+  ],
 };
 
 export default teamData;
