@@ -85,7 +85,7 @@ function Stellenangebote() {
           <div className="flex flex-col bg-zad-blue-200 p-8 rounded text-zad-blue-600">
             <h3 className="mb-2">Kontakt</h3>
             <span className="font-bold mb-2">
-              Bewerbungsmanagement – Julia Wiesner
+              Bewerbungsmanagement – Julia Rein
             </span>
             <div className="flex">
               <FontAwesomeIcon icon={faPhone} className="w-4 mr-2" /> 0 55 51 /
