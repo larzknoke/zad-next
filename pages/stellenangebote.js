@@ -127,14 +127,14 @@ function Stellenangebote() {
           >
             Sachbearbeiter Gesundheitswesen (m/w/d)
           </Button>
-          <Button
+          {/* <Button
             download={true}
             href={
               "pdf/Anzeige_ZAD_Kaufmaennischer_Mitarbeiter_Datenerfassung.pdf"
             }
           >
             Mitarbeiter Datenerfassung (m/w/d)
-          </Button>
+          </Button> */}
           {/* <Button
             download={true}
             href={"pdf/Anzeige_ZAD_Mitarbeiter_Interner_Postausgang.pdf"}
