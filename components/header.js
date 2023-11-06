@@ -55,6 +55,9 @@ function Header({ handleCurtain, handleTease }) {
             <Link href="/datenschutz">
               <a>Datenschutz</a>
             </Link>
+            <Link href="/hinweisgeberstelle">
+              <a>Hinweisgeberstelle</a>
+            </Link>
             <Link href="#">
               <a
                 href="https://www.facebook.com/ZADGmbH/"
