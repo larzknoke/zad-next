@@ -46,9 +46,8 @@ function Impressum() {
         diese bitte ausdrücklich als Vermutung.
       </p>
       <p>
-        <strong> Datenschutzhinweise:</strong>
+        <strong>Datenschutzhinweise Allgemein:</strong>
         <br />
-        Hier geht es zu unserer{" "}
         <Link href={"/datenschutz"}>
           <a
             style={{ textDecoration: "underline", textUnderlineOffset: "4px" }}
@@ -56,7 +55,19 @@ function Impressum() {
             Datenschutzerklärung
           </a>
         </Link>
-        {"."}
+      </p>
+      <p>
+        <strong>Datenschutzhinweise für Hinweisgeber-Meldestelle:</strong>
+        <br />
+        <Link href={"pdf/Datenschutzhinweise_fuer_das_Hinweisgebersystem.pdf"}>
+          <a
+            style={{ textDecoration: "underline", textUnderlineOffset: "4px" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Datenschutzerklärung
+          </a>
+        </Link>
       </p>
     </div>
   );
