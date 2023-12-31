@@ -31,7 +31,7 @@ function Impressum() {
       <p>
         Sie erhalten von uns per Mail Rückmeldungen, können bei Bedarf Fragen
         beantworten und werden über den Fortgang Ihres Hinweises informiert. Sie
-        erhalten Antworten ohne, dass sie dort identifiziert werden können. Im
+        erhalten Antworten ohne, dass Sie dort identifiziert werden können. Im
         Rahmen dieser Kommunikation entscheiden Sie über die weitere Art der
         Kommunikation, hier sind auch vertrauliche persönliche Treffen mit
         unserer Ombudsperson möglich. Es besteht ebenfalls die Möglichkeit

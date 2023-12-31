@@ -24,9 +24,9 @@ function Impressum() {
       <p>
         <strong>Geschäftsführung:</strong>
         <br />
-        Ulrike Niesen
-        <br />
         Irina Niesen
+        <br />
+        Alexander Niesen
       </p>
       <p>
         Handelsregister: Amtsgericht Göttingen
