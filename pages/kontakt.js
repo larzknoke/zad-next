@@ -74,7 +74,7 @@ function Kontakt() {
             persönlicher Ansprechpartner ist immer für Sie da – so, als säßen
             Sie ihm direkt gegenüber.
           </p>
-          <div className="my-10 flex flex-col md:flex-row flex-wrap md:space-x-20 items-center space-y-10 md:space-y-0">
+          <div className="my-10 flex flex-col md:flex-row flex-wrap md:space-x-20 space-y-10 md:space-y-0">
             {teamData.zentrale.map((person, i) => {
               return (
                 <TeamDetail

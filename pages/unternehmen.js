@@ -238,7 +238,7 @@ function Unternehmen() {
         <Image
           src={"/images/unternehmen/team_pflegeabrechnung.png"}
           alt="Team Pflegeabrechnung"
-          width={1243}
+          width={894}
           height={250}
         />
       </div>
@@ -247,8 +247,8 @@ function Unternehmen() {
         <Image
           src={"/images/unternehmen/team_krankentransport.png"}
           alt="Team Krankentransportabrechnung"
-          width={1099}
-          height={252}
+          width={894}
+          height={250}
         />
       </div>
       <div className="text-center mx-auto mt-24  px-4 md:px-16 lg:px-0">

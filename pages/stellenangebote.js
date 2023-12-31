@@ -49,8 +49,8 @@ function Stellenangebote() {
             <Image
               src="/images/unternehmen/teamfoto.png"
               className=" object-cover rounded "
-              width={1393}
-              height={334}
+              width={971}
+              height={300}
               objectFit="cover"
             />
           </div>

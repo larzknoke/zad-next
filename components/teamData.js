@@ -1,14 +1,14 @@
 const teamData = {
   geschaeftsfuehrung: [
-    {
-      name: "Ulrike Niesen",
-      title: "Geschäftsführung",
-      phone: "05551 / 96 88-0",
-      fax: "05551 / 96 88-77",
-      email: "ulrike.niesen@zad-northeim.de",
-      image: "niesen_ulrike",
-      imageHover: "niesen_ulrike",
-    },
+    // {
+    //   name: "Ulrike Niesen",
+    //   title: "Geschäftsführung",
+    //   phone: "05551 / 96 88-0",
+    //   fax: "05551 / 96 88-77",
+    //   email: "ulrike.niesen@zad-northeim.de",
+    //   image: "niesen_ulrike",
+    //   imageHover: "niesen_ulrike",
+    // },
     {
       name: "Irina Niesen",
       title: "Geschäftsführung",
@@ -17,6 +17,15 @@ const teamData = {
       email: "irina.niesen@zad-northeim.de",
       image: "niesen_irina_1",
       imageHover: "niesen_irina_2",
+    },
+    {
+      name: "Alexander Niesen",
+      title: "Geschäftsführung",
+      phone: "05551 / 96 88-0",
+      fax: "05551 / 96 88-77",
+      email: "alexander.niesen@zad-northeim.de",
+      image: "aniesen_2_1",
+      imageHover: "aniesen_2_2",
     },
   ],
   vertrieb: [
@@ -159,14 +168,14 @@ const teamData = {
       image: "schuster_1",
       imageHover: "schuster_2",
     },
-    {
-      name: "Heike Manteufel",
-      title: "Zentrale",
-      phone: "05551 / 96 88-0",
-      fax: "05551 / 96 88-88",
-      image: "manteufel_1",
-      imageHover: "manteufel_2",
-    },
+    // {
+    //   name: "Heike Manteufel",
+    //   title: "Zentrale",
+    //   phone: "05551 / 96 88-0",
+    //   fax: "05551 / 96 88-88",
+    //   image: "manteufel_1",
+    //   imageHover: "manteufel_2",
+    // },
     {
       name: "Jennifer Zinnecker",
       title: "Vertrieb",
