@@ -156,18 +156,13 @@ function Kontakt() {
                   className="form-check-label inline-block text-zad-blue-600 text-sm cursor-pointer"
                   htmlFor="inputDatenschutz"
                 >
-                  Ja, ich habe die{" "}
+                  Informationen zur Datenverarbeitung können Sie unserer{" "}
                   <Link href="/datenschutz">
                     <a className="underline underline-offset-4">
                       Datenschutzerklärung
                     </a>
-                  </Link>
-                  zur Kenntnis genommen und bin damit einverstanden, dass die
-                  von mir angegebenen Daten elektronisch erhoben und gespeichert
-                  werden. Meine Daten werden dabei nur streng zweckgebunden zur
-                  Bearbeitung und Beantwortung meiner Anfrage verwendet. Mit dem
-                  Absenden des Kontaktformulars erkläre ich mich mit der
-                  Verarbeitung einverstanden.
+                  </Link>{" "}
+                  entnehmen.
                 </label>
               </div>
               <FriendlyCaptcha
