@@ -127,17 +127,17 @@ function Stellenangebote() {
           >
             Sachbearbeiter Gesundheitswesen (m/w/d)
           </Button>
-          <Button download={true} href={"pdf/Anzeige_ZAD_Buerohilfskraft.pdf"}>
+          {/* <Button download={true} href={"pdf/Anzeige_ZAD_Buerohilfskraft.pdf"}>
             Bürohilfskraft (m/w/d)
-          </Button>
-          <Button
+          </Button> */}
+          {/* <Button
             download={true}
             href={
               "pdf/ZAD_Anzeige_Sachbearbeiter_in_der_Debitorenbuchhaltung.pdf"
             }
           >
             Sachbearbeiter Debitorenbuchhaltung (m/w/d)
-          </Button>
+          </Button> */}
           {/* <Button
             download={true}
             href={"pdf/Anzeige_ZAD_Mitarbeiter_Interner_Postausgang.pdf"}
