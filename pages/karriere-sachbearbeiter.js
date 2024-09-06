@@ -254,12 +254,12 @@ function Sachbearbeiter() {
           6 gute Gründe für gemeinsame Wege
         </h2>{" "}
         <div className="grid grid-cols-1  xl:grid-cols-2 gap-6">
-          <div className="flex-col text-center justify-between bg-zad-blue-200 py-10 rounded-md">
+          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
               src="/images/start/wagen.jpg"
               className=" object-cover rounded-md"
-              width={400}
-              height={250}
+              width={600}
+              height={350}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Werde Teil von etwas Großem</h4>
@@ -270,12 +270,12 @@ function Sachbearbeiter() {
               hier alle in kleinen Teams.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 py-10 rounded-md">
+          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
               src="/images/start/pfleger.jpg"
               className=" object-cover rounded-md"
-              width={400}
-              height={250}
+              width={600}
+              height={350}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">
@@ -288,12 +288,12 @@ function Sachbearbeiter() {
               Zukunft.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 py-10 rounded-md">
+          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
               src="/images/start/pfleger.jpg"
               className=" object-cover rounded-md"
-              width={400}
-              height={250}
+              width={600}
+              height={350}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
@@ -304,12 +304,12 @@ function Sachbearbeiter() {
               Für alles, was uns verbindet oder unsere Arbeit erleichtert.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 py-10 rounded-md">
+          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
               src="/images/start/wagen.jpg"
               className=" object-cover rounded-md"
-              width={400}
-              height={250}
+              width={600}
+              height={350}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">
@@ -323,12 +323,12 @@ function Sachbearbeiter() {
               Arbeitsumgebung nach euren Wünschen zu gestalten.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 py-10 rounded-md">
+          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
               src="/images/start/mann.jpg"
               className=" object-cover rounded-md"
-              width={400}
-              height={250}
+              width={600}
+              height={350}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Stell die Uhr nach Dir</h4>
@@ -340,12 +340,12 @@ function Sachbearbeiter() {
               einfach digital.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 py-10 rounded-md">
+          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
               src="/images/start/pfleger.jpg"
               className=" object-cover rounded-md"
-              width={400}
-              height={250}
+              width={600}
+              height={350}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Entwickle Dich weiter</h4>
