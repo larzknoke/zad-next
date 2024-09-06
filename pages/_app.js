@@ -1,6 +1,8 @@
 import Layout from "../components/layout";
 import "../styles/globals.css";
 import NextNProgress from "nextjs-progressbar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function MyApp({ Component, pageProps }) {
   return (
