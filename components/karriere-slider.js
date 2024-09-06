@@ -25,7 +25,7 @@ export default function KarriereSlider() {
         />
         <h4 className="mt-4">Max Mustermann</h4>
         <p className="italic">
-          "Das ist ein Musterzitat mit ein bisschen Text."
+          &quot;Das ist ein Musterzitat mit ein bisschen Text.&quot;
         </p>
       </div>
       <div className="flex justify-center text-center mb-6">
@@ -38,7 +38,7 @@ export default function KarriereSlider() {
         />
         <h4 className="mt-4">Birgit Muster</h4>
         <p className="italic">
-          "Das ist ein Musterzitat mit ein bisschen Text."
+          &quot;Das ist ein Musterzitat mit ein bisschen Text.&quot;
         </p>
       </div>
     </Slider>
