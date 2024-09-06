@@ -45,7 +45,7 @@ function Karriere() {
               Greif unseren Abrechnungs-Teams unter die Arme und unterstütze und
               in abwechslungsreichen Prozessarbeiten.
             </p>
-            <Button>Lies weiter</Button>
+            <Button href="/karriere-buero">Lies weiter</Button>
           </div>
           <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-16 xl:w-1/3 flex justify-between">
             <h4>Fachkraft für IT (m/w/d)</h4>
