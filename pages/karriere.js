@@ -53,7 +53,7 @@ function Karriere() {
               Supporte unser Team in den verschiedensten IT-Bereichen – und
               verwandle digitale Herausforderungen in praktikable Lösungen.
             </p>
-            <Button>Steig tiefer ein</Button>
+            <Button href="/karriere-it">Steig tiefer ein</Button>
           </div>
         </div>
         <div className="bg-zad-blue-600 p-10 lg:p-18 lg:px-36 mb-24 rounded mt-16 xl:mt-28 text-center">
