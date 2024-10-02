@@ -386,10 +386,9 @@ function Sachbearbeiter() {
           Dein Weg von der Bewerbung bis zum Beginn
         </h2>{" "}
         <div className="grid grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 gap-6">
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">1.</span> <br /> Deine
-              Bewerbung geht raus
+          <div className="way-block">
+            <h4 className="way-header">
+              <span className="way-number">1.</span> Deine Bewerbung geht raus
             </h4>
             <p>
               Du sendest uns: Dein Anschreiben, Deine Schul- oder
@@ -401,10 +400,9 @@ function Sachbearbeiter() {
               im PDF-Format zu.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">2.</span> <br /> Eingang
-              bestätigt
+          <div className="way-block">
+            <h4 className="way-header">
+              <span className="way-number">2.</span> Eingang bestätigt
             </h4>
             <p>
               Sind Deine Bewerbungsunterlagen bei uns, erhältst Du per E-Mail
@@ -412,10 +410,10 @@ function Sachbearbeiter() {
               Fragen an Dich oder brauchen noch mehr Unterlagen von Dir.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">3.</span> <br /> Willkommen
-              zum Kennenlerngespräch
+          <div className="way-block">
+            <h4 className="way-header">
+              <span className="way-number">3.</span> Willkommen zum
+              Kennenlerngespräch
             </h4>
             <p>
               Endlich lernen wir uns persönlich kennen. Im Kennenlerngespräch
@@ -427,10 +425,9 @@ function Sachbearbeiter() {
               zusammenpassen.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">4.</span> <br /> Wir wählen
-              Dein Team
+          <div className="way-block">
+            <h4 className="way-header">
+              <span className="way-number">4.</span> Wir wählen Dein Team
             </h4>
             <p>
               Nach dem Kennenlernen werfen wir einen Blick auf unsere Teams und
@@ -439,10 +436,10 @@ function Sachbearbeiter() {
               einer Wellenlänge zusammenarbeitest.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">5.</span> <br /> Du
-              schnupperst in Deinen Job
+          <div className="way-block">
+            <h4 className="way-header">
+              <span className="way-number">5.</span> Du schnupperst in Deinen
+              Job
             </h4>
             <p>
               Probiere einfach mal für drei bis vier Stunden aus, wie es sich
@@ -451,9 +448,9 @@ function Sachbearbeiter() {
               einfach und bleibst für immer.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">6.</span> <br /> Einarbeitung
+          <div className="way-block">
+            <h4 className="way-header">
+              <span className="way-number">6.</span> Einarbeitung
             </h4>
             <p>
               Es hat gefunkt? Hurra! Herzlich willkommen. Alles Weitere

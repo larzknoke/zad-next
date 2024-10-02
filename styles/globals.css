@@ -224,3 +224,15 @@ main.tease:not(.open) .hand {
 .side-contact-form textarea::placeholder {
   font-size: 14px;
 }
+
+.way-block {
+  @apply relative overflow-hidden flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md;
+}
+
+.way-header {
+  @apply text-xl mt-10 mb-8;
+}
+
+.way-number {
+  @apply absolute top-10 left-0 opacity-5 text-[200px];
+}

@@ -152,6 +152,16 @@ function Sachbearbeiter() {
           <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
+              src="images/karriere/os.svg"
+              alt="Betriebssystem"
+            />
+            <h4 className="text-lg mb-0">
+              Freie Auswahl Deines Betriebssystems
+            </h4>
+          </div>
+          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
+            <img
+              className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/pause.svg"
               alt="Krankenversicherung"
             />
@@ -207,87 +217,6 @@ function Sachbearbeiter() {
             Bewirb Dich jetzt
           </Button>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-16">
-          Gute Gründe für gemeinsame Wege
-        </h2>{" "}
-        <div className="my-10 flex flex-col px-20 xl:px-0 xl:flex-row justify-center gap-x-[8%] gap-y-[70px]">
-          <div className="flex-col text-center justify-between ">
-            <Image
-              src="/images/start/wagen.jpg"
-              className="w-1/4 object-cover rounded-md"
-              width={300}
-              height={180}
-              objectFit="cover"
-            />
-            <h4 className="text-xl mt-4 xl:h-12">Stell die Uhr nach Dir</h4>
-            <p>
-              Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein?
-              Unsere Gleitzeitmodelle machen Dich privat flexibler. Per
-              Zeiterfassung bist Du immer im Bild, wo Du stehst. Und wenn Du
-              nach Absprache lieber im Homeoffice bleibst, vernetzen wir uns
-              einfach digital.
-            </p>
-          </div>
-          <div className="flex-col text-center justify-between">
-            <Image
-              src="/images/start/pfleger.jpg"
-              className="w-1/4 object-cover rounded-md"
-              width={300}
-              height={180}
-              objectFit="cover"
-            />
-            <h4 className="text-xl mt-4 xl:h-12">
-              Fühle, wie viel Du wert bist
-            </h4>
-            <p>
-              Bei uns bist Du auch als Kollege 151 keine Nummer. Für uns zählt,
-              wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und Deinen
-              Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf einbringst.
-              Für alles, was uns verbindet oder unsere Arbeit erleichtert.
-            </p>
-          </div>
-          <div className="flex-col text-center justify-between">
-            <Image
-              src="/images/start/mann.jpg"
-              className="w-1/4 object-cover rounded-md"
-              width={300}
-              height={180}
-              objectFit="cover"
-            />
-            <h4 className="text-xl mt-4 xl:h-12">
-              Spüre, wie Dein Gehalt steigt
-            </h4>
-            <p>
-              Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein?
-              Unsere Gleitzeitmodelle machen Dich privat flexibler. Per
-              Zeiterfassung bist Du immer im Bild, wo Du stehst. Und wenn Du
-              nach Absprache lieber im Homeoffice bleibst, vernetzen wir uns
-              einfach digital.
-            </p>
-          </div>
-        </div>
-        <h2 className="text-center text-3xl mt-32 mb-4">
-          Alle Augenblicke auf Augenhöhe
-        </h2>
-        <p className="text-center">
-          Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein? Unsere
-          Gleitzeitmodelle machen Dich privat flexibler. Per Zeiterfassung bist
-          Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
-          Homeoffice bleibst, vernetzen wir uns einfach digital.
-        </p>
-        <div className="w-full h-80 relative ">
-          <Image
-            src="/images/unternehmen/frau_telefon.jpg"
-            className="w-full object-cover rounded-md"
-            layout={"fill"}
-            // width={300}
-            // height={180}
-            objectFit="cover"
-          />
-        </div>
-        <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
-        <KarriereSlider />
-        <GruenesLicht />
         <h2 className="text-center text-3xl mt-40 mb-16">
           6 gute Gründe für gemeinsame Wege
         </h2>{" "}
@@ -398,16 +327,15 @@ function Sachbearbeiter() {
             </p>
           </div>
         </div>
+        <GruenesLicht it={true} />
         <h2 className="text-center text-3xl mt-32 mb-4">
           Alle Augenblicke auf Augenhöhe
         </h2>
         <p className="text-center">
-          Wir lieben die Gemeinschaft. Weil wir viel gemeinsam haben. Unser
-          Faible für ein angenehmes Arbeitsumfeld zum Beispiel, in dem wir uns
-          alle wohlfühlen und wertgeschätzt werden. Das macht es leicht, mit
-          viel Energie in die Tasten zu hauen. Und zwischendurch? Stillen wir
-          unseren Appetit auf leckere Kekse, gesundes Obst und lockere
-          Gespräche.
+          Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein? Unsere
+          Gleitzeitmodelle machen Dich privat flexibler. Per Zeiterfassung bist
+          Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
+          Homeoffice bleibst, vernetzen wir uns einfach digital.
         </p>
         <div className="w-full h-80 relative ">
           <Image
@@ -419,15 +347,15 @@ function Sachbearbeiter() {
             objectFit="cover"
           />
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-4">Testimonials</h2>
+        <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
+        <KarriereSlider />
         <h2 className="text-center text-3xl mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
         </h2>{" "}
         <div className="grid grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 gap-6">
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">1.</span> <br /> Deine
-              Bewerbung geht raus
+          <div className="way-block">
+            <h4 className="way-header ">
+              <span className="way-number">1.</span>Deine Bewerbung geht raus
             </h4>
             <p>
               Du sendest uns: Dein Anschreiben, Deine Schul- oder
@@ -439,10 +367,9 @@ function Sachbearbeiter() {
               im PDF-Format zu.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">2.</span> <br /> Eingang
-              bestätigt
+          <div className="way-block">
+            <h4 className="way-header ">
+              <span className="way-number">2.</span>Eingang bestätigt
             </h4>
             <p>
               Sind Deine Bewerbungsunterlagen bei uns, erhältst Du per E-Mail
@@ -450,55 +377,43 @@ function Sachbearbeiter() {
               Fragen an Dich oder brauchen noch mehr Unterlagen von Dir.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">3.</span> <br /> Willkommen
-              zum Kennenlerngespräch
+          <div className="way-block">
+            <h4 className="way-header ">
+              <span className="way-number">3.</span>Willkommen zum
+              Vorstellungsgespräch
             </h4>
             <p>
-              Endlich lernen wir uns persönlich kennen. Im Kennenlerngespräch
-              kannst Du uns mehr über Deine bisherigen Erfahrungen, Tätigkeiten
-              sowie Deine PC-Kenntnisse erzählen. Verrate uns gern, was Du schon
-              über uns weißt, wie Du Dich selbst einschätzt und welche Wünsche
-              Du für Deinen Job oder Deine Weiterbildung hast. Du erhälst einen
-              ersten Eindruck von uns. Dann schauen wir, wie gut wir
-              zusammenpassen.
+              Du lernst Alex kennen, den Chef unseres IT-Bereichs – entweder vor
+              Ort oder im Video-Call.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">4.</span> <br /> Wir wählen
-              Dein Team
+          <div className="way-block">
+            <h4 className="way-header ">
+              <span className="way-number">4.</span>Wir stellen Dein Team vor
             </h4>
             <p>
-              Nach dem Kennenlernen werfen wir einen Blick auf unsere Teams und
-              überlegen, welches am besten zu Deinem Talent und Deinem Charakter
-              passt. Damit Du Dich von Anfang an wohlfühlst und mit Kollegen auf
-              einer Wellenlänge zusammenarbeitest.
+              Nach dem Kennenlernen triffst Du direkt Deine potenziellen neuen
+              Kolleginnen und Kollegen aus deinem zukünftigen Mikroteam.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">5.</span> <br /> Du
-              schnupperst in Deinen Job
+          <div className="way-block">
+            <h4 className="way-header ">
+              <span className="way-number">5.</span>Wir stimmen ab
             </h4>
             <p>
-              Probiere einfach mal für drei bis vier Stunden aus, wie es sich
-              live bei uns anfühlt und lerne Dein Team und Deine Tätigkeiten
-              kennen. Haben wir zusammen ein gutes Gefühl, entscheidest Du Dich
-              einfach und bleibst für immer.
+              Ergeben wir zusammen Plus? Wir stimmen demokratisch im Mikroteam
+              ab, ob es mit uns passt. Und wenn ja, bleibst Du am besten für
+              immer.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 px-8 py-6 rounded-md">
-            <h4 className="text-xl my-4 xl:h-24 ">
-              <span className="text-zad-blue-400">6.</span> <br /> Einarbeitung
+          <div className="way-block">
+            <h4 className="way-header ">
+              <span className="way-number">6.</span>Anfangen und ankommen
             </h4>
             <p>
-              Es hat gefunkt? Hurra! Herzlich willkommen. Alles Weitere
-              organisierst Du jetzt in und mit Deinem Team. Es erstellt für Dich
-              einen Plan, wie Du Dich am besten einarbeiten kannst. Und für all
-              Deine Fragen hast Du ab jetzt einen teaminternen Ansprechpartner,
-              der immer ein offenes Ohr für Dich hat.
+              Hat es auch bei Dir gefunkt? Dann herzlich willkommen. In den
+              ersten Tagen kannst Du erst mal entspannt ankommen, Dein Team
+              kennenlernen und Dich gut einarbeiten.
             </p>
           </div>
         </div>
