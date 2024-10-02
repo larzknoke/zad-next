@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function GruenesLicht() {
+export default function GruenesLicht({ it = false }) {
   return (
     <>
       <h2 className="text-center text-3xl mt-32 ">
@@ -42,9 +42,11 @@ export default function GruenesLicht() {
             />
           </div>
           <div className="bg-zad-blue-200 rounded-md p-4 xl:h-36 content-evenly">
-            <h4 className="text-3xl">8 bis 12</h4>
+            <h4 className="text-3xl">{it ? "15" : "8 bis 12"}</h4>
             <p className="mb-0">
-              Kollegen arbeiten jeweils in einem festen Team zusammen
+              {it
+                ? "Kollegen arbeiten in kleinen IT-Teams zusammen"
+                : "Kollegen arbeiten jeweils in einem festen Team zusammen"}
             </p>
           </div>
         </div>
