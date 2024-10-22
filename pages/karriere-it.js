@@ -70,20 +70,20 @@ function Sachbearbeiter() {
           <div className=" flex flex-row justify-center gap-x-[4%] gap-y-[70px]">
             <div className="flex-col text-center">
               <Image
-                src="/images/start/wagen.jpg"
+                src="/images/karriere/it/ZADO_reportage_72.jpg"
                 className="object-cover rounded-md"
                 width={350}
-                height={180}
+                height={200}
                 objectFit="cover"
               />
               <h4 className="text-xl mt-4 text-white">Systemadministration</h4>
             </div>
             <div className="flex-col text-center">
               <Image
-                src="/images/start/pfleger.jpg"
+                src="/images/karriere/it/ZADO_reportage_10.jpg"
                 className="object-cover rounded-md"
                 width={300}
-                height={180}
+                height={200}
                 objectFit="cover"
               />
               <h4 className="text-xl mt-4 text-white">
@@ -92,10 +92,10 @@ function Sachbearbeiter() {
             </div>
             <div className="flex-col text-center">
               <Image
-                src="/images/start/mann.jpg"
+                src="/images/karriere/it/ZADO_kampagne_kaufleute_03.jpg"
                 className="object-cover rounded-md"
                 width={300}
-                height={180}
+                height={200}
                 objectFit="cover"
               />
               <h4 className="text-xl mt-4 text-white">Product Owner</h4>
@@ -223,7 +223,7 @@ function Sachbearbeiter() {
         <div className="grid grid-cols-1  xl:grid-cols-2 gap-6">
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
-              src="/images/start/wagen.jpg"
+              src="/images/karriere/it/ZADO_kampagne_it_01.jpg"
               className=" object-cover rounded-md"
               width={600}
               height={350}
@@ -239,7 +239,7 @@ function Sachbearbeiter() {
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
-              src="/images/start/pfleger.jpg"
+              src="/images/karriere/it/ZADO_reportage_24.jpg"
               className=" object-cover rounded-md"
               width={600}
               height={350}
@@ -257,7 +257,7 @@ function Sachbearbeiter() {
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
-              src="/images/start/pfleger.jpg"
+              src="/images/karriere/it/ZADO_reportage_69.jpg"
               className=" object-cover rounded-md"
               width={600}
               height={350}
@@ -273,7 +273,7 @@ function Sachbearbeiter() {
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
-              src="/images/start/wagen.jpg"
+              src="/images/karriere/it/ZADO_reportage_13.jpg"
               className=" object-cover rounded-md"
               width={600}
               height={350}
@@ -292,7 +292,7 @@ function Sachbearbeiter() {
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
-              src="/images/start/mann.jpg"
+              src="/images/karriere/it/ZADO_reportage_57.jpg"
               className=" object-cover rounded-md"
               width={600}
               height={350}
@@ -309,7 +309,7 @@ function Sachbearbeiter() {
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
             <Image
-              src="/images/start/pfleger.jpg"
+              src="/images/karriere/it/ZADO_reportage_48.jpg"
               className=" object-cover rounded-md"
               width={600}
               height={350}
@@ -337,15 +337,42 @@ function Sachbearbeiter() {
           Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
           Homeoffice bleibst, vernetzen wir uns einfach digital.
         </p>
-        <div className="w-full h-80 relative ">
-          <Image
-            src="/images/unternehmen/frau_telefon.jpg"
-            className="w-full object-cover rounded-md"
-            layout={"fill"}
-            // width={300}
-            // height={180}
-            objectFit="cover"
-          />
+        <div class="grid grid-cols-2 gap-5">
+          <div className="relative col-span-2 h-[500px]">
+            <Image
+              src="/images/karriere/it/ZADO_reportage_10_1000.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/it/ZADO_reportage_72.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/it/ZADO_reportage_76.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/it/ZADO_reportage_46.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/it/ZADO_reportage_01.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
         </div>
         <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
         <KarriereSlider />
@@ -449,10 +476,10 @@ function Sachbearbeiter() {
             </div>
             <div className="flex-col text-center">
               <Image
-                src="/images/start/mann.jpg"
+                src="/images/karriere/sachbearbeiter/02-ZADO-portraits-cb.jpg"
                 className="object-cover rounded-md"
-                width={180}
-                height={200}
+                width={250}
+                height={160}
                 objectFit="cover"
               />
               <p className="text-white my-2">

@@ -17,7 +17,7 @@ export default function GruenesLicht({ it = false }) {
         <div className=" xl:w-1/3 flex flex-col text-center">
           <div className="relative h-64 xl:h-48 mb-4">
             <Image
-              src="/images/start/wagen.jpg"
+              src="/images/karriere/start/ZADO_gruppenaufnahme_04.jpg"
               className=" object-cover rounded-md"
               // width={280}
               // height={200}
@@ -33,7 +33,7 @@ export default function GruenesLicht({ it = false }) {
         <div className=" xl:w-1/3 flex flex-col text-center">
           <div className="relative h-64 xl:h-48 mb-4">
             <Image
-              src="/images/start/mann.jpg"
+              src="/images/karriere/start/ZADO_gruppenaufnahme_09.jpg"
               className=" object-cover rounded-md"
               // width={280}
               // height={200}
@@ -53,7 +53,7 @@ export default function GruenesLicht({ it = false }) {
         <div className=" xl:w-1/3 flex flex-col text-center">
           <div className="relative h-64 xl:h-48 mb-4">
             <Image
-              src="/images/start/pfleger.jpg"
+              src="/images/karriere/start/ZADO_gruppenaufnahme_11.jpg"
               className=" object-cover rounded-md"
               // width={280}
               // height={200}

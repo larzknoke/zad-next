@@ -59,7 +59,7 @@ function Karriere() {
         <div className="bg-zad-blue-600 p-10 lg:p-18 lg:px-36 mb-24 rounded mt-16 xl:mt-28 text-center">
           <Image
             className="rounded-full"
-            src={"/images/unternehmen/team/" + "niesen_irina" + ".jpg"}
+            src={"/images/karriere/start/01-ZADO-portraits-cb.jpg"}
             alt="Niesen"
             width={250}
             height={250}
@@ -82,10 +82,10 @@ function Karriere() {
         <div className="my-10 flex flex-col px-20 xl:px-0 xl:flex-row justify-center gap-x-[8%] gap-y-[70px]">
           <div className="flex-col text-center justify-between">
             <Image
-              src="/images/start/wagen.jpg"
+              src="/images/karriere/start/ZADO_reportage_10.jpg"
               className="w-1/4 object-cover rounded-md"
               width={300}
-              height={180}
+              height={200}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 xl:h-12">Stell die Uhr nach Dir</h4>
@@ -99,10 +99,10 @@ function Karriere() {
           </div>
           <div className="flex-col text-center justify-between">
             <Image
-              src="/images/start/pfleger.jpg"
+              src="/images/karriere/start/ZADO_gruppenaufnahme_11.jpg"
               className="w-1/4 object-cover rounded-md"
               width={300}
-              height={180}
+              height={200}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 xl:h-12">
@@ -117,10 +117,10 @@ function Karriere() {
           </div>
           <div className="flex-col text-center justify-between">
             <Image
-              src="/images/start/mann.jpg"
+              src="/images/karriere/start/ZADO_reportage_13.jpg"
               className="w-1/4 object-cover rounded-md"
               width={300}
-              height={180}
+              height={200}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 xl:h-12">
@@ -144,53 +144,89 @@ function Karriere() {
           Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
           Homeoffice bleibst, vernetzen wir uns einfach digital.
         </p>
-        <div className="w-full h-80 relative ">
-          <Image
-            src="/images/unternehmen/frau_telefon.jpg"
-            className="w-full object-cover rounded-md"
-            layout={"fill"}
-            // width={300}
-            // height={180}
-            objectFit="cover"
-          />
+        <div class="grid grid-cols-2 gap-5">
+          <div className="relative col-span-2 h-[500px]">
+            <Image
+              src="/images/karriere/start/ZADO_gruppenaufnahme_09.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/start/ZADO_reportage_18.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/start/ZADO_kampagne_hilfskraefte_01.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/start/ZADO_kampagne_it_01.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
+          <div className="relative  h-[300px]">
+            <Image
+              src="/images/karriere/start/ZADO_reportage_24.jpg"
+              className="w-full object-cover rounded-md"
+              layout={"fill"}
+            />
+          </div>
         </div>
         <div
           className="bg-zad-blue-600 p-12 lg:p-12 my-32
           text-center rounded-md"
         >
-          <h2 className="text-white text-center md:underline underline-offset-8 md:px-16 md:mb-16 ">
+          <h2 className="text-white text-center md:underline underline-offset-8 mb-12 md:px-16 md:mb-16 ">
             Unsere Teams sagen „Hallo“
           </h2>
-          <div className=" flex flex-row justify-center gap-x-[4%] gap-y-[70px]">
-            <div className="flex-col text-center">
-              <Image
-                src="/images/start/wagen.jpg"
-                className="object-cover rounded-md"
-                width={350}
-                height={180}
-                objectFit="cover"
-              />
-              <h4 className="text-xl mt-4 text-white">H5 Headline</h4>
+          <div className=" flex flex-col md:flex-row justify-center gap-x-[4%] gap-y-5 md:gap-y-[70px]">
+            <div className="flex-col text-center w-full md:w-1/3">
+              <div className="relative h-[180px]">
+                <Image
+                  src="/images/karriere/start/ZADO_reportage_70.jpg"
+                  className="object-cover rounded-md"
+                  layout={"fill"}
+                  objectFit="cover"
+                />
+              </div>
+              <h4 className="text-lg mt-4 text-white">
+                SACHBEARBEITER:IN IM GESUNDHEITSWESEN
+              </h4>
             </div>
-            <div className="flex-col text-center">
-              <Image
-                src="/images/start/pfleger.jpg"
-                className="object-cover rounded-md"
-                width={300}
-                height={180}
-                objectFit="cover"
-              />
-              <h4 className="text-xl mt-4 text-white">H5 Headline</h4>
+            <div className="flex-col text-center w-full md:w-1/3">
+              <div className="relative h-[180px]">
+                <Image
+                  src="/images/karriere/start/ZADO_reportage_39.jpg"
+                  className="object-cover rounded-md"
+                  layout={"fill"}
+                  objectFit="cover"
+                />
+              </div>
+              <h4 className="text-lg mt-4 text-white">
+                BÜROHILFSKRAFT (M/W/D)
+              </h4>
             </div>
-            <div className="flex-col text-center">
-              <Image
-                src="/images/start/mann.jpg"
-                className="object-cover rounded-md"
-                width={300}
-                height={180}
-                objectFit="cover"
-              />
-              <h4 className="text-xl mt-4 text-white">H5 Headline</h4>
+            <div className="flex-col text-center w-full md:w-1/3">
+              <div className="relative h-[180px]">
+                <Image
+                  src="/images/karriere/start/ZADO_reportage_72.jpg"
+                  className="object-cover rounded-md"
+                  layout={"fill"}
+                  objectFit="cover"
+                />
+              </div>
+              <h4 className="text-lg mt-4 text-white">
+                BÜROHILFSKRAFT (M/W/D)
+              </h4>
             </div>
           </div>
         </div>
