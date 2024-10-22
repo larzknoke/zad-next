@@ -291,7 +291,7 @@ function Sachbearbeiter() {
           unseren Appetit auf leckere Kekse, gesundes Obst und lockere
           Gespräche.
         </p>
-        <div class="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 gap-5">
           <div className="relative col-span-2 h-[500px]">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_24.jpg"

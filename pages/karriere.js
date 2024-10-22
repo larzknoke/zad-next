@@ -144,7 +144,7 @@ function Karriere() {
           Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
           Homeoffice bleibst, vernetzen wir uns einfach digital.
         </p>
-        <div class="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 gap-5">
           <div className="relative col-span-2 h-[500px]">
             <Image
               src="/images/karriere/start/ZADO_gruppenaufnahme_09.jpg"
