@@ -18,6 +18,13 @@ function Footer() {
           height={190}
           objectFit="contain"
         />
+        <Image
+          src="/images/unternehmensnetzwerk.png"
+          className=" object-cover rounded "
+          width={150}
+          height={150}
+          objectFit="contain"
+        />
       </div>
       <span className="text-zad-blue-600">
         {new Date().getFullYear()} © Zentraler Abrechnungs-Dienst GmbH, Northeim
