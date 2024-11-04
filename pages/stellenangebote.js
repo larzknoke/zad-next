@@ -99,7 +99,7 @@ function Stellenangebote() {
             </div>
             <hr className="my-6" />
             <span className="font-bold mb-2">
-              Ausbildungsmanagement – Marvin Curdt
+              Ausbildungsmanagement – Marvin Behling
             </span>
             <div className="flex">
               <FontAwesomeIcon icon={faPhone} className="w-4 mr-2" />0 55 51 /
