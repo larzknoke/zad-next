@@ -17,7 +17,7 @@ function Sachbearbeiter() {
         muted={true}
         loop={true}
       >
-        <source type="video/mp4" src="/videos/software-pflegedienste.mp4" />
+        <source type="video/mp4" src="/videos/karriere/it_tiny.mp4" />
       </video>
       <div className="px-[5%] lg:px-[25%] my-6 md:my-16">
         <h2 className="text-center text-4xl xl:mt-32">
