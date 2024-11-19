@@ -42,7 +42,7 @@ function Karriere() {
           <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-16 xl:w-1/3 flex justify-between">
             <h4>Bürohilfskraft (m/w/d)</h4>
             <p>
-              Greif unseren Abrechnungs-Teams unter die Arme und unterstütze und
+              Greif unseren Abrechnungs-Teams unter die Arme und unterstütze uns
               in abwechslungsreichen Prozessarbeiten.
             </p>
             <Button href="/karriere-buero">Lies weiter</Button>
@@ -80,7 +80,7 @@ function Karriere() {
           Gute Gründe für gemeinsame Wege
         </h2>{" "}
         <div className="my-10 flex flex-col px-20 xl:px-0 xl:flex-row justify-center gap-x-[8%] gap-y-[70px]">
-          <div className="flex-col text-center justify-between">
+          <div className="flex-col xl:w-1/3 text-center justify-between">
             <Image
               src="/images/karriere/start/ZADO_reportage_10.jpg"
               className="w-1/4 object-cover rounded-md"
@@ -97,7 +97,7 @@ function Karriere() {
               einfach digital.
             </p>
           </div>
-          <div className="flex-col text-center justify-between">
+          <div className="flex-col xl:w-1/3 text-center justify-between">
             <Image
               src="/images/karriere/start/ZADO_gruppenaufnahme_11.jpg"
               className="w-1/4 object-cover rounded-md"
@@ -109,13 +109,14 @@ function Karriere() {
               Fühle, wie viel Du wert bist
             </h4>
             <p>
-              Bei uns bist Du auch als Kollege 151 keine Nummer. Für uns zählt,
-              wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und Deinen
-              Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf einbringst.
-              Für alles, was uns verbindet oder unsere Arbeit erleichtert.
+              Bei uns bist Du auch als Kolleg:in 151 keine Nummer. Für uns
+              zählt, wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und
+              Deinen Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf
+              einbringst. Für alles, was uns verbindet oder unsere Arbeit
+              erleichtert.
             </p>
           </div>
-          <div className="flex-col text-center justify-between">
+          <div className="flex-col xl:w-1/3 text-center justify-between">
             <Image
               src="/images/karriere/start/ZADO_reportage_13.jpg"
               className="w-1/4 object-cover rounded-md"
@@ -127,11 +128,10 @@ function Karriere() {
               Spüre, wie Dein Gehalt steigt
             </h4>
             <p>
-              Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein?
-              Unsere Gleitzeitmodelle machen Dich privat flexibler. Per
-              Zeiterfassung bist Du immer im Bild, wo Du stehst. Und wenn Du
-              nach Absprache lieber im Homeoffice bleibst, vernetzen wir uns
-              einfach digital.
+              Wir wollen, dass Du am liebsten für immer bleibst. Und je länger
+              Du bei uns bist, desto mehr verdienst Du auch. Wir passen Dein
+              Gehalt regelmäßig an – und zeigen Dir auch auf diese Art, wie viel
+              Du wert bist.
             </p>
           </div>
         </div>
@@ -139,10 +139,12 @@ function Karriere() {
           Alle Augenblicke auf Augenhöhe
         </h2>
         <p className="text-center">
-          Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein? Unsere
-          Gleitzeitmodelle machen Dich privat flexibler. Per Zeiterfassung bist
-          Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
-          Homeoffice bleibst, vernetzen wir uns einfach digital.
+          Wir lieben die Gemeinschaft. Weil wir viel gemeinsam haben. Unser
+          Faible für ein angenehmes Arbeitsumfeld zum Beispiel, in dem wir uns
+          alle wohlfühlen und wertgeschätzt werden. Das macht es leicht, mit
+          viel Energie in die Tasten zu hauen. Und zwischendurch? Stillen wir
+          unseren Appetit auf leckere Kekse, gesundes Obst und lockere
+          Gespräche.
         </p>
         <div className="grid grid-cols-2 gap-5">
           <div className="relative col-span-2 h-[500px]">

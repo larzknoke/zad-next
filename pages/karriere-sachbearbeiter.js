@@ -42,7 +42,7 @@ function Sachbearbeiter() {
           <li>Du kümmerst Dich um die Pflege der Stammdaten</li>
           <li>Du bearbeitest Rückläufer</li>
           <li className="mb-0">
-            Du stehst im telefonischen Kontakt mit unseren Mandanten und
+            Du stehst im telefonischen Kontakt mit unseren Mandant:innen und
             Kostenträgern
           </li>
         </ul>
@@ -52,9 +52,9 @@ function Sachbearbeiter() {
         <ul className="text-zad-blue-600 bg-zad-blue-200 rounded-md p-6">
           <li>
             Du hast eine abgeschlossene Berufsausbildung im kaufmännischen oder
-            medizinischen Bereich – oder bist Quereinsteiger
+            medizinischen Bereich – oder bist Quereinsteiger:in
           </li>
-          <li>Du kannst im Büroalltag gut mit dem PC umzugehen</li>
+          <li>Du kannst im Büroalltag gut mit dem PC umgehen</li>
           <li>Du trittst sicher am Telefon auf</li>
           <li>
             Du hast eine schnelle Auffassungsgabe, bist teamfähig, zuverlässig
@@ -151,8 +151,8 @@ function Sachbearbeiter() {
               alt="Krankenversicherung"
             />
             <h4 className="text-lg mb-0">
-              Grundlagenhilfe durch unsere Pflegelotsen für mehr Durchblick in
-              Sachen Pflege, Versorgung und Vollmacht
+              Grundlagenhilfe durch unsere Pflegelots:innen für mehr Durchblick
+              in Sachen Pflege, Versorgung und Vollmacht
             </h4>
           </div>
         </div>
@@ -186,8 +186,8 @@ function Sachbearbeiter() {
             <p className="px-12 mb-0">
               Du gehörst zu einem Familienunternehmen, das seit 40 Jahren gesund
               und munter wächst. Zu unserer Northeimer Zentrale zählen 150
-              Mitarbeitende. Fühlt sich aber gar nicht so an. Denn wir arbeiten
-              hier alle in kleinen Teams.
+              Mitarbeiter:innen. Fühlt sich aber gar nicht so an. Denn wir
+              arbeiten hier alle in kleinen Teams.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -218,10 +218,11 @@ function Sachbearbeiter() {
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
             <p className="px-12">
-              Bei uns bist Du auch als Kollege 151 keine Nummer. Für uns zählt,
-              wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und Deinen
-              Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf einbringst.
-              Für alles, was uns verbindet oder unsere Arbeit erleichtert.
+              Bei uns bist Du auch als Kolleg:in 151 keine Nummer. Für uns
+              zählt, wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und
+              Deinen Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf
+              einbringst. Für alles, was uns verbindet oder unsere Arbeit
+              erleichtert.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -237,10 +238,10 @@ function Sachbearbeiter() {
             </h4>
             <p className="px-12">
               Das große Ganze ergibt sich bei uns aus vielen kleinen Teams.
-              Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter. Du bist Teil
-              einer Gruppe, die so tickt wie Du. Das macht vieles einfacher und
-              schafft Freiraum, um euch selbst zu organisieren und eure
-              Arbeitsumgebung nach euren Wünschen zu gestalten.
+              Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter:innen. Du
+              bist Teil einer Gruppe, die so tickt wie Du. Das macht vieles
+              einfacher und schafft Freiraum, um euch selbst zu organisieren und
+              eure Arbeitsumgebung nach euren Wünschen zu gestalten.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -357,8 +358,8 @@ function Sachbearbeiter() {
               beruflichen Werdegang widerspiegeln und uns zeigen, ob Du quer
               einsteigst oder bereits Erfahrung im Gesundheitswesen oder im
               kaufmännischen Bereich hast. Schreib uns auch, welches
-              Bruttomonatsgehalt Du Dir wünscht. Alle Unterlagen schickst Du uns
-              im PDF-Format zu.
+              Bruttomonatsgehalt Du Dir wünschst. Alle Unterlagen schickst Du
+              uns im PDF-Format zu.
             </p>
           </div>
           <div className="way-block">
@@ -393,8 +394,8 @@ function Sachbearbeiter() {
             <p>
               Nach dem Kennenlernen werfen wir einen Blick auf unsere Teams und
               überlegen, welches am besten zu Deinem Talent und Deinem Charakter
-              passt. Damit Du Dich von Anfang an wohlfühlst und mit Kollegen auf
-              einer Wellenlänge zusammenarbeitest.
+              passt. Damit Du Dich von Anfang an wohlfühlst und mit Kolleg:innen
+              auf einer Wellenlänge zusammenarbeitest.
             </p>
           </div>
           <div className="way-block">
@@ -417,8 +418,8 @@ function Sachbearbeiter() {
               Es hat gefunkt? Hurra! Herzlich willkommen. Alles Weitere
               organisierst Du jetzt in und mit Deinem Team. Es erstellt für Dich
               einen Plan, wie Du Dich am besten einarbeiten kannst. Und für all
-              Deine Fragen hast Du ab jetzt einen teaminternen Ansprechpartner,
-              der immer ein offenes Ohr für Dich hat.
+              Deine Fragen hast Du ab jetzt eine teaminterne Ansprechperson, die
+              immer ein offenes Ohr für Dich hat.
             </p>
           </div>
         </div>
