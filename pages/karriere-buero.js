@@ -39,12 +39,12 @@ function Sachbearbeiter() {
           <p className="mb-3 underline">
             Du unterstützt uns in unterschiedlichen Prozessarbeiten:
           </p>
-          <li>bereitest Abrechnungsunterlagen vor und sortierst sie</li>
+          <li>Du bereitest Abrechnungsunterlagen vor und sortierst sie</li>
           <li>
-            bearbeitest und sortierst Leistungsnachweise und andere Belege nach
-            vorgegebenen Kriterien
+            Du bearbeitest und sortierst Leistungsnachweise und andere Belege
+            nach vorgegebenen Kriterien
           </li>
-          <li>erfasst gegebenenfalls auch Belege im Gesundheitswesen</li>
+          <li>Du erfasst gegebenenfalls auch Belege im Gesundheitswesen</li>
         </ul>
         <h2 className="mt-10 xl:mt-20 mb-8 text-3xl text-center">
           Das bringst Du mit
@@ -86,7 +86,7 @@ function Sachbearbeiter() {
             <h4 className="text-xl mt-4 ">Komm gut an Bord</h4>
             <p className="px-12">
               Wir nehmen Dich vom ersten Moment an mit. Während eines gut
-              betreuten Onboarding arbeiten wir Dich intensiv in alle Aufgaben
+              betreuten Onboardings arbeiten wir Dich intensiv in alle Aufgaben
               und bei Bedarf in die notwendigen Programme mit dem PC ein.
             </p>
           </div>
@@ -100,10 +100,11 @@ function Sachbearbeiter() {
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
             <p className="px-12">
-              Bei uns bist Du auch als Kollege 151 keine Nummer. Für uns zählt,
-              wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und Deinen
-              Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf einbringst.
-              Für alles, was uns verbindet oder unsere Arbeit erleichtert.
+              Bei uns bist Du auch als Kolleg:in 151 keine Nummer. Für uns
+              zählt, wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und
+              Deinen Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf
+              einbringst. Für alles, was uns verbindet oder unsere Arbeit
+              erleichtert.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -119,7 +120,7 @@ function Sachbearbeiter() {
             </h4>
             <p className="px-12">
               Das große Ganze ergibt sich bei uns aus vielen kleinen Teams.
-              Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter. Du
+              Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter:innen. Du
               unterstützt das Team, zu dem Du am besten passt. Schließlich macht
               es viel mehr Spaß, durch dick und dünn zu gehen, wenn man auf
               einer Wellenlänge liegt.
@@ -160,10 +161,12 @@ function Sachbearbeiter() {
           Alle Augenblicke auf Augenhöhe
         </h2>
         <p className="text-center">
-          Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein? Unsere
-          Gleitzeitmodelle machen Dich privat flexibler. Per Zeiterfassung bist
-          Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
-          Homeoffice bleibst, vernetzen wir uns einfach digital.
+          Wir lieben die Gemeinschaft. Weil wir viel gemeinsam haben. Unser
+          Faible für ein angenehmes Arbeitsumfeld zum Beispiel, in dem wir uns
+          alle wohlfühlen und wertgeschätzt werden. Das macht es leicht, mit
+          viel Energie in die Tasten zu hauen. Und zwischendurch? Stillen wir
+          unseren Appetit auf leckere Kekse, gesundes Obst und lockere
+          Gespräche..
         </p>
         <div className="grid grid-cols-2 gap-5">
           <div className="relative col-span-2 h-[500px]">
@@ -232,8 +235,8 @@ function Sachbearbeiter() {
               beruflichen Werdegang widerspiegeln und uns zeigen, ob Du quer
               einsteigst oder bereits Erfahrung im Gesundheitswesen oder im
               kaufmännischen Bereich hast. Schreib uns auch, welches
-              Bruttomonatsgehalt Du Dir wünscht. Alle Unterlagen schickst Du uns
-              im PDF-Format zu.
+              Bruttomonatsgehalt Du Dir wünschst. Alle Unterlagen schickst Du
+              uns im PDF-Format zu.
             </p>
           </div>
           <div className="way-block">
@@ -268,8 +271,8 @@ function Sachbearbeiter() {
             <p>
               Nach dem Kennenlernen werfen wir einen Blick auf unsere Teams und
               überlegen, welches am besten zu Deinem Talent und Deinem Charakter
-              passt. Damit Du Dich von Anfang an wohlfühlst und mit Kollegen auf
-              einer Wellenlänge zusammenarbeitest.
+              passt. Damit Du Dich von Anfang an wohlfühlst und mit den
+              Kolleg:innen auf einer Wellenlänge zusammenarbeitest.
             </p>
           </div>
           <div className="way-block">
@@ -292,8 +295,8 @@ function Sachbearbeiter() {
               Es hat gefunkt? Hurra! Herzlich willkommen. Alles Weitere
               organisierst Du jetzt in und mit Deinem Team. Es erstellt für Dich
               einen Plan, wie Du Dich am besten einarbeiten kannst. Und für all
-              Deine Fragen hast Du ab jetzt einen teaminternen Ansprechpartner,
-              der immer ein offenes Ohr für Dich hat.
+              Deine Fragen hast Du ab jetzt eine teaminterne Ansprechperson, die
+              immer ein offenes Ohr für Dich hat.
             </p>
           </div>
         </div>

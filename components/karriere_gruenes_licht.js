@@ -27,7 +27,9 @@ export default function GruenesLicht({ it = false }) {
           </div>
           <div className="bg-zad-blue-200 rounded-md p-4 xl:h-36 content-evenly">
             <h4 className="text-3xl">150</h4>
-            <p className="mb-0">Mitarbeiter arbeiten bei uns in Northeim</p>
+            <p className="mb-0">
+              Mitarbeiter:innen arbeiten bei uns in Northeim
+            </p>
           </div>
         </div>
         <div className=" xl:w-1/3 flex flex-col text-center">
@@ -45,8 +47,8 @@ export default function GruenesLicht({ it = false }) {
             <h4 className="text-3xl">{it ? "15" : "8 bis 12"}</h4>
             <p className="mb-0">
               {it
-                ? "Kollegen arbeiten in kleinen IT-Teams zusammen"
-                : "Kollegen arbeiten jeweils in einem festen Team zusammen"}
+                ? "Kolleg:innen arbeiten in kleinen IT-Teams zusammen"
+                : "Kolleg:innen arbeiten jeweils in einem festen Team zusammen"}
             </p>
           </div>
         </div>

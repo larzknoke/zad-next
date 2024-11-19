@@ -56,7 +56,7 @@ function Sachbearbeiter() {
           <li>Du willst gern mit Menschen zusammenarbeiten</li>
           <li>Du brennst darauf, gute Lösungen zu finden</li>
           <li>
-            Du hast den Willen, dir bei Bedarf fehlendes Fachwissen anzueignen
+            Du hast den Willen, Dir bei Bedarf fehlendes Fachwissen anzueignen
           </li>
         </ul>
         <div
@@ -64,8 +64,8 @@ function Sachbearbeiter() {
           text-center rounded-md"
         >
           <h2 className="text-white text-center md:px-16 md:mb-12 ">
-            In welcher Welt fühlst du dich zu Hause? <br /> Bewirb dich für
-            einen dieser Bereiche
+            In welcher Welt fühlst Du Dich zu Hause? <br /> Bewirb Dich für
+            einen dieser Bereiche.
           </h2>
           <div className=" flex flex-row justify-center gap-x-[4%] gap-y-[70px]">
             <div className="flex-col text-center">
@@ -87,7 +87,7 @@ function Sachbearbeiter() {
                 objectFit="cover"
               />
               <h4 className="text-xl mt-4 text-white">
-                Softwareentwicklung <br /> (z.B. JAVA, PERL)
+                Softwareentwicklung <br /> (z. B. JAVA, PERL)
               </h4>
             </div>
             <div className="flex-col text-center">
@@ -199,8 +199,8 @@ function Sachbearbeiter() {
               alt="Krankenversicherung"
             />
             <h4 className="text-lg mb-0">
-              Grundlagenhilfe durch unsere Pflegelotsen für mehr Durchblick in
-              Sachen Pflege, Versorgung und Vollmacht
+              Grundlagenhilfe durch unsere Pflegelots:innen für mehr Durchblick
+              in Sachen Pflege, Versorgung und Vollmacht
             </h4>
           </div>
         </div>
@@ -233,8 +233,8 @@ function Sachbearbeiter() {
             <p className="px-12 mb-0">
               Du gehörst zu einem Familienunternehmen, das seit 40 Jahren gesund
               und munter wächst. Zu unserer Northeimer Zentrale zählen 150
-              Mitarbeitende. Fühlt sich aber gar nicht so an. Denn wir arbeiten
-              hier alle in kleinen Teams.
+              Mitarbeiter:innen. Fühlt sich aber gar nicht so an. Denn wir
+              arbeiten hier alle in kleinen Teams.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -265,10 +265,11 @@ function Sachbearbeiter() {
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
             <p className="px-12">
-              Bei uns bist Du auch als Kollege 151 keine Nummer. Für uns zählt,
-              wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und Deinen
-              Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf einbringst.
-              Für alles, was uns verbindet oder unsere Arbeit erleichtert.
+              Bei uns bist Du auch als Kolleg:in 151 keine Nummer. Für uns
+              zählt, wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und
+              Deinen Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf
+              einbringst. Für alles, was uns verbindet oder unsere Arbeit
+              erleichtert.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -284,10 +285,10 @@ function Sachbearbeiter() {
             </h4>
             <p className="px-12">
               Das große Ganze ergibt sich bei uns aus vielen kleinen Teams.
-              Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter. Du bist Teil
-              einer Gruppe, die so tickt wie Du. Das macht vieles einfacher und
-              schafft Freiraum, um euch selbst zu organisieren und eure
-              Arbeitsumgebung nach euren Wünschen zu gestalten.
+              Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter:innen. Du
+              bist Teil einer Gruppe, die so tickt wie Du. Das macht vieles
+              einfacher und schafft Freiraum, um euch selbst zu organisieren und
+              eure Arbeitsumgebung nach euren Wünschen zu gestalten.
             </p>
           </div>
           <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
@@ -332,10 +333,12 @@ function Sachbearbeiter() {
           Alle Augenblicke auf Augenhöhe
         </h2>
         <p className="text-center">
-          Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein? Unsere
-          Gleitzeitmodelle machen Dich privat flexibler. Per Zeiterfassung bist
-          Du immer im Bild, wo Du stehst. Und wenn Du nach Absprache lieber im
-          Homeoffice bleibst, vernetzen wir uns einfach digital.
+          Wir lieben die Gemeinschaft. Weil wir viel gemeinsam haben. Unser
+          Faible für ein angenehmes Arbeitsumfeld zum Beispiel, in dem wir uns
+          alle wohlfühlen und wertgeschätzt werden. Das macht es leicht, mit
+          viel Energie in die Tasten zu hauen. Und zwischendurch? Stillen wir
+          unseren Appetit auf leckere Kekse, gesundes Obst und lockere
+          Gespräche.
         </p>
         <div className="grid grid-cols-2 gap-5">
           <div className="relative col-span-2 h-[500px]">
@@ -390,8 +393,8 @@ function Sachbearbeiter() {
               beruflichen Werdegang widerspiegeln und uns zeigen, ob Du quer
               einsteigst oder bereits Erfahrung im Gesundheitswesen oder im
               kaufmännischen Bereich hast. Schreib uns auch, welches
-              Bruttomonatsgehalt Du Dir wünscht. Alle Unterlagen schickst Du uns
-              im PDF-Format zu.
+              Bruttomonatsgehalt Du Dir wünschst. Alle Unterlagen schickst Du
+              uns im PDF-Format zu.
             </p>
           </div>
           <div className="way-block">
@@ -420,7 +423,7 @@ function Sachbearbeiter() {
             </h4>
             <p>
               Nach dem Kennenlernen triffst Du direkt Deine potenziellen neuen
-              Kolleginnen und Kollegen aus deinem zukünftigen Mikroteam.
+              Kolleg:innen aus deinem zukünftigen Mikroteam.
             </p>
           </div>
           <div className="way-block">
@@ -454,7 +457,7 @@ function Sachbearbeiter() {
           <div className=" grid grid-cols-1 xl:grid-cols-3 gap-0 xl:gap-6">
             <div className="flex-col text-center">
               <h4 className="text-lg mt-4 text-white">
-                Dann bewirb dich unter: <br />
+                Dann bewirb Dich unter: <br />
                 <a href="mailto:bewerbung@zad-northeim.de">
                   bewerbung@zad-northeim.de
                 </a>
