@@ -9,7 +9,7 @@ function Sachbearbeiter() {
   return (
     <div className="mx-auto pt-3 pb-16">
       <video
-        className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
+        className="object-cover w-full drop-shadow-lg  hidden lg:block"
         lazy=""
         autoPlay={true}
         playsInline={true}
@@ -21,7 +21,7 @@ function Sachbearbeiter() {
           src="/videos/karriere/buerohilfskraft_tiny.mp4"
         />
       </video>
-      <div className="px-[5%] lg:px-[25%] my-6 md:my-16">
+      <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
         <h2 className="text-center text-4xl xl:mt-32">
           BÜROHILFSKRAFT (M/W/D)
         </h2>
@@ -35,8 +35,8 @@ function Sachbearbeiter() {
         <h2 className="mt-20 xl:mt-32 mb-8 text-3xl text-center">
           Das sind Deine Aufgaben
         </h2>
-        <ul className="text-zad-blue-600 bg-zad-blue-200 rounded-md p-6">
-          <p className="mb-3 underline">
+        <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-2xl mx-auto">
+          <p className="mb-3">
             Du unterstützt uns in unterschiedlichen Prozessarbeiten:
           </p>
           <li>Du bereitest Abrechnungsunterlagen vor und sortierst sie</li>
@@ -49,7 +49,7 @@ function Sachbearbeiter() {
         <h2 className="mt-10 xl:mt-20 mb-8 text-3xl text-center">
           Das bringst Du mit
         </h2>
-        <ul className="text-zad-blue-600 bg-zad-blue-200 rounded-md p-6">
+        <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-2xl mx-auto">
           <li>Du verfügst über eine schnelle Auffassungsgabe</li>
           <li>Du bist teamfähig, zuverlässig und hilfsbereit</li>
           <li>Du agierst flexibel</li>
@@ -58,7 +58,7 @@ function Sachbearbeiter() {
           5 gute Gründe für gemeinsame Wege
         </h2>{" "}
         <div className="grid grid-cols-1  xl:grid-cols-2 gap-6">
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between  p-5 rounded-md">
             <Image
               src="/images/karriere/buero/ZADO_reportage_32.jpg"
               className=" object-cover rounded-md min-w-full"
@@ -75,7 +75,7 @@ function Sachbearbeiter() {
               einfach digital.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between  p-5 rounded-md">
             <Image
               src="/images/karriere/buero/ZADO_reportage_45.jpg"
               className=" object-cover rounded-md"
@@ -90,7 +90,7 @@ function Sachbearbeiter() {
               und bei Bedarf in die notwendigen Programme mit dem PC ein.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between  p-5 rounded-md">
             <Image
               src="/images/karriere/buero/ZADO_reportage_04.jpg"
               className=" object-cover rounded-md"
@@ -107,7 +107,7 @@ function Sachbearbeiter() {
               erleichtert.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between  p-5 rounded-md">
             <Image
               src="/images/karriere/buero/ZADO_gruppenaufnahme_03.jpg"
               className=" object-cover rounded-md"
@@ -126,7 +126,7 @@ function Sachbearbeiter() {
               einer Wellenlänge liegt.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between  p-5 rounded-md">
             <Image
               src="/images/karriere/buero/ZADO_reportage_54.jpg"
               className=" object-cover rounded-md"
@@ -156,7 +156,7 @@ function Sachbearbeiter() {
             Bewirb Dich jetzt
           </Button>
         </div>
-        <GruenesLicht />
+        <GruenesLicht hide_images={true} />
         <h2 className="text-center text-3xl mt-36 mb-4">
           Alle Augenblicke auf Augenhöhe
         </h2>
@@ -220,7 +220,7 @@ function Sachbearbeiter() {
           </div>
         </div>
         <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
-        <KarriereSlider />
+        <KarriereSlider sorte="buero" />
         <h2 className="text-center text-3xl mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
         </h2>{" "}

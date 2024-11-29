@@ -10,7 +10,7 @@ function Sachbearbeiter() {
   return (
     <div className="mx-auto pt-3 pb-16">
       <video
-        className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
+        className="object-cover w-full drop-shadow-lg hidden lg:block"
         lazy=""
         autoPlay={true}
         playsInline={true}
@@ -19,7 +19,7 @@ function Sachbearbeiter() {
       >
         <source type="video/mp4" src="/videos/karriere/kaufleute_tiny.mp4" />
       </video>
-      <div className="px-[5%] lg:px-[25%] my-6 md:my-16">
+      <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
         <h2 className="text-center text-4xl xl:mt-32">
           SACHBEARBEITER:IN IM <br /> GESUNDHEITSWESEN
         </h2>
@@ -33,7 +33,7 @@ function Sachbearbeiter() {
         <h2 className="mt-20 xl:mt-32 mb-8 text-3xl text-center">
           Das sind Deine Aufgaben
         </h2>
-        <ul className="text-zad-blue-600 bg-zad-blue-200 rounded-md p-6">
+        <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-4xl mx-auto">
           <li>
             Du prüfst und erstellst Leistungsabrechnungen – mit den
             Schwerpunkten Ambulante Pflege und Krankentransport
@@ -49,7 +49,7 @@ function Sachbearbeiter() {
         <h2 className="mt-10 xl:mt-20 mb-8 text-3xl text-center">
           Das bringst Du mit
         </h2>
-        <ul className="text-zad-blue-600 bg-zad-blue-200 rounded-md p-6">
+        <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-4xl mx-auto">
           <li>
             Du hast eine abgeschlossene Berufsausbildung im kaufmännischen oder
             medizinischen Bereich – oder bist Quereinsteiger:in
@@ -67,8 +67,8 @@ function Sachbearbeiter() {
         <h2 className="mt-10 xl:mt-20 text-3xl text-center">
           Rechne mit vielen Vorteilen
         </h2>
-        <div className="my-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
+        <div className="my-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+          <div className="flex-col text-center px-6 py-6 flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/krankenversicherung.svg"
@@ -78,7 +78,7 @@ function Sachbearbeiter() {
               Private Zusatzkrankenversicherung für mehr Gesundheitsleistungen
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
+          <div className="flex-col text-center px-6 py-6 flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/vertrag.svg"
@@ -89,7 +89,7 @@ function Sachbearbeiter() {
               zwischen 2 und 5 %
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
+          <div className="flex-col text-center px-6 py-6 flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/kita.svg"
@@ -100,7 +100,7 @@ function Sachbearbeiter() {
               Lebensjahr
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
+          <div className="flex-col text-center px-6 py-6 flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/vl.svg"
@@ -111,7 +111,7 @@ function Sachbearbeiter() {
               Alter
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10 flex ">
+          <div className="flex-col text-center px-6 py-6 flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/pause.svg"
@@ -122,7 +122,7 @@ function Sachbearbeiter() {
               Schwung holen kannst
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10  flex ">
+          <div className="flex-col text-center px-6 py-6  flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/psycho.svg"
@@ -133,7 +133,7 @@ function Sachbearbeiter() {
               Fall der Fälle
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10  flex ">
+          <div className="flex-col text-center px-6 py-6  flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/bike.svg"
@@ -144,7 +144,7 @@ function Sachbearbeiter() {
               Umwelt – inklusive, wenn Du unbefristet bei uns bist
             </h4>
           </div>
-          <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-10  flex ">
+          <div className="flex-col text-center px-6 py-6  flex ">
             <img
               className="pt-4 h-24 mb-6 self-center"
               src="images/karriere/pflegelotsen.svg"
@@ -169,12 +169,12 @@ function Sachbearbeiter() {
             Bewirb Dich jetzt
           </Button>
         </div>
-        <GruenesLicht />
+        <GruenesLicht hide_images={true} />
         <h2 className="text-center text-3xl mt-40 mb-16">
           6 gute Gründe für gemeinsame Wege
         </h2>{" "}
         <div className="grid grid-cols-1  xl:grid-cols-2 gap-6">
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between p-5 rounded-md">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_gruppenaufnahme_08.jpg"
               className=" object-cover rounded-md"
@@ -190,7 +190,7 @@ function Sachbearbeiter() {
               arbeiten hier alle in kleinen Teams.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between p-5 rounded-md">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_68.jpg"
               className=" object-cover rounded-md"
@@ -208,7 +208,7 @@ function Sachbearbeiter() {
               Zukunft.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between p-5 rounded-md">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_20.jpg"
               className=" object-cover rounded-md"
@@ -225,7 +225,7 @@ function Sachbearbeiter() {
               erleichtert.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between p-5 rounded-md">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_46.jpg"
               className=" object-cover rounded-md"
@@ -244,7 +244,7 @@ function Sachbearbeiter() {
               eure Arbeitsumgebung nach euren Wünschen zu gestalten.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between p-5 rounded-md">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_30.jpg"
               className=" object-cover rounded-md"
@@ -261,7 +261,7 @@ function Sachbearbeiter() {
               einfach digital.
             </p>
           </div>
-          <div className="flex-col text-center justify-between bg-zad-blue-200 p-5 rounded-md">
+          <div className="flex-col text-center justify-between p-5 rounded-md">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_57.jpg"
               className=" object-cover rounded-md"
@@ -343,7 +343,8 @@ function Sachbearbeiter() {
             />
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-4">Testimonials</h2>
+        <h2 className="text-center text-3xl mt-32 mb-8">Testimonials</h2>
+        <KarriereSlider sorte="sach" />
         <h2 className="text-center text-3xl mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
         </h2>{" "}

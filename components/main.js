@@ -36,7 +36,7 @@ function Main({
       >
         {children}
       </div>
-      <img
+      {/* <img
         onMouseEnter={handleCurtain}
         onClick={handleCurtain}
         src="/images/grasBig.webp"
@@ -58,7 +58,7 @@ function Main({
         src="/images/grasBig.webp"
         alt="Gras Links"
         className="gras-left hidden md:block absolute bottom-0 left-0 w-2/4 h-[100%] object-coverOFF transition-all duration-500 z-20"
-      />
+      /> */}
     </main>
   );
 }
