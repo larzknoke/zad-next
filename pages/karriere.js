@@ -5,20 +5,24 @@ import Image from "next/image";
 import Link from "next/link";
 import GruenesLicht from "../components/karriere_gruenes_licht";
 import Socials from "../components/socials";
+import KarriereSlider from "../components/karriere-slider";
 function Karriere() {
   return (
     <div className="mx-auto pt-3 pb-16">
       <video
-        className="object-cover w-full drop-shadow-lg h-[36rem] hidden lg:block"
+        className="object-cover w-full drop-shadow-lg  hidden lg:block"
         lazy=""
         autoPlay={true}
         playsInline={true}
         muted={true}
         loop={true}
       >
-        <source type="video/mp4" src="/videos/software-pflegedienste.mp4" />
+        <source
+          type="video/mp4"
+          src="/videos/karriere/karriere_allgemein.mp4"
+        />
       </video>
-      <div className="px-[5%] lg:px-[25%] my-6 md:my-16">
+      <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
         <h2 className="text-center text-4xl xl:mt-32">
           Kolleg:in im Lieblingsteam? <br />
           Mach Dein Häkchen.
@@ -59,7 +63,7 @@ function Karriere() {
         <div className="bg-zad-blue-600 p-10 lg:p-18 lg:px-36 mb-24 rounded mt-16 xl:mt-28 text-center">
           <Image
             className="rounded-full"
-            src={"/images/karriere/start/01-ZADO-portraits-cb.jpg"}
+            src={"/images/karriere/start/ZAD-portrait-06.png"}
             alt="Niesen"
             width={250}
             height={250}
@@ -99,7 +103,7 @@ function Karriere() {
           </div>
           <div className="flex-col xl:w-1/3 text-center justify-between">
             <Image
-              src="/images/karriere/start/ZADO_gruppenaufnahme_11.jpg"
+              src="/images/karriere/start/ZAD-gruppenaufnahmen-13.jpg"
               className="w-1/4 object-cover rounded-md"
               width={300}
               height={200}
@@ -163,7 +167,7 @@ function Karriere() {
           </div>
           <div className="relative  h-[300px]">
             <Image
-              src="/images/karriere/start/ZADO_kampagne_hilfskraefte_01.jpg"
+              src="/images/karriere/start/ZAD-reportage-76.jpg"
               className="w-full object-cover rounded-md"
               layout={"fill"}
             />
@@ -207,7 +211,7 @@ function Karriere() {
             <div className="flex-col text-center w-full md:w-1/3">
               <div className="relative h-[180px]">
                 <Image
-                  src="/images/karriere/start/ZADO_reportage_39.jpg"
+                  src="/images/karriere/start/ZADO_kampagne_hilfskraefte_01.jpg"
                   className="object-cover rounded-md"
                   layout={"fill"}
                   objectFit="cover"
@@ -227,12 +231,13 @@ function Karriere() {
                 />
               </div>
               <h4 className="text-lg mt-4 text-white">
-                BÜROHILFSKRAFT (M/W/D)
+                FACHKRAFT FÜR IT (M/W/D)
               </h4>
             </div>
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-4">Testimonials</h2>
+        <h2 className="text-center text-3xl mt-32 mb-8">Testimonials</h2>
+        <KarriereSlider />
         <GruenesLicht />
         <Socials />
       </div>
