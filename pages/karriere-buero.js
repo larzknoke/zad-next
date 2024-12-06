@@ -171,7 +171,7 @@ function Sachbearbeiter() {
         <div className="grid grid-cols-2 gap-5">
           <div className="relative col-span-2 h-[500px]">
             <Image
-              src="/images/karriere/sachbearbeiter/ZADO_reportage_24.jpg"
+              src="/images/karriere/buero/ZADO_reportage_02.jpg"
               className="w-full object-cover rounded-md"
               layout={"fill"}
             />

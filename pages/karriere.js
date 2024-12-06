@@ -23,7 +23,10 @@ function Karriere() {
         />
       </video>
       <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
-        <h2 className="text-center text-4xl xl:mt-32 lg:leading-[48px]">
+        <h2
+          className="text-center text-4xl xl:
+        mt-32 lg:leading-[48px]"
+        >
           Kolleg:in im Lieblingsteam? <br />
           Mach Dein Häkchen.
         </h2>
