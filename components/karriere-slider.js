@@ -89,7 +89,10 @@ export default function KarriereSlider({ sorte = "karrie" }) {
     <Slider {...settings}>
       {sliderData[sorte].map((testi) => {
         return (
-          <div className="flex justify-center text-center mb-6">
+          <div
+            className="flex justify-center text-center mb-6"
+            key={testi.name}
+          >
             <Image
               className="rounded-full"
               src={"/images/karriere/testi/" + testi.img + ".png"}
