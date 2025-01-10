@@ -15,8 +15,8 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
       </p>
       <div
         className={`${
-          !hide_images ? " my-10 " : " my-5 "
-        } flex flex-col md:flex-row justify-center gap-x-8 gap-y-[30px] md:gap-y-[70px] md:items-baseline	`}
+          !hide_images ? " my-10 " : " my-12 "
+        } flex flex-col md:flex-row justify-center gap-x-8 gap-y-[30px] md:gap-y-[70px] 	`}
       >
         <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
@@ -31,7 +31,7 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
               />
             </div>
           )}
-          <div className="  content-evenly">
+          <div className=" ">
             <h4 className="text-3xl">150</h4>
             <p className="mb-0">
               Mitarbeiter:innen arbeiten bei uns in Northeim
@@ -51,7 +51,7 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
               />
             </div>
           )}
-          <div className=" xl:h-36 content-evenly">
+          <div className=" xl:h-36">
             <h4 className="text-3xl">{it ? "15" : "8 bis 12"}</h4>
             <p className="mb-0">
               {it
@@ -73,7 +73,7 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
               />
             </div>
           )}
-          <div className=" xl:h-36 content-evenly">
+          <div className="">
             <h4 className="text-3xl">40</h4>
             <p className="mb-0">
               Jahre gibt es unser familiengeführtes Unternehmen schon
