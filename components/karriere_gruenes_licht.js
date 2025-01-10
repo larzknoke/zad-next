@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function GruenesLicht({ it = false, hide_images = false }) {
   return (
     <>
-      <h2 className="text-center text-3xl mt-32 ">
+      <h2 className="text-center text-3xl mt-10 md:mt-10 ">
         Gib mit uns Rettungs- und Pflegediensten grünes Licht
       </h2>{" "}
       <p className={`text-center ${hide_images ? "mb-0" : ""}`}>
@@ -15,10 +15,10 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
       </p>
       <div
         className={`${
-          !hide_images ? "my-10" : "my-0"
-        } flex flex-col xl:flex-row justify-center gap-x-8 gap-y-[70px]`}
+          !hide_images ? " my-10 " : " my-5 "
+        } flex flex-col md:flex-row justify-center gap-x-8 gap-y-[30px] md:gap-y-[70px] md:items-baseline	`}
       >
-        <div className=" xl:w-1/3 flex flex-col text-center">
+        <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
             <div className="relative h-64 xl:h-48">
               <Image
@@ -31,14 +31,14 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
               />
             </div>
           )}
-          <div className=" xl:h-36 content-evenly">
+          <div className="  content-evenly">
             <h4 className="text-3xl">150</h4>
             <p className="mb-0">
               Mitarbeiter:innen arbeiten bei uns in Northeim
             </p>
           </div>
         </div>
-        <div className=" xl:w-1/3 flex flex-col text-center">
+        <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
             <div className="relative h-64 xl:h-48">
               <Image
@@ -60,7 +60,7 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
             </p>
           </div>
         </div>
-        <div className=" xl:w-1/3 flex flex-col text-center">
+        <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
             <div className="relative h-64 xl:h-48">
               <Image

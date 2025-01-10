@@ -22,7 +22,7 @@ function Sachbearbeiter() {
         />
       </video>
       <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
-        <h2 className="text-center text-4xl xl:mt-32">
+        <h2 className="text-center text-3xl md:text-4xl xl:mt-32">
           BÜROHILFSKRAFT (M/W/D)
         </h2>
         <h4 className="text-center text-2xl xl:mt-8">
@@ -32,7 +32,7 @@ function Sachbearbeiter() {
           Wir suchen Deine Unterstützung für unsere Abrechnungs-Teams. Geh mit
           uns gemeinsame Wege und starte in unserem Familienunternehmen.
         </p>
-        <h2 className="mt-20 xl:mt-32 mb-8 text-3xl text-center">
+        <h2 className="mt-20 xl:mt-32 mb-0 md:mb-8  text-3xl text-center">
           Das sind Deine Aufgaben
         </h2>
         <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-2xl mx-auto">
@@ -46,7 +46,7 @@ function Sachbearbeiter() {
           </li>
           <li>Du erfasst gegebenenfalls auch Belege im Gesundheitswesen</li>
         </ul>
-        <h2 className="mt-10 xl:mt-20 mb-8 text-3xl text-center">
+        <h2 className="mt-10 xl:mt-20 mb-0 md:mb-8  text-3xl text-center">
           Das bringst Du mit
         </h2>
         <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-2xl mx-auto">
@@ -54,7 +54,7 @@ function Sachbearbeiter() {
           <li>Du bist teamfähig, zuverlässig und hilfsbereit</li>
           <li>Du agierst flexibel</li>
         </ul>
-        <h2 className="text-center text-3xl mt-40 mb-16">
+        <h2 className="text-center text-3xl mt-8 mb-8 md:mt-28 md:mb-16">
           5 gute Gründe für gemeinsame Wege
         </h2>{" "}
         <div className="grid grid-cols-1  xl:grid-cols-2 gap-6">
@@ -67,7 +67,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Stell die Uhr nach Dir</h4>
-            <p className="px-12 mb-0">
+            <p className="md:px-12 mb-0">
               Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein?
               Unsere Gleitzeitmodelle machen Dich privat flexibler. Per
               Zeiterfassung bist Du immer im Bild, wo Du stehst. Und wenn Du
@@ -84,7 +84,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Komm gut an Bord</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Wir nehmen Dich vom ersten Moment an mit. Während eines gut
               betreuten Onboardings arbeiten wir Dich intensiv in alle Aufgaben
               und bei Bedarf in die notwendigen Programme mit dem PC ein.
@@ -99,7 +99,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Bei uns bist Du auch als Kolleg:in 151 keine Nummer. Für uns
               zählt, wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und
               Deinen Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf
@@ -118,7 +118,7 @@ function Sachbearbeiter() {
             <h4 className="text-xl mt-4 ">
               Erlebe Teamgeist, der Dich begeistert
             </h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Das große Ganze ergibt sich bei uns aus vielen kleinen Teams.
               Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter:innen. Du
               unterstützt das Team, zu dem Du am besten passt. Schließlich macht
@@ -135,7 +135,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Spüre, wie Dein Gehalt steigt</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Wir wollen, dass Du am liebsten für immer bleibst. Und je länger
               Du bei uns bist, desto mehr verdienst Du auch. Wir passen Dein
               Gehalt regelmäßig an – und zeigen Dir auch auf diese Art, wie viel
@@ -143,7 +143,7 @@ function Sachbearbeiter() {
             </p>
           </div>
         </div>
-        <div className="bg-zad-blue-600 p-10 lg:p-18 lg:px-36 mb-36 rounded mt-16 xl:mt-32 text-center">
+        <div className="bg-zad-blue-600 p-10 lg:p-18 lg:px-36 md:mb-36 rounded mb-0 mt-8 xl:mt-24 text-center">
           <h2 className="text-white text-center md:underline underline-offset-8 md:px-16 md:mb-10 mt-2">
             Ergeben wir zusammen schon Plus?
           </h2>

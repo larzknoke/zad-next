@@ -25,7 +25,7 @@ function Karriere() {
       <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
         <h2
           className="text-center text-4xl xl:
-        mt-32 lg:leading-[48px]"
+        mt-16 lg:leading-[48px]"
         >
           Kolleg:in im Lieblingsteam? <br />
           Mach Dein Häkchen.
@@ -34,7 +34,7 @@ function Karriere() {
           Wir suchen Dich und Dein Talent für spannende Aufgaben und gemeinsame
           Wege. <br /> Starte Deine Zukunft in unserem Familienunternehmen.
         </p>
-        <h2 className="mt-20 xl:mt-32 text-3xl text-center">
+        <h2 className="mt-20 xl:mt-24 text-3xl text-center">
           In diesen Jobs kannst Du Dein Talent entfalten
         </h2>
         <div className="my-10 flex flex-col xl:flex-row justify-center gap-x-[5%] gap-y-6">
@@ -71,22 +71,15 @@ function Karriere() {
             width={250}
             height={250}
           />
-          <h2 className="text-white text-center md:underline underline-offset-8 md:px-16 md:mb-10 mt-8">
-            Suchst Du einen anderen Job?
-          </h2>
-          <p className="font-medium m-0 text-white text-lg text-center">
-            Bewirb Dich einfach initiativ. Wir freuen uns zum Beispiel auch,
-            wenn Du uns von Deinen beruflichen Fähigkeiten überzeugst. <br />
-            <br />
-            Sende Deine Bewerbung per E-Mail an bewerbung@zad-northeim.de oder{" "}
-            <br />
-            ruf uns an unter 0 55 51 / 96 88 - 789
+          <p className="font-medium m-0 text-white text-lg text-center md:mb-10 mt-6 md:mt-10">
+            Sende Deine Bewerbung per E-Mail an <br />bewerbung@zad-northeim.de oder{" "}
+            ruf uns an unter <br /> 0 55 51 / 96 88 - 789
           </p>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-16">
+        <h2 className="text-center text-3xl mt-8 mb-8 md:mt-28 md:mb-16">
           Gute Gründe für gemeinsame Wege
         </h2>{" "}
-        <div className="my-10 flex flex-col px-20 xl:px-0 xl:flex-row justify-center gap-x-[8%] gap-y-[70px]">
+        <div className="my-10 flex flex-col md:px-20 xl:px-0 xl:flex-row justify-center gap-x-[8%] gap-y-[20px] md:gap-y-[70px]">
           <div className="flex-col xl:w-1/3 text-center justify-between">
             <Image
               src="/images/karriere/start/ZADO_reportage_10.jpg"
@@ -142,7 +135,7 @@ function Karriere() {
             </p>
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-4">
+        <h2 className="text-center text-3xl mt-10 md:mt-32 mb-4">
           Alle Augenblicke auf Augenhöhe
         </h2>
         <p className="text-center">
@@ -194,7 +187,7 @@ function Karriere() {
           className="bg-zad-blue-600 p-12 lg:p-12 my-32
           text-center rounded-md"
         >
-          <h2 className="text-white text-center md:underline underline-offset-8 mb-12 md:px-16 md:mb-16 ">
+          <h2 className="text-white text-center mb-12 md:px-16 md:mb-12 ">
             Unsere Teams sagen „Hallo“
           </h2>
           <div className=" flex flex-col md:flex-row justify-center gap-x-[4%] gap-y-5 md:gap-y-[70px]">

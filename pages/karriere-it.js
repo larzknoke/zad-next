@@ -20,7 +20,7 @@ function Sachbearbeiter() {
         <source type="video/mp4" src="/videos/karriere/it_tiny.mp4" />
       </video>
       <div className="px-[5%] lg:px-[20%] my-6 md:my-16">
-        <h2 className="text-center text-4xl xl:mt-32">
+        <h2 className="text-center text-3xl md:text-4xl xl:mt-32">
           FACHKRAFT FÜR IT (M/W/D)
         </h2>
         <h4 className="text-center text-2xl xl:mt-8">
@@ -31,7 +31,7 @@ function Sachbearbeiter() {
           unterschiedlichen IT-Bereichen – gern auch als Initiativbewerbung.
           Starte Deine Zukunft in unserem Familienunternehmen.{" "}
         </p>
-        <h2 className="mt-20 xl:mt-32 mb-8 text-3xl text-center">
+        <h2 className="mt-20 xl:mt-32 mb-0 md:mb-8  text-3xl text-center">
           Damit supportest Du unser Team
         </h2>
         <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-4xl mx-auto">
@@ -45,7 +45,7 @@ function Sachbearbeiter() {
             sie gemeinsam mit uns weiter
           </li>
         </ul>
-        <h2 className="mt-10 xl:mt-20 mb-8 text-3xl text-center">
+        <h2 className="mt-10 xl:mt-20 mb-0 md:mb-8  text-3xl text-center">
           Das bringst Du mit
         </h2>
         <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-4xl mx-auto">
@@ -60,14 +60,14 @@ function Sachbearbeiter() {
           </li>
         </ul>
         <div
-          className="bg-zad-blue-600 p-12 lg:p-12 my-32
+          className="bg-zad-blue-600 p-12 lg:p-12 my-10 md:my-32
           text-center rounded-md"
         >
           <h2 className="text-white text-center md:px-16 md:mb-12 ">
             In welcher Welt fühlst Du Dich zu Hause? <br /> Bewirb Dich für
             einen dieser Bereiche.
           </h2>
-          <div className=" flex flex-row justify-center gap-x-[4%] gap-y-[70px]">
+          <div className=" flex flex-col md:flex-row justify-center gap-x-[4%] gap-y-[30px] md:gap-y-[70px]">
             <div className="flex-col text-center">
               <Image
                 src="/images/karriere/it/ZADO_reportage_72.jpg"
@@ -205,7 +205,7 @@ function Sachbearbeiter() {
           </div>
         </div>
         <div className="bg-zad-blue-600 p-10 lg:p-18 lg:px-36 mb-24 rounded mt-16 xl:mt-28 text-center">
-          <h2 className="text-white text-center md:underline underline-offset-8 md:px-16 md:mb-10 mt-2">
+          <h2 className="text-white text-center md:text-3xl md:px-16 md:mb-10 mt-2">
             Ergeben wir zusammen schon Plus?
           </h2>
           <Button
@@ -217,7 +217,7 @@ function Sachbearbeiter() {
             Bewirb Dich jetzt
           </Button>
         </div>
-        <h2 className="text-center text-3xl mt-40 mb-16">
+        <h2 className="text-center text-3xl mt-8 mb-8 md:mt-28 md:mb-16">
           6 gute Gründe für gemeinsame Wege
         </h2>{" "}
         <div className="grid grid-cols-1  xl:grid-cols-2 gap-6">
@@ -230,7 +230,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Werde Teil von etwas Großem</h4>
-            <p className="px-12 mb-0">
+            <p className="md:px-12 mb-0">
               Du gehörst zu einem Familienunternehmen, das seit 40 Jahren gesund
               und munter wächst. Zu unserer Northeimer Zentrale zählen 150
               Mitarbeiter:innen. Fühlt sich aber gar nicht so an. Denn wir
@@ -248,7 +248,7 @@ function Sachbearbeiter() {
             <h4 className="text-xl mt-4 ">
               Freu Dich auf eine lange Beziehung
             </h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Wir bleiben Dir treu und geben Dir Halt. Auch wenn’s mal stürmt
               oder etwas schiefläuft. Wir halten viel von Beständigkeit und
               Vertrauen. Das gibt Dir Sicherheit und ein gutes Gefühl für die
@@ -264,7 +264,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Bei uns bist Du auch als Kolleg:in 151 keine Nummer. Für uns
               zählt, wer Du bist und was Dich ausmacht. Mit Deinen Wünschen und
               Deinen Ideen. Wir lieben es, wenn Du Dich mit Herz und Kopf
@@ -281,7 +281,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Entfalte Dich so, wie Du bist</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Das große Ganze ergibt sich bei uns aus vielen kleinen Teams.
               Jedes von ihnen zählt nur acht bis zwölf Mitarbeiter:innen. Du
               bist Teil einer Gruppe, die so tickt wie Du. Das macht vieles
@@ -298,7 +298,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Stell die Uhr nach Dir</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Dein Leben ist kein Stundenplan. Warum sollte es Dein Job sein?
               Unsere Gleitzeitmodelle machen Dich privat flexibler. Per
               Zeiterfassung bist Du immer im Bild, wo Du stehst. Und wenn Du
@@ -315,7 +315,7 @@ function Sachbearbeiter() {
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Entwickle Dich weiter</h4>
-            <p className="px-12">
+            <p className="md:px-12">
               Wir schieben Dein Talent an – zum Beispiel mit geförderten
               Qualifikationen zur Europakauffrau oder zum Europakaufmann, mit
               PBC-Schulungen oder Deinem Ausbilderschein. Außerdem kannst Du in
@@ -377,7 +377,7 @@ function Sachbearbeiter() {
         </div>
         <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
         <KarriereSlider sorte="it" />
-        <h2 className="text-center text-3xl mt-40 mb-16">
+        <h2 className="text-center text-3xl mt-12 md:mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
         </h2>{" "}
         <div className="grid grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 gap-6">
@@ -449,7 +449,7 @@ function Sachbearbeiter() {
           className="bg-zad-blue-600 p-12 lg:p-12 my-32
           text-center rounded-md"
         >
-          <h2 className="text-white text-center md:underline underline-offset-8 md:px-16 md:mb-12 ">
+          <h2 className="text-white text-center md:text-3xl md:px-16 md:mb-12 ">
             Heißt Dein Ergebnis „Ja“?
           </h2>
           <div className=" grid grid-cols-1 xl:grid-cols-3 gap-0 xl:gap-6">

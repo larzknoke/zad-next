@@ -236,3 +236,7 @@ main.tease:not(.open) .hand {
 .way-number {
   @apply absolute top-10 left-0 opacity-5 text-[200px];
 }
+
+.slick-dots{
+  bottom: 0 !important
+}
