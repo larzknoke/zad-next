@@ -59,7 +59,7 @@ function Software() {
           </p>
           <div className="flex flex-col my-10 w-full items-stretch justify-items-stretch space-y-8">
             <img
-              className="pt-8 w-2/4 self-center"
+              className="pt-8 pb-8 w-2/4 self-center"
               src="images/pflegesuite.png"
               alt="Pflegesuite Logo"
             />
