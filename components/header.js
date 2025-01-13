@@ -43,7 +43,7 @@ function Header({ handleCurtain, handleTease }) {
               <a href="mailto:info@zad-northeim.de">info@zad-northeim.de</a>
             </div>
           </div>
-          <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end text-xs sm:text-sm md:text-base items-center	 ">
+          <div className="text-zad-blue-600 space-x-4 flex justify-between xl:justify-end text-xs sm:text-sm md:text-base items-center whitespace-nowrap ">
             <Link href="https://www.zad-northeim.net:5307">
               <a target="_blank" rel="noopener noreferrer">
                 Kunden-Login
@@ -63,6 +63,7 @@ function Header({ handleCurtain, handleTease }) {
                 href="https://www.facebook.com/ZADGmbH/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="md:inline-block hidden"
               >
                 <img className="h-6" src="images/facebook.svg" alt="Facebook" />
               </a>
