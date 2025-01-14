@@ -168,7 +168,7 @@ function Sachbearbeiter() {
           unseren Appetit auf leckere Kekse, gesundes Obst und lockere
           Gespräche..
         </p>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 gap-5 mb-20 md:mb-32">
           <div className="relative col-span-2 h-[500px]">
             <Image
               src="/images/karriere/buero/ZADO_reportage_02.jpg"
@@ -219,7 +219,6 @@ function Sachbearbeiter() {
             />
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
         <KarriereSlider sorte="buero" />
         <h2 className="text-center text-3xl mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
