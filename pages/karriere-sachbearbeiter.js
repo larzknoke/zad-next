@@ -141,7 +141,7 @@ function Sachbearbeiter() {
             />
             <h4 className="text-lg mb-0">
               JobRad-Leasing für Deine Bewegungsfreude, Dein Konto und die
-              Umwelt – inklusive, wenn Du unbefristet bei uns bist
+              Umwelt – inklusive
             </h4>
           </div>
           <div className="flex-col text-center px-6 py-6  flex ">
@@ -179,7 +179,7 @@ function Sachbearbeiter() {
               src="/images/karriere/sachbearbeiter/ZADO_gruppenaufnahme_08.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Werde Teil von etwas Großem</h4>
@@ -195,7 +195,7 @@ function Sachbearbeiter() {
               src="/images/karriere/sachbearbeiter/ZADO_reportage_68.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">
@@ -213,7 +213,7 @@ function Sachbearbeiter() {
               src="/images/karriere/sachbearbeiter/ZADO_reportage_20.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
@@ -230,7 +230,7 @@ function Sachbearbeiter() {
               src="/images/karriere/sachbearbeiter/ZADO_reportage_46.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">
@@ -249,7 +249,7 @@ function Sachbearbeiter() {
               src="/images/karriere/sachbearbeiter/ZADO_reportage_30.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Stell die Uhr nach Dir</h4>
@@ -266,7 +266,7 @@ function Sachbearbeiter() {
               src="/images/karriere/sachbearbeiter/ZADO_reportage_57.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Entwickle Dich weiter</h4>
@@ -292,58 +292,71 @@ function Sachbearbeiter() {
           unseren Appetit auf leckere Kekse, gesundes Obst und lockere
           Gespräche.
         </p>
-        <div className="grid grid-cols-2 gap-5">
-          <div className="relative col-span-2 h-[500px]">
+        <div className="grid grid-cols-2 gap-5 mb-20 md:mb-32">
+          <div className="relative col-span-2">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_24.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={600}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_29.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_64.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_75.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_07.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_59.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/sachbearbeiter/ZADO_reportage_25.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-8">Testimonials</h2>
         <KarriereSlider sorte="sach" />
         <h2 className="text-center text-3xl mt-12 md:mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn

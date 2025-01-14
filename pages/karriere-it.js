@@ -189,7 +189,7 @@ function Sachbearbeiter() {
             />
             <h4 className="text-lg mb-0">
               JobRad-Leasing für Deine Bewegungsfreude, Dein Konto und die
-              Umwelt – inklusive, wenn Du unbefristet bei uns bist
+              Umwelt – inklusive
             </h4>
           </div>
           <div className="flex-col text-center  px-6 py-6  flex ">
@@ -226,7 +226,7 @@ function Sachbearbeiter() {
               src="/images/karriere/it/ZAD-it-02.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Werde Teil von etwas Großem</h4>
@@ -242,7 +242,7 @@ function Sachbearbeiter() {
               src="/images/karriere/it/ZADO_reportage_24.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">
@@ -260,7 +260,7 @@ function Sachbearbeiter() {
               src="/images/karriere/it/ZADO_reportage_69.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
@@ -277,7 +277,7 @@ function Sachbearbeiter() {
               src="/images/karriere/it/ZADO_reportage_13.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Entfalte Dich so, wie Du bist</h4>
@@ -294,7 +294,7 @@ function Sachbearbeiter() {
               src="/images/karriere/it/ZADO_reportage_57.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Stell die Uhr nach Dir</h4>
@@ -311,7 +311,7 @@ function Sachbearbeiter() {
               src="/images/karriere/it/ZADO_reportage_48.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Entwickle Dich weiter</h4>
@@ -338,7 +338,7 @@ function Sachbearbeiter() {
           unseren Appetit auf leckere Kekse, gesundes Obst und lockere
           Gespräche.
         </p>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 gap-5 mb-20 md:mb-32">
           <div className="relative col-span-2 h-[500px]">
             <Image
               src="/images/karriere/it/ZADO_reportage_10_1000.jpg"
@@ -375,7 +375,6 @@ function Sachbearbeiter() {
             />
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-16">Testimonials</h2>
         <KarriereSlider sorte="it" />
         <h2 className="text-center text-3xl mt-12 md:mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
@@ -388,9 +387,7 @@ function Sachbearbeiter() {
             <p>
               Du sendest uns: Dein Anschreiben, Deine Schul- oder
               Arbeitszeugnisse sowie Deinen Lebenslauf. Er sollte auch Deinen
-              beruflichen Werdegang widerspiegeln und uns zeigen, ob Du quer
-              einsteigst oder bereits Erfahrung im Gesundheitswesen oder im
-              kaufmännischen Bereich hast. Schreib uns auch, welches
+              beruflichen Werdegang widerspiegeln. Schreib uns auch, welches
               Bruttomonatsgehalt Du Dir wünschst. Alle Unterlagen schickst Du
               uns im PDF-Format zu.
             </p>

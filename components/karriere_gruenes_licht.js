@@ -20,14 +20,14 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
       >
         <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
-            <div className="relative h-64 xl:h-48">
+            <div className="relative">
               <Image
                 src="/images/karriere/start/ZADO_gruppenaufnahme_04.jpg"
                 className=" object-cover rounded-md"
-                // width={280}
-                // height={200}
+                width={280}
+                height={200}
                 objectFit="cover"
-                layout="fill"
+                // layout="fill"
               />
             </div>
           )}
@@ -40,14 +40,14 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
         </div>
         <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
-            <div className="relative h-64 xl:h-48">
+            <div className="relative">
               <Image
                 src="/images/karriere/start/ZADO_gruppenaufnahme_09.jpg"
                 className=" object-cover rounded-md"
-                // width={280}
-                // height={200}
+                width={280}
+                height={200}
                 objectFit="cover"
-                layout="fill"
+                // layout="fill"
               />
             </div>
           )}
@@ -62,14 +62,14 @@ export default function GruenesLicht({ it = false, hide_images = false }) {
         </div>
         <div className=" xl:w-1/3 flex flex-col text-center gap-5">
           {!hide_images && (
-            <div className="relative h-64 xl:h-48">
+            <div className="relative">
               <Image
                 src="/images/karriere/start/ZADO_gruppenaufnahme_11.jpg"
                 className=" object-cover rounded-md"
-                // width={280}
-                // height={200}
+                width={280}
+                height={200}
                 objectFit="cover"
-                layout="fill"
+                // layout="fill"
               />
             </div>
           )}

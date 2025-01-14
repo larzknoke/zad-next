@@ -39,7 +39,7 @@ function Karriere() {
         </h2>
         <div className="my-10 flex flex-col xl:flex-row justify-center gap-x-[5%] gap-y-6">
           <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-16 xl:w-1/3 flex justify-between">
-            <h4>Sachbearbeiter:in im Gesundheitswesen</h4>
+            <h4>Sachbearbeitung im Gestundheitswesen (m/w/d)</h4>
             <p>
               Bring Deine Erfahrungen im Bereich Leistungsabrechnungen ein und
               sei mittendrin in der Verwaltung.
@@ -72,8 +72,9 @@ function Karriere() {
             height={250}
           />
           <p className="font-medium m-0 text-white text-lg text-center md:mb-10 mt-6 md:mt-10">
-            Sende Deine Bewerbung per E-Mail an <br />bewerbung@zad-northeim.de oder{" "}
-            ruf uns an unter <br /> 0 55 51 / 96 88 - 789
+            Sende Deine Bewerbung per E-Mail an <br />
+            bewerbung@zad-northeim.de oder ruf uns an unter <br /> 0 55 51 / 96
+            88 - 789
           </p>
         </div>
         <h2 className="text-center text-3xl mt-8 mb-8 md:mt-28 md:mb-16">
@@ -147,39 +148,49 @@ function Karriere() {
           Gespräche.
         </p>
         <div className="grid grid-cols-2 gap-5">
-          <div className="relative col-span-2 h-[500px]">
+          <div className="relative col-span-2">
             <Image
               src="/images/karriere/start/ZADO_gruppenaufnahme_09.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={600}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/start/ZADO_reportage_18.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={650}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/start/ZAD-reportage-76.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={650}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/start/ZADO_kampagne_it_01.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={650}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/start/ZADO_reportage_24.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={650}
             />
           </div>
         </div>
@@ -232,7 +243,6 @@ function Karriere() {
             </div>
           </div>
         </div>
-        <h2 className="text-center text-3xl mt-32 mb-8">Testimonials</h2>
         <KarriereSlider />
         <GruenesLicht />
         <Socials />

@@ -36,7 +36,7 @@ function Sachbearbeiter() {
           Das sind Deine Aufgaben
         </h2>
         <ul className="text-zad-blue-600  rounded-md p-6 list-disc	max-w-2xl mx-auto">
-          <p className="mb-3">
+          <p className="mb-5 font-extrabold -ml-4">
             Du unterstützt uns in unterschiedlichen Prozessarbeiten:
           </p>
           <li>Du bereitest Abrechnungsunterlagen vor und sortierst sie</li>
@@ -63,7 +63,7 @@ function Sachbearbeiter() {
               src="/images/karriere/buero/ZADO_reportage_32.jpg"
               className=" object-cover rounded-md min-w-full"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Stell die Uhr nach Dir</h4>
@@ -80,7 +80,7 @@ function Sachbearbeiter() {
               src="/images/karriere/buero/ZADO_reportage_45.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Komm gut an Bord</h4>
@@ -95,7 +95,7 @@ function Sachbearbeiter() {
               src="/images/karriere/buero/ZADO_reportage_04.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Fühle, wie viel Du wert bist</h4>
@@ -112,7 +112,7 @@ function Sachbearbeiter() {
               src="/images/karriere/buero/ZADO_gruppenaufnahme_03.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">
@@ -131,7 +131,7 @@ function Sachbearbeiter() {
               src="/images/karriere/buero/ZADO_reportage_54.jpg"
               className=" object-cover rounded-md"
               width={600}
-              height={350}
+              height={400}
               objectFit="cover"
             />
             <h4 className="text-xl mt-4 ">Spüre, wie Dein Gehalt steigt</h4>
