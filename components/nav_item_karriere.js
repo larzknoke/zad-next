@@ -46,7 +46,21 @@ function NavItemKarriere() {
         transition
         className="nav-item-dropdown"
       >
-        <p>FOO</p>
+        <Link href="/karriere">
+          <span className="nav-item group">karriere bei zad</span>
+        </Link>
+        <hr className="ml-4 mr-24" />
+        <Link href="/karriere-sachbearbeiter">
+          <span className="nav-item group">
+            Sachbearbeitung im Gestundheitswesen
+          </span>
+        </Link>
+        <Link href="/karriere-buero">
+          <span className="nav-item group">Bürohilfskraft</span>
+        </Link>
+        <Link href="/karriere-it">
+          <span className="nav-item group">Fachkraft für IT</span>
+        </Link>
       </PopoverPanel>
     </Popover>
   );
