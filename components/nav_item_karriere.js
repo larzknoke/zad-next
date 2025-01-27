@@ -1,8 +1,11 @@
-import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
+import {
+  Popover,
+  PopoverButton,
+  PopoverPanel,
+  CloseButton,
+} from "@headlessui/react";
 import { useRef, useEffect } from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
-// import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 function NavItemKarriere() {
   const popoverButtonRef = useRef();
@@ -46,21 +49,26 @@ function NavItemKarriere() {
         transition
         className="nav-item-dropdown"
       >
-        <Link href="/karriere">
-          <span className="nav-item group">karriere bei zad</span>
-        </Link>
+        <CloseButton as={"div"} className="nav-item group">
+          <span onClick={() => router.push("/karriere")}>karriere bei zad</span>
+        </CloseButton>
         <hr className="ml-4 mr-24" />
-        <Link href="/karriere-sachbearbeiter">
-          <span className="nav-item group">
+        <CloseButton as={"div"} className="nav-item group">
+          <span onClick={() => router.push("/karriere-sachbearbeiter")}>
+            {" "}
             Sachbearbeitung im Gestundheitswesen
           </span>
-        </Link>
-        <Link href="/karriere-buero">
-          <span className="nav-item group">Bürohilfskraft</span>
-        </Link>
-        <Link href="/karriere-it">
-          <span className="nav-item group">Fachkraft für IT</span>
-        </Link>
+        </CloseButton>
+        <CloseButton as={"div"} className="nav-item group">
+          <span onClick={() => router.push("/karriere-buero")}>
+            Bürohilfskraft
+          </span>
+        </CloseButton>
+        <CloseButton as={"div"} className="nav-item group">
+          <span onClick={() => router.push("/karriere-it")}>
+            Fachkraft für IT
+          </span>
+        </CloseButton>
       </PopoverPanel>
     </Popover>
   );
