@@ -1,6 +1,7 @@
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
 import { useRef, useEffect } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 // import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 function NavItemKarriere() {
@@ -45,19 +46,21 @@ function NavItemKarriere() {
         transition
         className="nav-item-dropdown"
       >
-        <a className="nav-item group" href="/karriere">
-          <span>karriere bei zad</span>
-        </a>
+        <Link href="/karriere">
+          <span className="nav-item group">karriere bei zad</span>
+        </Link>
         <hr className="ml-4 mr-24" />
-        <a className="nav-item group" href="/karriere-sachbearbeiter">
-          <span>Sachbearbeitung im Gestundheitswesen</span>
-        </a>
-        <a className="nav-item group" href="/karriere-buero">
-          <span>Bürohilfskraft</span>
-        </a>
-        <a className="nav-item group" href="/karriere-it">
-          <span>Fachkraft für IT</span>
-        </a>
+        <Link href="/karriere-sachbearbeiter">
+          <span className="nav-item group">
+            Sachbearbeitung im Gestundheitswesen
+          </span>
+        </Link>
+        <Link href="/karriere-buero">
+          <span className="nav-item group">Bürohilfskraft</span>
+        </Link>
+        <Link href="/karriere-it">
+          <span className="nav-item group">Fachkraft für IT</span>
+        </Link>
       </PopoverPanel>
     </Popover>
   );
