@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 function SideMainNav({ openNav, handleNav }) {
+  const [subMenu, setSubMenu] = useState(false);
+
+  const handleSubMenu = () => setSubMenu(!subMenu);
+
   return (
     <nav
       className={
@@ -59,14 +63,46 @@ function SideMainNav({ openNav, handleNav }) {
                 Leistungen
               </a>
             </Link>
-            <Link href="/stellenangebote">
-              <a
-                onClick={() => handleNav()}
-                className="block py-4 hover:text-white text-zad-blue-200"
+            <div>
+              <div
+                className="flex justify-between py-4 group cursor-pointer"
+                onClick={() => handleSubMenu()}
               >
-                Stellenangebote
-              </a>
-            </Link>
+                <a className="block text-zad-blue-200 group-hover:text-white hover:no-underline">
+                  Stellenangebote
+                </a>{" "}
+                <FontAwesomeIcon
+                  icon={faChevronDown}
+                  className={
+                    "h-4 w-4 mt-1 text-zad-blue-200 group-hover:text-white " +
+                    (subMenu ? " rotate-180" : "")
+                  }
+                />
+              </div>
+              <div
+                className={
+                  " flex flex-col bg-zad-blue-300 px-3  rounded gap-4 transition-all overflow-hidden " +
+                  (subMenu ? " h-full py-4 opacity-1 " : " h-0 py-0 opacity-0 ")
+                }
+              >
+                <Link href="/karriere-sachbearbeiter">
+                  <a onClick={() => handleNav()}>Karriere bei ZAD</a>
+                </Link>
+                <hr />
+                <Link href="/karriere-sachbearbeiter">
+                  <a onClick={() => handleNav()}>
+                    Sachbearbeitung im Gestundheitswesen (m/w/d)
+                  </a>
+                </Link>
+                <Link href="/karriere-buero">
+                  <a onClick={() => handleNav()}>Bürohilfskraft (m/w/d)</a>
+                </Link>
+                <Link href="/karriere-it">
+                  <a onClick={() => handleNav()}>Fachkraft für IT (m/w/d)</a>
+                </Link>
+              </div>
+            </div>
+
             <Link href="/kontakt">
               <a
                 onClick={() => handleNav()}
@@ -80,7 +116,7 @@ function SideMainNav({ openNav, handleNav }) {
       </div>
       <div className="mt-auto">
         <p className="my-4 text-xs text-center text-gray-400">
-          <span>2022 © Zentraler Abrechnungs-Dienst GmbH, Northeim</span>
+          <span>2025 © Zentraler Abrechnungs-Dienst GmbH, Northeim</span>
         </p>
       </div>
     </nav>

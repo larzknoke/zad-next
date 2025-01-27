@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import SideMainNav from "./sideMainNav";
+import NavItemKarriere from "./nav_item_karriere";
 
 function Header({ handleCurtain, handleTease }) {
   const router = useRouter();
@@ -135,7 +136,7 @@ function Header({ handleCurtain, handleTease }) {
                 Leistungen
               </a>
             </Link>
-            <Link href="/stellenangebote">
+            {/* <Link href="/stellenangebote">
               <a
                 onClick={() => handleCurtain(true)}
                 onMouseEnter={handleTease}
@@ -146,7 +147,8 @@ function Header({ handleCurtain, handleTease }) {
               >
                 Stellenangebote
               </a>
-            </Link>
+            </Link> */}
+            <NavItemKarriere />
             <Link href="/kontakt">
               <a
                 onClick={() => handleCurtain(true)}

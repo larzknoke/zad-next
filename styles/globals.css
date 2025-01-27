@@ -237,6 +237,28 @@ main.tease:not(.open) .hand {
   @apply absolute top-10 left-0 opacity-5 text-[200px];
 }
 
-.slick-dots{
-  bottom: 0 !important
+.slick-dots {
+  bottom: 0 !important;
+}
+
+/* NAVIGATION */
+
+.main-nav .group {
+  @apply hidden xl:block;
+}
+
+.nav-item-dropdown {
+  @apply flex flex-col z-50 bg-zad-blue-600 py-4 px-3 rounded text-white font-bold uppercase gap-1  drop-shadow-lg origin-top  transition duration-200 ease-out data-[closed]:scale-95 data-[closed]:opacity-0 data-[closed]:translate-y-5;
+}
+
+.nav-item {
+  @apply transition-all duration-300 ease-in-out px-4 pt-3 pb-3 rounded-md hover:bg-white/10 hover:no-underline;
+}
+
+.nav-item span {
+  @apply pb-2 bg-[left_90%] bg-gradient-to-r from-zad-blue-600 to-zad-blue-600 bg-[length:0%_2px] bg-no-repeat  transition-all duration-300 ease-out;
+}
+
+.mobile-nav-item {
+  @apply flex flex-col gap-7 text-xl  uppercase text-white w-full transition-all ease-in-out	duration-500;
 }
