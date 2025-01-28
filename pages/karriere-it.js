@@ -339,39 +339,49 @@ function Sachbearbeiter() {
           Gespräche.
         </p>
         <div className="grid grid-cols-2 gap-5 mb-20 md:mb-32">
-          <div className="relative col-span-2 h-[500px]">
+          <div className="relative col-span-2">
             <Image
               src="/images/karriere/it/ZADO_reportage_10_1000.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={600}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/it/ZADO_reportage_72.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/it/ZADO_reportage_76.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/it/ZADO_reportage_46.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/it/ZADO_reportage_01.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
         </div>

@@ -169,49 +169,59 @@ function Sachbearbeiter() {
           Gespräche..
         </p>
         <div className="grid grid-cols-2 gap-5 mb-20 md:mb-32">
-          <div className="relative col-span-2 h-[500px]">
+          <div className="relative col-span-2">
             <Image
               src="/images/karriere/buero/ZADO_reportage_02.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={1000}
+              height={600}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/buero/ZADO_kampagne_kaufleute_03.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/buero/ZADO_reportage_25.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/buero/ZADO_reportage_70.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/buero/ZADO_reportage_42.jpg"
               className="w-full object-cover rounded-md"
-              layout={"fill"}
+              // layout={"fill"}
+              width={500}
+              height={333}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/buero/ZADO_reportage_30.jpg"
               className="w-full object-cover rounded-md"
               layout={"fill"}
             />
           </div>
-          <div className="relative  h-[300px]">
+          <div className="relative">
             <Image
               src="/images/karriere/buero/ZADO_reportage_56.jpg"
               className="w-full object-cover rounded-md"
