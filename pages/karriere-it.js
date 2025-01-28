@@ -213,6 +213,7 @@ function Sachbearbeiter() {
               "table mx-auto mt-8 border border-transparent hover:border-white"
             }
             bgColor={"bg-white"}
+            href={"mailto:bewerbung@zad-northeim.de"}
           >
             Bewirb Dich jetzt
           </Button>
