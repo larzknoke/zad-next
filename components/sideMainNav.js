@@ -91,7 +91,7 @@ function SideMainNav({ openNav, handleNav }) {
                 <hr />
                 <Link href="/karriere-sachbearbeiter">
                   <a onClick={() => handleNav()}>
-                    Sachbearbeitung im Gestundheitswesen (m/w/d)
+                    Sachbearbeitung im Gesundheitswesen (m/w/d)
                   </a>
                 </Link>
                 <Link href="/karriere-buero">
