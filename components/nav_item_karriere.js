@@ -56,7 +56,7 @@ function NavItemKarriere() {
         <CloseButton as={"div"} className="nav-item group">
           <span onClick={() => router.push("/karriere-sachbearbeiter")}>
             {" "}
-            Sachbearbeitung im Gestundheitswesen
+            Sachbearbeitung im Gesundheitswesen
           </span>
         </CloseButton>
         <CloseButton as={"div"} className="nav-item group">

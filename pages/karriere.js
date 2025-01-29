@@ -39,7 +39,7 @@ function Karriere() {
         </h2>
         <div className="my-10 flex flex-col xl:flex-row justify-center gap-x-[5%] gap-y-6">
           <div className="flex-col text-center bg-zad-blue-200 rounded-md px-6 py-16 xl:w-1/3 flex justify-between">
-            <h4>Sachbearbeitung im Gestundheitswesen (m/w/d)</h4>
+            <h4>Sachbearbeitung im Gesundheitswesen (m/w/d)</h4>
             <p>
               Bring Deine Erfahrungen im Bereich Leistungsabrechnungen ein und
               sei mittendrin in der Verwaltung.
