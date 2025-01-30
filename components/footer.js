@@ -1,6 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Footer() {
+  const router = useRouter();
+
   return (
     <div className="flex  justify-center text-center p-12 flex-col">
       <div className="flex gap-16 items-center justify-around self-center">
@@ -26,9 +30,23 @@ function Footer() {
           objectFit="contain"
         />
       </div>
-      <span className="text-zad-blue-600">
-        {new Date().getFullYear()} © Zentraler Abrechnungs-Dienst GmbH, Northeim
-      </span>
+      <div className="flex flex-col md:flex-row gap-4 md:gap-16 self-center">
+        <span className="text-zad-blue-600">
+          {new Date().getFullYear()} © Zentraler Abrechnungs-Dienst GmbH,
+          Northeim
+        </span>
+        {[
+          "/karriere",
+          "/karriere-it",
+          "/karriere-buero",
+          "/karriere-sachbearbeiter",
+          "/datenschutz-bewerber",
+        ].includes(router.pathname) && (
+          <Link href={"/datenschutz-bewerber"}>
+            <a className="text-zad-blue-600">Datenschutz (Bewerber)</a>
+          </Link>
+        )}
+      </div>
     </div>
   );
 }
