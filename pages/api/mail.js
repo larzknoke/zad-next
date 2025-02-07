@@ -14,13 +14,13 @@ export default async function handler(req, res) {
   const verifyUrl = `https://api.friendlycaptcha.com/api/v1/siteverify`;
 
   const message = `
-    Name: ${body.name}rn
-    Email: ${body.email}rn
-    Nachricht: ${body.nachricht}rn
-    Frage: ${body.frage}rn
-    Telefon: ${body.telefon}rn
-    Uhrzeit: ${body.uhrzeit}rn
-    Herkunft: ${req.headers.referer}rn
+    Name: ${body.name || "-"}rn
+    Email: ${body.email || "-"}rn
+    Nachricht: ${body.nachricht || "-"}rn
+    Frage: ${body.frage || "-"}rn
+    Telefon: ${body.telefon || "-"}rn
+    Uhrzeit: ${body.uhrzeit || "-"}rn
+    Herkunft: ${req.headers.referer || "-"}rn
   `;
 
   try {

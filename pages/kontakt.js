@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Footer from "../components/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,6 +19,8 @@ function Kontakt() {
   const [disabled, setDisabled] = useState(true);
   const [solution, setSolution] = useState(null);
 
+  const captchaRef = useRef();
+
   async function handleOnSubmit(e) {
     e.preventDefault();
     setFormSending(true);
@@ -34,9 +36,8 @@ function Kontakt() {
       } else {
         formData[field.name] = field.checked;
       }
-      // formData["recaptchaResponse"] = token;
     });
-    console.log(formData);
+    console.log("formData", formData);
     await fetch("/api/mail", {
       method: "POST",
       body: JSON.stringify(formData),
@@ -45,6 +46,7 @@ function Kontakt() {
         if (response.status >= 400 && response.status < 600) {
           setFormError(true);
           setFormSending(false);
+          captchaRef.current.resetCaptcha();
 
           throw new Error("Bad response from server");
         }
@@ -54,10 +56,12 @@ function Kontakt() {
         e.target.reset();
         setFormSending(false);
         setFormComplete(true);
+        captchaRef.current.resetCaptcha();
       })
       .catch((error) => {
         setFormSending(false);
         setFormError(true);
+        captchaRef.current.resetCaptcha();
       });
   }
 
@@ -79,7 +83,7 @@ function Kontakt() {
               return (
                 <TeamDetail
                   person={person}
-                  key={person.email}
+                  key={person.name}
                   index={i}
                   kontakt={true}
                 />
@@ -168,6 +172,7 @@ function Kontakt() {
               <FriendlyCaptcha
                 setDisabled={setDisabled}
                 setSolution={setSolution}
+                ref={captchaRef}
               />
               <button
                 disabled={formSending ? true : false}

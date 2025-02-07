@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { FriendlyCaptcha } from "./captcha";
 
 export default function SideContact() {
@@ -11,6 +11,8 @@ export default function SideContact() {
   const [showEmailContact, setShowEmailContact] = useState(false);
   const [disabled, setDisabled] = useState(true);
   const [solution, setSolution] = useState(null);
+
+  const captchaRef = useRef();
 
   async function handleOnSubmit(e) {
     e.preventDefault();
@@ -27,7 +29,6 @@ export default function SideContact() {
       } else {
         formData[field.name] = field.checked;
       }
-      // formData["recaptchaResponse"] = token;
     });
     console.log(formData);
     await fetch("/api/mail", {
@@ -38,6 +39,7 @@ export default function SideContact() {
         if (response.status >= 400 && response.status < 600) {
           setFormError(true);
           setFormSending(false);
+          captchaRef.current.resetCaptcha();
 
           throw new Error("Bad response from server");
         }
@@ -47,10 +49,12 @@ export default function SideContact() {
         e.target.reset();
         setFormSending(false);
         setFormComplete(true);
+        captchaRef.current.resetCaptcha();
       })
       .catch((error) => {
         setFormSending(false);
         setFormError(true);
+        captchaRef.current.resetCaptcha();
       });
   }
 
@@ -155,6 +159,7 @@ export default function SideContact() {
             <FriendlyCaptcha
               setDisabled={setDisabled}
               setSolution={setSolution}
+              ref={captchaRef}
             />
             <button
               disabled={formSending ? true : false}
