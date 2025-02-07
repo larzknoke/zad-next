@@ -25,13 +25,13 @@ function Unternehmen() {
         <h2 className="team-header">Geschäftsführung</h2>
         <div className="team-detail">
           {teamData.geschaeftsfuehrung.map((person, i) => {
-            return <TeamDetail person={person} key={person.email} index={i} />;
+            return <TeamDetail person={person} key={person.name} index={i} />;
           })}
         </div>
         <h2 className="team-header">Vertrieb</h2>
         <div className="team-detail">
           {teamData.vertrieb.map((person, i) => {
-            return <TeamDetail person={person} key={person.email} index={i} />;
+            return <TeamDetail person={person} key={person.name} index={i} />;
           })}
         </div>
         {teamData.teamleitung && (
@@ -40,7 +40,7 @@ function Unternehmen() {
             <div className="team-detail">
               {teamData.teamleitung.map((person, i) => {
                 return (
-                  <TeamDetail person={person} key={person.email} index={i} />
+                  <TeamDetail person={person} key={person.name} index={i} />
                 );
               })}
             </div>
