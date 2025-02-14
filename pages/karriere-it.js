@@ -386,6 +386,37 @@ function Sachbearbeiter() {
             />
           </div>
         </div>
+        <h2 className="mt-20 xl:mt-32 mb-8 md:mb-12 text-3xl text-center">
+          Wir bilden aus
+        </h2>
+        <div className="flex flex-col md:flex-row gap-0 md:gap-12 justify-center pl-0 md:pl-16">
+          <div className=" basis-1/2 max-w-md">
+            <h3>Das sind deine Aufgaben beim ZAD</h3>
+            <ul className="text-zad-blue-600  rounded-md p-3 list-disc	max-w-4xl mx-auto mb-6 md:mb-32 text-balance">
+              <li>Coden & Testing</li> <li>Qualitätssicherung</li>
+              <li>GUI erarbeiten & weiterentwickeln </li>
+              <li>Umgang mit Datenbanken</li>
+              <li>Dokumentation inkl. Diagramm-Erstellung</li>
+              <li> 2nd/3rd-Level-Support bestehender Programme</li>
+              <li> technische Beratung des Projektmanagers</li>
+            </ul>
+          </div>
+          <div className=" basis-1/2  max-w-md">
+            <h3>Das bringst du mit</h3>
+            <ul className="text-zad-blue-600  rounded-md p-3 list-disc	max-w-4xl mx-auto mb-20 md:mb-32 text-balance">
+              <li>Teamfähigkeit und Kommunikationsfähigkeit</li>
+              <li> Analytisches Denken/Verständnis</li>
+              <li> Abstraktionsvermögen</li>
+              <li>
+                Neugier & Lernbereitschaft <br />→ Bereitschaft, sich in Thema
+                reinzunerden/ Detail-verliebtheit
+              </li>
+              <li>Durchhaltevermögen, auch bei komplexen Problemstellungen</li>
+              <li>Zuverlässigkeit, Gründlichkeit und selbständiges arbeiten</li>
+              <li>Gerne erste Berührungspunkte mit dem Programmieren</li>
+            </ul>
+          </div>
+        </div>
         <KarriereSlider sorte="it" />
         <h2 className="text-center text-3xl mt-12 md:mt-40 mb-16">
           Dein Weg von der Bewerbung bis zum Beginn
