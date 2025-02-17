@@ -363,7 +363,7 @@ function Sachbearbeiter() {
         </h2>
         <div className="flex flex-col md:flex-row gap-0 md:gap-12 justify-center pl-0 md:pl-16">
           <div className=" basis-1/2 max-w-md">
-            <h3>Das sind deine Aufgaben beim ZAD</h3>
+            <h3 className="text-zad-blue-600">Das sind Deine Aufgaben</h3>
             <ul className="text-zad-blue-600  rounded-md p-3 list-disc	max-w-4xl mx-auto mb-6 md:mb-32 text-balance">
               <li>
                 Erstellung der Abrechnung für den Krankentransport und der
@@ -381,7 +381,7 @@ function Sachbearbeiter() {
             </ul>
           </div>
           <div className=" basis-1/2  max-w-md">
-            <h3>Das bringst du mit</h3>
+            <h3 className="text-zad-blue-600">Das bringst Du mit</h3>
             <ul className="text-zad-blue-600  rounded-md p-3 list-disc	max-w-4xl mx-auto mb-20 md:mb-32 text-balance">
               <li>Zuverlässigkeit </li>
               <li>Teamfähigkeit</li>
