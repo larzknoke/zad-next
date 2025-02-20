@@ -386,8 +386,8 @@ function Sachbearbeiter() {
             />
           </div>
         </div>
-        <h2 className="mt-20 xl:mt-32 mb-8 md:mb-12 text-3xl text-center">
-          Wir bilden aus
+        <h2 className="mt-20 xl:mt-32 mb-8 md:mb-12 text-3xl text-center leading-normal">
+          Wir bilden aus <br /> (Fachinformatiker:in Anwendungsentwicklung)
         </h2>
         <div className="flex flex-col md:flex-row gap-0 md:gap-12 justify-center pl-0 md:pl-16">
           <div className=" basis-1/2 max-w-md">
