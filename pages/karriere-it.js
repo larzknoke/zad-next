@@ -386,35 +386,87 @@ function Sachbearbeiter() {
             />
           </div>
         </div>
-        <h2 className="mt-20 xl:mt-32 mb-8 md:mb-12 text-3xl text-center leading-normal">
-          Wir bilden aus <br /> (Fachinformatiker:in Anwendungsentwicklung)
-        </h2>
-        <div className="flex flex-col md:flex-row gap-0 md:gap-12 justify-center pl-0 md:pl-16">
-          <div className=" basis-1/2 max-w-md">
-            <h3 className="text-zad-blue-600">Das sind Deine Aufgaben</h3>
-            <ul className="text-zad-blue-600  rounded-md p-3 list-disc	max-w-4xl mx-auto mb-6 md:mb-32 text-balance">
-              <li>Coden & Testing</li> <li>Qualitätssicherung</li>
-              <li>GUI erarbeiten & weiterentwickeln </li>
-              <li>Umgang mit Datenbanken</li>
-              <li>Dokumentation inkl. Diagramm-Erstellung</li>
-              <li> 2nd/3rd-Level-Support bestehender Programme</li>
-              <li> technische Beratung des Projektmanagers</li>
-            </ul>
+        <div
+          className="bg-zad-blue-600 py-12 md:py-20 px-12 mb-32
+          rounded-md text-white"
+        >
+          <h2 className="text-white  mb-8 md:mb-16 text-3xl text-center leading-normal">
+            Wir bilden aus <br /> Fachinformatiker:in Anwendungsentwicklung
+          </h2>
+          <div className="flex flex-col md:flex-row gap-0 md:gap-12 justify-center pl-0 md:pl-16">
+            <div className=" basis-1/2 max-w-md">
+              <h3 className="text-white">Das sind Deine Aufgaben</h3>
+              <ul className="text-white  rounded-md p-3 list-disc	max-w-4xl mx-auto  text-balance">
+                <li>Coden & Testing</li> <li>Qualitätssicherung</li>
+                <li>GUI erarbeiten & weiterentwickeln </li>
+                <li>Umgang mit Datenbanken</li>
+                <li>Dokumentation inkl. Diagramm-Erstellung</li>
+                <li> 2nd/3rd-Level-Support bestehender Programme</li>
+                <li> technische Beratung des Projektmanagers</li>
+              </ul>
+            </div>
+            <div className=" basis-1/2  max-w-md">
+              <h3 className="text-white">Das bringst Du mit</h3>
+              <ul className="text-white  rounded-md p-3 list-disc	max-w-4xl mx-auto  text-balance">
+                <li>Teamfähigkeit und Kommunikationsfähigkeit</li>
+                <li> Analytisches Denken/Verständnis</li>
+                <li> Abstraktionsvermögen</li>
+                <li>
+                  Neugier & Lernbereitschaft <br />→ Bereitschaft, sich in Thema
+                  reinzunerden/ Detail-verliebtheit
+                </li>
+                <li>
+                  Durchhaltevermögen, auch bei komplexen Problemstellungen
+                </li>
+                <li>
+                  Zuverlässigkeit, Gründlichkeit und selbständiges arbeiten
+                </li>
+                <li>Gerne erste Berührungspunkte mit dem Programmieren</li>
+              </ul>
+            </div>
           </div>
-          <div className=" basis-1/2  max-w-md">
-            <h3 className="text-zad-blue-600">Das bringst Du mit</h3>
-            <ul className="text-zad-blue-600  rounded-md p-3 list-disc	max-w-4xl mx-auto mb-20 md:mb-32 text-balance">
-              <li>Teamfähigkeit und Kommunikationsfähigkeit</li>
-              <li> Analytisches Denken/Verständnis</li>
-              <li> Abstraktionsvermögen</li>
-              <li>
-                Neugier & Lernbereitschaft <br />→ Bereitschaft, sich in Thema
-                reinzunerden/ Detail-verliebtheit
-              </li>
-              <li>Durchhaltevermögen, auch bei komplexen Problemstellungen</li>
-              <li>Zuverlässigkeit, Gründlichkeit und selbständiges arbeiten</li>
-              <li>Gerne erste Berührungspunkte mit dem Programmieren</li>
-            </ul>
+          <h2 className="text-white text-center md:text-3xl md:px-16 md:mb-12 mt-16">
+            Kontakt
+          </h2>
+          <div className=" grid grid-cols-1 xl:grid-cols-3 gap-0 xl:gap-6 ">
+            <div className="flex-col text-center">
+              <h4 className="text-lg mt-4 text-white">
+                Dann bewirb Dich unter: <br />
+                <a href="mailto:ausbildung@zad-northeim.de">
+                  ausbildung@zad-northeim.de
+                </a>
+              </h4>
+              <p className="text-sm mt-4 text-white">
+                Bitte beachte: Auf Basis interner IT-Bestimmungen für
+                Online-Bewerbungen können wir Dateiformate ausschließlich als
+                PDF akzeptieren. Andere Dateiformate sind nicht zulässig.
+              </p>
+            </div>
+            <div className="flex-col text-center">
+              <h4 className="text-lg mt-4 text-white">oder per Post: </h4>
+              <p className="mt-4 text-white">
+                Zentraler <br /> Abrechnungs-Dienst GmbH <br />
+                Ottilienstraße 10 <br />
+                D-37154 Northeim <br />
+                Tel.: 0 55 51 / 96 88 - 789
+              </p>
+            </div>
+            <div className="flex-col text-center">
+              {/* <Image
+                src="/images/karriere/sachbearbeiter/02-ZADO-portraits-cb.jpg"
+                className="object-cover rounded-md"
+                width={250}
+                height={160}
+                objectFit="cover"
+              /> */}
+              <h4 className="text-lg mt-4 text-white">
+                Deine Ansprechpartnerinnen für Deine Bewerbung:{" "}
+              </h4>
+
+              <h4 className="text-lg  text-white text-balance">
+                Marvin Behling und Talina Gabelmann
+              </h4>
+            </div>
           </div>
         </div>
         <KarriereSlider sorte="it" />
