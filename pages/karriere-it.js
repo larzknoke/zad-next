@@ -464,7 +464,7 @@ function Sachbearbeiter() {
               </h4>
 
               <h4 className="text-lg  text-white text-balance">
-                Marvin Behling und Talina Gabelmann
+                Marvin Behling und Talina Garbelmann
               </h4>
             </div>
           </div>
