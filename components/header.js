@@ -22,8 +22,12 @@ function Header({ handleCurtain, handleTease }) {
   }, []);
 
   return (
-    <header className="relative flex flex-col pt-12 xl:pt-16 xl:pb-0 pb-12 px-6 sm:px-10 xl:px-32 z-50 w-full h-auto xl:h-[40em] ">
-      <Berg />
+    <header
+      className={
+        (router.pathname != "/" ? "mb-10 " : " ") +
+        " relative flex flex-col pt-12 xl:pt-16 xl:pb-0 pb-12 px-6 sm:px-10 xl:px-32 z-50 w-full  "
+      }
+    >
       <SideMainNav openNav={openNav} handleNav={handleNav} />
       <div className="max-w-[130em] mx-auto w-full z-40">
         <div className="flex w-full justify-between ">
@@ -79,14 +83,14 @@ function Header({ handleCurtain, handleTease }) {
           <div className="logo w-44 md:w-56 xl:w-64 ">
             <Link href="/">
               <a>
-                <img src="images/zad_logo.svg" width="100%" />
+                <img src="images/zad_logo_v2.svg" width="100%" />
               </a>
             </Link>
           </div>
           <div className="text-zad-blue-600 space-x-6 flex main-nav ">
-            <Link href="/">
+            {/* <Link href="/">
               <a>Home</a>
-            </Link>
+            </Link> */}
             {/* <Link href="/aktuelles">
               <a
                 onClick={() => handleCurtain(true)}
@@ -186,6 +190,18 @@ function Header({ handleCurtain, handleTease }) {
           </div>
         </div>
       </div>
+      {router.pathname == "/" && (
+        <video
+          className="object-cover w-full mt-10"
+          lazy=""
+          autoPlay={true}
+          playsInline={true}
+          muted={true}
+          loop={false}
+        >
+          <source type="video/mp4" src="/images/zad_ani.mp4" />
+        </video>
+      )}
     </header>
   );
 }
