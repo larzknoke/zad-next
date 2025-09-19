@@ -59,10 +59,9 @@ function Impressum() {
       <p>
         <strong>Inkassoaufsichtsbehörde:</strong>
         <br />
-        Präsident/in des Landgerichts Göttingen
-        <br />
-        Berliner Str. 8<br />
-        37073 Göttingen
+        Bundesamt für Justiz Rechtsdienstleistungsregister <br />
+        Adenauerallee 99 – 103 <br />
+        53113 Bonn
       </p>
       <p>
         Eingetragen im Rechtsdienstleistungsregister des Landgerichts Göttingen
