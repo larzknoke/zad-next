@@ -1,8 +1,8 @@
 import path from "path";
+import { TransactionalEmailsApi, SendSmtpEmail } from "@getbrevo/brevo";
 
-const mail = require("@sendgrid/mail");
-
-mail.setApiKey(process.env.SENDGRID_API_KEY);
+const emailAPI = new TransactionalEmailsApi();
+emailAPI.authentications.apiKey.apiKey = process.env.BREVO_API_KEY;
 
 export default async function handler(req, res) {
   const body = JSON.parse(req.body);
@@ -46,18 +46,19 @@ export default async function handler(req, res) {
         fileDataPath,
         `${new Date()};${req.headers.referer};${body.name};${body.email};${
           body.frage
-        }\r\n`
+        }\r\n`,
       );
       /* LOGGER END*/
 
-      mail
-        .send({
-          to: process.env.FORM_EMAIL,
-          from: process.env.FORM_EMAIL,
-          subject: "Neue Nachricht | ZAD Kontaktformular",
-          text: message,
-          html: message.replace(/rn/g, "<br>"),
-        })
+      const emailMessage = new SendSmtpEmail();
+      emailMessage.subject = "Neue Nachricht | ZAD Kontaktformular";
+      emailMessage.textContent = message;
+      emailMessage.htmlContent = message.replace(/rn/g, "<br>");
+      emailMessage.sender = { email: process.env.FORM_EMAIL };
+      emailMessage.to = [{ email: process.env.FORM_EMAIL }];
+
+      emailAPI
+        .sendTransacEmail(emailMessage)
         .then(() => {
           res.status(200).json({ status: "Ok" });
         })
